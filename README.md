@@ -18,12 +18,12 @@ Each student fills in their own section below (and keeps their code in their own
 
 | Student | Name | Role | Folder |
 |---|---|---|---|
-| 1 | (add name) | Job-ad data collection and cleaning | `step1_data/` |
-| 2 | (add name) | Skills dictionary and normalisation | `step2_dictionary/` |
+| 1 | Zheke Yi | Job-ad data collection and cleaning | `step1_data/` |
+| 2 | Wancheng Liu | Skills dictionary and normalisation | `step2_dictionary/` |
 | 3 | Jirawan Pedersen | Baseline NLP (PhraseMatcher), PDF reader, curriculum alignment, sector lens | `step3_baseline_nlp/` |
-| 4 | (add name) | Semantic NLP (Sentence Transformers) and main evaluation | `step4_semantic/` |
-| 5 | (add name) | Career profiles and matching | `step5_matching/` |
-| 6 | Tengxiao Nong | Streamlit app and user testing | `step6_app/` |
+| 4 | Tao Lou | Semantic NLP (Sentence Transformers) and main evaluation | `step4_semantic/` |
+| 5 | Tengxiao Nong | Career profiles and matching | `step5_matching/` |
+| 6 | Chongyan Tang | Streamlit app and user testing | `step6_app/` |
 
 *(Roles follow our team division document. Correct anything that has changed, and rename folders if the group prefers other names.)*
 
@@ -40,7 +40,7 @@ Run each notebook from inside its own step folder (they import local `.py` files
 
 ---
 
-## Student 1: Job-ad data collection and cleaning
+## Student 1: Job-ad data collection and cleaning (Zheke Yi)
 
 *To be added by Student 1.*
 
@@ -51,7 +51,7 @@ Run each notebook from inside its own step folder (they import local `.py` files
 
 ---
 
-## Student 2: Skills dictionary and normalisation
+## Student 2: Skills dictionary and normalisation (Wancheng Liu)
 
 *To be added by Student 2.*
 
@@ -113,7 +113,7 @@ x.extract_weighted(text)   # {skill: demand weight}
 
 ---
 
-## Student 4: Semantic NLP (Sentence Transformers) and main evaluation
+## Student 4: Semantic NLP (Sentence Transformers) and main evaluation (Tao Lou)
 
 *To be added by Student 4.*
 
@@ -124,7 +124,7 @@ x.extract_weighted(text)   # {skill: demand weight}
 
 ---
 
-## Student 5: Career profiles and matching
+## Student 5: Career profiles and matching (Tengxiao Nong)
 
 *To be added by Student 5.*
 
@@ -135,9 +135,9 @@ x.extract_weighted(text)   # {skill: demand weight}
 
 ---
 
-## Student 6: Streamlit app and user testing (Tengxiao Nong)
+## Student 6: Streamlit app and user testing (Chongyan Tang)
 
-*To be added by Tengxiao.*
+*To be added by Student 6.*
 
 * What I did:
 * Key results (for example user testing findings):
