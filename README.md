@@ -71,10 +71,10 @@ Folder: `step3_baseline_nlp/` (full detail in its own README). Data input: `job_
 1. **Baseline extractor:** a spaCy PhraseMatcher over the shared skills dictionary (case-insensitive, with a case-sensitive rule for the language "R").
 2. **Improved extractor ("Baseline++"):** reads each job ad by section (required, duty, preferred, company text), weights skills by how strongly the ad asks for them, guards ambiguous words (for example "R&D" is not R, "spark discussion" is not Apache Spark), and adds 45 reviewed aliases mined from the ads.
 3. **Evaluation:** a 30-ad stratified gold set, an ablation (S0 to S5), bootstrap confidence intervals and an error analysis.
-4. **PDF reader:** PyMuPDF text extraction from unit outlines, with header, footer and hyphenation clean-up, and a coverage level per skill (assessed, taught, mentioned) with page evidence.
+4. **PDF reader:** PyMuPDF text extraction from unit outlines, with header, footer, hyphenation and table-column clean-up, a coverage level per skill (assessed, taught, mentioned) with page evidence, and filters so requisites, "further study" sentences and AI-policy tables are not counted as coverage. Tested on 20 real PDFs, which exposed and fixed four bugs.
 5. **Curriculum alignment:** a career fit score with confidence ranges and a ranked list of the biggest skill gaps.
 6. **Sector lens:** companies grouped into sectors, tested with company-clustered methods to see whether skill demand depends on the employer's sector.
-7. **Case study:** the research question run on 7 real public units from UTS, USYD and UNSW.
+7. **Case study:** the research question run on 20 real unit PDFs from UTS, USYD and UNSW (saved in `step3_baseline_nlp/data/curriculum_pdfs/`).
 
 **Run order** (`step3_baseline_nlp/`)
 
@@ -83,8 +83,8 @@ Folder: `step3_baseline_nlp/` (full detail in its own README). Data input: `job_
 3. `05_study_material_pipeline.ipynb`: PDF study material to skills
 4. `06_curriculum_alignment.ipynb`: career fit, gaps and heatmap (synthetic demo units)
 5. `07_sector_lens.ipynb`: sector profiles, permutation test, universal and sector-specific skills
-6. `08_real_curriculum_case_study.ipynb`: the 7 real units against the U.S. benchmark
-7. Optional: `python run_step3.py`, `pytest` (33 tests)
+6. `08_real_curriculum_case_study.ipynb`: the 20 real unit PDFs against the U.S. benchmark
+7. Optional: `python run_step3.py`, `pytest` (40 tests)
 
 **Reusable API for other students**
 
@@ -103,7 +103,7 @@ x.extract_weighted(text)   # {skill: demand weight}
 
 * **Extraction (30-ad held-out gold set, seed 36118):** micro-F1 0.872 (baseline) to 0.943 (Baseline++), delta F1 +0.071, 95% CI [0.039, 0.104]. The gain comes from the reviewed dictionary expansion. The section-aware filter is not significant on F1, but it gives demand-weighted career profiles. About 27% of the skills a human reads are implicit or missing from the dictionary, which is the target for Student 4.
 * **Sector lens (6 main sectors, 688 ads):** demand profiles differ by sector (permutation test p = 0.004, but p = 0.06 after adjusting for career mix, so we call it suggestive). Python, AI, Machine Learning and LLMs are demanded in every sector.
-* **Case study (7 public units, newest offerings):** career fit is highest for ML Engineer (0.50) and Data Scientist (0.37) and lowest for Data Engineer (0.16). The biggest gaps are SQL, Statistics, Causal Inference, Dashboarding and A/B testing. These are ML-focused units taken from handbook pages, so a gap may be taught in another unit. Treat it as a case study, not a claim about whole degrees.
+* **Case study (20 real unit PDFs from UTS, USYD and UNSW):** taking the best coverage across all 20 units, career fit is highest for Data Scientist (0.65), then Data Engineer (0.59), ML Engineer (0.58) and Data Analyst (0.58), and lowest for AI Engineer (0.33). Selection mattered: with only 7 ML units Data Engineer fit was 0.13, and adding database, big-data engineering and statistics units closed the SQL, Spark and Snowflake gaps. Gaps that remain: Causal Inference, A/B testing, experiment design, dashboarding, observability, dbt, cloud platforms, agents. This is a case study of 20 chosen units, and handbook PDFs are shorter than full outlines (UTS shows only description and learning outcomes), so a gap may be taught elsewhere.
 
 **Limitations:** single (AI) annotator, n = 30; handbook pages are shorter than full outlines; extractor validated on job ads, not unit text; exact-phrase matching misses skills taught without naming them; sector labels are manual (17 borderline); health tech (22 ads) is exploratory only.
 
@@ -147,13 +147,13 @@ x.extract_weighted(text)   # {skill: demand weight}
 ## Data and references
 
 * Job ads: 688 public postings from 106 companies (Greenhouse and Ashby job boards), collected 1 Oct 2026. The 14 Australian ads are a separate, small set.
-* Curriculum sources: 7 public unit pages, listed with URLs and APA references in `step3_baseline_nlp/docs/references_and_data_sources.md`.
+* Curriculum sources: 20 public unit pages (UTS, USYD, UNSW handbooks), saved as PDFs in `step3_baseline_nlp/data/curriculum_pdfs/` and listed with URLs and APA references in `step3_baseline_nlp/docs/references_and_data_sources.md`.
 * Please add your own data sources and references there, or in `report/`.
 
 ## Group limitations (keep in the report)
 
 * U.S.-only job data, mostly large tech employers and mostly 2026 ads. The Australian set is too small (14 ads) for separate tests.
-* Seven selected units is a case study, not all of Australian higher education.
+* Twenty selected units is a case study, not all of Australian higher education or whole degrees.
 * Gold labels come from a single AI annotator; a second human annotator on about 10 ads would help.
 
 ## Repo layout
