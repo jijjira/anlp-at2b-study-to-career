@@ -10,7 +10,7 @@ We match the skills in a student's study materials against the skills demanded i
 | 2 | Skill dictionary & normalisation | Member 2 | `step2_dictionary/` |
 | 3 | Baseline NLP skill extraction (spaCy PhraseMatcher) + innovation experiments | Jirawan Pedersen | `step3_baseline_nlp/` |
 | 4 | Semantic matching (Sentence Transformers) | Member 4 | `step4_semantic/` |
-| 5 | User interface / recommendations | Member 5 | `step5_ui/` |
+| 5 | User interface / recommendations | Tengxiao Nong | `step5_ui/` |
 | 6 | Report & poster | Member 6 | `report/` |
 
 *(Edit names/owners to match the team division.)*
