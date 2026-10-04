@@ -1,6 +1,5 @@
-[README-3.md](https://github.com/user-attachments/files/33017260/README-3.md)
 # From Study Materials to Career Recommendations
-**UTS 36118 Applied NLP — AT2 Part B, Group 6**
+**UTS 36118 Applied NLP: AT2 Part B, Group 6**
 
 We match the skills in a student's study materials against the skills demanded in Data/AI job advertisements, and recommend careers and the skills to learn next.
 
@@ -25,7 +24,7 @@ jupyter lab
 ```
 Run notebooks from inside their own step folder (they import local `.py` files). Use **Restart & Run All**.
 
-## Step 3 — run order (`step3_baseline_nlp/`)
+## Step 3 - run order (`step3_baseline_nlp/`)
 Required input files in the same folder: `job_cleaned.csv`, `skills_dictionary.csv`, `normalisation.py` (copies from Step 1/2).
 1. `03_skill_extraction.ipynb` — baseline extraction → `job_skills_extracted.csv`, `job_skills_long.csv`
 2. `04_innovation_experiments.ipynb` — held-out evaluation, ablation, requirement-aware profiles, error analysis
