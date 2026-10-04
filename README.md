@@ -21,7 +21,7 @@ unit outline PDFs -> skills covered (with page evidence)
 |---|---|---|---|
 | 1 | Job-ad collection and cleaning (U.S. data) | Member 1 | `step1_data/` |
 | 2 | Skill dictionary and normalisation | Member 2 | `step2_dictionary/` |
-| 3 | **Baseline NLP (spaCy PhraseMatcher), PDF study-material pipeline, curriculum alignment, sector lens** | Jirawan Pedersen | `step3_baseline_nlp/` |
+| 3 | Baseline NLP (spaCy PhraseMatcher), PDF study-material pipeline, curriculum alignment, sector lens | Jirawan Pedersen | `step3_baseline_nlp/` |
 | 4 | Semantic matching (Sentence Transformers) | Member 4 | `step4_semantic/` |
 | 5 | User interface and recommendations | Tengxiao Nong | `step5_ui/` |
 | 6 | Report and poster | Member 6 | `report/` |
