@@ -23,7 +23,7 @@ Each student fills in their own section below (and keeps their code in their own
 | 3 | Jirawan Pedersen | Baseline NLP (PhraseMatcher), PDF reader, curriculum alignment, sector lens | `step3_baseline_nlp/` |
 | 4 | (add name) | Semantic NLP (Sentence Transformers) and main evaluation | `step4_semantic/` |
 | 5 | (add name) | Career profiles and matching | `step5_matching/` |
-| 6 | Tengxiao Nong | Streamlit app and user testing | `step6_app/` |
+| 6 | Chongyan Tang | Streamlit app and user testing | `step6_app/` |
 
 *(Roles follow our team division document. Correct anything that has changed, and rename folders if the group prefers other names.)*
 
