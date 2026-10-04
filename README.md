@@ -23,7 +23,7 @@ Each student fills in their own section below (and keeps their code in their own
 | 3 | Jirawan Pedersen | Baseline NLP (PhraseMatcher), PDF reader, curriculum alignment, sector lens | `step3_baseline_nlp/` |
 | 4 | (add name) | Semantic NLP (Sentence Transformers) and main evaluation | `step4_semantic/` |
 | 5 | (add name) | Career profiles and matching | `step5_matching/` |
-| 6 | Chongyan Tang | Streamlit app and user testing | `step6_app/` |
+| 6 | Tengxiao Nong | Streamlit app and user testing | `step6_app/` |
 
 *(Roles follow our team division document. Correct anything that has changed, and rename folders if the group prefers other names.)*
 
@@ -96,6 +96,8 @@ from alignment import DemandModel, job_strengths, curriculum_coverage
 x = RequirementAwareExtractor("skills_dictionary.csv", extra_aliases_path="extra_aliases_reviewed.csv", expand_morphology=True)
 x.extract_weighted(text)   # {skill: demand weight}
 ```
+
+**Figures:** charts appear inside each notebook and are saved as PNGs in `step3_baseline_nlp/figures/` for the report and slides.
 
 **Main files:** `skill_extractor.py`, `skill_extractor_v2.py`, `extraction.py`, `alignment.py`, `sectors.py`, `sector_analysis.py`, `company_sector_map.csv`, `real_units.py`, `evaluate.py`, `gold_annotations.py`, `gold_split.json`, `extra_aliases_reviewed.csv`, and `docs/` (report section, handoff note, references and data sources).
 
