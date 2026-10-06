@@ -79,7 +79,7 @@ Folder: `step3_baseline_nlp/` (full detail in its own README). Data input: `job_
 4. `06_curriculum_alignment.ipynb`: career fit, gaps and heatmap (synthetic demo units)
 5. `07_sector_lens.ipynb`: sector profiles, permutation test, universal and sector-specific skills
 6. `08_real_curriculum_case_study.ipynb`: the 20 real unit PDFs against the U.S. benchmark
-7. Optional: `python run_step3.py`, `pytest` (40 tests)
+7. Optional: `pytest` (40 tests)
 
 **Reusable API for other students**
 
