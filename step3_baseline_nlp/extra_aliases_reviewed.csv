@@ -1,0 +1,46 @@
+﻿canonical_skill,alias,category,origin
+RAG,RAG,NLP / Generative AI,discovery-reviewed
+Machine Learning,ML,Machine Learning & AI,discovery-reviewed
+Artificial Intelligence,AI,Machine Learning & AI,discovery-reviewed
+Apache Spark,PySpark,Data Engineering,discovery-reviewed
+Go,Go,Programming,discovery-reviewed
+EDA,data exploration,Data Analysis & Statistics,discovery-reviewed
+Deep Learning,neural networks,Machine Learning & AI,discovery-reviewed
+Fine-tuning,SFT,NLP / Generative AI,discovery-reviewed
+Fine-tuning,supervised fine-tuning,NLP / Generative AI,discovery-reviewed
+CI/CD,GitLab CI,MLOps / Deployment,discovery-reviewed
+Model Evaluation,model selection,Machine Learning & AI,discovery-reviewed
+Rust,Rust,Programming,discovery-reviewed
+Kotlin,Kotlin,Programming,discovery-reviewed
+Ruby,Ruby,Programming,discovery-reviewed
+React,React,Development Tools,discovery-reviewed
+Node.js,Node.js,Development Tools,discovery-reviewed
+Ray,Ray,ML Frameworks & Libraries,discovery-reviewed
+Fivetran,fivetran,Data Engineering,discovery-reviewed
+Apache Iceberg,Iceberg,Data Engineering,discovery-reviewed
+Apache Iceberg,apache iceberg,Data Engineering,discovery-reviewed
+Delta Lake,delta lake,Data Engineering,discovery-reviewed
+Dagster,dagster,Data Engineering,discovery-reviewed
+Amazon Kinesis,kinesis,Data Engineering,discovery-reviewed
+Amazon S3,S3,Cloud,discovery-reviewed
+Amazon S3,amazon s3,Cloud,discovery-reviewed
+ClickHouse,clickhouse,Databases,discovery-reviewed
+Metaflow,metaflow,MLOps / Deployment,discovery-reviewed
+LangGraph,langgraph,NLP / Generative AI,discovery-reviewed
+RLHF,RLHF,NLP / Generative AI,discovery-reviewed
+Preference Optimization,DPO,NLP / Generative AI,discovery-reviewed
+Preference Optimization,preference optimization,NLP / Generative AI,discovery-reviewed
+LoRA,LoRA,NLP / Generative AI,discovery-reviewed
+Model Context Protocol,MCP,NLP / Generative AI,discovery-reviewed
+Model Context Protocol,model context protocol,NLP / Generative AI,discovery-reviewed
+AI Agents,ai agents,NLP / Generative AI,discovery-reviewed
+AI Agents,ai agent,NLP / Generative AI,discovery-reviewed
+AI Agents,agentic workflows,NLP / Generative AI,discovery-reviewed
+AI Agents,agentic systems,NLP / Generative AI,discovery-reviewed
+Function Calling,function calling,NLP / Generative AI,discovery-reviewed
+Anomaly Detection,anomaly detection,Data Analysis & Statistics,discovery-reviewed
+Infrastructure as Code,infrastructure as code,MLOps / Deployment,discovery-reviewed
+Infrastructure as Code,infrastructure-as-code,MLOps / Deployment,discovery-reviewed
+Ansible,ansible,MLOps / Deployment,discovery-reviewed
+Datadog,datadog,MLOps / Deployment,discovery-reviewed
+Observability,observability,Methods / Architecture,discovery-reviewed

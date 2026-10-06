@@ -1,0 +1,21 @@
+unit_id,university,code,title,file,group,source_url,excluded_skills,exclusion_reason
+UTS 36100 Data Science for Innovation,UTS,36100,Data Science for Innovation,UTS_36100.pdf,added,https://handbook.uts.edu.au/subjects/details/36100.html,,
+UTS 36103 Statistical Thinking,UTS,36103,Statistical Thinking for Data Science,UTS_36103.pdf,added,https://handbook.uts.edu.au/subjects/details/36103.html,,
+UTS 36104 Data Visualisation and Narratives,UTS,36104,Data Visualisation and Narratives,UTS_36104.pdf,added,https://handbook.uts.edu.au/subjects/details/36104.html,,
+UTS 36106 ML Algorithms,UTS,36106,Machine Learning Algorithms and Applications,UTS_36106.pdf,core,https://handbook.uts.edu.au/subjects/details/36106.html,,
+UTS 36117 Data Visualisation,UTS,36117,Data Visualisation,UTS_36117.pdf,added,https://handbook.uts.edu.au/subjects/36117.html,,
+UTS 36118 Applied NLP,UTS,36118,Applied Natural Language Processing,UTS_36118.pdf,core,https://handbook.uts.edu.au/subjects/details/36118.html,,
+UTS 36120 Adv ML Application,UTS,36120,Advanced Machine Learning Application,UTS_36120.pdf,core,https://handbook.uts.edu.au/subjects/details/36120.html,,
+UTS 36124 Applied Data Science for Innovation,UTS,36124,Applied Data Science for Innovation,UTS_36124.pdf,added,https://handbook.uts.edu.au/subjects/details/36124.html,,
+UTS 41091 Data Systems,UTS,41091,Data Systems,UTS_41091.pdf,added,https://handbook.uts.edu.au/subjects/details/41091.html,,
+UTS 94693 Big Data Engineering,UTS,94693,Big Data Engineering,UTS_94693.pdf,added,https://handbook.uts.edu.au/subjects/details/94693.html,,
+USYD COMP5046 NLP,USYD,COMP5046,Natural Language Processing,USYD_COMP5046.pdf,added,https://www.sydney.edu.au/units/COMP5046/2026-S1C-NE-CC,Cloud Computing,mentioned only as a cost note (paying for API and cloud services)
+USYD COMP5310 Principles of Data Science,USYD,COMP5310,Principles of Data Science,USYD_COMP5310.pdf,added,https://www.sydney.edu.au/units/COMP5310/2026-S2C-NE-CC,Artificial Intelligence,assessment policy sentence ("Ethical AI usage")
+USYD COMP5318 ML and Data Mining,USYD,COMP5318,Machine Learning and Data Mining,USYD_COMP5318.pdf,core,https://www.sydney.edu.au/units/COMP5318/2026-S2C-NE-CC,,
+USYD COMP5348 Enterprise Software Architecture,USYD,COMP5348,Enterprise Scale Software Architecture,USYD_COMP5348.pdf,added,https://www.sydney.edu.au/units/COMP5348/2026-S2C-NE-CC,Clustering,server clustering in middleware (not machine learning clustering)
+USYD DATA5207 Data Analysis,USYD,DATA5207,Data Analysis in the Social Sciences,USYD_DATA5207.pdf,core,https://www.sydney.edu.au/units/DATA5207/2026-S1C-ND-CC,,
+UNSW COMP6713 NLP,UNSW,COMP6713,Natural Language Processing,UNSW_COMP6713_handbook.pdf,added,https://www.handbook.unsw.edu.au/postgraduate/courses/2027/COMP6713,,
+UNSW COMP9311 Database Systems,UNSW,COMP9311,Database Systems,UNSW_COMP9311_handbook.pdf,added,https://www.handbook.unsw.edu.au/postgraduate/courses/2027/COMP9311,,
+UNSW COMP9321 Data Services Engineering,UNSW,COMP9321,Data Services Engineering,UNSW_COMP9321_handbook.pdf,added,https://www.handbook.unsw.edu.au/postgraduate/courses/2027/COMP9321,,
+UNSW COMP9417 ML and Data Mining,UNSW,COMP9417,Machine Learning,UNSW_COMP9417_handbook.pdf,core,https://www.handbook.unsw.edu.au/postgraduate/courses/2027/COMP9417,,
+UNSW COMP9444 Deep Learning,UNSW,COMP9444,Neural Networks and Deep Learning,UNSW_COMP9444_handbook.pdf,core,https://www.handbook.unsw.edu.au/postgraduate/courses/2027/COMP9444,,

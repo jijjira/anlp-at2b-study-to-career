@@ -7,3 +7,5 @@ jupyter
 pytest
 # Step 4 (semantic matching) — add when finalised:
 # sentence-transformers
+pymupdf>=1.23
+reportlab>=4.0

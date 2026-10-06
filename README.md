@@ -29,14 +29,9 @@ Each student fills in their own section below (and keeps their code in their own
 
 ## Quick start (everyone, including the instructor)
 
-```bash
-git clone <repo-url> && cd <repo>
-python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-jupyter lab
-```
+Easiest, no install: open `step3_baseline_nlp/08_real_curriculum_case_study.ipynb` in Google Colab (File > Upload notebook), run the first cell, then Runtime > Run all. The first cell downloads the project zip from our shared Drive folder (https://drive.google.com/drive/folders/1itmHAXH4dyXbm1icJ1ip7RrRvXkMj9UK) and finds every file by itself. The other Step 3 notebooks work the same way. If the download fails, drag `Member3_Baseline_NLP.zip` from that Drive folder into Colab's Files panel and run the cell again.
 
-Run each notebook from inside its own step folder (they import local `.py` files) and use **Restart & Run All**. In Google Colab, open a notebook and run its first cell. The Step 3 notebooks find the project files automatically (current folder, then this repo, then a shared Drive folder, then a zip upload) and list anything missing. If the repo is private, upload the submission zip when asked.
+On your own computer: download or clone the repo, open `step3_baseline_nlp/`, then right-click `run.command` and choose Open (Mac) or double-click `run.bat` (Windows). It installs what it needs, runs the 40 tests and opens the main notebook. Or by hand: `python -m venv .venv`, activate it, `pip install -r requirements.txt`, `jupyter lab`, and use Restart & Run All inside each step folder.
 
 ---
 
@@ -126,7 +121,7 @@ x.extract_weighted(text)   # {skill: demand weight}
 
 ## Student 5: Career profiles and matching (Tengxiao Nong)
 
-*To be added by Student 5.*
+*To be added by Tengxiao.*
 
 * What I did:
 * Key results:
@@ -137,7 +132,7 @@ x.extract_weighted(text)   # {skill: demand weight}
 
 ## Student 6: Streamlit app and user testing (Chongyan Tang)
 
-*To be added by Student 6.*
+*To be added by Chongyan.*
 
 * What I did:
 * Key results (for example user testing findings):
@@ -161,22 +156,34 @@ x.extract_weighted(text)   # {skill: demand weight}
 ## Repo layout
 
 ```
-data/                 shared inputs (check course rules before making the repo public)
-step1_data/ ... step6_app/
-report/               draft sections, figures, references
-requirements.txt
+README.md                  this page: the whole team, one section per student
+CONTRIBUTING.md            how we work (read this first, 2 minutes)
+requirements.txt           shared libraries (extra ones go in your own folder)
+.gitignore
+.github/                   pull request checklist
+data/                      shared inputs and notes (see its README)
+step1_data/                Student 1, Zheke Yi
+step2_dictionary/          Student 2, Wancheng Liu
+step3_baseline_nlp/        Student 3, Jirawan Pedersen (notebooks 03 to 08, code, 20 unit PDFs, figures)
+step4_semantic/            Student 4, Tao Lou
+step5_matching/            Student 5, Tengxiao Nong
+step6_app/                 Student 6, Chongyan Tang
+report/                    one Markdown file per student, plus references
 ```
+
+Each step folder has a README template (what I did, key results, files, inputs and outputs, limitations). Fill it in, and copy the key lines into your section above.
 
 ## Team conventions
 
-* Work in your own step folder and open a pull request for changes to shared files (`data/`, `skills_dictionary.csv`).
-* Commit notebooks **with outputs**. Do not commit `.venv/` or `__pycache__/`.
+* **Work only in your own folder** and your file in `report/`. Shared files (this README, `requirements.txt`, `data/`) need a message to the group or a pull request. Full rules and the Terminal-free way to upload are in `CONTRIBUTING.md`.
+* Run `git pull` before you push.
+* Commit notebooks **with outputs**. Do not commit `.venv/`, `__pycache__/`, big files, passwords or tokens.
 * Dictionary changes: Student 2 merges proposals (for example `extra_aliases_reviewed.csv`) and tells Students 3 to 5.
-* Every notebook should start with a setup cell that works for anyone, with no personal paths.
+* Every notebook starts with a setup cell that works for anyone, with no personal paths (copy the one in the Step 3 notebooks).
 
 ## Checklist before the report is due (14 Oct)
 
-- [ ] Each student fills in their section above and adds their part to `report/`
+- [ ] Each student fills in their section above, their step folder README, and their file in `report/` (see `report/README.md`)
 - [ ] Students 1 and 2: dataset and dictionary notes (collection date, categories, terms of use); check `company_sector_map.csv`
 - [ ] Student 4: run the semantic model on the same 30 gold ads and compare with Step 3
 - [ ] Students 5 and 6: plug in the alignment output and test the app with a few users

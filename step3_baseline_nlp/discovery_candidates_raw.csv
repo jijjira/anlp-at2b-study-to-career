@@ -1,0 +1,337 @@
+candidate,list_jobs,list_mentions,all_mentions,purity
+e.g,91,132,382,0.35
+Go,45,46,236,0.19
+Design,40,42,1274,0.03
+RAG,33,38,99,0.38
+analytics,33,34,520,0.07
+build,33,34,1836,0.02
+Lakeflow,31,32,35,0.91
+000 organizations worldwide,30,31,31,1.0
+adidas,30,30,30,1.0
+AT&T,30,30,30,1.0
+Bayer,30,30,30,1.0
+Mastercard,30,30,30,1.0
+Rivian,30,30,30,1.0
+Unilever,30,30,30,1.0
+AI apps,30,30,31,0.97
+Lakebase,30,30,33,0.91
+Agent Bricks,30,31,34,0.91
+Block,30,30,36,0.83
+scale data,30,30,100,0.3
+or similar,30,30,179,0.17
+building,29,30,1580,0.02
+tools,27,29,931,0.03
+evaluation,25,26,640,0.04
+experimentation,21,23,374,0.06
+deployment,21,21,431,0.05
+optimization,20,21,284,0.07
+search,19,19,241,0.08
+ML frameworks,18,18,33,0.55
+or equivalent,17,22,181,0.12
+ranking,16,18,123,0.15
+AI,15,16,5191,0.0
+Fivetran,14,16,17,0.94
+React,14,14,69,0.2
+observability,14,16,331,0.05
+orchestration,14,14,288,0.05
+recommendation,13,14,117,0.12
+use,13,17,894,0.02
+Ray,12,14,44,0.32
+frameworks,12,13,603,0.02
+training,12,13,820,0.02
+Rust,11,11,39,0.28
+agentic workflows,11,12,68,0.18
+Salesforce,11,11,66,0.17
+reliability,11,11,396,0.03
+and,11,11,31909,0.0
+experiment analysis,10,10,11,0.91
+Iceberg,10,11,23,0.48
+LangGraph,10,10,33,0.3
+retrieval,10,13,210,0.06
+designing,10,10,267,0.04
+monitoring,10,10,282,0.04
+ML,10,11,1493,0.01
+AI Assistant,9,9,13,0.69
+PySpark,9,9,15,0.6
+RLHF,9,9,16,0.56
+data exploration,9,9,21,0.43
+model selection,9,10,23,0.43
+cloud platforms,9,9,28,0.32
+scripting,9,9,40,0.23
+adapt,9,9,47,0.19
+Computer Science,9,10,248,0.04
+infrastructure,9,9,1314,0.01
+Node.js,8,8,22,0.36
+Workday,8,8,44,0.18
+Implement,8,8,179,0.04
+cloud,8,8,418,0.02
+powering intelligent Search,7,7,7,1.0
+costly implementation cycles,7,7,7,1.0
+Kinesis,7,8,10,0.8
+Hex,7,7,9,0.78
+or similar technologies,7,7,10,0.7
+S3,7,9,14,0.64
+distillation,7,7,20,0.35
+data stack,7,7,20,0.35
+Ruby,7,7,22,0.32
+agent orchestration,7,7,37,0.19
+product analytics,7,7,39,0.18
+anomaly detection,7,7,47,0.15
+personalization,7,7,91,0.08
+PhD,7,8,96,0.08
+algorithms,7,8,97,0.08
+networking,7,7,103,0.07
+and evaluation,7,7,110,0.06
+testing,7,10,287,0.03
+serving,7,7,245,0.03
+inference,7,7,455,0.02
+tooling,7,7,393,0.02
+technologies,7,7,292,0.02
+modeling,7,7,356,0.02
+metrics,7,7,352,0.02
+scale,7,7,1349,0.01
+safety,7,7,490,0.01
+one,7,7,685,0.01
+Omni,6,6,6,1.0
+built with Gradle,6,6,6,1.0
+coupled with things,6,6,6,1.0
+lots of data,6,6,6,1.0
+Metaflow,6,6,6,1.0
+and Zoom,6,6,7,0.86
+Delta Lake,6,8,10,0.8
+AI Native Cloud,6,6,8,0.75
+SFT,6,7,10,0.7
+container orchestration,6,6,9,0.67
+Dagster,6,8,13,0.62
+Sigma,6,6,10,0.6
+ElevenLabs,6,6,12,0.5
+ML services,6,6,13,0.46
+AEDT,6,6,13,0.46
+or Go,6,6,16,0.38
+Decagon,6,6,28,0.21
+Together AI,6,6,32,0.19
+Slack,6,6,35,0.17
+infrastructure-as-code,6,6,40,0.15
+Datadog,6,6,80,0.07
+MCP,6,6,91,0.07
+scalable,6,6,380,0.02
+agents,6,7,554,0.01
+Develop,6,7,552,0.01
+OpenAI,6,6,558,0.01
+services,6,6,451,0.01
+testing automation,5,5,5,1.0
+feedback-based learning,5,5,5,1.0
+serving skew minimization,5,6,6,1.0
+efficient algorithms,5,5,5,1.0
+Aurora,5,5,5,1.0
+data science tools,5,5,5,1.0
+Athena,5,5,5,1.0
+and Rust,5,5,5,1.0
+GitLab CI,5,5,6,0.83
+Clickhouse,5,5,7,0.71
+or similar frameworks,5,5,7,0.71
+containerization technologies,5,5,7,0.71
+DPO,5,5,8,0.62
+Lambda,5,6,10,0.6
+Kotlin,5,5,9,0.56
+and scripting,5,5,9,0.56
+or similar languages,5,5,10,0.5
+LoRA,5,5,11,0.45
+orchestration platforms,5,5,11,0.45
+preference optimization,5,5,11,0.45
+function calling,5,5,12,0.42
+neural networks,5,5,13,0.38
+CLIs,5,6,16,0.38
+Ansible,5,5,17,0.29
+containerization,5,5,17,0.29
+Gemini,5,5,19,0.26
+RL,5,7,32,0.22
+developer platforms,5,5,23,0.22
+infrastructure as code,5,5,23,0.22
+programming languages,5,5,32,0.16
+Grafana,5,5,33,0.15
+Mode,5,5,34,0.15
+calling,5,5,37,0.14
+distributed training,5,5,46,0.11
+data platforms,5,5,45,0.11
+Mathematics,5,5,54,0.09
+cloud infrastructure,5,5,56,0.09
+agentic systems,5,5,68,0.07
+Master's,5,5,67,0.07
+train,5,5,77,0.06
+Economics,5,5,84,0.06
+alignment,5,6,122,0.05
+integrations,5,8,156,0.05
+Architect,5,5,117,0.04
+evaluate,5,5,193,0.03
+finance,5,5,226,0.02
+Anthropic,5,5,319,0.02
+operating,5,5,313,0.02
+field,5,5,390,0.01
+cost,5,5,334,0.01
+pipelines,5,5,622,0.01
+stack,5,5,359,0.01
+models,5,5,1281,0.0
+000 global employees,4,4,4,1.0
+teams are small,4,4,4,1.0
+mighty,4,4,4,1.0
+analytical data engineering,4,4,4,1.0
+unmet use cases,4,4,4,1.0
+and model registries,4,4,4,1.0
+Planetscale,4,4,4,1.0
+PGAI,4,4,4,1.0
+8+ years building,4,4,4,1.0
+depth in deployment,4,4,4,1.0
+another model registry,4,4,4,1.0
+or ML observability,4,4,4,1.0
+Glue,4,4,6,0.67
+golden datasets,4,4,7,0.57
+OpenSearch,4,4,7,0.57
+build scalable systems,4,4,7,0.57
+Econometrics,4,4,8,0.5
+build data products,4,4,8,0.5
+Apache Iceberg,4,5,10,0.5
+data-driven products,4,4,8,0.5
+scripting language,4,4,9,0.44
+user modeling,4,4,9,0.44
+frequency,4,4,9,0.44
+ML platform tooling,4,4,9,0.44
+BI tools,4,4,10,0.4
+multi-agent orchestration,4,4,10,0.4
+Ruby on Rails,4,4,11,0.36
+GraphQL,4,4,13,0.31
+or related fields,4,4,13,0.31
+Prometheus,4,4,16,0.25
+Delta,4,4,16,0.25
+and efficient,4,4,16,0.25
+RAG pipelines,4,4,18,0.22
+representation learning,4,5,23,0.22
+cloud environments,4,4,24,0.17
+segmentation,4,4,24,0.17
+CUDA,4,4,26,0.15
+or equivalent experience,4,4,42,0.1
+prioritization,4,4,43,0.09
+and experimentation,4,4,52,0.08
+MS,4,4,59,0.07
+and cloud,4,4,59,0.07
+data processing,4,4,68,0.06
+evals,4,5,77,0.06
+implementing,4,4,70,0.06
+cross-functional teams,4,4,80,0.05
+scheduling,4,4,80,0.05
+evaluating,4,4,85,0.05
+validation,4,4,102,0.04
+data scientists,4,4,146,0.03
+and more,4,6,200,0.03
+developers,4,4,124,0.03
+documentation,4,4,122,0.03
+domains,4,4,135,0.03
+programming,4,4,152,0.03
+prompt,4,4,119,0.03
+safe,4,4,145,0.03
+backend,4,4,239,0.02
+latency,4,4,233,0.02
+influence,4,4,182,0.02
+architecture,4,4,351,0.01
+and data,4,4,313,0.01
+eg . training,3,3,3,1.0
+Druid,3,3,3,1.0
+ARIMA,3,3,3,1.0
+more programming languages,3,3,3,1.0
+Hightouch,3,3,3,1.0
+improving efficacy,3,3,3,1.0
+what gets bought,3,3,3,1.0
+giving regular read-outs,3,3,3,1.0
+when it isn't,3,3,3,1.0
+strategy behind it,3,3,3,1.0
+basic infrastructure,3,3,3,1.0
+250+ people,3,3,3,1.0
+data preprocessing,3,3,4,0.75
+data stack tools,3,3,4,0.75
+PEFT,3,3,4,0.75
+cloud data platforms,3,3,4,0.75
+Feast,3,3,4,0.75
+Pinecone,3,3,4,0.75
+Weaviate,3,3,4,0.75
+Apache Beam,3,3,5,0.6
+sequence models,3,3,5,0.6
+data engineering tools,3,3,5,0.6
+foundation in experimentation,3,3,5,0.6
+AI FDE,3,3,6,0.5
+HTML,3,3,6,0.5
+number looks wrong,3,3,6,0.5
+Weights & Biases,3,3,6,0.5
+more general-purpose languages,3,3,6,0.5
+generative modeling,3,3,7,0.43
+database systems,3,3,7,0.43
+quasi-experimental methods,3,3,7,0.43
+chunking,3,3,7,0.43
+Next.js,3,4,10,0.4
+model inference,3,3,8,0.38
+risk scoring,3,3,8,0.38
+batch processing,3,3,8,0.38
+structured outputs,3,3,8,0.38
+analyze experiments,3,3,9,0.33
+webhooks,3,3,12,0.25
+analytics tools,3,3,12,0.25
+or agentic systems,3,3,12,0.25
+FastAPI,3,3,13,0.23
+experiment tracking,3,3,13,0.23
+Australia,3,3,14,0.21
+version control,3,6,29,0.21
+serving infrastructure,3,3,15,0.2
+feature pipelines,3,3,15,0.2
+business intelligence,3,3,16,0.19
+memory management,3,3,16,0.19
+CloudFlare,3,3,17,0.18
+coding skills,3,3,18,0.17
+Foundry,3,3,19,0.16
+programming language,3,3,20,0.15
+Google Workspace,3,3,20,0.15
+vLLM,3,3,21,0.14
+Robotics,3,3,26,0.12
+traces,3,3,26,0.12
+Greenhouse,3,3,26,0.12
+Unity Catalog,3,4,38,0.11
+you will design,3,3,29,0.1
+logs,3,4,43,0.09
+Claude Code,3,3,33,0.09
+alerting,3,3,35,0.09
+post-training,3,3,38,0.08
+ChatGPT,3,3,41,0.07
+and observability,3,3,49,0.06
+and monitoring,3,3,50,0.06
+routing,3,3,60,0.05
+Agentic AI,3,4,77,0.05
+monetization,3,3,66,0.05
+databases,3,3,64,0.05
+Streaming,3,4,82,0.05
+AIR,3,3,62,0.05
+is a plus,3,3,61,0.05
+practical experience,3,3,64,0.05
+offline,3,3,80,0.04
+retention,3,3,78,0.04
+languages,3,3,104,0.03
+debugging,3,3,90,0.03
+managing,3,3,100,0.03
+Claude,3,3,105,0.03
+storage,3,3,106,0.03
+AI tools,3,3,112,0.03
+test,3,3,190,0.02
+feature,3,5,248,0.02
+recommendations,3,3,152,0.02
+and deployment,3,3,134,0.02
+strategy,3,3,360,0.01
+developing,3,3,238,0.01
+analysis,3,3,399,0.01
+measurement,3,3,214,0.01
+platforms,3,3,445,0.01
+code,3,3,568,0.01
+Preferred,3,3,231,0.01
+maintain,3,4,326,0.01
+policy,3,3,540,0.01
+required,3,3,340,0.01
+tool,3,3,303,0.01
+security,3,3,782,0.0
+quality,3,3,835,0.0
+systems,3,3,2807,0.0

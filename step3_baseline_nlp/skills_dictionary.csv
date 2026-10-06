@@ -1,0 +1,233 @@
+﻿canonical_skill,alias,category,matched_job_count,matched_job_pct,alias_job_count
+AWS,amazon web services,Cloud,110,15.99,2
+AWS,aws,Cloud,110,15.99,109
+AWS Lambda,aws lambda,Cloud,0,0.0,0
+AWS Lambda,lambda functions,Cloud,0,0.0,0
+Azure,azure,Cloud,52,7.56,52
+Azure,microsoft azure,Cloud,52,7.56,3
+GCP,gcp,Cloud,68,9.88,65
+GCP,google cloud,Cloud,68,9.88,8
+GCP,google cloud platform,Cloud,68,9.88,1
+SageMaker,sage maker,Cloud,19,2.76,0
+SageMaker,sagemaker,Cloud,19,2.76,19
+Vertex AI,vertex ai,Cloud,4,0.58,4
+A/B Testing,a/b test,Data Analysis & Statistics,41,5.96,6
+A/B Testing,a/b testing,Data Analysis & Statistics,41,5.96,39
+A/B Testing,ab testing,Data Analysis & Statistics,41,5.96,0
+Causal Inference,causal inference,Data Analysis & Statistics,74,10.76,74
+Classification,classification,Data Analysis & Statistics,29,4.22,29
+Clustering,clustering,Data Analysis & Statistics,12,1.74,12
+Data Analysis,data analysis,Data Analysis & Statistics,51,7.41,51
+Data Cleaning,data cleaning,Data Analysis & Statistics,0,0.0,0
+Data Cleaning,data cleansing,Data Analysis & Statistics,0,0.0,0
+EDA,eda,Data Analysis & Statistics,7,1.02,2
+EDA,exploratory data analysis,Data Analysis & Statistics,7,1.02,5
+Experiment Design,experiment design,Data Analysis & Statistics,35,5.09,9
+Experiment Design,experimental design,Data Analysis & Statistics,35,5.09,26
+Feature Engineering,feature engineering,Data Analysis & Statistics,37,5.38,37
+Forecasting,forecasting,Data Analysis & Statistics,41,5.96,41
+Hypothesis Testing,hypothesis testing,Data Analysis & Statistics,4,0.58,4
+Regression,regression,Data Analysis & Statistics,35,5.09,35
+Statistics,statistical analysis,Data Analysis & Statistics,139,20.2,22
+Statistics,statistical modeling,Data Analysis & Statistics,139,20.2,31
+Statistics,statistical modelling,Data Analysis & Statistics,139,20.2,0
+Statistics,statistics,Data Analysis & Statistics,139,20.2,119
+Time Series,time series,Data Analysis & Statistics,17,2.47,6
+Time Series,time-series,Data Analysis & Statistics,17,2.47,12
+Airflow,airflow,Data Engineering,68,9.88,68
+Airflow,apache airflow,Data Engineering,68,9.88,3
+Apache Spark,apache spark,Data Engineering,122,17.73,17
+Apache Spark,spark,Data Engineering,122,17.73,122
+Data Lake,data lake,Data Engineering,16,2.33,14
+Data Lake,data lakes,Data Engineering,16,2.33,3
+Data Pipelines,data pipeline,Data Engineering,134,19.48,10
+Data Pipelines,data pipelines,Data Engineering,134,19.48,130
+Data Warehousing,data warehouse,Data Engineering,24,3.49,17
+Data Warehousing,data warehouses,Data Engineering,24,3.49,3
+Data Warehousing,data warehousing,Data Engineering,24,3.49,8
+Databricks,databricks,Data Engineering,63,9.16,63
+ELT,elt,Data Engineering,13,1.89,13
+ETL,etl,Data Engineering,32,4.65,32
+ETL,extract transform load,Data Engineering,32,4.65,0
+ETL,"extract, transform, load",Data Engineering,32,4.65,0
+Flink,apache flink,Data Engineering,15,2.18,1
+Flink,flink,Data Engineering,15,2.18,15
+Hadoop,hadoop,Data Engineering,12,1.74,12
+Hive,apache hive,Data Engineering,9,1.31,0
+Hive,hive,Data Engineering,9,1.31,9
+Kafka,apache kafka,Data Engineering,46,6.69,1
+Kafka,kafka,Data Engineering,46,6.69,46
+Lakehouse,data lakehouse,Data Engineering,40,5.81,4
+Lakehouse,lakehouse,Data Engineering,40,5.81,40
+Presto,presto,Data Engineering,7,1.02,7
+Snowflake,snowflake,Data Engineering,83,12.06,83
+Trino,trino,Data Engineering,7,1.02,7
+dbt,dbt,Data Engineering,62,9.01,62
+Dashboarding,dashboard,Data Visualisation / BI,106,15.41,14
+Dashboarding,dashboarding,Data Visualisation / BI,106,15.41,6
+Dashboarding,dashboards,Data Visualisation / BI,106,15.41,100
+Data Visualization,data visualisation,Data Visualisation / BI,27,3.92,0
+Data Visualization,data visualization,Data Visualisation / BI,27,3.92,27
+Looker,looker,Data Visualisation / BI,26,3.78,26
+Matplotlib,matplotlib,Data Visualisation / BI,7,1.02,7
+Plotly,plotly,Data Visualisation / BI,1,0.15,1
+Power BI,power bi,Data Visualisation / BI,6,0.87,3
+Power BI,powerbi,Data Visualisation / BI,6,0.87,3
+Seaborn,seaborn,Data Visualisation / BI,2,0.29,2
+Tableau,tableau,Data Visualisation / BI,30,4.36,30
+BigQuery,big query,Databases,34,4.94,0
+BigQuery,bigquery,Databases,34,4.94,34
+Cassandra,cassandra,Databases,0,0.0,0
+DynamoDB,dynamodb,Databases,9,1.31,9
+Elasticsearch,elastic search,Databases,8,1.16,1
+Elasticsearch,elasticsearch,Databases,8,1.16,8
+MongoDB,mongodb,Databases,8,1.16,8
+MySQL,mysql,Databases,8,1.16,8
+Oracle,oracle database,Databases,0,0.0,0
+PostgreSQL,postgres,Databases,33,4.8,24
+PostgreSQL,postgresql,Databases,33,4.8,9
+Redis,redis,Databases,29,4.22,29
+Redshift,redshift,Databases,13,1.89,13
+SQL Server,microsoft sql server,Databases,3,0.44,0
+SQL Server,sql server,Databases,3,0.44,3
+Vector Databases,vector database,Databases,24,3.49,2
+Vector Databases,vector databases,Databases,24,3.49,22
+Vector Databases,vector db,Databases,24,3.49,0
+Vector Databases,vector dbs,Databases,24,3.49,0
+APIs,api development,Development Tools,172,25.0,1
+APIs,apis,Development Tools,172,25.0,172
+Git,git,Development Tools,21,3.05,21
+GitHub,github,Development Tools,40,5.81,40
+Jupyter,jupyter,Development Tools,1,0.15,1
+Jupyter,jupyter notebook,Development Tools,1,0.15,0
+Linux,linux,Development Tools,17,2.47,17
+REST APIs,rest api,Development Tools,20,2.91,2
+REST APIs,rest apis,Development Tools,20,2.91,12
+REST APIs,restful api,Development Tools,20,2.91,1
+REST APIs,restful apis,Development Tools,20,2.91,5
+VS Code,visual studio code,Development Tools,2,0.29,0
+VS Code,vs code,Development Tools,2,0.29,2
+JAX,jax,ML Frameworks & Libraries,17,2.47,17
+Keras,keras,ML Frameworks & Libraries,4,0.58,4
+LightGBM,lightgbm,ML Frameworks & Libraries,3,0.44,3
+NLTK,nltk,ML Frameworks & Libraries,0,0.0,0
+NumPy,numpy,ML Frameworks & Libraries,11,1.6,11
+Pandas,pandas,ML Frameworks & Libraries,30,4.36,30
+PyTorch,pytorch,ML Frameworks & Libraries,113,16.42,113
+SciPy,scipy,ML Frameworks & Libraries,0,0.0,0
+TensorFlow,tensorflow,ML Frameworks & Libraries,72,10.47,72
+XGBoost,xgboost,ML Frameworks & Libraries,17,2.47,17
+scikit-learn,scikit learn,ML Frameworks & Libraries,28,4.07,0
+scikit-learn,scikit-learn,ML Frameworks & Libraries,28,4.07,25
+scikit-learn,sklearn,ML Frameworks & Libraries,28,4.07,3
+spaCy,spacy,ML Frameworks & Libraries,0,0.0,0
+CI/CD,ci/cd,MLOps / Deployment,90,13.08,88
+CI/CD,continuous delivery,MLOps / Deployment,90,13.08,0
+CI/CD,continuous deployment,MLOps / Deployment,90,13.08,1
+CI/CD,continuous integration,MLOps / Deployment,90,13.08,9
+Docker,docker,MLOps / Deployment,39,5.67,39
+GitHub Actions,github actions,MLOps / Deployment,11,1.6,11
+Jenkins,jenkins,MLOps / Deployment,5,0.73,5
+Kubeflow,kubeflow,MLOps / Deployment,7,1.02,7
+Kubernetes,k8s,MLOps / Deployment,104,15.12,1
+Kubernetes,kubernetes,MLOps / Deployment,104,15.12,104
+MLflow,mlflow,MLOps / Deployment,23,3.34,23
+Model Deployment,deploy models,MLOps / Deployment,26,3.78,4
+Model Deployment,deploying models,MLOps / Deployment,26,3.78,4
+Model Deployment,model deployment,MLOps / Deployment,26,3.78,18
+Model Monitoring,model monitoring,MLOps / Deployment,10,1.45,10
+Model Monitoring,monitoring models,MLOps / Deployment,10,1.45,0
+Model Serving,model serving,MLOps / Deployment,39,5.67,37
+Model Serving,serving models,MLOps / Deployment,39,5.67,2
+Terraform,terraform,MLOps / Deployment,49,7.12,49
+Artificial Intelligence,artificial intelligence,Machine Learning & AI,123,17.88,123
+Computer Vision,computer vision,Machine Learning & AI,53,7.7,53
+Deep Learning,deep learning,Machine Learning & AI,62,9.01,62
+Feature Store,feature store,Machine Learning & AI,22,3.2,3
+Feature Store,feature stores,Machine Learning & AI,22,3.2,21
+Generative AI,gen ai,Machine Learning & AI,112,16.28,1
+Generative AI,genai,Machine Learning & AI,112,16.28,35
+Generative AI,generative ai,Machine Learning & AI,112,16.28,89
+Machine Learning,machine learning,Machine Learning & AI,292,42.44,266
+Machine Learning,ml model,Machine Learning & AI,292,42.44,16
+Machine Learning,ml models,Machine Learning & AI,292,42.44,70
+Model Evaluation,model evaluation,Machine Learning & AI,40,5.81,34
+Model Evaluation,model validation,Machine Learning & AI,40,5.81,6
+Model Training,model training,Machine Learning & AI,71,10.32,64
+Model Training,train models,Machine Learning & AI,71,10.32,5
+Model Training,training models,Machine Learning & AI,71,10.32,5
+Predictive Modeling,predictive modeling,Machine Learning & AI,15,2.18,15
+Predictive Modeling,predictive modelling,Machine Learning & AI,15,2.18,0
+Recommendation Systems,recommendation system,Machine Learning & AI,34,4.94,1
+Recommendation Systems,recommendation systems,Machine Learning & AI,34,4.94,26
+Recommendation Systems,recommender system,Machine Learning & AI,34,4.94,0
+Recommendation Systems,recommender systems,Machine Learning & AI,34,4.94,15
+Reinforcement Learning,reinforcement learning,Machine Learning & AI,49,7.12,49
+Cloud Computing,cloud computing,Methods / Architecture,3,0.44,3
+Data Governance,data governance,Methods / Architecture,30,4.36,30
+Data Modeling,data modeling,Methods / Architecture,35,5.09,35
+Data Modeling,data modelling,Methods / Architecture,35,5.09,0
+Data Quality,data quality,Methods / Architecture,83,12.06,83
+Distributed Systems,distributed system,Methods / Architecture,124,18.02,4
+Distributed Systems,distributed systems,Methods / Architecture,124,18.02,120
+Graph Neural Networks,gnn,Methods / Architecture,10,1.45,1
+Graph Neural Networks,gnns,Methods / Architecture,10,1.45,7
+Graph Neural Networks,graph neural network,Methods / Architecture,10,1.45,0
+Graph Neural Networks,graph neural networks,Methods / Architecture,10,1.45,5
+Knowledge Graphs,knowledge graph,Methods / Architecture,16,2.33,11
+Knowledge Graphs,knowledge graphs,Methods / Architecture,16,2.33,6
+Microservices,microservice architecture,Methods / Architecture,17,2.47,1
+Microservices,microservices,Methods / Architecture,17,2.47,16
+Embeddings,embedding model,NLP / Generative AI,29,4.22,0
+Embeddings,embedding models,NLP / Generative AI,29,4.22,5
+Embeddings,embeddings,NLP / Generative AI,29,4.22,26
+Fine-tuning,fine tuning,NLP / Generative AI,83,12.06,6
+Fine-tuning,fine-tuning,NLP / Generative AI,83,12.06,80
+Fine-tuning,finetuning,NLP / Generative AI,83,12.06,1
+Hugging Face,hugging face,NLP / Generative AI,13,1.89,4
+Hugging Face,huggingface,NLP / Generative AI,13,1.89,9
+LangChain,langchain,NLP / Generative AI,35,5.09,35
+Large Language Models,large language model,NLP / Generative AI,321,46.66,11
+Large Language Models,large language models,NLP / Generative AI,321,46.66,61
+Large Language Models,llm,NLP / Generative AI,321,46.66,240
+Large Language Models,llms,NLP / Generative AI,321,46.66,125
+LlamaIndex,llama index,NLP / Generative AI,6,0.87,0
+LlamaIndex,llamaindex,NLP / Generative AI,6,0.87,6
+Named Entity Recognition,named entity recognition,NLP / Generative AI,1,0.15,0
+Named Entity Recognition,ner,NLP / Generative AI,1,0.15,1
+Natural Language Processing,natural language processing,NLP / Generative AI,35,5.09,14
+Natural Language Processing,nlp,NLP / Generative AI,35,5.09,24
+Prompt Engineering,prompt design,NLP / Generative AI,37,5.38,8
+Prompt Engineering,prompt engineering,NLP / Generative AI,37,5.38,30
+RAG,rag pipeline,NLP / Generative AI,30,4.36,0
+RAG,rag system,NLP / Generative AI,30,4.36,1
+RAG,rag systems,NLP / Generative AI,30,4.36,6
+RAG,retrieval augmented generation,NLP / Generative AI,30,4.36,1
+RAG,retrieval-augmented generation,NLP / Generative AI,30,4.36,23
+Text Classification,text classification,NLP / Generative AI,1,0.15,1
+Tokenization,tokenisation,NLP / Generative AI,6,0.87,0
+Tokenization,tokenization,NLP / Generative AI,6,0.87,6
+Transformers,transformer model,NLP / Generative AI,22,3.2,1
+Transformers,transformer models,NLP / Generative AI,22,3.2,1
+Transformers,transformers,NLP / Generative AI,22,3.2,20
+Vector Search,semantic search,NLP / Generative AI,16,2.33,6
+Vector Search,vector search,NLP / Generative AI,16,2.33,11
+Bash,bash,Programming,11,1.6,10
+Bash,shell scripting,Programming,11,1.6,1
+C#,c sharp,Programming,5,0.73,0
+C#,c#,Programming,5,0.73,5
+C++,c++,Programming,65,9.45,65
+C++,cpp,Programming,65,9.45,0
+Go,golang,Programming,19,2.76,19
+Java,java,Programming,59,8.58,59
+JavaScript,java script,Programming,44,6.4,0
+JavaScript,javascript,Programming,44,6.4,44
+MATLAB,matlab,Programming,6,0.87,6
+Python,python,Programming,456,66.28,456
+R,R,Programming,60,8.72,60
+R,r language,Programming,60,8.72,0
+R,r programming,Programming,60,8.72,0
+SQL,sql,Programming,239,34.74,239
+Scala,scala,Programming,28,4.07,28
+TypeScript,type script,Programming,84,12.21,0
+TypeScript,typescript,Programming,84,12.21,84
