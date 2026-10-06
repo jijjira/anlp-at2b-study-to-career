@@ -1,0 +1,661 @@
+﻿career_category,canonical_skill,skill_category,job_count,career_job_total,job_pct
+AI Engineer,Large Language Models,NLP / Generative AI,165,275,60.0
+AI Engineer,Python,Programming,152,275,55.27
+AI Engineer,APIs,Development Tools,109,275,39.64
+AI Engineer,Distributed Systems,Methods / Architecture,71,275,25.82
+AI Engineer,TypeScript,Programming,69,275,25.09
+AI Engineer,Kubernetes,MLOps / Deployment,57,275,20.73
+AI Engineer,CI/CD,MLOps / Deployment,52,275,18.91
+AI Engineer,Machine Learning,Machine Learning & AI,52,275,18.91
+AI Engineer,AWS,Cloud,48,275,17.45
+AI Engineer,Generative AI,Machine Learning & AI,46,275,16.73
+AI Engineer,Artificial Intelligence,Machine Learning & AI,45,275,16.36
+AI Engineer,Fine-tuning,NLP / Generative AI,42,275,15.27
+AI Engineer,JavaScript,Programming,42,275,15.27
+AI Engineer,GCP,Cloud,34,275,12.36
+AI Engineer,Data Pipelines,Data Engineering,33,275,12.0
+AI Engineer,C++,Programming,32,275,11.64
+AI Engineer,Azure,Cloud,30,275,10.91
+AI Engineer,LangChain,NLP / Generative AI,29,275,10.55
+AI Engineer,Prompt Engineering,NLP / Generative AI,29,275,10.55
+AI Engineer,Docker,MLOps / Deployment,28,275,10.18
+AI Engineer,Java,Programming,26,275,9.45
+AI Engineer,Terraform,MLOps / Deployment,26,275,9.45
+AI Engineer,Computer Vision,Machine Learning & AI,24,275,8.73
+AI Engineer,Databricks,Data Engineering,24,275,8.73
+AI Engineer,SQL,Programming,24,275,8.73
+AI Engineer,Apache Spark,Data Engineering,23,275,8.36
+AI Engineer,Snowflake,Data Engineering,22,275,8.0
+AI Engineer,Lakehouse,Data Engineering,21,275,7.64
+AI Engineer,Vector Databases,Databases,21,275,7.64
+AI Engineer,RAG,NLP / Generative AI,20,275,7.27
+AI Engineer,Reinforcement Learning,Machine Learning & AI,20,275,7.27
+AI Engineer,Dashboarding,Data Visualisation / BI,19,275,6.91
+AI Engineer,GitHub,Development Tools,19,275,6.91
+AI Engineer,PyTorch,ML Frameworks & Libraries,19,275,6.91
+AI Engineer,PostgreSQL,Databases,18,275,6.55
+AI Engineer,Model Training,Machine Learning & AI,16,275,5.82
+AI Engineer,REST APIs,Development Tools,15,275,5.45
+AI Engineer,Go,Programming,13,275,4.73
+AI Engineer,Model Evaluation,Machine Learning & AI,13,275,4.73
+AI Engineer,Model Serving,MLOps / Deployment,13,275,4.73
+AI Engineer,Kafka,Data Engineering,12,275,4.36
+AI Engineer,Linux,Development Tools,12,275,4.36
+AI Engineer,Regression,Data Analysis & Statistics,12,275,4.36
+AI Engineer,Redis,Databases,11,275,4.0
+AI Engineer,Statistics,Data Analysis & Statistics,11,275,4.0
+AI Engineer,Vector Search,NLP / Generative AI,11,275,4.0
+AI Engineer,Bash,Programming,10,275,3.64
+AI Engineer,Data Quality,Methods / Architecture,10,275,3.64
+AI Engineer,Embeddings,NLP / Generative AI,10,275,3.64
+AI Engineer,Data Governance,Methods / Architecture,9,275,3.27
+AI Engineer,Airflow,Data Engineering,8,275,2.91
+AI Engineer,Git,Development Tools,8,275,2.91
+AI Engineer,GitHub Actions,MLOps / Deployment,7,275,2.55
+AI Engineer,Microservices,Methods / Architecture,7,275,2.55
+AI Engineer,R,Programming,7,275,2.55
+AI Engineer,Data Modeling,Methods / Architecture,6,275,2.18
+AI Engineer,Scala,Programming,6,275,2.18
+AI Engineer,A/B Testing,Data Analysis & Statistics,5,275,1.82
+AI Engineer,BigQuery,Databases,5,275,1.82
+AI Engineer,Classification,Data Analysis & Statistics,5,275,1.82
+AI Engineer,Data Visualization,Data Visualisation / BI,5,275,1.82
+AI Engineer,Elasticsearch,Databases,5,275,1.82
+AI Engineer,Jenkins,MLOps / Deployment,5,275,1.82
+AI Engineer,Knowledge Graphs,Methods / Architecture,5,275,1.82
+AI Engineer,MLflow,MLOps / Deployment,5,275,1.82
+AI Engineer,SageMaker,Cloud,5,275,1.82
+AI Engineer,TensorFlow,ML Frameworks & Libraries,5,275,1.82
+AI Engineer,dbt,Data Engineering,5,275,1.82
+AI Engineer,C#,Programming,4,275,1.45
+AI Engineer,Data Analysis,Data Analysis & Statistics,4,275,1.45
+AI Engineer,Data Warehousing,Data Engineering,4,275,1.45
+AI Engineer,Deep Learning,Machine Learning & AI,4,275,1.45
+AI Engineer,Experiment Design,Data Analysis & Statistics,4,275,1.45
+AI Engineer,Hugging Face,NLP / Generative AI,4,275,1.45
+AI Engineer,MATLAB,Programming,4,275,1.45
+AI Engineer,Model Deployment,MLOps / Deployment,4,275,1.45
+AI Engineer,Natural Language Processing,NLP / Generative AI,4,275,1.45
+AI Engineer,Transformers,NLP / Generative AI,4,275,1.45
+AI Engineer,EDA,Data Analysis & Statistics,3,275,1.09
+AI Engineer,ETL,Data Engineering,3,275,1.09
+AI Engineer,Feature Engineering,Data Analysis & Statistics,3,275,1.09
+AI Engineer,Forecasting,Data Analysis & Statistics,3,275,1.09
+AI Engineer,LlamaIndex,NLP / Generative AI,3,275,1.09
+AI Engineer,MySQL,Databases,3,275,1.09
+AI Engineer,Pandas,ML Frameworks & Libraries,3,275,1.09
+AI Engineer,Recommendation Systems,Machine Learning & AI,3,275,1.09
+AI Engineer,Redshift,Databases,3,275,1.09
+AI Engineer,Tokenization,NLP / Generative AI,3,275,1.09
+AI Engineer,Data Lake,Data Engineering,2,275,0.73
+AI Engineer,Hadoop,Data Engineering,2,275,0.73
+AI Engineer,Kubeflow,MLOps / Deployment,2,275,0.73
+AI Engineer,MongoDB,Databases,2,275,0.73
+AI Engineer,Trino,Data Engineering,2,275,0.73
+AI Engineer,Vertex AI,Cloud,2,275,0.73
+AI Engineer,scikit-learn,ML Frameworks & Libraries,2,275,0.73
+AI Engineer,DynamoDB,Databases,1,275,0.36
+AI Engineer,ELT,Data Engineering,1,275,0.36
+AI Engineer,Feature Store,Machine Learning & AI,1,275,0.36
+AI Engineer,JAX,ML Frameworks & Libraries,1,275,0.36
+AI Engineer,Looker,Data Visualisation / BI,1,275,0.36
+AI Engineer,NumPy,ML Frameworks & Libraries,1,275,0.36
+AI Engineer,Tableau,Data Visualisation / BI,1,275,0.36
+AI Engineer,Time Series,Data Analysis & Statistics,1,275,0.36
+AI Engineer,VS Code,Development Tools,1,275,0.36
+AI Engineer,AWS Lambda,Cloud,0,275,0.0
+AI Engineer,Cassandra,Databases,0,275,0.0
+AI Engineer,Causal Inference,Data Analysis & Statistics,0,275,0.0
+AI Engineer,Cloud Computing,Methods / Architecture,0,275,0.0
+AI Engineer,Clustering,Data Analysis & Statistics,0,275,0.0
+AI Engineer,Data Cleaning,Data Analysis & Statistics,0,275,0.0
+AI Engineer,Flink,Data Engineering,0,275,0.0
+AI Engineer,Graph Neural Networks,Methods / Architecture,0,275,0.0
+AI Engineer,Hive,Data Engineering,0,275,0.0
+AI Engineer,Hypothesis Testing,Data Analysis & Statistics,0,275,0.0
+AI Engineer,Jupyter,Development Tools,0,275,0.0
+AI Engineer,Keras,ML Frameworks & Libraries,0,275,0.0
+AI Engineer,LightGBM,ML Frameworks & Libraries,0,275,0.0
+AI Engineer,Matplotlib,Data Visualisation / BI,0,275,0.0
+AI Engineer,Model Monitoring,MLOps / Deployment,0,275,0.0
+AI Engineer,NLTK,ML Frameworks & Libraries,0,275,0.0
+AI Engineer,Named Entity Recognition,NLP / Generative AI,0,275,0.0
+AI Engineer,Oracle,Databases,0,275,0.0
+AI Engineer,Plotly,Data Visualisation / BI,0,275,0.0
+AI Engineer,Power BI,Data Visualisation / BI,0,275,0.0
+AI Engineer,Predictive Modeling,Machine Learning & AI,0,275,0.0
+AI Engineer,Presto,Data Engineering,0,275,0.0
+AI Engineer,SQL Server,Databases,0,275,0.0
+AI Engineer,SciPy,ML Frameworks & Libraries,0,275,0.0
+AI Engineer,Seaborn,Data Visualisation / BI,0,275,0.0
+AI Engineer,Text Classification,NLP / Generative AI,0,275,0.0
+AI Engineer,XGBoost,ML Frameworks & Libraries,0,275,0.0
+AI Engineer,spaCy,ML Frameworks & Libraries,0,275,0.0
+Data Analyst,SQL,Programming,26,27,96.3
+Data Analyst,Dashboarding,Data Visualisation / BI,23,27,85.19
+Data Analyst,Python,Programming,22,27,81.48
+Data Analyst,Tableau,Data Visualisation / BI,16,27,59.26
+Data Analyst,dbt,Data Engineering,12,27,44.44
+Data Analyst,Data Quality,Methods / Architecture,11,27,40.74
+Data Analyst,Statistics,Data Analysis & Statistics,10,27,37.04
+Data Analyst,Data Analysis,Data Analysis & Statistics,9,27,33.33
+Data Analyst,Looker,Data Visualisation / BI,9,27,33.33
+Data Analyst,Snowflake,Data Engineering,9,27,33.33
+Data Analyst,Data Pipelines,Data Engineering,8,27,29.63
+Data Analyst,Data Visualization,Data Visualisation / BI,8,27,29.63
+Data Analyst,Databricks,Data Engineering,7,27,25.93
+Data Analyst,Data Modeling,Methods / Architecture,6,27,22.22
+Data Analyst,Generative AI,Machine Learning & AI,6,27,22.22
+Data Analyst,Large Language Models,NLP / Generative AI,6,27,22.22
+Data Analyst,Computer Vision,Machine Learning & AI,5,27,18.52
+Data Analyst,Data Governance,Methods / Architecture,5,27,18.52
+Data Analyst,Forecasting,Data Analysis & Statistics,5,27,18.52
+Data Analyst,Power BI,Data Visualisation / BI,5,27,18.52
+Data Analyst,AWS,Cloud,4,27,14.81
+Data Analyst,Data Warehousing,Data Engineering,4,27,14.81
+Data Analyst,GitHub,Development Tools,4,27,14.81
+Data Analyst,Machine Learning,Machine Learning & AI,4,27,14.81
+Data Analyst,Pandas,ML Frameworks & Libraries,4,27,14.81
+Data Analyst,R,Programming,4,27,14.81
+Data Analyst,Airflow,Data Engineering,3,27,11.11
+Data Analyst,BigQuery,Databases,3,27,11.11
+Data Analyst,Git,Development Tools,3,27,11.11
+Data Analyst,APIs,Development Tools,2,27,7.41
+Data Analyst,Apache Spark,Data Engineering,2,27,7.41
+Data Analyst,Artificial Intelligence,Machine Learning & AI,2,27,7.41
+Data Analyst,Causal Inference,Data Analysis & Statistics,2,27,7.41
+Data Analyst,Predictive Modeling,Machine Learning & AI,2,27,7.41
+Data Analyst,TypeScript,Programming,2,27,7.41
+Data Analyst,A/B Testing,Data Analysis & Statistics,1,27,3.7
+Data Analyst,Azure,Cloud,1,27,3.7
+Data Analyst,Clustering,Data Analysis & Statistics,1,27,3.7
+Data Analyst,Data Lake,Data Engineering,1,27,3.7
+Data Analyst,ETL,Data Engineering,1,27,3.7
+Data Analyst,GCP,Cloud,1,27,3.7
+Data Analyst,MongoDB,Databases,1,27,3.7
+Data Analyst,Natural Language Processing,NLP / Generative AI,1,27,3.7
+Data Analyst,NumPy,ML Frameworks & Libraries,1,27,3.7
+Data Analyst,Regression,Data Analysis & Statistics,1,27,3.7
+Data Analyst,Scala,Programming,1,27,3.7
+Data Analyst,scikit-learn,ML Frameworks & Libraries,1,27,3.7
+Data Analyst,AWS Lambda,Cloud,0,27,0.0
+Data Analyst,Bash,Programming,0,27,0.0
+Data Analyst,C#,Programming,0,27,0.0
+Data Analyst,C++,Programming,0,27,0.0
+Data Analyst,CI/CD,MLOps / Deployment,0,27,0.0
+Data Analyst,Cassandra,Databases,0,27,0.0
+Data Analyst,Classification,Data Analysis & Statistics,0,27,0.0
+Data Analyst,Cloud Computing,Methods / Architecture,0,27,0.0
+Data Analyst,Data Cleaning,Data Analysis & Statistics,0,27,0.0
+Data Analyst,Deep Learning,Machine Learning & AI,0,27,0.0
+Data Analyst,Distributed Systems,Methods / Architecture,0,27,0.0
+Data Analyst,Docker,MLOps / Deployment,0,27,0.0
+Data Analyst,DynamoDB,Databases,0,27,0.0
+Data Analyst,EDA,Data Analysis & Statistics,0,27,0.0
+Data Analyst,ELT,Data Engineering,0,27,0.0
+Data Analyst,Elasticsearch,Databases,0,27,0.0
+Data Analyst,Embeddings,NLP / Generative AI,0,27,0.0
+Data Analyst,Experiment Design,Data Analysis & Statistics,0,27,0.0
+Data Analyst,Feature Engineering,Data Analysis & Statistics,0,27,0.0
+Data Analyst,Feature Store,Machine Learning & AI,0,27,0.0
+Data Analyst,Fine-tuning,NLP / Generative AI,0,27,0.0
+Data Analyst,Flink,Data Engineering,0,27,0.0
+Data Analyst,GitHub Actions,MLOps / Deployment,0,27,0.0
+Data Analyst,Go,Programming,0,27,0.0
+Data Analyst,Graph Neural Networks,Methods / Architecture,0,27,0.0
+Data Analyst,Hadoop,Data Engineering,0,27,0.0
+Data Analyst,Hive,Data Engineering,0,27,0.0
+Data Analyst,Hugging Face,NLP / Generative AI,0,27,0.0
+Data Analyst,Hypothesis Testing,Data Analysis & Statistics,0,27,0.0
+Data Analyst,JAX,ML Frameworks & Libraries,0,27,0.0
+Data Analyst,Java,Programming,0,27,0.0
+Data Analyst,JavaScript,Programming,0,27,0.0
+Data Analyst,Jenkins,MLOps / Deployment,0,27,0.0
+Data Analyst,Jupyter,Development Tools,0,27,0.0
+Data Analyst,Kafka,Data Engineering,0,27,0.0
+Data Analyst,Keras,ML Frameworks & Libraries,0,27,0.0
+Data Analyst,Knowledge Graphs,Methods / Architecture,0,27,0.0
+Data Analyst,Kubeflow,MLOps / Deployment,0,27,0.0
+Data Analyst,Kubernetes,MLOps / Deployment,0,27,0.0
+Data Analyst,Lakehouse,Data Engineering,0,27,0.0
+Data Analyst,LangChain,NLP / Generative AI,0,27,0.0
+Data Analyst,LightGBM,ML Frameworks & Libraries,0,27,0.0
+Data Analyst,Linux,Development Tools,0,27,0.0
+Data Analyst,LlamaIndex,NLP / Generative AI,0,27,0.0
+Data Analyst,MATLAB,Programming,0,27,0.0
+Data Analyst,MLflow,MLOps / Deployment,0,27,0.0
+Data Analyst,Matplotlib,Data Visualisation / BI,0,27,0.0
+Data Analyst,Microservices,Methods / Architecture,0,27,0.0
+Data Analyst,Model Deployment,MLOps / Deployment,0,27,0.0
+Data Analyst,Model Evaluation,Machine Learning & AI,0,27,0.0
+Data Analyst,Model Monitoring,MLOps / Deployment,0,27,0.0
+Data Analyst,Model Serving,MLOps / Deployment,0,27,0.0
+Data Analyst,Model Training,Machine Learning & AI,0,27,0.0
+Data Analyst,MySQL,Databases,0,27,0.0
+Data Analyst,NLTK,ML Frameworks & Libraries,0,27,0.0
+Data Analyst,Named Entity Recognition,NLP / Generative AI,0,27,0.0
+Data Analyst,Oracle,Databases,0,27,0.0
+Data Analyst,Plotly,Data Visualisation / BI,0,27,0.0
+Data Analyst,PostgreSQL,Databases,0,27,0.0
+Data Analyst,Presto,Data Engineering,0,27,0.0
+Data Analyst,Prompt Engineering,NLP / Generative AI,0,27,0.0
+Data Analyst,PyTorch,ML Frameworks & Libraries,0,27,0.0
+Data Analyst,RAG,NLP / Generative AI,0,27,0.0
+Data Analyst,REST APIs,Development Tools,0,27,0.0
+Data Analyst,Recommendation Systems,Machine Learning & AI,0,27,0.0
+Data Analyst,Redis,Databases,0,27,0.0
+Data Analyst,Redshift,Databases,0,27,0.0
+Data Analyst,Reinforcement Learning,Machine Learning & AI,0,27,0.0
+Data Analyst,SQL Server,Databases,0,27,0.0
+Data Analyst,SageMaker,Cloud,0,27,0.0
+Data Analyst,SciPy,ML Frameworks & Libraries,0,27,0.0
+Data Analyst,Seaborn,Data Visualisation / BI,0,27,0.0
+Data Analyst,TensorFlow,ML Frameworks & Libraries,0,27,0.0
+Data Analyst,Terraform,MLOps / Deployment,0,27,0.0
+Data Analyst,Text Classification,NLP / Generative AI,0,27,0.0
+Data Analyst,Time Series,Data Analysis & Statistics,0,27,0.0
+Data Analyst,Tokenization,NLP / Generative AI,0,27,0.0
+Data Analyst,Transformers,NLP / Generative AI,0,27,0.0
+Data Analyst,Trino,Data Engineering,0,27,0.0
+Data Analyst,VS Code,Development Tools,0,27,0.0
+Data Analyst,Vector Databases,Databases,0,27,0.0
+Data Analyst,Vector Search,NLP / Generative AI,0,27,0.0
+Data Analyst,Vertex AI,Cloud,0,27,0.0
+Data Analyst,XGBoost,ML Frameworks & Libraries,0,27,0.0
+Data Analyst,spaCy,ML Frameworks & Libraries,0,27,0.0
+Data Engineer,SQL,Programming,42,57,73.68
+Data Engineer,Python,Programming,39,57,68.42
+Data Engineer,Data Pipelines,Data Engineering,32,57,56.14
+Data Engineer,Apache Spark,Data Engineering,26,57,45.61
+Data Engineer,Data Quality,Methods / Architecture,26,57,45.61
+Data Engineer,Airflow,Data Engineering,25,57,43.86
+Data Engineer,dbt,Data Engineering,24,57,42.11
+Data Engineer,ETL,Data Engineering,21,57,36.84
+Data Engineer,Snowflake,Data Engineering,21,57,36.84
+Data Engineer,Data Modeling,Methods / Architecture,19,57,33.33
+Data Engineer,AWS,Cloud,18,57,31.58
+Data Engineer,Machine Learning,Machine Learning & AI,14,57,24.56
+Data Engineer,APIs,Development Tools,13,57,22.81
+Data Engineer,Data Warehousing,Data Engineering,13,57,22.81
+Data Engineer,Kafka,Data Engineering,13,57,22.81
+Data Engineer,Data Governance,Methods / Architecture,12,57,21.05
+Data Engineer,Databricks,Data Engineering,12,57,21.05
+Data Engineer,Azure,Cloud,11,57,19.3
+Data Engineer,CI/CD,MLOps / Deployment,11,57,19.3
+Data Engineer,Dashboarding,Data Visualisation / BI,11,57,19.3
+Data Engineer,Data Lake,Data Engineering,11,57,19.3
+Data Engineer,ELT,Data Engineering,11,57,19.3
+Data Engineer,GCP,Cloud,11,57,19.3
+Data Engineer,Data Analysis,Data Analysis & Statistics,10,57,17.54
+Data Engineer,Scala,Programming,10,57,17.54
+Data Engineer,BigQuery,Databases,9,57,15.79
+Data Engineer,Lakehouse,Data Engineering,9,57,15.79
+Data Engineer,Flink,Data Engineering,7,57,12.28
+Data Engineer,Java,Programming,7,57,12.28
+Data Engineer,Large Language Models,NLP / Generative AI,7,57,12.28
+Data Engineer,GitHub,Development Tools,6,57,10.53
+Data Engineer,Terraform,MLOps / Deployment,6,57,10.53
+Data Engineer,Generative AI,Machine Learning & AI,5,57,8.77
+Data Engineer,Git,Development Tools,5,57,8.77
+Data Engineer,Kubernetes,MLOps / Deployment,5,57,8.77
+Data Engineer,Looker,Data Visualisation / BI,5,57,8.77
+Data Engineer,Redshift,Databases,5,57,8.77
+Data Engineer,Trino,Data Engineering,5,57,8.77
+Data Engineer,Artificial Intelligence,Machine Learning & AI,4,57,7.02
+Data Engineer,Distributed Systems,Methods / Architecture,4,57,7.02
+Data Engineer,Feature Store,Machine Learning & AI,4,57,7.02
+Data Engineer,Tableau,Data Visualisation / BI,4,57,7.02
+Data Engineer,Computer Vision,Machine Learning & AI,3,57,5.26
+Data Engineer,Data Visualization,Data Visualisation / BI,3,57,5.26
+Data Engineer,SQL Server,Databases,3,57,5.26
+Data Engineer,Statistics,Data Analysis & Statistics,3,57,5.26
+Data Engineer,C++,Programming,2,57,3.51
+Data Engineer,Docker,MLOps / Deployment,2,57,3.51
+Data Engineer,GitHub Actions,MLOps / Deployment,2,57,3.51
+Data Engineer,Microservices,Methods / Architecture,2,57,3.51
+Data Engineer,MySQL,Databases,2,57,3.51
+Data Engineer,NumPy,ML Frameworks & Libraries,2,57,3.51
+Data Engineer,Pandas,ML Frameworks & Libraries,2,57,3.51
+Data Engineer,PostgreSQL,Databases,2,57,3.51
+Data Engineer,Predictive Modeling,Machine Learning & AI,2,57,3.51
+Data Engineer,Presto,Data Engineering,2,57,3.51
+Data Engineer,R,Programming,2,57,3.51
+Data Engineer,REST APIs,Development Tools,2,57,3.51
+Data Engineer,Causal Inference,Data Analysis & Statistics,1,57,1.75
+Data Engineer,Classification,Data Analysis & Statistics,1,57,1.75
+Data Engineer,Clustering,Data Analysis & Statistics,1,57,1.75
+Data Engineer,Forecasting,Data Analysis & Statistics,1,57,1.75
+Data Engineer,Hadoop,Data Engineering,1,57,1.75
+Data Engineer,Hive,Data Engineering,1,57,1.75
+Data Engineer,Jupyter,Development Tools,1,57,1.75
+Data Engineer,Knowledge Graphs,Methods / Architecture,1,57,1.75
+Data Engineer,Linux,Development Tools,1,57,1.75
+Data Engineer,Model Monitoring,MLOps / Deployment,1,57,1.75
+Data Engineer,Model Serving,MLOps / Deployment,1,57,1.75
+Data Engineer,Model Training,Machine Learning & AI,1,57,1.75
+Data Engineer,MongoDB,Databases,1,57,1.75
+Data Engineer,Regression,Data Analysis & Statistics,1,57,1.75
+Data Engineer,Time Series,Data Analysis & Statistics,1,57,1.75
+Data Engineer,TypeScript,Programming,1,57,1.75
+Data Engineer,VS Code,Development Tools,1,57,1.75
+Data Engineer,scikit-learn,ML Frameworks & Libraries,1,57,1.75
+Data Engineer,A/B Testing,Data Analysis & Statistics,0,57,0.0
+Data Engineer,AWS Lambda,Cloud,0,57,0.0
+Data Engineer,Bash,Programming,0,57,0.0
+Data Engineer,C#,Programming,0,57,0.0
+Data Engineer,Cassandra,Databases,0,57,0.0
+Data Engineer,Cloud Computing,Methods / Architecture,0,57,0.0
+Data Engineer,Data Cleaning,Data Analysis & Statistics,0,57,0.0
+Data Engineer,Deep Learning,Machine Learning & AI,0,57,0.0
+Data Engineer,DynamoDB,Databases,0,57,0.0
+Data Engineer,EDA,Data Analysis & Statistics,0,57,0.0
+Data Engineer,Elasticsearch,Databases,0,57,0.0
+Data Engineer,Embeddings,NLP / Generative AI,0,57,0.0
+Data Engineer,Experiment Design,Data Analysis & Statistics,0,57,0.0
+Data Engineer,Feature Engineering,Data Analysis & Statistics,0,57,0.0
+Data Engineer,Fine-tuning,NLP / Generative AI,0,57,0.0
+Data Engineer,Go,Programming,0,57,0.0
+Data Engineer,Graph Neural Networks,Methods / Architecture,0,57,0.0
+Data Engineer,Hugging Face,NLP / Generative AI,0,57,0.0
+Data Engineer,Hypothesis Testing,Data Analysis & Statistics,0,57,0.0
+Data Engineer,JAX,ML Frameworks & Libraries,0,57,0.0
+Data Engineer,JavaScript,Programming,0,57,0.0
+Data Engineer,Jenkins,MLOps / Deployment,0,57,0.0
+Data Engineer,Keras,ML Frameworks & Libraries,0,57,0.0
+Data Engineer,Kubeflow,MLOps / Deployment,0,57,0.0
+Data Engineer,LangChain,NLP / Generative AI,0,57,0.0
+Data Engineer,LightGBM,ML Frameworks & Libraries,0,57,0.0
+Data Engineer,LlamaIndex,NLP / Generative AI,0,57,0.0
+Data Engineer,MATLAB,Programming,0,57,0.0
+Data Engineer,MLflow,MLOps / Deployment,0,57,0.0
+Data Engineer,Matplotlib,Data Visualisation / BI,0,57,0.0
+Data Engineer,Model Deployment,MLOps / Deployment,0,57,0.0
+Data Engineer,Model Evaluation,Machine Learning & AI,0,57,0.0
+Data Engineer,NLTK,ML Frameworks & Libraries,0,57,0.0
+Data Engineer,Named Entity Recognition,NLP / Generative AI,0,57,0.0
+Data Engineer,Natural Language Processing,NLP / Generative AI,0,57,0.0
+Data Engineer,Oracle,Databases,0,57,0.0
+Data Engineer,Plotly,Data Visualisation / BI,0,57,0.0
+Data Engineer,Power BI,Data Visualisation / BI,0,57,0.0
+Data Engineer,Prompt Engineering,NLP / Generative AI,0,57,0.0
+Data Engineer,PyTorch,ML Frameworks & Libraries,0,57,0.0
+Data Engineer,RAG,NLP / Generative AI,0,57,0.0
+Data Engineer,Recommendation Systems,Machine Learning & AI,0,57,0.0
+Data Engineer,Redis,Databases,0,57,0.0
+Data Engineer,Reinforcement Learning,Machine Learning & AI,0,57,0.0
+Data Engineer,SageMaker,Cloud,0,57,0.0
+Data Engineer,SciPy,ML Frameworks & Libraries,0,57,0.0
+Data Engineer,Seaborn,Data Visualisation / BI,0,57,0.0
+Data Engineer,TensorFlow,ML Frameworks & Libraries,0,57,0.0
+Data Engineer,Text Classification,NLP / Generative AI,0,57,0.0
+Data Engineer,Tokenization,NLP / Generative AI,0,57,0.0
+Data Engineer,Transformers,NLP / Generative AI,0,57,0.0
+Data Engineer,Vector Databases,Databases,0,57,0.0
+Data Engineer,Vector Search,NLP / Generative AI,0,57,0.0
+Data Engineer,Vertex AI,Cloud,0,57,0.0
+Data Engineer,XGBoost,ML Frameworks & Libraries,0,57,0.0
+Data Engineer,spaCy,ML Frameworks & Libraries,0,57,0.0
+Data Scientist,SQL,Programming,114,127,89.76
+Data Scientist,Python,Programming,113,127,88.98
+Data Scientist,Statistics,Data Analysis & Statistics,83,127,65.35
+Data Scientist,Causal Inference,Data Analysis & Statistics,65,127,51.18
+Data Scientist,Machine Learning,Machine Learning & AI,55,127,43.31
+Data Scientist,Dashboarding,Data Visualisation / BI,44,127,34.65
+Data Scientist,R,Programming,44,127,34.65
+Data Scientist,Large Language Models,NLP / Generative AI,37,127,29.13
+Data Scientist,Artificial Intelligence,Machine Learning & AI,34,127,26.77
+Data Scientist,Experiment Design,Data Analysis & Statistics,28,127,22.05
+Data Scientist,Forecasting,Data Analysis & Statistics,28,127,22.05
+Data Scientist,A/B Testing,Data Analysis & Statistics,25,127,19.69
+Data Scientist,Apache Spark,Data Engineering,24,127,18.9
+Data Scientist,Snowflake,Data Engineering,19,127,14.96
+Data Scientist,Data Analysis,Data Analysis & Statistics,18,127,14.17
+Data Scientist,Data Quality,Methods / Architecture,17,127,13.39
+Data Scientist,dbt,Data Engineering,16,127,12.6
+Data Scientist,scikit-learn,ML Frameworks & Libraries,14,127,11.02
+Data Scientist,Data Visualization,Data Visualisation / BI,11,127,8.66
+Data Scientist,Databricks,Data Engineering,10,127,7.87
+Data Scientist,Feature Engineering,Data Analysis & Statistics,10,127,7.87
+Data Scientist,Looker,Data Visualisation / BI,10,127,7.87
+Data Scientist,Predictive Modeling,Machine Learning & AI,10,127,7.87
+Data Scientist,BigQuery,Databases,9,127,7.09
+Data Scientist,Generative AI,Machine Learning & AI,9,127,7.09
+Data Scientist,PyTorch,ML Frameworks & Libraries,9,127,7.09
+Data Scientist,Tableau,Data Visualisation / BI,9,127,7.09
+Data Scientist,Airflow,Data Engineering,8,127,6.3
+Data Scientist,TensorFlow,ML Frameworks & Libraries,8,127,6.3
+Data Scientist,Time Series,Data Analysis & Statistics,8,127,6.3
+Data Scientist,APIs,Development Tools,7,127,5.51
+Data Scientist,Data Pipelines,Data Engineering,7,127,5.51
+Data Scientist,Hive,Data Engineering,7,127,5.51
+Data Scientist,Natural Language Processing,NLP / Generative AI,7,127,5.51
+Data Scientist,Classification,Data Analysis & Statistics,6,127,4.72
+Data Scientist,Deep Learning,Machine Learning & AI,6,127,4.72
+Data Scientist,Pandas,ML Frameworks & Libraries,6,127,4.72
+Data Scientist,Recommendation Systems,Machine Learning & AI,6,127,4.72
+Data Scientist,ETL,Data Engineering,5,127,3.94
+Data Scientist,Hadoop,Data Engineering,5,127,3.94
+Data Scientist,Model Evaluation,Machine Learning & AI,5,127,3.94
+Data Scientist,Redshift,Databases,5,127,3.94
+Data Scientist,SageMaker,Cloud,5,127,3.94
+Data Scientist,AWS,Cloud,4,127,3.15
+Data Scientist,EDA,Data Analysis & Statistics,4,127,3.15
+Data Scientist,Knowledge Graphs,Methods / Architecture,4,127,3.15
+Data Scientist,Lakehouse,Data Engineering,4,127,3.15
+Data Scientist,Model Deployment,MLOps / Deployment,4,127,3.15
+Data Scientist,NumPy,ML Frameworks & Libraries,4,127,3.15
+Data Scientist,Regression,Data Analysis & Statistics,4,127,3.15
+Data Scientist,Reinforcement Learning,Machine Learning & AI,4,127,3.15
+Data Scientist,Clustering,Data Analysis & Statistics,3,127,2.36
+Data Scientist,Data Modeling,Methods / Architecture,3,127,2.36
+Data Scientist,Feature Store,Machine Learning & AI,3,127,2.36
+Data Scientist,Git,Development Tools,3,127,2.36
+Data Scientist,GitHub,Development Tools,3,127,2.36
+Data Scientist,Model Monitoring,MLOps / Deployment,3,127,2.36
+Data Scientist,Model Training,Machine Learning & AI,3,127,2.36
+Data Scientist,Presto,Data Engineering,3,127,2.36
+Data Scientist,CI/CD,MLOps / Deployment,2,127,1.57
+Data Scientist,Distributed Systems,Methods / Architecture,2,127,1.57
+Data Scientist,DynamoDB,Databases,2,127,1.57
+Data Scientist,Embeddings,NLP / Generative AI,2,127,1.57
+Data Scientist,LightGBM,ML Frameworks & Libraries,2,127,1.57
+Data Scientist,Scala,Programming,2,127,1.57
+Data Scientist,XGBoost,ML Frameworks & Libraries,2,127,1.57
+Data Scientist,Azure,Cloud,1,127,0.79
+Data Scientist,Bash,Programming,1,127,0.79
+Data Scientist,Docker,MLOps / Deployment,1,127,0.79
+Data Scientist,Fine-tuning,NLP / Generative AI,1,127,0.79
+Data Scientist,Flink,Data Engineering,1,127,0.79
+Data Scientist,GCP,Cloud,1,127,0.79
+Data Scientist,Hypothesis Testing,Data Analysis & Statistics,1,127,0.79
+Data Scientist,Kubernetes,MLOps / Deployment,1,127,0.79
+Data Scientist,MATLAB,Programming,1,127,0.79
+Data Scientist,MLflow,MLOps / Deployment,1,127,0.79
+Data Scientist,Model Serving,MLOps / Deployment,1,127,0.79
+Data Scientist,Power BI,Data Visualisation / BI,1,127,0.79
+Data Scientist,RAG,NLP / Generative AI,1,127,0.79
+Data Scientist,Terraform,MLOps / Deployment,1,127,0.79
+Data Scientist,Transformers,NLP / Generative AI,1,127,0.79
+Data Scientist,TypeScript,Programming,1,127,0.79
+Data Scientist,AWS Lambda,Cloud,0,127,0.0
+Data Scientist,C#,Programming,0,127,0.0
+Data Scientist,C++,Programming,0,127,0.0
+Data Scientist,Cassandra,Databases,0,127,0.0
+Data Scientist,Cloud Computing,Methods / Architecture,0,127,0.0
+Data Scientist,Computer Vision,Machine Learning & AI,0,127,0.0
+Data Scientist,Data Cleaning,Data Analysis & Statistics,0,127,0.0
+Data Scientist,Data Governance,Methods / Architecture,0,127,0.0
+Data Scientist,Data Lake,Data Engineering,0,127,0.0
+Data Scientist,Data Warehousing,Data Engineering,0,127,0.0
+Data Scientist,ELT,Data Engineering,0,127,0.0
+Data Scientist,Elasticsearch,Databases,0,127,0.0
+Data Scientist,GitHub Actions,MLOps / Deployment,0,127,0.0
+Data Scientist,Go,Programming,0,127,0.0
+Data Scientist,Graph Neural Networks,Methods / Architecture,0,127,0.0
+Data Scientist,Hugging Face,NLP / Generative AI,0,127,0.0
+Data Scientist,JAX,ML Frameworks & Libraries,0,127,0.0
+Data Scientist,Java,Programming,0,127,0.0
+Data Scientist,JavaScript,Programming,0,127,0.0
+Data Scientist,Jenkins,MLOps / Deployment,0,127,0.0
+Data Scientist,Jupyter,Development Tools,0,127,0.0
+Data Scientist,Kafka,Data Engineering,0,127,0.0
+Data Scientist,Keras,ML Frameworks & Libraries,0,127,0.0
+Data Scientist,Kubeflow,MLOps / Deployment,0,127,0.0
+Data Scientist,LangChain,NLP / Generative AI,0,127,0.0
+Data Scientist,Linux,Development Tools,0,127,0.0
+Data Scientist,LlamaIndex,NLP / Generative AI,0,127,0.0
+Data Scientist,Matplotlib,Data Visualisation / BI,0,127,0.0
+Data Scientist,Microservices,Methods / Architecture,0,127,0.0
+Data Scientist,MongoDB,Databases,0,127,0.0
+Data Scientist,MySQL,Databases,0,127,0.0
+Data Scientist,NLTK,ML Frameworks & Libraries,0,127,0.0
+Data Scientist,Named Entity Recognition,NLP / Generative AI,0,127,0.0
+Data Scientist,Oracle,Databases,0,127,0.0
+Data Scientist,Plotly,Data Visualisation / BI,0,127,0.0
+Data Scientist,PostgreSQL,Databases,0,127,0.0
+Data Scientist,Prompt Engineering,NLP / Generative AI,0,127,0.0
+Data Scientist,REST APIs,Development Tools,0,127,0.0
+Data Scientist,Redis,Databases,0,127,0.0
+Data Scientist,SQL Server,Databases,0,127,0.0
+Data Scientist,SciPy,ML Frameworks & Libraries,0,127,0.0
+Data Scientist,Seaborn,Data Visualisation / BI,0,127,0.0
+Data Scientist,Text Classification,NLP / Generative AI,0,127,0.0
+Data Scientist,Tokenization,NLP / Generative AI,0,127,0.0
+Data Scientist,Trino,Data Engineering,0,127,0.0
+Data Scientist,VS Code,Development Tools,0,127,0.0
+Data Scientist,Vector Databases,Databases,0,127,0.0
+Data Scientist,Vector Search,NLP / Generative AI,0,127,0.0
+Data Scientist,Vertex AI,Cloud,0,127,0.0
+Data Scientist,spaCy,ML Frameworks & Libraries,0,127,0.0
+ML Engineer,Machine Learning,Machine Learning & AI,167,202,82.67
+ML Engineer,Python,Programming,130,202,64.36
+ML Engineer,Large Language Models,NLP / Generative AI,106,202,52.48
+ML Engineer,PyTorch,ML Frameworks & Libraries,85,202,42.08
+ML Engineer,TensorFlow,ML Frameworks & Libraries,59,202,29.21
+ML Engineer,Data Pipelines,Data Engineering,54,202,26.73
+ML Engineer,Deep Learning,Machine Learning & AI,52,202,25.74
+ML Engineer,Model Training,Machine Learning & AI,51,202,25.25
+ML Engineer,Apache Spark,Data Engineering,47,202,23.27
+ML Engineer,Distributed Systems,Methods / Architecture,47,202,23.27
+ML Engineer,Generative AI,Machine Learning & AI,46,202,22.77
+ML Engineer,APIs,Development Tools,41,202,20.3
+ML Engineer,Kubernetes,MLOps / Deployment,41,202,20.3
+ML Engineer,Fine-tuning,NLP / Generative AI,40,202,19.8
+ML Engineer,Artificial Intelligence,Machine Learning & AI,38,202,18.81
+ML Engineer,AWS,Cloud,36,202,17.82
+ML Engineer,SQL,Programming,33,202,16.34
+ML Engineer,Statistics,Data Analysis & Statistics,32,202,15.84
+ML Engineer,C++,Programming,31,202,15.35
+ML Engineer,Java,Programming,26,202,12.87
+ML Engineer,CI/CD,MLOps / Deployment,25,202,12.38
+ML Engineer,Recommendation Systems,Machine Learning & AI,25,202,12.38
+ML Engineer,Reinforcement Learning,Machine Learning & AI,25,202,12.38
+ML Engineer,Airflow,Data Engineering,24,202,11.88
+ML Engineer,Feature Engineering,Data Analysis & Statistics,24,202,11.88
+ML Engineer,Model Serving,MLOps / Deployment,24,202,11.88
+ML Engineer,Natural Language Processing,NLP / Generative AI,23,202,11.39
+ML Engineer,Model Evaluation,Machine Learning & AI,22,202,10.89
+ML Engineer,Computer Vision,Machine Learning & AI,21,202,10.4
+ML Engineer,GCP,Cloud,21,202,10.4
+ML Engineer,Kafka,Data Engineering,21,202,10.4
+ML Engineer,Data Quality,Methods / Architecture,19,202,9.41
+ML Engineer,Model Deployment,MLOps / Deployment,18,202,8.91
+ML Engineer,Redis,Databases,18,202,8.91
+ML Engineer,Classification,Data Analysis & Statistics,17,202,8.42
+ML Engineer,Embeddings,NLP / Generative AI,17,202,8.42
+ML Engineer,MLflow,MLOps / Deployment,17,202,8.42
+ML Engineer,Regression,Data Analysis & Statistics,17,202,8.42
+ML Engineer,Transformers,NLP / Generative AI,17,202,8.42
+ML Engineer,JAX,ML Frameworks & Libraries,16,202,7.92
+ML Engineer,Terraform,MLOps / Deployment,16,202,7.92
+ML Engineer,Pandas,ML Frameworks & Libraries,15,202,7.43
+ML Engineer,XGBoost,ML Frameworks & Libraries,15,202,7.43
+ML Engineer,Feature Store,Machine Learning & AI,14,202,6.93
+ML Engineer,PostgreSQL,Databases,13,202,6.44
+ML Engineer,Snowflake,Data Engineering,12,202,5.94
+ML Engineer,TypeScript,Programming,11,202,5.45
+ML Engineer,A/B Testing,Data Analysis & Statistics,10,202,4.95
+ML Engineer,Data Analysis,Data Analysis & Statistics,10,202,4.95
+ML Engineer,Databricks,Data Engineering,10,202,4.95
+ML Engineer,Graph Neural Networks,Methods / Architecture,10,202,4.95
+ML Engineer,scikit-learn,ML Frameworks & Libraries,10,202,4.95
+ML Engineer,Azure,Cloud,9,202,4.46
+ML Engineer,Dashboarding,Data Visualisation / BI,9,202,4.46
+ML Engineer,Hugging Face,NLP / Generative AI,9,202,4.46
+ML Engineer,RAG,NLP / Generative AI,9,202,4.46
+ML Engineer,SageMaker,Cloud,9,202,4.46
+ML Engineer,Scala,Programming,9,202,4.46
+ML Engineer,BigQuery,Databases,8,202,3.96
+ML Engineer,Docker,MLOps / Deployment,8,202,3.96
+ML Engineer,GitHub,Development Tools,8,202,3.96
+ML Engineer,Microservices,Methods / Architecture,8,202,3.96
+ML Engineer,Prompt Engineering,NLP / Generative AI,8,202,3.96
+ML Engineer,Clustering,Data Analysis & Statistics,7,202,3.47
+ML Engineer,Flink,Data Engineering,7,202,3.47
+ML Engineer,Matplotlib,Data Visualisation / BI,7,202,3.47
+ML Engineer,Time Series,Data Analysis & Statistics,7,202,3.47
+ML Engineer,Causal Inference,Data Analysis & Statistics,6,202,2.97
+ML Engineer,DynamoDB,Databases,6,202,2.97
+ML Engineer,Go,Programming,6,202,2.97
+ML Engineer,Knowledge Graphs,Methods / Architecture,6,202,2.97
+ML Engineer,Lakehouse,Data Engineering,6,202,2.97
+ML Engineer,LangChain,NLP / Generative AI,6,202,2.97
+ML Engineer,Model Monitoring,MLOps / Deployment,6,202,2.97
+ML Engineer,Kubeflow,MLOps / Deployment,5,202,2.48
+ML Engineer,Vector Search,NLP / Generative AI,5,202,2.48
+ML Engineer,dbt,Data Engineering,5,202,2.48
+ML Engineer,Data Governance,Methods / Architecture,4,202,1.98
+ML Engineer,Forecasting,Data Analysis & Statistics,4,202,1.98
+ML Engineer,Hadoop,Data Engineering,4,202,1.98
+ML Engineer,Keras,ML Frameworks & Libraries,4,202,1.98
+ML Engineer,Linux,Development Tools,4,202,1.98
+ML Engineer,MongoDB,Databases,4,202,1.98
+ML Engineer,Cloud Computing,Methods / Architecture,3,202,1.49
+ML Engineer,Data Warehousing,Data Engineering,3,202,1.49
+ML Engineer,Elasticsearch,Databases,3,202,1.49
+ML Engineer,Experiment Design,Data Analysis & Statistics,3,202,1.49
+ML Engineer,Hypothesis Testing,Data Analysis & Statistics,3,202,1.49
+ML Engineer,LlamaIndex,NLP / Generative AI,3,202,1.49
+ML Engineer,MySQL,Databases,3,202,1.49
+ML Engineer,NumPy,ML Frameworks & Libraries,3,202,1.49
+ML Engineer,R,Programming,3,202,1.49
+ML Engineer,REST APIs,Development Tools,3,202,1.49
+ML Engineer,Tokenization,NLP / Generative AI,3,202,1.49
+ML Engineer,Vector Databases,Databases,3,202,1.49
+ML Engineer,Data Lake,Data Engineering,2,202,0.99
+ML Engineer,ETL,Data Engineering,2,202,0.99
+ML Engineer,Git,Development Tools,2,202,0.99
+ML Engineer,GitHub Actions,MLOps / Deployment,2,202,0.99
+ML Engineer,JavaScript,Programming,2,202,0.99
+ML Engineer,Presto,Data Engineering,2,202,0.99
+ML Engineer,Seaborn,Data Visualisation / BI,2,202,0.99
+ML Engineer,Vertex AI,Cloud,2,202,0.99
+ML Engineer,C#,Programming,1,202,0.5
+ML Engineer,Data Modeling,Methods / Architecture,1,202,0.5
+ML Engineer,ELT,Data Engineering,1,202,0.5
+ML Engineer,Hive,Data Engineering,1,202,0.5
+ML Engineer,LightGBM,ML Frameworks & Libraries,1,202,0.5
+ML Engineer,Looker,Data Visualisation / BI,1,202,0.5
+ML Engineer,MATLAB,Programming,1,202,0.5
+ML Engineer,Named Entity Recognition,NLP / Generative AI,1,202,0.5
+ML Engineer,Plotly,Data Visualisation / BI,1,202,0.5
+ML Engineer,Predictive Modeling,Machine Learning & AI,1,202,0.5
+ML Engineer,Text Classification,NLP / Generative AI,1,202,0.5
+ML Engineer,AWS Lambda,Cloud,0,202,0.0
+ML Engineer,Bash,Programming,0,202,0.0
+ML Engineer,Cassandra,Databases,0,202,0.0
+ML Engineer,Data Cleaning,Data Analysis & Statistics,0,202,0.0
+ML Engineer,Data Visualization,Data Visualisation / BI,0,202,0.0
+ML Engineer,EDA,Data Analysis & Statistics,0,202,0.0
+ML Engineer,Jenkins,MLOps / Deployment,0,202,0.0
+ML Engineer,Jupyter,Development Tools,0,202,0.0
+ML Engineer,NLTK,ML Frameworks & Libraries,0,202,0.0
+ML Engineer,Oracle,Databases,0,202,0.0
+ML Engineer,Power BI,Data Visualisation / BI,0,202,0.0
+ML Engineer,Redshift,Databases,0,202,0.0
+ML Engineer,SQL Server,Databases,0,202,0.0
+ML Engineer,SciPy,ML Frameworks & Libraries,0,202,0.0
+ML Engineer,Tableau,Data Visualisation / BI,0,202,0.0
+ML Engineer,Trino,Data Engineering,0,202,0.0
+ML Engineer,VS Code,Development Tools,0,202,0.0
+ML Engineer,spaCy,ML Frameworks & Libraries,0,202,0.0
