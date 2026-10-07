@@ -59,8 +59,8 @@ random exact hits are labelled by the same blinded procedure. Recall on unit tex
 Gold-ad results are out-of-fold (leave-one-ad-out), with 95% paired-bootstrap intervals over ads (2,000 resamples).
 
 **Y.4.1 Baselines reproduced.** Our metric code reproduces Step 3 exactly: PhraseMatcher strict F1 0.872 and Baseline++
-0.943 on the 30 gold ads. Under the lenient view (R+P+I gold), Baseline++ scores 0.874, and its recall of implicit skills
-is 0.023 (1 of 43): exact matching almost never finds a skill that the ad does not name.
+0.943 on the 30 gold ads. Under the lenient view (R+P+I gold), they score 0.805 and 0.874, and both recall only 1 of the
+43 implicit skills (0.023): exact matching almost never finds a skill that the ad does not name.
 
 **Y.4.2 Model comparison (Table Y.1, Figure Y.1).**
 
@@ -68,6 +68,7 @@ is 0.023 (1 of 43): exact matching almost never finds a skill that the ad does n
 
 | System | Lenient P | Lenient R | Lenient F1 | I-recall | Additions | Additions precision |
 |---|---|---|---|---|---|---|
+| PhraseMatcher baseline (Step 3) | 0.906 | 0.724 | 0.805 | 0.023 | - | - |
 | Baseline++ (Step 3) | 0.908 | 0.843 | 0.874 | 0.023 | - | - |
 | Hashing hybrid (lexical control) | 0.908 | 0.843 | 0.874 | 0.023 | 0 | - |
 | MiniLM hybrid | 0.891 | 0.867 | 0.879 | 0.186 | 13 | 0.538 |
@@ -78,8 +79,12 @@ is 0.023 (1 of 43): exact matching almost never finds a skill that the ad does n
 The pre-specified MPNet hybrid is the best system. Against Baseline++ it raises lenient F1 from 0.874 to 0.889
 (+0.015, 95% CI [0.003, 0.028]) and I-recall from 0.023 to 0.349 (+0.326, CI [0.204, 0.463]): about one in three skills
 that ads imply without naming is now recovered. The price is precision: lenient precision falls from 0.908 to 0.888
-(-0.020, CI [-0.038, -0.005]), and 64% of the 22 skills the semantic layer adds are correct. MiniLM and BGE-base move in
-the same direction, but their lenient-F1 gains are not significant (CIs include 0).
+(-0.020, CI [-0.038, -0.005]), and 64% of the 22 skills the semantic layer adds are correct. MiniLM and BGE-base move
+in the same direction, but their lenient-F1 gains over Baseline++ are not significant (CIs include 0).
+
+Against Step 3's original PhraseMatcher baseline, the combined gain of Step 3's dictionary work and the semantic layer is
+larger: lenient F1 rises from 0.805 to 0.889 (+0.085, CI [0.052, 0.117]), while strict F1 is 0.904 against 0.872, a
+difference that is not significant (+0.033, CI [-0.008, 0.071]).
 
 Two controls make the result interpretable. The character-hashing encoder, which has no semantic knowledge, adds nothing
 at its cross-validated threshold, so the gain is not fuzzy string matching. Without the exact matcher, MPNet alone reaches
@@ -115,7 +120,7 @@ Warehousing.
 
 **Y.4.6 Precision on unseen ads (human audit).** On a blinded, shuffled sample from the 658 non-gold ads, 32 of 50
 semantic additions were judged correct (precision 0.640, Wilson 95% CI [0.501, 0.759]), against 48 of 50 exact-match
-hits (0.960, CI [0.865, 0.989]). The semantic precision on unseen ads matches the cross-validated estimate on the gold
+hits (0.960, CI [0.865, 0.989]), which also confirms on unseen ads that Step 3's matcher is highly precise. The semantic precision on unseen ads matches the cross-validated estimate on the gold
 ads (0.636), which suggests the gold-ad result generalises beyond the tuning set. The 18 wrong additions fall into three
 groups. (i) A related but different skill (12): general descriptions of data platforms or "data infrastructure" gave
 Data Warehousing (0 of 3 correct), working with "infrastructure engineers" gave Infrastructure as Code (1 of 3),
@@ -131,7 +136,8 @@ entailment model asking "does this line require skill X?") is the natural next i
 two cases flagged by Step 3, UTS 36103 now gets Statistics ("This subject instills the statistical thinking central to
 data science", cosine 0.71), but UNSW COMP9311 still does not get SQL; instead it receives Data Warehousing, the skill
 the audit found least reliable. Using the hybrid on both sides raises curriculum fit for every career (for example AI
-Engineer 0.326 -> 0.408 and Data Scientist 0.654 -> 0.685). The same blinded
+Engineer 0.326 -> 0.408 and Data Scientist 0.654 -> 0.685), but leaves Step 3's ranking unchanged: Data Scientist
+highest, AI Engineer lowest. The same blinded
 audit on unit text (all 22 semantic additions plus 30 random exact hits) found 17 of 22 semantic additions correct
 (precision 0.773, Wilson 95% CI [0.566, 0.899]) against 29 of 30 exact hits (0.967, [0.833, 0.994]). Three of the five
 wrong additions are Data Warehousing given to database or data-systems units (COMP9311, COMP9321, 41091), the same skill
