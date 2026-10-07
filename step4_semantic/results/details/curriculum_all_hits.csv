@@ -1,0 +1,114 @@
+unit_id,skill,source,page,level,score,evidence
+UNSW COMP6713 NLP,Artificial Intelligence,exact,2,mentioned,,Natural language processing (NLP) is a branch of artificial intelligence that deals with computational approaches used to process text.
+UNSW COMP6713 NLP,Classification,exact,2,taught,,"The course introduces the three generations of NLP through the philosophy of ambiguity resolution being the core task of NLP. The content covers different NLP sub-problems (such as POS tagging, sentim"
+UNSW COMP6713 NLP,Large Language Models,exact,2,mentioned,,"With recent advancements in large language models, there has been a renewed interest in NLP from industry and research alike."
+UNSW COMP6713 NLP,Named Entity Recognition,exact,2,taught,,"The course introduces the three generations of NLP through the philosophy of ambiguity resolution being the core task of NLP. The content covers different NLP sub-problems (such as POS tagging, sentim"
+UNSW COMP6713 NLP,Natural Language Processing,exact,1,taught,,"The course introduces the three generations of NLP through the philosophy of ambiguity resolution being the core task of NLP. The content covers different NLP sub-problems (such as POS tagging, sentim"
+UNSW COMP9321 Data Services Engineering,Python,exact,2,mentioned,,Python programming language as the practical basis for its modules.
+UNSW COMP9417 ML and Data Mining,Classification,exact,1,mentioned,,"Delivery for regression and classification, local methods (nearest neighbour), tree learning, kernel"
+UNSW COMP9417 ML and Data Mining,Deep Learning,exact,1,mentioned,,"Postgraduate machines, neural networks, unsupervised learning, ensemble learning, and learning theory."
+UNSW COMP9417 ML and Data Mining,Machine Learning,exact,1,mentioned,,Home / Machine Learning
+UNSW COMP9417 ML and Data Mining,Regression,exact,1,mentioned,,"Delivery for regression and classification, local methods (nearest neighbour), tree learning, kernel"
+UNSW COMP9444 Deep Learning,Artificial Intelligence,exact,1,mentioned,,"Neural networks and deep learning play a critical role in pushing the boundaries of what AI can achieve, making them indispensable for various industries and applications."
+UNSW COMP9444 Deep Learning,Deep Learning,exact,1,mentioned,,Home / Neural Networks and Deep Learning
+UNSW COMP9444 Deep Learning,Reinforcement Learning,exact,1,mentioned,,"Postgraduate networks, language processing, semantic analysis, long short term memory; deep reinforcement learning; autoencoders, generative models, adversarial training; designing successful applicat"
+USYD COMP5046 NLP,Classification,exact,1,mentioned,,Classification Models
+USYD COMP5046 NLP,Clustering,exact,1,assessed,,Responding to student feedbackclassifying and clustering of documents.
+USYD COMP5046 NLP,Deep Learning,exact,1,assessed,,"Additional information including heuristics, linear models, and neural networks, up to and including large language models (LLMs)."
+USYD COMP5046 NLP,Large Language Models,exact,1,assessed,,"Additional information including heuristics, linear models, and neural networks, up to and including large language models (LLMs)."
+USYD COMP5046 NLP,Machine Learning,exact,1,assessed,,"The unit covers key ideas relevant to NLP from machine learning, statistics, linguistics, and data science."
+USYD COMP5046 NLP,Natural Language Processing,exact,1,assessed,,"NLP is used in a wide range of applications,"
+USYD COMP5046 NLP,Reinforcement Learning,exact,1,taught,,Week  Training - Reinforcement Learning
+USYD COMP5046 NLP,Statistics,exact,1,assessed,,"The unit covers key ideas relevant to NLP from machine learning, statistics, linguistics, and data science."
+USYD COMP5046 NLP,Transformers,exact,1,taught,,Week  Models - Transformer
+USYD COMP5310 Principles of Data Science,Classification,exact,1,taught,,Week  Machine learning: classification
+USYD COMP5310 Principles of Data Science,Clustering,exact,1,taught,,Week  Data mining: clustering
+USYD COMP5310 Principles of Data Science,Data Analysis,exact,1,assessed,,"Development of custom software using the powerful, general-purpose Python scripting language; Data collection, cleaning, pre-processing, and storage using various databases; Exploratory data analysis "
+USYD COMP5310 Principles of Data Science,Data Visualization,exact,1,assessed,,"Development of custom software using the powerful, general-purpose Python scripting language; Data collection, cleaning, pre-processing, and storage using various databases; Exploratory data analysis "
+USYD COMP5310 Principles of Data Science,EDA,exact,1,assessed,,"Development of custom software using the powerful, general-purpose Python scripting language; Data collection, cleaning, pre-processing, and storage using various databases; Exploratory data analysis "
+USYD COMP5310 Principles of Data Science,Hypothesis Testing,exact,1,taught,,Week  Hypothesis testing and evaluation
+USYD COMP5310 Principles of Data Science,Keras,exact,1,taught,,"Géron A. Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow : Concepts, Tools, and Techniques to"
+USYD COMP5310 Principles of Data Science,Machine Learning,exact,1,assessed,,"Development of custom software using the powerful, general-purpose Python scripting language; Data collection, cleaning, pre-processing, and storage using various databases; Exploratory data analysis "
+USYD COMP5310 Principles of Data Science,Python,exact,1,assessed,,"Responding to student feedbackbroad introduction to data management, analysis, modelling and visualisation using the Python programming language."
+USYD COMP5310 Principles of Data Science,Regression,exact,1,taught,,Week  Machine learning: regression
+USYD COMP5310 Principles of Data Science,TensorFlow,exact,1,taught,,"Géron A. Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow : Concepts, Tools, and Techniques to"
+USYD COMP5310 Principles of Data Science,scikit-learn,exact,1,taught,,"Géron A. Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow : Concepts, Tools, and Techniques to"
+USYD COMP5318 ML and Data Mining,Classification,exact,1,assessed,,"Topics to be covered include problems of discovering patterns in the data, classification, regression, feature extraction and data visualisation."
+USYD COMP5318 ML and Data Mining,Clustering,exact,1,taught,,Week  Clustering
+USYD COMP5318 ML and Data Mining,Data Visualization,exact,1,assessed,,"Topics to be covered include problems of discovering patterns in the data, classification, regression, feature extraction and data visualisation."
+USYD COMP5318 ML and Data Mining,Deep Learning,exact,1,taught,,Week  Neural networks - perceptrons and backpropagation algorithm.
+USYD COMP5318 ML and Data Mining,Keras,exact,1,mentioned,,"Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow, Second edition, O'Reilly."
+USYD COMP5318 ML and Data Mining,Machine Learning,exact,1,assessed,,Machine learning is the process of automatically building mathematical models that explain and generalise datasets.
+USYD COMP5318 ML and Data Mining,Model Training,exact,1,mentioned,,"LO2: Apply machine learning software tools and libraries to prepare data, train models, tune parameters, and generate predictions."
+USYD COMP5318 ML and Data Mining,Python,exact,1,mentioned,,Books for the practical part using Python:
+USYD COMP5318 ML and Data Mining,Regression,exact,1,assessed,,"Topics to be covered include problems of discovering patterns in the data, classification, regression, feature extraction and data visualisation."
+USYD COMP5318 ML and Data Mining,Reinforcement Learning,exact,1,taught,,Week  Reinforcement learning.
+USYD COMP5318 ML and Data Mining,Statistics,exact,1,assessed,,Weekly schedule integrates elements of statistics and algorithm development into the same discipline.
+USYD COMP5318 ML and Data Mining,TensorFlow,exact,1,mentioned,,"Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow, Second edition, O'Reilly."
+USYD COMP5318 ML and Data Mining,Transformers,exact,1,taught,,"Week  Deep neural networks I – CNN, RNN, and Transformer"
+USYD COMP5318 ML and Data Mining,scikit-learn,exact,1,mentioned,,"Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow, Second edition, O'Reilly."
+USYD COMP5348 Enterprise Software Architecture,Cloud Computing,exact,1,assessed,,"They assess essential knowledge and skills in state management, concurrency, transactions, distributed computing, middleware, performance evaluation, web development, and cloud computing."
+USYD DATA5207 Data Analysis,Classification,exact,1,assessed,,"Techniques covered range from descriptive statistics and linear and logistic regression, the analysis of data from randomised experiments, model selection for prediction and classification tasks, to t"
+USYD DATA5207 Data Analysis,Model Evaluation,exact,1,assessed,,"Techniques covered range from descriptive statistics and linear and logistic regression, the analysis of data from randomised experiments, model selection for prediction and classification tasks, to t"
+USYD DATA5207 Data Analysis,R,exact,1,assessed,," unstructured text as data, multilevel and geospatial modelling, all using the open source program R. In doing this, not"
+USYD DATA5207 Data Analysis,Regression,exact,1,assessed,,"Techniques covered range from descriptive statistics and linear and logistic regression, the analysis of data from randomised experiments, model selection for prediction and classification tasks, to t"
+USYD DATA5207 Data Analysis,Statistics,exact,1,assessed,,"Techniques covered range from descriptive statistics and linear and logistic regression, the analysis of data from randomised experiments, model selection for prediction and classification tasks, to t"
+UTS 36100 Data Science for Innovation,Classification,exact,1,assessed,,"Conduct classification and regression tasks with innovative approaches, creating"
+UTS 36100 Data Science for Innovation,Clustering,exact,1,assessed,,Utilize clustering and association rule analysis to extract insights from transdisciplinary
+UTS 36100 Data Science for Innovation,Data Quality,exact,1,assessed,," prepare data for analysis, ensuring data quality and integrity."
+UTS 36100 Data Science for Innovation,Regression,exact,1,assessed,,"Conduct classification and regression tasks with innovative approaches, creating"
+UTS 36103 Statistical Thinking,Data Analysis,exact,1,assessed,,Students work on real world data analysis problems using datasets that they create using modern data harvesting techniques.
+UTS 36103 Statistical Thinking,Python,exact,1,assessed,,"Self paced evaluation and improvement: This subject takes students from an exceptionally wide range of backgrounds, some of who are better versed in statistical methods, and Python, than others."
+UTS 36104 Data Visualisation and Narratives,Data Visualization,exact,1,mentioned,,Home  / Data Visualisation and Narratives
+UTS 36106 ML Algorithms,Machine Learning,exact,1,assessed,,"Interpret, synthesise and communicate insights extracted from machine learning algorithms in a context-appropriate manner."
+UTS 36117 Data Visualisation,Data Visualization,exact,1,mentioned,,Home  / Data Visualisation
+UTS 36118 Applied NLP,Data Analysis,exact,1,assessed,,They work on real world data analysis problems for broad areas of interest using unstructured data and contemporary techniques.
+UTS 36118 Applied NLP,Natural Language Processing,exact,1,assessed,,Understand core concepts of Natural Language Processing (NLP) and computational
+UTS 36120 Adv ML Application,Data Analysis,exact,3,mentioned,,They work on real world data analysis problems for broad areas of interest using unstructured data and contemporary techniques.
+UTS 36120 Adv ML Application,Machine Learning,exact,1,assessed,,Implement and evaluate advanced machine learning techniques to real-world problems
+UTS 36120 Adv ML Application,Model Deployment,exact,2,assessed,,Design and implement robust and efficient systems for model deployment
+UTS 36124 Applied Data Science for Innovation,Classification,exact,1,mentioned,,This is followed by regression and classification analysis.
+UTS 36124 Applied Data Science for Innovation,Data Analysis,exact,1,mentioned,,"Subject type comprehensive manner starting from exploratory data analysis, data visualisations leading to"
+UTS 36124 Applied Data Science for Innovation,Data Visualization,exact,1,mentioned,,"Subject type comprehensive manner starting from exploratory data analysis, data visualisations leading to"
+UTS 36124 Applied Data Science for Innovation,EDA,exact,1,mentioned,,"Subject type comprehensive manner starting from exploratory data analysis, data visualisations leading to"
+UTS 36124 Applied Data Science for Innovation,Machine Learning,exact,1,mentioned,,Subject   Learning and teaching understanding of target prediction feature category and selection of ML based on the analysis.    activities
+UTS 36124 Applied Data Science for Innovation,Regression,exact,1,mentioned,,This is followed by regression and classification analysis.
+UTS 41091 Data Systems,Data Pipelines,exact,1,mentioned,,"You'll learn to build data pipelines through Extract,"
+UTS 41091 Data Systems,Hadoop,exact,1,mentioned,,Hadoop ecosystem and cloud data system providers.
+UTS 41091 Data Systems,Python,exact,1,mentioned,,"Transform, Load processes, apply Python for data engineering and reporting, and explore the"
+UTS 94693 Big Data Engineering,Airflow,exact,1,assessed,," (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL."
+UTS 94693 Big Data Engineering,Apache Spark,exact,1,assessed,," (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL."
+UTS 94693 Big Data Engineering,Data Lake,exact,1,assessed,,Interact with and query data from modern data warehousing and data lake
+UTS 94693 Big Data Engineering,Data Modeling,exact,1,assessed,,"Understand basic data engineering concepts including data modelling, big data,"
+UTS 94693 Big Data Engineering,Data Pipelines,exact,1,assessed,,"Build simple data pipelines or ETLs in order to load, transform and prepare raw data"
+UTS 94693 Big Data Engineering,Data Warehousing,exact,1,assessed,, into modern data warehousing solutions.
+UTS 94693 Big Data Engineering,Databricks,exact,1,assessed,," (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL."
+UTS 94693 Big Data Engineering,Distributed Systems,exact,1,mentioned,,"This subject equips you to harness Big Data, transcending traditional analytics with distributed systems, the Hadoop ecosystem, stream processing, and large-scale computation."
+UTS 94693 Big Data Engineering,Hadoop,exact,1,mentioned,,"This subject equips you to harness Big Data, transcending traditional analytics with distributed systems, the Hadoop ecosystem, stream processing, and large-scale computation."
+UTS 94693 Big Data Engineering,Kafka,exact,1,assessed,," (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL."
+UTS 94693 Big Data Engineering,PostgreSQL,exact,1,assessed,," (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL."
+UTS 94693 Big Data Engineering,Python,exact,1,assessed,," (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL."
+UTS 94693 Big Data Engineering,SQL,exact,1,assessed,," (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL."
+UTS 94693 Big Data Engineering,Snowflake,exact,1,assessed,," (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL."
+UNSW COMP9311 Database Systems,Data Warehousing,semantic,2,mentioned,0.6548025012016296,"It will also give an overview of the technologies used in implementing database management systems and the past, present, and future of database systems and database research."
+UNSW COMP9321 Data Services Engineering,Data Warehousing,semantic,1,mentioned,0.694003164768219,Data Services Engineering
+USYD COMP5046 NLP,AI Agents,semantic,1,taught,0.7102468609809875,Models - Agents
+USYD COMP5046 NLP,Data Analysis,semantic,1,mentioned,0.7104292511940002,Performing and evaluating the data
+USYD COMP5046 NLP,Model Training,semantic,1,taught,0.6595808267593384,Training - Unsupervised
+USYD COMP5046 NLP,Vector Search,semantic,1,taught,0.6612236499786377,Greedy and Search
+USYD COMP5310 Principles of Data Science,AI Agents,semantic,1,assessed,0.651997983455658,Ethical AI usage
+USYD COMP5310 Principles of Data Science,Data Cleaning,semantic,1,taught,0.7729362845420837,Cleaning and storing data
+USYD COMP5310 Principles of Data Science,Data Pipelines,semantic,1,taught,0.648371160030365,the whole design and implementation cycle for creating a pipeline to analyse a large heterogenous dataset
+USYD COMP5310 Principles of Data Science,Predictive Modeling,semantic,1,assessed,0.7437635660171509,Develop and evaluate predictive model.
+USYD COMP5310 Principles of Data Science,Statistics,semantic,1,taught,0.6291273832321167,"LO1. select statistical techniques appropriate for evaluation of a predictive model that is based on data analysis, and justify this choice"
+USYD COMP5318 ML and Data Mining,Data Analysis,semantic,1,assessed,0.6432159543037415,"Topics to be covered include problems of discovering patterns in the data, classification, regression, feature extraction and data visualisation."
+USYD COMP5348 Enterprise Software Architecture,Distributed Systems,semantic,1,mentioned,0.696678876876831,Week Distributed computing
+USYD DATA5207 Data Analysis,Data Analysis,semantic,1,taught,0.6416965126991272,LO3. apply established data analytical methodology in a sophisticated manner using R and have a medium degree of proficiency in methodological procedures to approach complex problems specifically rela
+USYD DATA5207 Data Analysis,Data Visualization,semantic,1,assessed,0.6801002025604248,model and make meaningful visualisations using data from these fields
+USYD DATA5207 Data Analysis,Hypothesis Testing,semantic,1,assessed,0.6251997947692871,and test hypotheses to draw inferences
+USYD DATA5207 Data Analysis,Predictive Modeling,semantic,1,assessed,0.668144941329956,model selection for prediction and classification tasks
+UTS 36100 Data Science for Innovation,Data Analysis,semantic,1,assessed,0.6493783593177795, prepare data for analysis
+UTS 36100 Data Science for Innovation,Data Cleaning,semantic,1,assessed,0.6862775087356567,Apply data summarization and preprocessing techniques to clean
+UTS 36100 Data Science for Innovation,Hypothesis Testing,semantic,1,assessed,0.7447576522827148,Formulate and test hypotheses
+UTS 36103 Statistical Thinking,Statistics,semantic,1,mentioned,0.7051302790641785,This subject instills the statistical thinking central to data science
+UTS 41091 Data Systems,Data Warehousing,semantic,1,assessed,0.6491705179214478,"In the workshop session, theories and concepts of data system development will be discussed."

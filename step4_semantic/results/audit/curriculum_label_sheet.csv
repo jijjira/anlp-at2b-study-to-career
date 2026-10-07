@@ -1,0 +1,53 @@
+item_id,unit_id,skill,page,level,evidence,human_label,annotator
+U0000,UNSW COMP9321 Data Services Engineering,Data Warehousing,1,mentioned,Data Services Engineering,0,tao
+U0001,USYD COMP5318 ML and Data Mining,Transformers,1,taught,"Week  Deep neural networks I – CNN, RNN, and Transformer",1,tao
+U0002,UTS 36103 Statistical Thinking,Statistics,1,mentioned,This subject instills the statistical thinking central to data science,1,tao
+U0003,USYD COMP5046 NLP,Data Analysis,1,mentioned,Performing and evaluating the data,1,tao
+U0004,USYD DATA5207 Data Analysis,Data Visualization,1,assessed,model and make meaningful visualisations using data from these fields,1,tao
+U0005,USYD DATA5207 Data Analysis,Classification,1,assessed,"Techniques covered range from descriptive statistics and linear and logistic regression, the analysis of data from randomised experiments, model selection for prediction and classification tasks, to t",1,tao
+U0006,UTS 94693 Big Data Engineering,Airflow,1,assessed," (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",1,tao
+U0007,USYD COMP5318 ML and Data Mining,Clustering,1,taught,Week  Clustering,1,tao
+U0008,UNSW COMP9417 ML and Data Mining,Regression,1,mentioned,"Delivery for regression and classification, local methods (nearest neighbour), tree learning, kernel",1,tao
+U0009,USYD COMP5046 NLP,Vector Search,1,taught,Greedy and Search,0,tao
+U0010,UTS 94693 Big Data Engineering,Data Warehousing,1,assessed, into modern data warehousing solutions.,1,tao
+U0011,USYD COMP5046 NLP,Statistics,1,assessed,"The unit covers key ideas relevant to NLP from machine learning, statistics, linguistics, and data science.",1,tao
+U0012,USYD COMP5046 NLP,Deep Learning,1,assessed,"Additional information including heuristics, linear models, and neural networks, up to and including large language models (LLMs).",1,tao
+U0013,UTS 36124 Applied Data Science for Innovation,Data Analysis,1,mentioned,"Subject type comprehensive manner starting from exploratory data analysis, data visualisations leading to",1,tao
+U0014,UNSW COMP9444 Deep Learning,Deep Learning,1,mentioned,Home / Neural Networks and Deep Learning,1,tao
+U0015,UTS 36103 Statistical Thinking,Data Analysis,1,assessed,Students work on real world data analysis problems using datasets that they create using modern data harvesting techniques.,1,tao
+U0016,UNSW COMP6713 NLP,Named Entity Recognition,2,taught,"The course introduces the three generations of NLP through the philosophy of ambiguity resolution being the core task of NLP. The content covers different NLP sub-problems (such as POS tagging, sentim",1,tao
+U0017,USYD COMP5046 NLP,Clustering,1,assessed,Responding to student feedbackclassifying and clustering of documents.,0,tao
+U0018,UTS 94693 Big Data Engineering,Apache Spark,1,assessed," (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",1,tao
+U0019,USYD COMP5310 Principles of Data Science,Data Cleaning,1,taught,Cleaning and storing data,1,tao
+U0020,UTS 36120 Adv ML Application,Data Analysis,3,mentioned,They work on real world data analysis problems for broad areas of interest using unstructured data and contemporary techniques.,1,tao
+U0021,USYD DATA5207 Data Analysis,Hypothesis Testing,1,assessed,and test hypotheses to draw inferences,1,tao
+U0022,USYD COMP5310 Principles of Data Science,Statistics,1,taught,"LO1. select statistical techniques appropriate for evaluation of a predictive model that is based on data analysis, and justify this choice",1,tao
+U0023,UTS 94693 Big Data Engineering,Kafka,1,assessed," (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",1,tao
+U0024,UTS 94693 Big Data Engineering,Distributed Systems,1,mentioned,"This subject equips you to harness Big Data, transcending traditional analytics with distributed systems, the Hadoop ecosystem, stream processing, and large-scale computation.",1,tao
+U0025,USYD COMP5310 Principles of Data Science,AI Agents,1,assessed,Ethical AI usage,0,tao
+U0026,USYD COMP5348 Enterprise Software Architecture,Distributed Systems,1,mentioned,Week Distributed computing,1,tao
+U0027,USYD COMP5318 ML and Data Mining,Keras,1,mentioned,"Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow, Second edition, O'Reilly.",1,tao
+U0028,USYD COMP5318 ML and Data Mining,Regression,1,assessed,"Topics to be covered include problems of discovering patterns in the data, classification, regression, feature extraction and data visualisation.",1,tao
+U0029,USYD COMP5310 Principles of Data Science,TensorFlow,1,taught,"Géron A. Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow : Concepts, Tools, and Techniques to",1,tao
+U0030,UTS 36100 Data Science for Innovation,Hypothesis Testing,1,assessed,Formulate and test hypotheses,1,tao
+U0031,USYD COMP5310 Principles of Data Science,Predictive Modeling,1,assessed,Develop and evaluate predictive model.,1,tao
+U0032,UTS 41091 Data Systems,Hadoop,1,mentioned,Hadoop ecosystem and cloud data system providers.,1,tao
+U0033,UNSW COMP9311 Database Systems,Data Warehousing,2,mentioned,"It will also give an overview of the technologies used in implementing database management systems and the past, present, and future of database systems and database research.",0,tao
+U0034,UTS 94693 Big Data Engineering,Hadoop,1,mentioned,"This subject equips you to harness Big Data, transcending traditional analytics with distributed systems, the Hadoop ecosystem, stream processing, and large-scale computation.",1,tao
+U0035,USYD COMP5318 ML and Data Mining,Data Analysis,1,assessed,"Topics to be covered include problems of discovering patterns in the data, classification, regression, feature extraction and data visualisation.",1,tao
+U0036,USYD COMP5046 NLP,AI Agents,1,taught,Models - Agents,1,tao
+U0037,UTS 36100 Data Science for Innovation,Data Cleaning,1,assessed,Apply data summarization and preprocessing techniques to clean,1,tao
+U0038,UTS 41091 Data Systems,Data Warehousing,1,assessed,"In the workshop session, theories and concepts of data system development will be discussed.",0,tao
+U0039,USYD COMP5310 Principles of Data Science,scikit-learn,1,taught,"Géron A. Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow : Concepts, Tools, and Techniques to",1,tao
+U0040,USYD COMP5046 NLP,Model Training,1,taught,Training - Unsupervised,1,tao
+U0041,USYD COMP5046 NLP,Reinforcement Learning,1,taught,Week  Training - Reinforcement Learning,1,tao
+U0042,USYD COMP5318 ML and Data Mining,Model Training,1,mentioned,"LO2: Apply machine learning software tools and libraries to prepare data, train models, tune parameters, and generate predictions.",1,tao
+U0043,USYD COMP5046 NLP,Machine Learning,1,assessed,"The unit covers key ideas relevant to NLP from machine learning, statistics, linguistics, and data science.",1,tao
+U0044,USYD DATA5207 Data Analysis,Data Analysis,1,taught,LO3. apply established data analytical methodology in a sophisticated manner using R and have a medium degree of proficiency in methodological procedures to approach complex problems specifically rela,1,tao
+U0045,USYD COMP5318 ML and Data Mining,Reinforcement Learning,1,taught,Week  Reinforcement learning.,1,tao
+U0046,USYD COMP5310 Principles of Data Science,Keras,1,taught,"Géron A. Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow : Concepts, Tools, and Techniques to",1,tao
+U0047,UTS 36100 Data Science for Innovation,Data Analysis,1,assessed, prepare data for analysis,1,tao
+U0048,USYD DATA5207 Data Analysis,Predictive Modeling,1,assessed,model selection for prediction and classification tasks,1,tao
+U0049,UTS 41091 Data Systems,Python,1,mentioned,"Transform, Load processes, apply Python for data engineering and reporting, and explore the",1,tao
+U0050,UTS 36100 Data Science for Innovation,Clustering,1,assessed,Utilize clustering and association rule analysis to extract insights from transdisciplinary,1,tao
+U0051,USYD COMP5310 Principles of Data Science,Data Pipelines,1,taught,the whole design and implementation cycle for creating a pipeline to analyse a large heterogenous dataset,1,tao

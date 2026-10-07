@@ -1,0 +1,21 @@
+unit_id,n_exact,n_semantic_added,added
+UTS 36100 Data Science for Innovation,4,3,"Data Analysis, Data Cleaning, Hypothesis Testing"
+UTS 36103 Statistical Thinking,2,1,Statistics
+UTS 36104 Data Visualisation and Narratives,1,0,
+UTS 36106 ML Algorithms,1,0,
+UTS 36117 Data Visualisation,1,0,
+UTS 36118 Applied NLP,2,0,
+UTS 36120 Adv ML Application,3,0,
+UTS 36124 Applied Data Science for Innovation,6,0,
+UTS 41091 Data Systems,3,1,Data Warehousing
+UTS 94693 Big Data Engineering,14,0,
+USYD COMP5046 NLP,9,4,"AI Agents, Data Analysis, Model Training, Vector Search"
+USYD COMP5310 Principles of Data Science,12,5,"AI Agents, Data Cleaning, Data Pipelines, Predictive Modeling, Statistics"
+USYD COMP5318 ML and Data Mining,14,1,Data Analysis
+USYD COMP5348 Enterprise Software Architecture,1,1,Distributed Systems
+USYD DATA5207 Data Analysis,5,4,"Data Analysis, Data Visualization, Hypothesis Testing, Predictive Modeling"
+UNSW COMP6713 NLP,5,0,
+UNSW COMP9311 Database Systems,0,1,Data Warehousing
+UNSW COMP9321 Data Services Engineering,1,1,Data Warehousing
+UNSW COMP9417 ML and Data Mining,4,0,
+UNSW COMP9444 Deep Learning,3,0,

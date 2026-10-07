@@ -1,0 +1,53 @@
+item_id,unit_id,skill,source,score
+U0000,UNSW COMP9321 Data Services Engineering,Data Warehousing,semantic,0.694003164768219
+U0001,USYD COMP5318 ML and Data Mining,Transformers,exact,
+U0002,UTS 36103 Statistical Thinking,Statistics,semantic,0.7051302790641785
+U0003,USYD COMP5046 NLP,Data Analysis,semantic,0.7104292511940002
+U0004,USYD DATA5207 Data Analysis,Data Visualization,semantic,0.6801002025604248
+U0005,USYD DATA5207 Data Analysis,Classification,exact,
+U0006,UTS 94693 Big Data Engineering,Airflow,exact,
+U0007,USYD COMP5318 ML and Data Mining,Clustering,exact,
+U0008,UNSW COMP9417 ML and Data Mining,Regression,exact,
+U0009,USYD COMP5046 NLP,Vector Search,semantic,0.6612236499786377
+U0010,UTS 94693 Big Data Engineering,Data Warehousing,exact,
+U0011,USYD COMP5046 NLP,Statistics,exact,
+U0012,USYD COMP5046 NLP,Deep Learning,exact,
+U0013,UTS 36124 Applied Data Science for Innovation,Data Analysis,exact,
+U0014,UNSW COMP9444 Deep Learning,Deep Learning,exact,
+U0015,UTS 36103 Statistical Thinking,Data Analysis,exact,
+U0016,UNSW COMP6713 NLP,Named Entity Recognition,exact,
+U0017,USYD COMP5046 NLP,Clustering,exact,
+U0018,UTS 94693 Big Data Engineering,Apache Spark,exact,
+U0019,USYD COMP5310 Principles of Data Science,Data Cleaning,semantic,0.7729362845420837
+U0020,UTS 36120 Adv ML Application,Data Analysis,exact,
+U0021,USYD DATA5207 Data Analysis,Hypothesis Testing,semantic,0.6251997947692871
+U0022,USYD COMP5310 Principles of Data Science,Statistics,semantic,0.6291273832321167
+U0023,UTS 94693 Big Data Engineering,Kafka,exact,
+U0024,UTS 94693 Big Data Engineering,Distributed Systems,exact,
+U0025,USYD COMP5310 Principles of Data Science,AI Agents,semantic,0.651997983455658
+U0026,USYD COMP5348 Enterprise Software Architecture,Distributed Systems,semantic,0.696678876876831
+U0027,USYD COMP5318 ML and Data Mining,Keras,exact,
+U0028,USYD COMP5318 ML and Data Mining,Regression,exact,
+U0029,USYD COMP5310 Principles of Data Science,TensorFlow,exact,
+U0030,UTS 36100 Data Science for Innovation,Hypothesis Testing,semantic,0.7447576522827148
+U0031,USYD COMP5310 Principles of Data Science,Predictive Modeling,semantic,0.7437635660171509
+U0032,UTS 41091 Data Systems,Hadoop,exact,
+U0033,UNSW COMP9311 Database Systems,Data Warehousing,semantic,0.6548025012016296
+U0034,UTS 94693 Big Data Engineering,Hadoop,exact,
+U0035,USYD COMP5318 ML and Data Mining,Data Analysis,semantic,0.6432159543037415
+U0036,USYD COMP5046 NLP,AI Agents,semantic,0.7102468609809875
+U0037,UTS 36100 Data Science for Innovation,Data Cleaning,semantic,0.6862775087356567
+U0038,UTS 41091 Data Systems,Data Warehousing,semantic,0.6491705179214478
+U0039,USYD COMP5310 Principles of Data Science,scikit-learn,exact,
+U0040,USYD COMP5046 NLP,Model Training,semantic,0.6595808267593384
+U0041,USYD COMP5046 NLP,Reinforcement Learning,exact,
+U0042,USYD COMP5318 ML and Data Mining,Model Training,exact,
+U0043,USYD COMP5046 NLP,Machine Learning,exact,
+U0044,USYD DATA5207 Data Analysis,Data Analysis,semantic,0.6416965126991272
+U0045,USYD COMP5318 ML and Data Mining,Reinforcement Learning,exact,
+U0046,USYD COMP5310 Principles of Data Science,Keras,exact,
+U0047,UTS 36100 Data Science for Innovation,Data Analysis,semantic,0.6493783593177795
+U0048,USYD DATA5207 Data Analysis,Predictive Modeling,semantic,0.668144941329956
+U0049,UTS 41091 Data Systems,Python,exact,
+U0050,UTS 36100 Data Science for Innovation,Clustering,exact,
+U0051,USYD COMP5310 Principles of Data Science,Data Pipelines,semantic,0.648371160030365

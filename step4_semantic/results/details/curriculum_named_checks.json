@@ -1,0 +1,24 @@
+[
+  {
+    "unit": "UNSW COMP9311 Database Systems",
+    "skill": "SQL",
+    "exact_found": false,
+    "hybrid_found": false,
+    "n_exact_skills": 0,
+    "n_hybrid_skills": 1,
+    "evidence": null,
+    "page": null,
+    "score": null
+  },
+  {
+    "unit": "UTS 36103 Statistical Thinking",
+    "skill": "Statistics",
+    "exact_found": false,
+    "hybrid_found": true,
+    "n_exact_skills": 2,
+    "n_hybrid_skills": 3,
+    "evidence": "This subject instills the statistical thinking central to data science",
+    "page": 1,
+    "score": 0.7051302790641785
+  }
+]

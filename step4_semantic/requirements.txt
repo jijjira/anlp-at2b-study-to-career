@@ -1,1 +1,12 @@
-sentence-transformers
+# Step 4 (semantic NLP). Also install Step 3's requirements (spacy, pymupdf, ...) - see ../step3_baseline_nlp/requirements.txt
+sentence-transformers>=2.7
+torch>=2.1
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+pymupdf>=1.24
+spacy>=3.7
+jupyter
+nbformat
+pytest

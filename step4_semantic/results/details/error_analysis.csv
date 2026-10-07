@@ -1,0 +1,66 @@
+row,skill,kind,cosine,strength,evidence,tau,best_unit_rank_of_skill
+5,Data Pipelines,I_recovered_by_semantic,0.6502508521080017,duty,and build pipelines that ingest and transform external data. You'll figure out what data means and how best to represent it. We build our own tools and software when needed,0.62,
+5,Data Pipelines,addition_correct_I,0.6502508521080017,duty,and build pipelines that ingest and transform external data. You'll figure out what data means and how best to represent it. We build our own tools and software when needed,0.62,
+9,Statistics,I_missed,0.5367052555084229,preferred,Strong statistical knowledge,0.62,1.0
+57,Experiment Design,I_missed,0.44538387656211853,duty,with a track record designing and interpreting A/B tests and quasi-experiments,0.62,3.0
+57,Statistics,I_missed,0.4961652159690857,duty,As a Data Scientist on FinEng,0.62,3.0
+58,Model Evaluation,I_recovered_by_semantic,0.6377115249633789,duty,model quality signals,0.62,
+58,Model Evaluation,addition_correct_I,0.6377115249633789,duty,model quality signals,0.62,
+65,Data Modeling,I_recovered_by_semantic,0.6207508444786072,duty,Become an expert in our organization’s data models and the company's data architecture,0.62,
+65,Data Visualization,I_missed,0.5355140566825867,duty,Experience building data reporting and dashboarding in visualization tools like Hex to serve multiple cross-functional teams.,0.62,1.0
+65,Data Cleaning,addition_wrong,0.6499674916267395,duty,clean data models.,0.62,
+65,Data Modeling,addition_correct_I,0.6207508444786072,duty,Become an expert in our organization’s data models and the company's data architecture,0.62,
+65,Data Quality,addition_wrong,0.6445288062095642,duty,"Establish high data integrity standards and SLAs to ensure timely, accurate delivery of data",0.62,
+83,Data Cleaning,I_recovered_by_semantic,0.6849023699760437,duty,Conduct regular data audits and cleanup activities to maintain high data quality standards,0.62,
+83,Data Cleaning,addition_correct_I,0.6849023699760437,duty,Conduct regular data audits and cleanup activities to maintain high data quality standards,0.62,
+106,Cloud Computing,I_recovered_by_semantic,0.6257449984550476,required,and cloud storage/compute,0.62,
+106,Experiment Design,I_missed,0.5332930088043213,duty,Design evaluation strategies,0.62,1.0
+106,Model Deployment,I_missed,0.4436194598674774,duty,"Apply and adapt foundation-model capabilities to real product workflows (LLM + tools/RAG, multimodal modeling, policy learning), including MCP-style integrations where helpful.",0.62,1.0
+106,Model Evaluation,I_missed,0.4806337356567383,duty,Design evaluation strategies,0.62,2.0
+106,Recommendation Systems,I_missed,0.5986270308494568,required,Experience with personalization systems,0.62,1.0
+106,Cloud Computing,addition_correct_I,0.6257449984550476,required,and cloud storage/compute,0.62,
+141,Data Visualization,I_recovered_by_semantic,0.650481641292572,required,Extensive experience with Tableau or another leading visualization tool is required,0.62,
+141,Data Visualization,addition_correct_I,0.650481641292572,required,Extensive experience with Tableau or another leading visualization tool is required,0.62,
+158,Model Deployment,I_missed,0.3344041407108307,duty,"You'll partner closely with engineering, product, and data science to ship models and algorithms that directly influence Instacart's profitability and shopper experience at scale.",0.62,12.0
+170,Model Training,I_missed,0.5346882343292236,duty,Experience with large-scale distributed training,0.62,1.0
+182,Data Warehousing,I_recovered_by_semantic,0.6524090766906738,preferred,Knowledge of data engineering,0.62,
+182,Distributed Systems,I_missed,0.5827915072441101,preferred,Experience working with large-scale distributed data systems,0.62,2.0
+182,Data Modeling,addition_wrong,0.6248427629470825,preferred,Knowledge of data engineering,0.62,
+182,Data Warehousing,addition_correct_I,0.6524090766906738,preferred,Knowledge of data engineering,0.62,
+208,Data Pipelines,addition_wrong,0.6425266861915588,preferred,ML pipeline and automation engineering,0.62,
+215,Model Evaluation,I_recovered_by_semantic,0.6618016958236694,duty,Improve model quality using the right tool for the job,0.62,
+215,Prompt Engineering,I_missed,0.41279086470603943,duty,"Design evaluation frameworks for ambiguous tasks where ground truth is partial, delayed, or disputed.",0.62,1.0
+215,RAG,I_missed,0.30337998270988464,duty,"Your work determines how models reason over ambiguous inputs, when they should defer to humans, how quality is measured, and how feedback compounds into better systems over time.",0.62,21.0
+215,Model Deployment,addition_wrong,0.6439285278320312,duty,Operating across models,0.62,
+215,Model Evaluation,addition_correct_I,0.6618016958236694,duty,Improve model quality using the right tool for the job,0.62,
+218,Model Serving,I_missed,0.44355079531669617,duty,This role is central to delivering highly available,0.62,1.0
+302,Data Modeling,I_missed,0.49701255559921265,duty,build and implement data pipelines and models that enable our next generation of technology to be deployed around the world.,0.62,4.0
+302,Data Visualization,I_recovered_by_semantic,0.6560694575309753,required,Knowledge of data & visualization tools,0.62,
+302,Data Visualization,addition_correct_I,0.6560694575309753,required,Knowledge of data & visualization tools,0.62,
+302,Data Warehousing,addition_wrong,0.630896806716919,duty,and engineering to advocate best practices and build supporting systems and infrastructure for the various data needs,0.62,
+303,Experiment Design,I_missed,0.6022789478302002,duty,Causal Inference & Experimentation,0.62,2.0
+312,AI Agents,I_missed,0.6244301199913025,duty,"Design, build, and deploy AI systems that solve important customer problems and produce measurable business outcomes.",0.65,1.0
+312,Model Evaluation,I_missed,0.6438924670219421,duty,Make sound technical decisions across models,0.65,1.0
+312,RAG,I_missed,0.27985554933547974,duty,and high-impact production systems.,0.65,6.0
+320,Deep Learning,I_missed,0.4613068103790283,required,avoid over-reliance on AI,0.62,3.0
+320,Recommendation Systems,I_missed,0.3446500301361084,duty,and user signals to better understand intention and infer interests from online activity.,0.62,1.0
+320,Statistics,I_found_by_exact,,,,0.62,
+329,Experiment Design,I_missed,0.5611412525177002,required,"Experience running experiments end-to-end, from design through analysis to shipping decision",0.62,1.0
+338,Data Quality,I_missed,0.5264818668365479,required,Curious about what data means,0.62,3.0
+339,AI Agents,I_missed,0.5744916200637817,required,"Hands-on AI usage in day-to-day data science work (agents, prompting, building small tools)",0.62,1.0
+339,Experiment Design,I_recovered_by_semantic,0.6759286522865295,required,designing and running experiments end to end,0.62,
+339,Prompt Engineering,I_missed,0.3563636541366577,required,designing and running experiments end to end,0.62,3.0
+339,Experiment Design,addition_correct_I,0.6759286522865295,required,designing and running experiments end to end,0.62,
+411,Data Modeling,I_recovered_by_semantic,0.7084004878997803,unlabelled,you will build data models,0.62,
+411,Data Pipelines,I_recovered_by_semantic,0.6476197838783264,duty,Extensive experience and advanced knowledge of engineering SQL pipelines,0.62,
+411,Data Modeling,addition_correct_I,0.7084004878997803,unlabelled,you will build data models,0.62,
+411,Data Pipelines,addition_correct_I,0.6476197838783264,duty,Extensive experience and advanced knowledge of engineering SQL pipelines,0.62,
+441,Cloud Computing,I_missed,0.4900268316268921,preferred,Exposure to distributed systems and cloud-based architectures,0.62,2.0
+527,Model Evaluation,I_recovered_by_semantic,0.7734860181808472,duty,identify the most appropriate models,0.62,
+527,Prompt Engineering,I_missed,0.5544415712356567,duty,and construct feedback loops for prompt optimization.,0.62,1.0
+527,AI Agents,addition_wrong,0.6233125329017639,duty,Partner with AI,0.62,
+527,Model Evaluation,addition_correct_I,0.7734860181808472,duty,identify the most appropriate models,0.62,
+537,Data Warehousing,addition_wrong,0.6568385362625122,required,Hands-on experience with at least one area of market data infrastructure,0.62,
+545,Cloud Computing,I_recovered_by_semantic,0.6464303731918335,preferred,Familiarity with cloud platforms,0.62,
+545,Cloud Computing,addition_correct_I,0.6464303731918335,preferred,Familiarity with cloud platforms,0.62,
+597,Model Evaluation,I_missed,0.38578611612319946,duty,Collaborate with the modeling team to take raw LLM capabilities and turn them into hardened,0.62,2.0

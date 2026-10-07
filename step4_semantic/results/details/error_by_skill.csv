@@ -1,0 +1,20 @@
+skill,I_found_by_exact,I_missed,I_recovered_by_semantic,addition_correct_I,addition_wrong
+AI Agents,0,2,0,0,1
+Cloud Computing,0,1,2,2,0
+Data Cleaning,0,0,1,1,1
+Data Modeling,0,1,2,2,1
+Data Pipelines,0,0,2,2,1
+Data Quality,0,1,0,0,1
+Data Visualization,0,1,2,2,0
+Data Warehousing,0,0,1,1,2
+Deep Learning,0,1,0,0,0
+Distributed Systems,0,1,0,0,0
+Experiment Design,0,4,1,1,0
+Model Deployment,0,2,0,0,1
+Model Evaluation,0,3,3,3,0
+Model Serving,0,1,0,0,0
+Model Training,0,1,0,0,0
+Prompt Engineering,0,3,0,0,0
+RAG,0,2,0,0,0
+Recommendation Systems,0,2,0,0,0
+Statistics,1,2,0,0,0

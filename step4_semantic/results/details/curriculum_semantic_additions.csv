@@ -1,0 +1,23 @@
+unit_id,skill,page,level,score,cosine,evidence
+UTS 36100 Data Science for Innovation,Data Analysis,1,assessed,0.649,0.649, prepare data for analysis
+UTS 36100 Data Science for Innovation,Data Cleaning,1,assessed,0.686,0.686,Apply data summarization and preprocessing techniques to clean
+UTS 36100 Data Science for Innovation,Hypothesis Testing,1,assessed,0.745,0.745,Formulate and test hypotheses
+UTS 36103 Statistical Thinking,Statistics,1,mentioned,0.705,0.705,This subject instills the statistical thinking central to data science
+UTS 41091 Data Systems,Data Warehousing,1,assessed,0.649,0.649,"In the workshop session, theories and concepts of data system development will be discussed."
+USYD COMP5046 NLP,AI Agents,1,taught,0.71,0.71,Models - Agents
+USYD COMP5046 NLP,Data Analysis,1,mentioned,0.71,0.71,Performing and evaluating the data
+USYD COMP5046 NLP,Model Training,1,taught,0.66,0.66,Training - Unsupervised
+USYD COMP5046 NLP,Vector Search,1,taught,0.661,0.661,Greedy and Search
+USYD COMP5310 Principles of Data Science,AI Agents,1,assessed,0.652,0.652,Ethical AI usage
+USYD COMP5310 Principles of Data Science,Data Cleaning,1,taught,0.773,0.773,Cleaning and storing data
+USYD COMP5310 Principles of Data Science,Data Pipelines,1,taught,0.648,0.648,the whole design and implementation cycle for creating a pipeline to analyse a large heterogenous dataset
+USYD COMP5310 Principles of Data Science,Predictive Modeling,1,assessed,0.744,0.744,Develop and evaluate predictive model.
+USYD COMP5310 Principles of Data Science,Statistics,1,taught,0.629,0.629,"LO1. select statistical techniques appropriate for evaluation of a predictive model that is based on data analysis, and justify this choice"
+USYD COMP5318 ML and Data Mining,Data Analysis,1,assessed,0.643,0.643,"Topics to be covered include problems of discovering patterns in the data, classification, regression, feature extraction and data visualisation."
+USYD COMP5348 Enterprise Software Architecture,Distributed Systems,1,mentioned,0.697,0.697,Week Distributed computing
+USYD DATA5207 Data Analysis,Data Analysis,1,taught,0.642,0.642,LO3. apply established data analytical methodology in a sophisticated manner using R and have a medium degree of proficiency in methodological procedures to approach complex problems specifically rela
+USYD DATA5207 Data Analysis,Data Visualization,1,assessed,0.68,0.68,model and make meaningful visualisations using data from these fields
+USYD DATA5207 Data Analysis,Hypothesis Testing,1,assessed,0.625,0.625,and test hypotheses to draw inferences
+USYD DATA5207 Data Analysis,Predictive Modeling,1,assessed,0.668,0.668,model selection for prediction and classification tasks
+UNSW COMP9311 Database Systems,Data Warehousing,2,mentioned,0.655,0.655,"It will also give an overview of the technologies used in implementing database management systems and the past, present, and future of database systems and database research."
+UNSW COMP9321 Data Services Engineering,Data Warehousing,1,mentioned,0.694,0.694,Data Services Engineering
