@@ -48,7 +48,7 @@ On your own computer: download or clone the repo, open `step3_baseline_nlp/`, th
 
 ## Student 2: Skills dictionary and normalisation (Wancheng Liu)
 
-Folder: `step2_skill_dictionary/`. Data input: `job_cleaned.csv` from Student 1.
+Folder: `step2_dictionary/`. Data input: `job_cleaned.csv` from Student 1.
 
 **What I did**
 
