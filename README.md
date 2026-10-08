@@ -48,12 +48,69 @@ On your own computer: download or clone the repo, open `step3_baseline_nlp/`, th
 
 ## Student 2: Skills dictionary and normalisation (Wancheng Liu)
 
-*To be added by Student 2.*
+Folder: `step2_skill_dictionary/`. Data input: `job_cleaned.csv` from Student 1.
 
-* What I did:
-* Key results (for example number of skills, aliases, categories):
-* Files and how to run them:
-* Limitations:
+**What I did**
+
+1. **Controlled skill dictionary:** built a structured vocabulary for Data and AI job advertisements, containing 132 canonical skills and 232 reviewed aliases across 12 technical skill categories.
+2. **Skill taxonomy:** grouped skills into Programming, Data Analysis & Statistics, Machine Learning & AI, NLP / Generative AI, ML Frameworks & Libraries, Data Engineering, Databases, Cloud, MLOps / Deployment, Data Visualisation / BI, Development Tools, and Methods / Architecture.
+3. **Alias normalisation:** mapped different expressions of the same skill to one canonical representation, for example `ML` → `Machine Learning`, `LLM/LLMs` → `Large Language Models`, `Amazon Web Services` → `AWS`, and `PowerBI` → `Power BI`.
+4. **Safe matching rules:** added stricter matching logic for short or ambiguous terms such as `R`, `C++`, `C#`, `AWS`, `GCP`, `LLM`, `NLP` and `SQL`, so that later extraction does not rely on unsafe substring matching.
+5. **Dictionary validation:** checked for aliases mapped to multiple canonical skills, canonical skills with no matches in the current corpus, and short aliases requiring special treatment.
+6. **Overall skill frequency:** used the 688 cleaned U.S. Data/AI job advertisements to estimate how frequently each canonical skill appeared in the current dataset.
+7. **Career-level skill frequency:** calculated skill frequencies separately for each career category so later students could construct career-specific skill profiles rather than using one generic Data/AI profile.
+8. **Reusable outputs:** exported the dictionary, career-level frequencies, taxonomy documentation and a reusable normalisation module for Student 3.
+
+**Run order**
+
+1. `02_skill_dictionary_normalisation.ipynb`: loads `job_cleaned.csv`, creates the taxonomy and alias mappings, validates matching rules, calculates skill frequencies and exports all Step 2 outputs.
+2. Output: `skills_dictionary.csv`
+3. Output: `skill_frequency_by_career.csv`
+4. Output: `normalisation.py`
+5. Output: `skill_taxonomy.md`
+
+**Reusable API for other students**
+
+```python
+from normalisation import normalise_skill
+
+normalise_skill("ML")
+# "Machine Learning"
+
+normalise_skill("LLMs")
+# "Large Language Models"
+
+normalise_skill("amazon web services")
+# "AWS"
+```
+
+Student 3 can use the `alias` field in `skills_dictionary.csv` as spaCy PhraseMatcher patterns and then convert detected aliases into their canonical forms using `normalise_skill()`.
+
+Recommended downstream flow:
+
+```text
+job_description
+→ phrase matching
+→ matched alias
+→ canonical skill
+→ remove duplicates
+```
+
+**Main files:** `02_skill_dictionary_normalisation.ipynb`, `skills_dictionary.csv`, `skill_frequency_by_career.csv`, `normalisation.py`, `skill_taxonomy.md`.
+
+**Key results**
+
+* **Skill vocabulary:** the final controlled vocabulary contains 132 canonical skills, 232 aliases and 12 technical categories.
+* **Dictionary consistency:** validation found 0 aliases mapped to multiple canonical skills, indicating that the current alias-to-canonical mapping is internally consistent.
+* **Zero-match skills:** 7 canonical skills were not found in the current U.S. job corpus: AWS Lambda, Cassandra, Data Cleaning, NLTK, Oracle, SciPy and spaCy. They were retained because they may still appear in future job data or student study materials.
+* **Ambiguous aliases:** short terms such as `R`, `C++`, `C#`, `EDA`, `ETL`, `AWS`, `GCP`, `LLM`, `NLP`, `SQL` and `dbt` were explicitly identified as requiring careful phrase/token matching rather than simple substring matching.
+* **Career-specific demand:** the skill-frequency analysis showed clear differences between career categories. For Data Scientist advertisements, the most frequent skills included SQL (89.76%), Python (88.98%), Statistics (65.35%), Causal Inference (51.18%) and Machine Learning (43.31%).
+* **ML Engineer profile:** Machine Learning (82.67%), Python (64.36%), Large Language Models (52.48%), PyTorch (42.08%) and TensorFlow (29.21%) were among the strongest signals for ML Engineer advertisements.
+* These differences support the use of career-specific skill profiles in the later alignment stage instead of treating all Data/AI jobs as having the same skill requirements.
+
+**Limitations:** the dictionary is a controlled vocabulary and may not cover every emerging or uncommon technical skill; explicit phrase matching may miss skills expressed indirectly; short or ambiguous aliases still require additional validation in Step 3; 7 skills were not observed in the current job sample; frequency represents how often a skill is mentioned, not its importance, required proficiency or hiring probability; and the dataset represents a selected sample of U.S. Data/AI advertisements rather than the entire U.S. labour market.
+
+**Handoffs**: Student 3 receives `job_cleaned.csv`, `skills_dictionary.csv` and `normalisation.py` and uses the aliases as spaCy PhraseMatcher patterns for job-level skill extraction. The same canonical vocabulary should also be used when extracting skills from Australian university study materials so that curriculum skills and U.S. job-demand skills remain directly comparable.
 
 ---
 
