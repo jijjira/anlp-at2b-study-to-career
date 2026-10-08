@@ -258,12 +258,32 @@ can call `curriculum_semantic.analyse_study_material_semantic` for an uploaded P
 
 ## Student 6: Streamlit app and user testing (Chongyan Tang)
 
-*To be added by Chongyan.*
+**What I did**
 
-* What I did:
-* Key results (for example user testing findings):
-* Files and how to run them:
-* Limitations:
+1. Integrated the existing NLP and career-matching pipeline into a Streamlit application.
+2. Added PDF upload, exact-baseline and hybrid-semantic modes, configurable Top-N career results, ranked match visualisation, matched skills, priority gaps, recommendation explanations, PDF evidence, learning suggestions and JSON export.
+3. Added responsible-use wording so skill detections are presented as study-material coverage rather than personal mastery, and career scores as skill alignment rather than job-success probabilities.
+4. Conducted formative user testing with three classmates.
+
+**Key results**
+
+- Exact baseline on `sample_unit_outline.pdf`: Data Scientist 41.9%, Data Analyst 40.1%, ML Engineer 39.0%, Data Engineer 23.1%, AI Engineer 21.8%.
+- Hybrid semantic on the same PDF: Data Scientist 41.9%, ML Engineer 41.7%, Data Analyst 40.1%, Data Engineer 23.1%, AI Engineer 21.8%.
+- User testing (n=3): ease 3.33/5; result clarity 5.00/5; skills/gaps usefulness 4.33/5; explanation clarity 5.00/5; overall usefulness 4.33/5. Overall mean = 4.40/5.
+
+**Files and how to run**
+
+```bash
+pip install -r step6_app/requirements.txt
+streamlit run step6_app/app.py
+```
+
+Main files: `step6_app/app.py`, `step6_app/README.md`, `step6_app/user_testing/user_testing_results.csv`.
+
+**Limitations**
+
+Hybrid semantic matching is slower than the exact baseline and the distinction between modes may not be obvious to all users. The current recommendations are skill-overlap results and do not model work experience, education or other hiring factors. User testing was formative and small (n=3).
+
 
 ---
 
