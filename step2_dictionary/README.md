@@ -102,16 +102,6 @@ job_description
 - The current dataset represents a selected sample of U.S. Data/AI jobs rather than the entire U.S. labour market.
 - Final job-level skill extraction is handled in Step 3.
 
-## Extra libraries
-
-No additional libraries beyond the shared `requirements.txt`.
-
-Main dependencies used in this step:
-
-- `pandas`
-- `re`
-- `pathlib`
-
 ## Dictionary design notes
 
 The 132 canonical skills and aliases were selected using:
@@ -121,5 +111,3 @@ The 132 canonical skills and aliases were selected using:
 3. alternative spellings and abbreviations requiring normalisation
 
 The skills were grouped into 12 categories to make later extraction, analysis, and alignment more interpretable.
-
-If the dictionary is updated later, Students 3–5 should be notified so that downstream extraction and alignment remain consistent.
