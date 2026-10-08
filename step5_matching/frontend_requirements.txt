@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+scipy
+PyMuPDF
+spacy>=3.7
+sentence-transformers>=2.7
+torch>=2.1
