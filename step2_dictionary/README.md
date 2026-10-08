@@ -85,7 +85,7 @@ to build the spaCy `PhraseMatcher` skill-extraction pipeline.
 
 Recommended flow:
 
-```text
+text
 job_description
 → PhraseMatcher
 → matched alias
