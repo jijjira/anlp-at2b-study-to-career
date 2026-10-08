@@ -85,13 +85,13 @@ to build the spaCy `PhraseMatcher` skill-extraction pipeline.
 
 Recommended flow:
 
-text
+```text
 job_description
 → PhraseMatcher
 → matched alias
 → canonical skill
 → remove duplicates
-
+```
 ## Limitations
 
 - The dictionary is a controlled vocabulary and may not cover every emerging or uncommon technical skill.
