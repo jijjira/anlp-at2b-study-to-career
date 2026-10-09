@@ -1,4 +1,4 @@
-# Member 5: Career matching, skill-gap ranking and learning recommendations (UTS 36118 AT2 Part B, Group 6)
+# Step 5: Career matching, skill-gap ranking and learning recommendations 
 
 ## Run it (easiest way)
 
