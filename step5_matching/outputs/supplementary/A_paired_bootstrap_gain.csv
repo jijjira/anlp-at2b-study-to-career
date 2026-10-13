@@ -1,0 +1,6 @@
+career,mean_gain,ci_low,ci_high,excludes_zero
+AI Engineer,7.41,5.6,9.2,True
+Data Analyst,4.12,1.7,6.6,True
+Data Engineer,3.55,1.7,5.7,True
+Data Scientist,1.7,-0.5,3.8,False
+ML Engineer,2.73,0.4,4.7,True

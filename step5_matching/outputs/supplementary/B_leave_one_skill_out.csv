@@ -1,0 +1,21 @@
+dropped_skill,career,hybrid,exact,without_skill,points_from_skill
+AI Agents,Data Scientist,68.5,66.2,67.0,1.5
+AI Agents,Data Engineer,62.9,59.3,61.2,1.7
+AI Agents,Data Analyst,61.7,58.1,60.1,1.6
+AI Agents,ML Engineer,61.0,58.2,59.0,2.0
+AI Agents,AI Engineer,40.8,32.6,33.3,7.5
+Data Cleaning,Data Scientist,68.5,66.2,68.5,0.0
+Data Cleaning,Data Engineer,62.9,59.3,62.9,0.0
+Data Cleaning,Data Analyst,61.7,58.1,61.7,0.0
+Data Cleaning,ML Engineer,61.0,58.2,61.0,0.0
+Data Cleaning,AI Engineer,40.8,32.6,40.8,0.0
+Predictive Modeling,Data Scientist,68.5,66.2,67.3,1.2
+Predictive Modeling,Data Engineer,62.9,59.3,62.9,0.0
+Predictive Modeling,Data Analyst,61.7,58.1,61.7,0.0
+Predictive Modeling,ML Engineer,61.0,58.2,61.0,0.0
+Predictive Modeling,AI Engineer,40.8,32.6,40.8,0.0
+Vector Search,Data Scientist,68.5,66.2,68.5,0.0
+Vector Search,Data Engineer,62.9,59.3,62.9,0.0
+Vector Search,Data Analyst,61.7,58.1,61.7,0.0
+Vector Search,ML Engineer,61.0,58.2,61.0,0.0
+Vector Search,AI Engineer,40.8,32.6,40.8,0.0
