@@ -106,10 +106,6 @@ step5_matching/            career matching code, notebooks, outputs, tests
 step6_app/                 Streamlit app and user-testing data
 ```
 
-## Use of AI tools
-
-A large language model (Claude, Anthropic) was used as an annotator and as a coding and writing assistant. It produced the gold labels for the 30-advertisement gold set (`step3_baseline_nlp/gold_annotations.py`) and a second labelling pass on 10 of those advertisements (`step3_baseline_nlp/llm_second_annotator_FILLED.xlsx`), and it helped write the annotation-agreement script and figures. The human labels on the same 10 advertisements are separate (`human_merged.xlsx`). All results, interpretations and conclusions were reviewed by the authors.
-
 ## Reproducibility
 
 * Automated tests: 40 (Step 3), 18 (Step 4), 6 (Step 5), all passing.
