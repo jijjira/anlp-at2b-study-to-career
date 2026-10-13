@@ -9,6 +9,7 @@ Turn skills into career recommendations. Demand-weighted profiles are built for 
 | `matching.py` | Career profiles, scoring, gaps, recommendations, sensitivity |
 | `frontend_api.py`, `frontend_demo.py` | JSON interface for the app and a minimal upload demo |
 | `10_career_matching.ipynb`, `10_career_matching_colab.ipynb` | Walkthrough, local and Google Colab |
+| `report_figures.py` | Report Section 4.1 and 4.4: demand table and Figure 3 from the Baseline++ exact hits (`outputs/supplementary/H_demand_exact.csv`), and Figure 9 (exact versus hybrid fit with like-for-like gains). Writes `figures/fig3_demand_exact.png` and `figures/fig9_fit_gain.png` |
 | `supplementary_analyses.py`, `11_supplementary_analyses.ipynb` | Report Sections 4.3 and 4.4 and Appendix A: exact versus hybrid gain with paired bootstrap, leave-one-skill-out check (AI Agents), the false-match-only variant (analysis G), uncovered demand by skill category, greedy unit selection, sensitivity to the top-N cut-off (report Table A2), blinded-audit precision with Wilson intervals (Figure 4). Results in `outputs/supplementary/` |
 | `test_matching.py` | 6 automated tests |
 | `outputs/` | Profiles, ranking, per-skill explanations, recommendations, sensitivity and app payload for the 20-unit case study |

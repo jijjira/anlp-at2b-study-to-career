@@ -1,4 +1,8 @@
-"""Real public unit descriptions (UTS, USYD, UNSW) used for the curriculum alignment case study.
+"""LEGACY text snapshot of the 7 core units, kept only for the page-text comparison in notebook 08. The report and the main
+case study read the saved PDFs in data/curriculum_pdfs/ (see docs/references_and_data_sources.md); the UTS and UNSW pages in those
+PDFs are the 2027 version of each entry, the USYD outlines are 2026 offerings.
+
+Real public unit descriptions (UTS, USYD, UNSW) used for the curriculum alignment case study.
 
 Text was taken from the public handbook / outline pages listed in SOURCES on 4 Oct 2026 (newest offering found: COMP5318 2026 S2, DATA5207 2026 S1, COMP9444 26T2, COMP9417 26T1, UTS current handbook), via a web fetch tool that
 returns a processed copy of each page, so wording may be lightly condensed. Section headings are normalised to

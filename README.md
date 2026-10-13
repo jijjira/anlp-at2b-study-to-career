@@ -17,7 +17,7 @@ We extract skills from Data/AI job advertisements (the U.S. benchmark) and from 
 
 ![Career fit under exact and hybrid matching](step6_app/images/career_fit_exact_vs_hybrid.png)
 
-*Curriculum fit for each career (share of the 30 most demanded skills covered by the 20 units): exact matching, hybrid matching, only the audit-wrong AI Agents match removed, and AI Agents removed entirely (conservative bound).*
+*Curriculum fit for each career (share of the 30 most demanded skills covered by the 20 units): exact matching, hybrid matching, only the audit-wrong AI Agents match removed, and AI Agents removed entirely (conservative bound). Exact values are the Part 5 figures, so Data Scientist shows 66.2% here (Part 3 reports 65.4%; Airflow and Time Series tie at rank 30), and every gain compares like with like.*
 
 ![The Streamlit application](step6_app/images/app_screenshot.png)
 
@@ -96,6 +96,7 @@ Then open a step folder and run its notebook with Restart & Run All. The quickes
 | Findings: extraction accuracy | `step3_baseline_nlp/04_innovation_experiments.ipynb`; `step4_semantic/results/summary.md` |
 | Findings: curriculum alignment and sectors | `step3_baseline_nlp/06_curriculum_alignment.ipynb`, `07_sector_lens.ipynb`, `08_real_curriculum_case_study.ipynb`, `figures/` |
 | Bootstrap gains, AI Agents check (including the false-match-only variant, `G_false_match_only.csv`), uncovered demand by category, greedy unit selection, top-N sensitivity (Table A2), audit precision (Figure 4) | `step5_matching/supplementary_analyses.py`, `11_supplementary_analyses.ipynb`, `step5_matching/outputs/supplementary/` |
+| Findings: demand by career (Figure 3, Table 4) and fit gain figure (Figure 9) | `step5_matching/report_figures.py`, `outputs/supplementary/H_demand_exact.csv` |
 | Findings: exact versus hybrid career fit | `step4_semantic/results/details/curriculum_fit_exact_vs_hybrid.csv`; `step5_matching/outputs/` |
 | Blinded audits | `step4_semantic/results/audit/` |
 | Application and user test | `step6_app/app.py`; `run_app.command` / `run_app.bat`; `step6_app/user_testing/` |
@@ -115,7 +116,7 @@ Then open a step folder and run its notebook with Restart & Run All. The quickes
 
 ## Use of AI tools
 
-A large language model (Claude, Anthropic) was used as an annotator. It produced the gold labels for the 30-advertisement gold set (`step3_baseline_nlp/gold_annotations.py`) and a second labelling pass on 10 of those advertisements (`step3_baseline_nlp/annotation/llm_second_annotator_FILLED.xlsx`), and it helped write the annotation-agreement script and figures. The human labels on the same 10 advertisements are separate (`annotation/human_merged.xlsx`). All results, interpretations and conclusions were reviewed and written by Group 6.
+A large language model (Claude, Anthropic) was used as an annotator. It produced the gold labels for the 30-advertisement gold set (`step3_baseline_nlp/gold_annotations.py`) and a second labelling pass on 10 of those advertisements (`step3_baseline_nlp/annotation/llm_second_annotator_FILLED.xlsx`). The human labels on the same 10 advertisements are separate (`annotation/human_merged.xlsx`). All results, interpretations and conclusions were reviewed and written by Group 6.
 
 ## Reproducibility
 

@@ -1,0 +1,494 @@
+career_category,canonical_skill,ads,n_ads,pct_of_ads
+AI Engineer,Artificial Intelligence,269,275,97.8
+AI Engineer,Large Language Models,161,275,58.5
+AI Engineer,Python,152,275,55.3
+AI Engineer,Machine Learning,118,275,42.9
+AI Engineer,Observability,111,275,40.4
+AI Engineer,APIs,109,275,39.6
+AI Engineer,AI Agents,106,275,38.5
+AI Engineer,Distributed Systems,70,275,25.5
+AI Engineer,TypeScript,69,275,25.1
+AI Engineer,Go,66,275,24.0
+AI Engineer,Kubernetes,55,275,20.0
+AI Engineer,RAG,54,275,19.6
+AI Engineer,CI/CD,50,275,18.2
+AI Engineer,AWS,47,275,17.1
+AI Engineer,Generative AI,44,275,16.0
+AI Engineer,Model Context Protocol,44,275,16.0
+AI Engineer,Fine-tuning,42,275,15.3
+AI Engineer,JavaScript,42,275,15.3
+AI Engineer,React,41,275,14.9
+AI Engineer,GCP,34,275,12.4
+AI Engineer,Data Pipelines,33,275,12.0
+AI Engineer,C++,32,275,11.6
+AI Engineer,Azure,30,275,10.9
+AI Engineer,Prompt Engineering,29,275,10.5
+AI Engineer,Docker,28,275,10.2
+AI Engineer,Model Evaluation,26,275,9.5
+AI Engineer,Terraform,26,275,9.5
+AI Engineer,Java,25,275,9.1
+AI Engineer,LangChain,25,275,9.1
+AI Engineer,Computer Vision,24,275,8.7
+AI Engineer,SQL,24,275,8.7
+AI Engineer,Databricks,23,275,8.4
+AI Engineer,Rust,23,275,8.4
+AI Engineer,Embeddings,22,275,8.0
+AI Engineer,Infrastructure as Code,22,275,8.0
+AI Engineer,Snowflake,22,275,8.0
+AI Engineer,Vector Databases,21,275,7.6
+AI Engineer,Dashboarding,19,275,6.9
+AI Engineer,PyTorch,19,275,6.9
+AI Engineer,Node.js,18,275,6.5
+AI Engineer,Apache Spark,17,275,6.2
+AI Engineer,PostgreSQL,17,275,6.2
+AI Engineer,Regression,17,275,6.2
+AI Engineer,Reinforcement Learning,17,275,6.2
+AI Engineer,GitHub,16,275,5.8
+AI Engineer,LangGraph,16,275,5.8
+AI Engineer,Model Training,16,275,5.8
+AI Engineer,REST APIs,15,275,5.5
+AI Engineer,Datadog,13,275,4.7
+AI Engineer,Model Serving,13,275,4.7
+AI Engineer,Ansible,12,275,4.4
+AI Engineer,Kafka,12,275,4.4
+AI Engineer,Linux,12,275,4.4
+AI Engineer,Redis,11,275,4.0
+AI Engineer,Ruby,11,275,4.0
+AI Engineer,Statistics,11,275,4.0
+AI Engineer,Vector Search,11,275,4.0
+AI Engineer,Bash,10,275,3.6
+AI Engineer,Data Quality,10,275,3.6
+AI Engineer,Data Governance,9,275,3.3
+AI Engineer,Airflow,8,275,2.9
+AI Engineer,Function Calling,8,275,2.9
+AI Engineer,Microservices,8,275,2.9
+AI Engineer,Preference Optimization,8,275,2.9
+AI Engineer,Ray,8,275,2.9
+AI Engineer,Git,7,275,2.5
+AI Engineer,GitHub Actions,7,275,2.5
+AI Engineer,A/B Testing,6,275,2.2
+AI Engineer,Data Modeling,6,275,2.2
+AI Engineer,RLHF,6,275,2.2
+AI Engineer,Scala,6,275,2.2
+AI Engineer,Transformers,6,275,2.2
+AI Engineer,BigQuery,5,275,1.8
+AI Engineer,Classification,5,275,1.8
+AI Engineer,Data Visualization,5,275,1.8
+AI Engineer,Deep Learning,5,275,1.8
+AI Engineer,Elasticsearch,5,275,1.8
+AI Engineer,Jenkins,5,275,1.8
+AI Engineer,MLflow,5,275,1.8
+AI Engineer,SageMaker,5,275,1.8
+AI Engineer,TensorFlow,5,275,1.8
+AI Engineer,dbt,5,275,1.8
+AI Engineer,Anomaly Detection,4,275,1.5
+AI Engineer,C#,4,275,1.5
+AI Engineer,Data Analysis,4,275,1.5
+AI Engineer,Data Warehousing,4,275,1.5
+AI Engineer,EDA,4,275,1.5
+AI Engineer,Experiment Design,4,275,1.5
+AI Engineer,Hugging Face,4,275,1.5
+AI Engineer,Knowledge Graphs,4,275,1.5
+AI Engineer,Lakehouse,4,275,1.5
+AI Engineer,MATLAB,4,275,1.5
+AI Engineer,Model Deployment,4,275,1.5
+AI Engineer,Natural Language Processing,4,275,1.5
+AI Engineer,Apache Iceberg,3,275,1.1
+AI Engineer,ClickHouse,3,275,1.1
+AI Engineer,ETL,3,275,1.1
+AI Engineer,Feature Engineering,3,275,1.1
+AI Engineer,Forecasting,3,275,1.1
+AI Engineer,LlamaIndex,3,275,1.1
+AI Engineer,MySQL,3,275,1.1
+AI Engineer,Pandas,3,275,1.1
+AI Engineer,Recommendation Systems,3,275,1.1
+AI Engineer,Redshift,3,275,1.1
+AI Engineer,Tokenization,3,275,1.1
+AI Engineer,Amazon S3,2,275,0.7
+AI Engineer,Data Lake,2,275,0.7
+AI Engineer,Delta Lake,2,275,0.7
+AI Engineer,Hadoop,2,275,0.7
+AI Engineer,Kotlin,2,275,0.7
+AI Engineer,Kubeflow,2,275,0.7
+AI Engineer,LoRA,2,275,0.7
+AI Engineer,MongoDB,2,275,0.7
+AI Engineer,Trino,2,275,0.7
+AI Engineer,Vertex AI,2,275,0.7
+AI Engineer,scikit-learn,2,275,0.7
+AI Engineer,Dagster,1,275,0.4
+AI Engineer,ELT,1,275,0.4
+AI Engineer,Feature Store,1,275,0.4
+AI Engineer,JAX,1,275,0.4
+AI Engineer,Looker,1,275,0.4
+AI Engineer,NumPy,1,275,0.4
+AI Engineer,Tableau,1,275,0.4
+AI Engineer,Time Series,1,275,0.4
+AI Engineer,VS Code,1,275,0.4
+Data Analyst,SQL,26,27,96.3
+Data Analyst,Dashboarding,23,27,85.2
+Data Analyst,Python,22,27,81.5
+Data Analyst,Artificial Intelligence,21,27,77.8
+Data Analyst,Tableau,16,27,59.3
+Data Analyst,dbt,12,27,44.4
+Data Analyst,Data Quality,11,27,40.7
+Data Analyst,Statistics,10,27,37.0
+Data Analyst,Data Analysis,9,27,33.3
+Data Analyst,Looker,9,27,33.3
+Data Analyst,Snowflake,9,27,33.3
+Data Analyst,Data Pipelines,8,27,29.6
+Data Analyst,Data Visualization,8,27,29.6
+Data Analyst,Databricks,7,27,25.9
+Data Analyst,Data Modeling,6,27,22.2
+Data Analyst,Large Language Models,6,27,22.2
+Data Analyst,Apache Spark,5,27,18.5
+Data Analyst,Computer Vision,5,27,18.5
+Data Analyst,Data Governance,5,27,18.5
+Data Analyst,Forecasting,5,27,18.5
+Data Analyst,Machine Learning,5,27,18.5
+Data Analyst,Power BI,5,27,18.5
+Data Analyst,Data Warehousing,4,27,14.8
+Data Analyst,GitHub,4,27,14.8
+Data Analyst,Pandas,4,27,14.8
+Data Analyst,R,4,27,14.8
+Data Analyst,AWS,3,27,11.1
+Data Analyst,Airflow,3,27,11.1
+Data Analyst,BigQuery,3,27,11.1
+Data Analyst,Generative AI,3,27,11.1
+Data Analyst,Git,3,27,11.1
+Data Analyst,A/B Testing,2,27,7.4
+Data Analyst,APIs,2,27,7.4
+Data Analyst,Causal Inference,2,27,7.4
+Data Analyst,EDA,2,27,7.4
+Data Analyst,Embeddings,2,27,7.4
+Data Analyst,Predictive Modeling,2,27,7.4
+Data Analyst,RAG,2,27,7.4
+Data Analyst,Regression,2,27,7.4
+Data Analyst,TypeScript,2,27,7.4
+Data Analyst,AI Agents,1,27,3.7
+Data Analyst,Anomaly Detection,1,27,3.7
+Data Analyst,Clustering,1,27,3.7
+Data Analyst,Data Lake,1,27,3.7
+Data Analyst,ETL,1,27,3.7
+Data Analyst,Fivetran,1,27,3.7
+Data Analyst,Model Context Protocol,1,27,3.7
+Data Analyst,MongoDB,1,27,3.7
+Data Analyst,Natural Language Processing,1,27,3.7
+Data Analyst,NumPy,1,27,3.7
+Data Analyst,Scala,1,27,3.7
+Data Analyst,scikit-learn,1,27,3.7
+Data Engineer,Artificial Intelligence,42,57,73.7
+Data Engineer,SQL,42,57,73.7
+Data Engineer,Python,39,57,68.4
+Data Engineer,Data Pipelines,32,57,56.1
+Data Engineer,Apache Spark,27,57,47.4
+Data Engineer,Data Quality,26,57,45.6
+Data Engineer,Airflow,25,57,43.9
+Data Engineer,Observability,24,57,42.1
+Data Engineer,dbt,24,57,42.1
+Data Engineer,ETL,21,57,36.8
+Data Engineer,Machine Learning,21,57,36.8
+Data Engineer,Snowflake,21,57,36.8
+Data Engineer,Data Modeling,19,57,33.3
+Data Engineer,AWS,18,57,31.6
+Data Engineer,APIs,13,57,22.8
+Data Engineer,CI/CD,13,57,22.8
+Data Engineer,Data Warehousing,13,57,22.8
+Data Engineer,Kafka,13,57,22.8
+Data Engineer,Data Governance,12,57,21.1
+Data Engineer,Databricks,12,57,21.1
+Data Engineer,Apache Iceberg,11,57,19.3
+Data Engineer,Azure,11,57,19.3
+Data Engineer,Dashboarding,11,57,19.3
+Data Engineer,ELT,11,57,19.3
+Data Engineer,GCP,11,57,19.3
+Data Engineer,Data Analysis,10,57,17.5
+Data Engineer,Data Lake,10,57,17.5
+Data Engineer,Scala,10,57,17.5
+Data Engineer,BigQuery,9,57,15.8
+Data Engineer,Dagster,9,57,15.8
+Data Engineer,Lakehouse,8,57,14.0
+Data Engineer,Fivetran,7,57,12.3
+Data Engineer,Flink,7,57,12.3
+Data Engineer,Infrastructure as Code,7,57,12.3
+Data Engineer,Java,7,57,12.3
+Data Engineer,Large Language Models,7,57,12.3
+Data Engineer,GitHub,6,57,10.5
+Data Engineer,Terraform,6,57,10.5
+Data Engineer,AI Agents,5,57,8.8
+Data Engineer,Amazon S3,5,57,8.8
+Data Engineer,Generative AI,5,57,8.8
+Data Engineer,Git,5,57,8.8
+Data Engineer,Kubernetes,5,57,8.8
+Data Engineer,Looker,5,57,8.8
+Data Engineer,Redshift,5,57,8.8
+Data Engineer,Trino,5,57,8.8
+Data Engineer,Anomaly Detection,4,57,7.0
+Data Engineer,Data Visualization,4,57,7.0
+Data Engineer,Distributed Systems,4,57,7.0
+Data Engineer,Feature Store,4,57,7.0
+Data Engineer,Tableau,4,57,7.0
+Data Engineer,Amazon Kinesis,3,57,5.3
+Data Engineer,Computer Vision,3,57,5.3
+Data Engineer,Datadog,3,57,5.3
+Data Engineer,Delta Lake,3,57,5.3
+Data Engineer,Model Context Protocol,3,57,5.3
+Data Engineer,SQL Server,3,57,5.3
+Data Engineer,Statistics,3,57,5.3
+Data Engineer,C++,2,57,3.5
+Data Engineer,ClickHouse,2,57,3.5
+Data Engineer,Docker,2,57,3.5
+Data Engineer,GitHub Actions,2,57,3.5
+Data Engineer,Microservices,2,57,3.5
+Data Engineer,MySQL,2,57,3.5
+Data Engineer,NumPy,2,57,3.5
+Data Engineer,Pandas,2,57,3.5
+Data Engineer,PostgreSQL,2,57,3.5
+Data Engineer,Predictive Modeling,2,57,3.5
+Data Engineer,Presto,2,57,3.5
+Data Engineer,R,2,57,3.5
+Data Engineer,REST APIs,2,57,3.5
+Data Engineer,Rust,2,57,3.5
+Data Engineer,Causal Inference,1,57,1.8
+Data Engineer,Clustering,1,57,1.8
+Data Engineer,EDA,1,57,1.8
+Data Engineer,Forecasting,1,57,1.8
+Data Engineer,Go,1,57,1.8
+Data Engineer,Hadoop,1,57,1.8
+Data Engineer,Hive,1,57,1.8
+Data Engineer,Jupyter,1,57,1.8
+Data Engineer,Knowledge Graphs,1,57,1.8
+Data Engineer,Linux,1,57,1.8
+Data Engineer,Model Monitoring,1,57,1.8
+Data Engineer,Model Serving,1,57,1.8
+Data Engineer,Model Training,1,57,1.8
+Data Engineer,MongoDB,1,57,1.8
+Data Engineer,React,1,57,1.8
+Data Engineer,Regression,1,57,1.8
+Data Engineer,Time Series,1,57,1.8
+Data Engineer,TypeScript,1,57,1.8
+Data Engineer,VS Code,1,57,1.8
+Data Engineer,scikit-learn,1,57,1.8
+Data Scientist,SQL,114,127,89.8
+Data Scientist,Python,113,127,89.0
+Data Scientist,Statistics,82,127,64.6
+Data Scientist,Artificial Intelligence,80,127,63.0
+Data Scientist,Causal Inference,65,127,51.2
+Data Scientist,Machine Learning,65,127,51.2
+Data Scientist,R,44,127,34.6
+Data Scientist,Dashboarding,43,127,33.9
+Data Scientist,Large Language Models,37,127,29.1
+Data Scientist,A/B Testing,35,127,27.6
+Data Scientist,Experiment Design,29,127,22.8
+Data Scientist,Forecasting,28,127,22.0
+Data Scientist,Apache Spark,20,127,15.7
+Data Scientist,Snowflake,19,127,15.0
+Data Scientist,Data Analysis,18,127,14.2
+Data Scientist,Data Quality,17,127,13.4
+Data Scientist,dbt,16,127,12.6
+Data Scientist,scikit-learn,14,127,11.0
+Data Scientist,Data Visualization,12,127,9.4
+Data Scientist,AI Agents,10,127,7.9
+Data Scientist,Databricks,10,127,7.9
+Data Scientist,Feature Engineering,10,127,7.9
+Data Scientist,Looker,10,127,7.9
+Data Scientist,Predictive Modeling,10,127,7.9
+Data Scientist,PyTorch,9,127,7.1
+Data Scientist,Tableau,9,127,7.1
+Data Scientist,Time Series,9,127,7.1
+Data Scientist,Airflow,8,127,6.3
+Data Scientist,BigQuery,8,127,6.3
+Data Scientist,EDA,8,127,6.3
+Data Scientist,Generative AI,8,127,6.3
+Data Scientist,TensorFlow,8,127,6.3
+Data Scientist,Classification,7,127,5.5
+Data Scientist,Data Pipelines,7,127,5.5
+Data Scientist,Deep Learning,7,127,5.5
+Data Scientist,Hive,7,127,5.5
+Data Scientist,Natural Language Processing,7,127,5.5
+Data Scientist,Regression,7,127,5.5
+Data Scientist,Anomaly Detection,6,127,4.7
+Data Scientist,Model Evaluation,6,127,4.7
+Data Scientist,Pandas,6,127,4.7
+Data Scientist,Recommendation Systems,6,127,4.7
+Data Scientist,APIs,5,127,3.9
+Data Scientist,ETL,5,127,3.9
+Data Scientist,Hadoop,5,127,3.9
+Data Scientist,Model Deployment,5,127,3.9
+Data Scientist,SageMaker,5,127,3.9
+Data Scientist,AWS,4,127,3.1
+Data Scientist,Embeddings,4,127,3.1
+Data Scientist,Fivetran,4,127,3.1
+Data Scientist,NumPy,4,127,3.1
+Data Scientist,Observability,4,127,3.1
+Data Scientist,Redshift,4,127,3.1
+Data Scientist,Reinforcement Learning,4,127,3.1
+Data Scientist,Clustering,3,127,2.4
+Data Scientist,Data Modeling,3,127,2.4
+Data Scientist,Feature Store,3,127,2.4
+Data Scientist,Go,3,127,2.4
+Data Scientist,Model Monitoring,3,127,2.4
+Data Scientist,Model Training,3,127,2.4
+Data Scientist,Presto,3,127,2.4
+Data Scientist,CI/CD,2,127,1.6
+Data Scientist,Distributed Systems,2,127,1.6
+Data Scientist,DynamoDB,2,127,1.6
+Data Scientist,Git,2,127,1.6
+Data Scientist,Knowledge Graphs,2,127,1.6
+Data Scientist,LightGBM,2,127,1.6
+Data Scientist,RAG,2,127,1.6
+Data Scientist,Scala,2,127,1.6
+Data Scientist,Transformers,2,127,1.6
+Data Scientist,XGBoost,2,127,1.6
+Data Scientist,Azure,1,127,0.8
+Data Scientist,Bash,1,127,0.8
+Data Scientist,Datadog,1,127,0.8
+Data Scientist,Docker,1,127,0.8
+Data Scientist,Fine-tuning,1,127,0.8
+Data Scientist,Flink,1,127,0.8
+Data Scientist,GCP,1,127,0.8
+Data Scientist,Hypothesis Testing,1,127,0.8
+Data Scientist,Kubernetes,1,127,0.8
+Data Scientist,MATLAB,1,127,0.8
+Data Scientist,Model Context Protocol,1,127,0.8
+Data Scientist,Model Serving,1,127,0.8
+Data Scientist,Power BI,1,127,0.8
+Data Scientist,RLHF,1,127,0.8
+Data Scientist,Terraform,1,127,0.8
+Data Scientist,TypeScript,1,127,0.8
+ML Engineer,Machine Learning,200,202,99.0
+ML Engineer,Artificial Intelligence,148,202,73.3
+ML Engineer,Python,130,202,64.4
+ML Engineer,Large Language Models,104,202,51.5
+ML Engineer,PyTorch,85,202,42.1
+ML Engineer,TensorFlow,59,202,29.2
+ML Engineer,Deep Learning,56,202,27.7
+ML Engineer,Data Pipelines,54,202,26.7
+ML Engineer,Model Training,51,202,25.2
+ML Engineer,Apache Spark,46,202,22.8
+ML Engineer,Distributed Systems,46,202,22.8
+ML Engineer,Generative AI,46,202,22.8
+ML Engineer,Observability,45,202,22.3
+ML Engineer,Fine-tuning,40,202,19.8
+ML Engineer,Kubernetes,40,202,19.8
+ML Engineer,APIs,37,202,18.3
+ML Engineer,AWS,36,202,17.8
+ML Engineer,Model Evaluation,33,202,16.3
+ML Engineer,Regression,33,202,16.3
+ML Engineer,SQL,33,202,16.3
+ML Engineer,Statistics,32,202,15.8
+ML Engineer,C++,31,202,15.3
+ML Engineer,Transformers,27,202,13.4
+ML Engineer,Go,26,202,12.9
+ML Engineer,Java,26,202,12.9
+ML Engineer,AI Agents,25,202,12.4
+ML Engineer,CI/CD,25,202,12.4
+ML Engineer,Airflow,24,202,11.9
+ML Engineer,Feature Engineering,24,202,11.9
+ML Engineer,Model Serving,24,202,11.9
+ML Engineer,RAG,24,202,11.9
+ML Engineer,Natural Language Processing,23,202,11.4
+ML Engineer,Ray,23,202,11.4
+ML Engineer,Recommendation Systems,23,202,11.4
+ML Engineer,Reinforcement Learning,22,202,10.9
+ML Engineer,Computer Vision,21,202,10.4
+ML Engineer,Embeddings,21,202,10.4
+ML Engineer,GCP,21,202,10.4
+ML Engineer,Kafka,21,202,10.4
+ML Engineer,Model Deployment,20,202,9.9
+ML Engineer,Data Quality,19,202,9.4
+ML Engineer,Infrastructure as Code,18,202,8.9
+ML Engineer,Redis,18,202,8.9
+ML Engineer,Anomaly Detection,17,202,8.4
+ML Engineer,Classification,17,202,8.4
+ML Engineer,MLflow,17,202,8.4
+ML Engineer,JAX,16,202,7.9
+ML Engineer,Terraform,16,202,7.9
+ML Engineer,Pandas,15,202,7.4
+ML Engineer,XGBoost,15,202,7.4
+ML Engineer,EDA,14,202,6.9
+ML Engineer,Feature Store,14,202,6.9
+ML Engineer,PostgreSQL,13,202,6.4
+ML Engineer,A/B Testing,12,202,5.9
+ML Engineer,Snowflake,12,202,5.9
+ML Engineer,Microservices,11,202,5.4
+ML Engineer,TypeScript,11,202,5.4
+ML Engineer,Data Analysis,10,202,5.0
+ML Engineer,Databricks,10,202,5.0
+ML Engineer,scikit-learn,10,202,5.0
+ML Engineer,Azure,9,202,4.5
+ML Engineer,Datadog,9,202,4.5
+ML Engineer,Hugging Face,9,202,4.5
+ML Engineer,RLHF,9,202,4.5
+ML Engineer,React,9,202,4.5
+ML Engineer,Rust,9,202,4.5
+ML Engineer,SageMaker,9,202,4.5
+ML Engineer,Scala,9,202,4.5
+ML Engineer,BigQuery,8,202,4.0
+ML Engineer,Docker,8,202,4.0
+ML Engineer,Graph Neural Networks,8,202,4.0
+ML Engineer,Prompt Engineering,8,202,4.0
+ML Engineer,Clustering,7,202,3.5
+ML Engineer,Dashboarding,7,202,3.5
+ML Engineer,Flink,7,202,3.5
+ML Engineer,LoRA,7,202,3.5
+ML Engineer,Matplotlib,7,202,3.5
+ML Engineer,Time Series,7,202,3.5
+ML Engineer,Amazon Kinesis,6,202,3.0
+ML Engineer,Causal Inference,6,202,3.0
+ML Engineer,DynamoDB,6,202,3.0
+ML Engineer,LangChain,6,202,3.0
+ML Engineer,Metaflow,6,202,3.0
+ML Engineer,Model Monitoring,6,202,3.0
+ML Engineer,Ruby,6,202,3.0
+ML Engineer,Amazon S3,5,202,2.5
+ML Engineer,Kubeflow,5,202,2.5
+ML Engineer,Vector Search,5,202,2.5
+ML Engineer,dbt,5,202,2.5
+ML Engineer,Apache Iceberg,4,202,2.0
+ML Engineer,Data Governance,4,202,2.0
+ML Engineer,Forecasting,4,202,2.0
+ML Engineer,GitHub,4,202,2.0
+ML Engineer,Hadoop,4,202,2.0
+ML Engineer,Keras,4,202,2.0
+ML Engineer,Kotlin,4,202,2.0
+ML Engineer,LangGraph,4,202,2.0
+ML Engineer,Linux,4,202,2.0
+ML Engineer,MongoDB,4,202,2.0
+ML Engineer,Cloud Computing,3,202,1.5
+ML Engineer,Data Warehousing,3,202,1.5
+ML Engineer,Delta Lake,3,202,1.5
+ML Engineer,Elasticsearch,3,202,1.5
+ML Engineer,Experiment Design,3,202,1.5
+ML Engineer,Function Calling,3,202,1.5
+ML Engineer,Hypothesis Testing,3,202,1.5
+ML Engineer,LlamaIndex,3,202,1.5
+ML Engineer,Model Context Protocol,3,202,1.5
+ML Engineer,MySQL,3,202,1.5
+ML Engineer,NumPy,3,202,1.5
+ML Engineer,Preference Optimization,3,202,1.5
+ML Engineer,REST APIs,3,202,1.5
+ML Engineer,Tokenization,3,202,1.5
+ML Engineer,ClickHouse,2,202,1.0
+ML Engineer,Data Lake,2,202,1.0
+ML Engineer,Fivetran,2,202,1.0
+ML Engineer,Git,2,202,1.0
+ML Engineer,GitHub Actions,2,202,1.0
+ML Engineer,JavaScript,2,202,1.0
+ML Engineer,Presto,2,202,1.0
+ML Engineer,Vector Databases,2,202,1.0
+ML Engineer,Vertex AI,2,202,1.0
+ML Engineer,C#,1,202,0.5
+ML Engineer,Dagster,1,202,0.5
+ML Engineer,Data Modeling,1,202,0.5
+ML Engineer,ELT,1,202,0.5
+ML Engineer,Hive,1,202,0.5
+ML Engineer,Lakehouse,1,202,0.5
+ML Engineer,LightGBM,1,202,0.5
+ML Engineer,Looker,1,202,0.5
+ML Engineer,MATLAB,1,202,0.5
+ML Engineer,Named Entity Recognition,1,202,0.5
+ML Engineer,Plotly,1,202,0.5
+ML Engineer,Predictive Modeling,1,202,0.5
+ML Engineer,R,1,202,0.5
+ML Engineer,Seaborn,1,202,0.5
+ML Engineer,Text Classification,1,202,0.5
