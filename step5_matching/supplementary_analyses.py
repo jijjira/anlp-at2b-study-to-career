@@ -12,6 +12,8 @@ Analyses
      and the effect of halving the weight of semantic evidence.
   C. Share of uncovered top-30 demand by skill category (exact coverage).
   D. Greedy unit selection: how many units reproduce each career's 20-unit fit.
+  E. Sensitivity of hybrid fit to the top-N cut-off (N = 10 to 50; report Table 8).
+  F. Precision of exact hits and semantic additions in the blinded human audits (Wilson 95% intervals; report Figure 4).
 
 Run:  python supplementary_analyses.py            (writes CSVs to ./outputs/supplementary)
 """
@@ -139,6 +141,39 @@ def greedy_units(jobs, job_hits, unit_hits) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def sensitivity_top_n(jobs, job_hits, unit_hits, cutoffs=(10, 20, 30, 40, 50)) -> pd.DataFrame:
+    """Hybrid fit (%) per career for several top-N cut-offs."""
+    profiles = build_career_profiles(job_hits, jobs)
+    study = study_coverage_from_hits(unit_hits)
+    out = {}
+    for n in cutoffs:
+        ranking, _ = match_careers(study, profiles, top_n=n)
+        out[n] = ranking.set_index("career")["match_percent"]
+    return pd.DataFrame(out).rename_axis(columns="top_n")
+
+
+def wilson(k: int, n: int, z: float = 1.96) -> tuple[float, float]:
+    p = k / n
+    centre = (p + z * z / (2 * n)) / (1 + z * z / n)
+    half = z * np.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / (1 + z * z / n)
+    return centre - half, centre + half
+
+
+def audit_precision(root: Path) -> pd.DataFrame:
+    """Join each blinded audit sheet to its key and compute precision by producing method."""
+    audit = root / "step4_semantic" / "results" / "audit"
+    rows = []
+    for name, sheet, key in (("advertisements", "job_audit_sheet.csv", "job_audit_key.csv"),
+                             ("units", "curriculum_label_sheet.csv", "curriculum_label_key.csv")):
+        m = pd.read_csv(audit / sheet).merge(pd.read_csv(audit / key)[["item_id", "source"]], on="item_id")
+        for source, g in m.groupby("source"):
+            k, n = int((g["human_label"] == 1).sum()), len(g)
+            lo, hi = wilson(k, n)
+            rows.append({"corpus": name, "method": source, "n": n, "correct": k,
+                         "precision_pct": 100 * k / n, "wilson_low": 100 * lo, "wilson_high": 100 * hi})
+    return pd.DataFrame(rows)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
@@ -174,6 +209,14 @@ def main() -> None:
     greedy.round(2).to_csv(args.output / "D_greedy_unit_selection.csv", index=False)
     steps = greedy.groupby("career")["step"].max()
     print("\nD. Units needed to reach each career's full 20-unit fit\n", steps.to_string())
+    sens = sensitivity_top_n(jobs, job_hits, unit_hits)
+    sens.round(2).to_csv(args.output / "E_sensitivity_top_n.csv")
+    print("\nE. Hybrid fit by top-N cut-off\n", sens.round(1).to_string())
+
+    aud = audit_precision(args.root)
+    aud.round(1).to_csv(args.output / "F_audit_precision.csv", index=False)
+    print("\nF. Blinded audit precision\n", aud.round(1).to_string(index=False))
+
     print(f"\nWritten to {args.output}")
 
 

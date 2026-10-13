@@ -68,7 +68,7 @@ Then open a step folder and run its notebook with Restart & Run All. The quickes
 | Evaluation, gold set and uncertainty | `step3_baseline_nlp/evaluate.py`, `gold_annotations.py`; `step4_semantic/experiments.py`, `metrics.py` |
 | Findings: extraction accuracy | `step3_baseline_nlp/04_innovation_experiments.ipynb`; `step4_semantic/results/summary.md` |
 | Findings: curriculum alignment and sectors | `step3_baseline_nlp/06_curriculum_alignment.ipynb`, `07_sector_lens.ipynb`, `08_real_curriculum_case_study.ipynb`, `figures/` |
-| Bootstrap gains, AI Agents check, uncovered demand by category, greedy unit selection | `step5_matching/supplementary_analyses.py`, `11_supplementary_analyses.ipynb`, `step5_matching/outputs/supplementary/` |
+| Bootstrap gains, AI Agents check, uncovered demand by category, greedy unit selection, top-N sensitivity (Table 8), audit precision (Figure 4) | `step5_matching/supplementary_analyses.py`, `11_supplementary_analyses.ipynb`, `step5_matching/outputs/supplementary/` |
 | Findings: exact versus hybrid career fit | `step4_semantic/results/details/curriculum_fit_exact_vs_hybrid.csv`; `step5_matching/outputs/` |
 | Blinded audits | `step4_semantic/results/audit/` |
 | Application and user test | `step6_app/app.py`; `step6_app/user_testing/` |
