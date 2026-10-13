@@ -115,7 +115,7 @@ Then open a step folder and run its notebook with Restart & Run All. The quickes
 
 ## Use of AI tools
 
-A large language model (Claude, Anthropic) was used as an annotator and as a coding and writing assistant. It produced the gold labels for the 30-advertisement gold set (`step3_baseline_nlp/gold_annotations.py`) and a second labelling pass on 10 of those advertisements (`step3_baseline_nlp/annotation/llm_second_annotator_FILLED.xlsx`), and it helped write the annotation-agreement script and figures. The human labels on the same 10 advertisements are separate (`annotation/human_merged.xlsx`). All results, interpretations and conclusions were reviewed by the authors.
+A large language model (Claude, Anthropic) was used as an annotator. It produced the gold labels for the 30-advertisement gold set (`step3_baseline_nlp/gold_annotations.py`) and a second labelling pass on 10 of those advertisements (`step3_baseline_nlp/annotation/llm_second_annotator_FILLED.xlsx`), and it helped write the annotation-agreement script and figures. The human labels on the same 10 advertisements are separate (`annotation/human_merged.xlsx`). All results, interpretations and conclusions were reviewed by Group 6.
 
 ## Reproducibility
 
