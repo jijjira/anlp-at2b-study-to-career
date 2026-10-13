@@ -1,4 +1,4 @@
-"""Hand annotation of the 30-job held-out sample (single annotator: Claude, blind to extractor output).
+"""Hand annotation of the 30-job held-out sample """
 R = explicitly named skill the ad requires or says the role uses (requirements or responsibilities)
 P = explicitly named, preferred / nice-to-have
 I = implicit: concept clearly demanded but not named with any dictionary alias (target for the semantic method)
