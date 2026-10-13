@@ -6,7 +6,7 @@
 
 We extract skills from Data/AI job advertisements (the U.S. benchmark) and from unit outlines (the study material) into one shared skill vocabulary, compare the two, and recommend careers and the skills to learn next. The final report is submitted separately on Canvas.
 
-![From job advertisements and unit documents to career recommendations](images/pipeline.png)
+![From job advertisements and unit documents to career recommendations](step6_app/images/pipeline.png)
 
 ## Headline results
 
@@ -15,15 +15,15 @@ We extract skills from Data/AI job advertisements (the U.S. benchmark) and from 
 * **Alignment:** curriculum fit is highest for Data Scientist and lowest for AI Engineer (exact matching 65.4% and 32.6%; hybrid 68.5% and 40.8%). Gaps are in applied, production-oriented skills (causal inference, experimentation, dbt, observability, APIs, agents).
 * **Application:** upload a unit outline and get ranked career fits, covered skills, priority gaps and page-level evidence. A pilot test (n = 3) of the first version gave a mean rating of 4.40 out of 5 across all five questions; the interface was then revised (plain-language method names, sample button, "possibly covered" marking, tie warning, CSV download). The revised version has not been re-tested with users.
 
-![Career fit under exact and hybrid matching](images/career_fit_exact_vs_hybrid.png)
+![Career fit under exact and hybrid matching](step6_app/images/career_fit_exact_vs_hybrid.png)
 
 *Curriculum fit for each career (share of the 30 most demanded skills covered by the 20 units), exact matching versus hybrid matching.*
 
-![The Streamlit application](images/app_screenshot.png)
+![The Streamlit application](step6_app/images/app_screenshot.png)
 
 *The Streamlit application (exact mode, sample outline): upload a unit PDF and get ranked career matches, covered skills, gaps and evidence. Scores that are within two points are flagged as a tie.*
 
-![Skills found by meaning are marked as possibly covered](images/app_possibly_covered.png)
+![Skills found by meaning are marked as possibly covered](step6_app/images/app_possibly_covered.png)
 
 *Hybrid mode: skills found only by the semantic layer are marked "? possibly covered" so they can be checked against the evidence sentence (USYD COMP5310, from the saved hybrid output).*
 
@@ -89,14 +89,14 @@ Then open a step folder and run its notebook with Restart & Run All. The quickes
 
 * U.S.-only job data, mostly large tech employers and mostly 2026 ads. The Australian set is too small (14 ads) for separate tests.
 * Twenty selected units is a case study, not all of Australian higher education or whole degrees.
-* Gold labels come from a single AI annotator; a second human annotator on about 10 ads would help.
+* Gold labels come from a single AI annotator. A human second annotator re-labelled 10 ads: Cohen's kappa 0.33 (95% CI 0.19 to 0.44) for named-and-demanded skills, 0.25 over four classes, lowest for implicit skills (see `step3_baseline_nlp/human_agreement_results.csv`).
 
 ## Repo layout
 
 ```
 README.md                  this page
 requirements.txt           shared libraries (each step folder also has its own)
-images/                    figures shown in this README
+step6_app/images/        figures and screenshots shown in this README
 run_app.command, run_app.bat  one-click launchers for the app (Mac, Windows)
 step1_data/                raw and cleaned job ads, collection script, Australian set
 step2_dictionary/          skills dictionary, taxonomy, normalisation module

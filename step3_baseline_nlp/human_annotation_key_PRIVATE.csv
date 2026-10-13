@@ -1,0 +1,217 @@
+ad_no,row_index,job_id,skill,gold_label
+1,9,Greenhouse:5601881,Apache Iceberg,N
+1,9,Greenhouse:5601881,Apache Spark,P
+1,9,Greenhouse:5601881,Artificial Intelligence,P
+1,9,Greenhouse:5601881,C++,N
+1,9,Greenhouse:5601881,Dashboarding,R
+1,9,Greenhouse:5601881,Data Governance,N
+1,9,Greenhouse:5601881,Data Pipelines,R
+1,9,Greenhouse:5601881,Delta Lake,N
+1,9,Greenhouse:5601881,ELT,N
+1,9,Greenhouse:5601881,Hugging Face,N
+1,9,Greenhouse:5601881,LightGBM,N
+1,9,Greenhouse:5601881,LlamaIndex,N
+1,9,Greenhouse:5601881,Predictive Modeling,N
+1,9,Greenhouse:5601881,Python,P
+1,9,Greenhouse:5601881,PyTorch,N
+1,9,Greenhouse:5601881,Snowflake,N
+1,9,Greenhouse:5601881,SQL,R
+1,9,Greenhouse:5601881,Statistics,I
+1,9,Greenhouse:5601881,Tableau,N
+2,142,Greenhouse:8463696002,Airflow,P
+2,142,Greenhouse:8463696002,APIs,N
+2,142,Greenhouse:8463696002,Artificial Intelligence,N
+2,142,Greenhouse:8463696002,BigQuery,P
+2,142,Greenhouse:8463696002,C#,N
+2,142,Greenhouse:8463696002,C++,N
+2,142,Greenhouse:8463696002,Dashboarding,R
+2,142,Greenhouse:8463696002,Data Analysis,R
+2,142,Greenhouse:8463696002,Data Modeling,P
+2,142,Greenhouse:8463696002,Data Pipelines,R
+2,142,Greenhouse:8463696002,Data Quality,R
+2,142,Greenhouse:8463696002,Data Visualization,R
+2,142,Greenhouse:8463696002,Databricks,P
+2,142,Greenhouse:8463696002,Datadog,N
+2,142,Greenhouse:8463696002,dbt,P
+2,142,Greenhouse:8463696002,Generative AI,R
+2,142,Greenhouse:8463696002,GitHub,N
+2,142,Greenhouse:8463696002,JAX,N
+2,142,Greenhouse:8463696002,Large Language Models,R
+2,142,Greenhouse:8463696002,Looker,R
+2,142,Greenhouse:8463696002,Metaflow,N
+2,142,Greenhouse:8463696002,Python,R
+2,142,Greenhouse:8463696002,Scala,N
+2,142,Greenhouse:8463696002,scikit-learn,N
+2,142,Greenhouse:8463696002,Snowflake,P
+2,142,Greenhouse:8463696002,SQL,R
+2,142,Greenhouse:8463696002,Tableau,R
+2,142,Greenhouse:8463696002,TensorFlow,N
+2,142,Greenhouse:8463696002,Time Series,N
+2,142,Greenhouse:8463696002,Vector Databases,N
+2,142,Greenhouse:8463696002,Vertex AI,N
+3,158,Greenhouse:7793089,Artificial Intelligence,R
+3,158,Greenhouse:7793089,C#,N
+3,158,Greenhouse:7793089,Deep Learning,P
+3,158,Greenhouse:7793089,Fine-tuning,N
+3,158,Greenhouse:7793089,GitHub Actions,N
+3,158,Greenhouse:7793089,Hypothesis Testing,N
+3,158,Greenhouse:7793089,Keras,R
+3,158,Greenhouse:7793089,Machine Learning,R
+3,158,Greenhouse:7793089,Model Deployment,I
+3,158,Greenhouse:7793089,Model Monitoring,N
+3,158,Greenhouse:7793089,Pandas,R
+3,158,Greenhouse:7793089,Python,R
+3,158,Greenhouse:7793089,RAG,N
+3,158,Greenhouse:7793089,Reinforcement Learning,N
+3,158,Greenhouse:7793089,scikit-learn,R
+3,158,Greenhouse:7793089,Seaborn,N
+3,158,Greenhouse:7793089,SQL,R
+3,158,Greenhouse:7793089,SQL Server,N
+3,158,Greenhouse:7793089,Statistics,N
+3,158,Greenhouse:7793089,TensorFlow,R
+3,158,Greenhouse:7793089,Terraform,N
+3,158,Greenhouse:7793089,Text Classification,N
+3,158,Greenhouse:7793089,XGBoost,R
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,AI Agents,R
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Apache Spark,N
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Artificial Intelligence,R
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Cassandra,N
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Classification,R
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Deep Learning,N
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Distributed Systems,N
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Feature Engineering,R
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Feature Store,R
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Hypothesis Testing,N
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Java,N
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Knowledge Graphs,R
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Kotlin,N
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Lakehouse,N
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Large Language Models,R
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Linux,N
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Machine Learning,R
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,MATLAB,N
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Model Serving,R
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Model Training,R
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Power BI,N
+4,208,Ashby:7fd5aeb2-c33c-4f0a-ad3d-2161201bc174,Ruby,N
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Artificial Intelligence,R
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Bash,N
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,C++,R
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Dagster,N
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Distributed Systems,R
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,EDA,N
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,ELT,N
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Feature Engineering,N
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Go,R
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Graph Neural Networks,N
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Java,R
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Kotlin,N
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Kubernetes,R
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,LangGraph,N
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Large Language Models,R
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Machine Learning,R
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,MATLAB,N
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Model Serving,I
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Observability,R
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Python,R
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Recommendation Systems,N
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Snowflake,N
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,Terraform,N
+5,218,Ashby:96d29d17-1357-486e-bf87-ca315d59b344,XGBoost,N
+6,320,Greenhouse:8011452,A/B Testing,R
+6,320,Greenhouse:8011452,Artificial Intelligence,R
+6,320,Greenhouse:8011452,Cassandra,N
+6,320,Greenhouse:8011452,Clustering,N
+6,320,Greenhouse:8011452,dbt,N
+6,320,Greenhouse:8011452,Deep Learning,I
+6,320,Greenhouse:8011452,Docker,N
+6,320,Greenhouse:8011452,EDA,R
+6,320,Greenhouse:8011452,Graph Neural Networks,N
+6,320,Greenhouse:8011452,Large Language Models,R
+6,320,Greenhouse:8011452,Machine Learning,R
+6,320,Greenhouse:8011452,MySQL,N
+6,320,Greenhouse:8011452,Named Entity Recognition,N
+6,320,Greenhouse:8011452,Power BI,N
+6,320,Greenhouse:8011452,Presto,N
+6,320,Greenhouse:8011452,Recommendation Systems,I
+6,320,Greenhouse:8011452,Regression,N
+6,320,Greenhouse:8011452,scikit-learn,N
+6,320,Greenhouse:8011452,SQL,R
+6,320,Greenhouse:8011452,Statistics,I
+6,320,Greenhouse:8011452,VS Code,N
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,AI Agents,I
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,Anomaly Detection,N
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,APIs,N
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,Artificial Intelligence,P
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,Data Analysis,N
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,Data Quality,N
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,Experiment Design,I
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,Flink,N
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,Lakehouse,N
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,Observability,N
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,Pandas,N
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,Power BI,N
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,Preference Optimization,N
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,Prompt Engineering,I
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,Python,R
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,React,N
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,SQL,R
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,Statistics,R
+7,339,Ashby:7b81d3fa-8a84-4d3a-b681-a6b06974e01e,Trino,N
+8,411,Greenhouse:6135712004,Artificial Intelligence,R
+8,411,Greenhouse:6135712004,Dashboarding,R
+8,411,Greenhouse:6135712004,Data Governance,N
+8,411,Greenhouse:6135712004,Data Lake,N
+8,411,Greenhouse:6135712004,Data Modeling,I
+8,411,Greenhouse:6135712004,Data Pipelines,I
+8,411,Greenhouse:6135712004,dbt,R
+8,411,Greenhouse:6135712004,Forecasting,R
+8,411,Greenhouse:6135712004,Git,N
+8,411,Greenhouse:6135712004,Hadoop,N
+8,411,Greenhouse:6135712004,Hugging Face,N
+8,411,Greenhouse:6135712004,Java,N
+8,411,Greenhouse:6135712004,JavaScript,N
+8,411,Greenhouse:6135712004,Model Serving,N
+8,411,Greenhouse:6135712004,Python,N
+8,411,Greenhouse:6135712004,Redshift,N
+8,411,Greenhouse:6135712004,Rust,N
+8,411,Greenhouse:6135712004,SQL,R
+8,411,Greenhouse:6135712004,Statistics,N
+8,411,Greenhouse:6135712004,Tableau,R
+8,411,Greenhouse:6135712004,Time Series,N
+9,527,Greenhouse:8756745002,APIs,P
+9,527,Greenhouse:8756745002,Artificial Intelligence,R
+9,527,Greenhouse:8756745002,Azure,N
+9,527,Greenhouse:8756745002,Data Pipelines,P
+9,527,Greenhouse:8756745002,Forecasting,N
+9,527,Greenhouse:8756745002,GCP,N
+9,527,Greenhouse:8756745002,Graph Neural Networks,N
+9,527,Greenhouse:8756745002,Kubernetes,N
+9,527,Greenhouse:8756745002,Large Language Models,R
+9,527,Greenhouse:8756745002,Looker,N
+9,527,Greenhouse:8756745002,Model Context Protocol,P
+9,527,Greenhouse:8756745002,Model Evaluation,I
+9,527,Greenhouse:8756745002,Node.js,N
+9,527,Greenhouse:8756745002,Prompt Engineering,I
+9,527,Greenhouse:8756745002,React,N
+9,527,Greenhouse:8756745002,Reinforcement Learning,N
+9,527,Greenhouse:8756745002,RLHF,N
+9,527,Greenhouse:8756745002,Rust,N
+9,527,Greenhouse:8756745002,Trino,N
+10,537,Greenhouse:8180833,Amazon Kinesis,N
+10,537,Greenhouse:8180833,Apache Iceberg,N
+10,537,Greenhouse:8180833,APIs,N
+10,537,Greenhouse:8180833,Artificial Intelligence,N
+10,537,Greenhouse:8180833,C++,R
+10,537,Greenhouse:8180833,dbt,N
+10,537,Greenhouse:8180833,Docker,N
+10,537,Greenhouse:8180833,Generative AI,R
+10,537,Greenhouse:8180833,Hugging Face,N
+10,537,Greenhouse:8180833,Java,R
+10,537,Greenhouse:8180833,LoRA,N
+10,537,Greenhouse:8180833,MLflow,N
+10,537,Greenhouse:8180833,Node.js,N
+10,537,Greenhouse:8180833,Observability,R
+10,537,Greenhouse:8180833,Ray,N
+10,537,Greenhouse:8180833,Rust,N
+10,537,Greenhouse:8180833,SciPy,N

@@ -11,6 +11,7 @@ Extract skills with a spaCy PhraseMatcher over the Step 2 dictionary, then impro
 | `alignment.py`, `analysis.py` | Career fit, gaps and uncertainty |
 | `sectors.py`, `sector_analysis.py`, `company_sector_map.csv` | Sector lens |
 | `evaluate.py`, `gold_annotations.py`, `gold_split.json` | Gold set and metrics |
+| `make_sheet.py`, `human_agreement.py`, `human_annotation_sheet*.xlsx`, `pass2_filled.xlsx`, `human_merged.xlsx`, `human_annotation_key_PRIVATE.csv`, `human_agreement_results.csv` | Second-annotator check on 10 of the 30 gold ads: blank sheet, first-pass and second-pass labels, merged labels (the file the agreement is computed from), the answer key and Cohen's kappa results |
 | `discover.py`, `discovery_candidates_raw.csv`, `extra_aliases_reviewed.csv` | Alias discovery and the reviewed aliases |
 | `03_` to `08_*.ipynb` | Extraction, experiments, PDF pipeline, alignment, sector lens, 20-unit case study |
 | `data/` | The 20 unit PDFs (`curriculum_pdfs/`) and their manifest |
@@ -35,4 +36,4 @@ The notebooks also run in Google Colab: upload one, run the first cell and follo
 * Sector profiles differ (permutation p = 0.004) but only borderline after adjusting for career mix (p = 0.06).
 
 ## Limitations
-One annotator labelled the gold set (30 advertisements). Unit handbook pages are shorter than full outlines, the extractor was validated on advertisements and not on unit text, and exact matching misses skills taught without being named.
+The gold set was labelled by one AI annotator (30 advertisements); a human second annotator re-labelled 10 of them (kappa 0.33 for named-and-demanded skills, 0.25 over four classes, so agreement is only fair, and weakest for implicit skills). Unit handbook pages are shorter than full outlines, the extractor was validated on advertisements and not on unit text, and exact matching misses skills taught without being named.
