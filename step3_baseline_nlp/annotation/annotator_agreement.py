@@ -3,7 +3,7 @@
 Raters (same 216 ad-skill candidates, labels R / P / I / N):
   gold   LLM annotator 1   gold_annotations.py (key: annotation/human_annotation_key.csv)
   human  human annotator  human_merged.xlsx  (pass 1 = human_annotation_sheet_FILLED.xlsx, pass 2 = pass2_filled.xlsx)
-  llm2    LLM annotator 2   llm_second_annotator_FILLED.xlsx (fresh Claude pass on the blank sheet; not independent of gold in the
+  llm2    LLM annotator 2   llm_second_annotator_FILLED.xlsx (not independent of gold in the
                           sense of a different person: same model family, so its agreement with gold shows consistency, not validity)
 
 Run from step3_baseline_nlp/:  python3 annotation/annotator_agreement.py
