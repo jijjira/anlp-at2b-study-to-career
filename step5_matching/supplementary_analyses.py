@@ -1,4 +1,4 @@
-"""Supplementary analyses reported in Sections 4.3 to 4.5 of the report.
+"""Supplementary analyses reported in Sections 4.3 and 4.4 and Appendix A of the report.
 
 Everything here is computed from outputs already saved in the repository:
   step1_data/job_cleaned.csv                                   (688 advertisements)
@@ -12,8 +12,11 @@ Analyses
      and the effect of halving the weight of semantic evidence.
   C. Share of uncovered top-30 demand by skill category (exact coverage).
   D. Greedy unit selection: how many units reproduce each career's 20-unit fit.
-  E. Sensitivity of hybrid fit to the top-N cut-off (N = 10 to 50; report Table 8).
+  E. Sensitivity of hybrid fit to the top-N cut-off (N = 10 to 50; report Table A2).
   F. Precision of exact hits and semantic additions in the blinded human audits (Wilson 95% intervals; report Figure 4).
+  G. Hybrid fit after removing only the match the blinded audit judged false (AI Agents in USYD COMP5310,
+     evidence "Ethical AI usage"); the other AI Agents match (USYD COMP5046, "Models - Agents") was judged
+     correct and stays (report Table 6 note and Section 4.4).
 
 Run:  python supplementary_analyses.py            (writes CSVs to ./outputs/supplementary)
 """
@@ -100,6 +103,17 @@ def leave_one_skill_out(jobs, job_hits, unit_hits) -> pd.DataFrame:
                          "exact": exact[career], "without_skill": without[career],
                          "points_from_skill": hybrid[career] - without[career]})
     return pd.DataFrame(rows)
+
+
+def audit_wrong_match_only(jobs, job_hits, unit_hits) -> pd.DataFrame:
+    """Hybrid fit with only the audit-wrong AI Agents match (USYD COMP5310) removed."""
+    hybrid = fit_table(job_hits, jobs, unit_hits)
+    wrong = unit_hits["skill"].eq("AI Agents") & unit_hits["unit_id"].str.contains("COMP5310") & unit_hits["source"].eq("semantic")
+    only_false = fit_table(job_hits, jobs, unit_hits[~wrong])
+    no_agents = fit_table(job_hits, jobs, unit_hits, drop_skill="AI Agents")
+    out = pd.DataFrame({"hybrid": hybrid, "false_match_removed": only_false, "ai_agents_removed_entirely": no_agents})
+    out["points_from_false_match"] = out["hybrid"] - out["false_match_removed"]
+    return out
 
 
 def uncovered_by_category(jobs, job_hits, unit_hits) -> pd.DataFrame:
@@ -200,6 +214,10 @@ def main() -> None:
     loo.round(2).to_csv(args.output / "B_leave_one_skill_out.csv", index=False)
     top = loo[loo["career"].eq("AI Engineer")].sort_values("points_from_skill", ascending=False).head(3)
     print("\nB. Largest single-skill contributions for AI Engineer\n", top.round(1).to_string(index=False))
+
+    g = audit_wrong_match_only(jobs, job_hits, unit_hits)
+    g.round(2).to_csv(args.output / "G_false_match_only.csv")
+    print("\nG. Removing only the audit-wrong AI Agents match\n", g.round(1).to_string())
 
     unc = uncovered_by_category(jobs, job_hits, unit_hits)
     unc.round(2).to_csv(args.output / "C_uncovered_by_category.csv", index=False)
