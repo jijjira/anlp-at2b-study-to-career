@@ -1,4 +1,4 @@
-"""Small integration API for Member 6's Streamlit frontend.
+"""Small integration API for the Streamlit frontend.
 
 Typical use::
 
@@ -49,7 +49,7 @@ class CareerMatchingAPI:
             return pd.read_csv(cached)
         jobs = pd.read_csv(self.root / "step1_data" / "job_cleaned.csv")
         hits = pd.read_csv(
-            self.root / "step4_semantic" / "results" / "handoff" / "job_skills_hybrid_long.csv"
+            self.root / "step4_semantic" / "results" / "hybrid_job_skills" / "job_skills_hybrid_long.csv"
         )
         return build_career_profiles(hits, jobs)
 
@@ -120,7 +120,7 @@ class CareerMatchingAPI:
 
     @staticmethod
     def save_json(results: list[dict], destination: str | Path) -> Path:
-        """Save one request's results when a file handoff is preferred."""
+        """Save one request's results when a file is preferred."""
         path = Path(destination)
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")

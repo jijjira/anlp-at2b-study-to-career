@@ -253,9 +253,9 @@ def test_step3_bootstrap_returns_none_when_step3_unavailable(tmp_path):
 def test_report_and_audit_defaults_use_new_folders(tmp_path, monkeypatch):
     import corpus_extract as ce
     import curriculum_semantic as cs
-    for k, v in dict(RESULTS=tmp_path, DETAILS=tmp_path / "details", AUDIT=tmp_path / "audit", HANDOFF=tmp_path / "handoff").items():
+    for k, v in dict(RESULTS=tmp_path, DETAILS=tmp_path / "details", AUDIT=tmp_path / "audit", HYBRID=tmp_path / "hybrid_job_skills").items():
         monkeypatch.setattr(config, k, v)
-    for d in (config.DETAILS, config.AUDIT, config.HANDOFF):
+    for d in (config.DETAILS, config.AUDIT, config.HYBRID):
         d.mkdir(parents=True, exist_ok=True)
     pd.DataFrame({"item_id": ["J1", "J2", "J3"], "skill": ["A", "A", "B"], "human_label": [1, 0, 1]}).to_csv(
         config.AUDIT / "job_audit_sheet.csv", index=False)

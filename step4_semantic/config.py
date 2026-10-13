@@ -24,7 +24,7 @@ HERE = Path(__file__).resolve().parent
 RESULTS = HERE / "results"
 DETAILS = RESULTS / "details"          # every table behind summary.md
 AUDIT = RESULTS / "audit"              # sheets that humans label
-HANDOFF = RESULTS / "handoff"          # files for Student 5
+HYBRID = RESULTS / "hybrid_job_skills"          # job-skill tables used by Step 5
 FIGURES = HERE / "figures"
 CACHE = HERE / "cache"
 SEED = 36118                      # same seed as Step 3 (gold set, bootstrap)
@@ -111,5 +111,5 @@ REFERENCE_UNITS = 4000            # unlabelled ad units used for per-skill z-nor
 # --------------------------------------------------------------------------- #
 
 def ensure_dirs():
-    for d in (RESULTS, DETAILS, AUDIT, HANDOFF, FIGURES, CACHE):
+    for d in (RESULTS, DETAILS, AUDIT, HYBRID, FIGURES, CACHE):
         d.mkdir(parents=True, exist_ok=True)

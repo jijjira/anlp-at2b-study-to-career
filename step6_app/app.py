@@ -1,4 +1,4 @@
-"""Final Streamlit interface for the Study-to-Career project (Student 6).
+"""Streamlit interface for the Study-to-Career project.
 
 Run from the repository root with:
     streamlit run step6_app/app.py

@@ -1,11 +1,15 @@
+# Shared libraries for Steps 3 to 6. Each step folder also has its own requirements file.
 spacy>=3.7
 pandas>=2.0
 numpy>=1.24
 scipy>=1.10
 matplotlib>=3.7
 jupyter
+nbformat
 pytest
-# Step 4 (semantic matching) — add when finalised:
-# sentence-transformers
-pymupdf>=1.23
+pymupdf>=1.24
 reportlab>=4.0
+sentence-transformers>=2.7
+torch>=2.1
+streamlit
+altair>=5.0

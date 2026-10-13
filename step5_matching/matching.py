@@ -116,7 +116,7 @@ def study_coverage_from_hits(study_hits: pd.DataFrame, unit_ids: Iterable[str] |
 
 
 def study_coverage_from_profile(profile) -> pd.DataFrame:
-    """Convert Member 3/4 StudyProfile into the table accepted by match_careers."""
+    """Convert a Step 3/4 StudyProfile into the table accepted by match_careers."""
     rows = []
     for skill, detail in profile.skills.items():
         rows.append({"skill": skill,
@@ -210,7 +210,7 @@ def learning_recommendations(details: pd.DataFrame, career: str, k: int = 5) -> 
 
 
 def app_payload(ranking: pd.DataFrame, details: pd.DataFrame) -> list[dict]:
-    """Create a JSON-safe result for Member 6's Streamlit app."""
+    """Create a JSON-safe result for the Streamlit app."""
     payload = json.loads(ranking.to_json(orient="records"))
     for record in payload:
         relevant = details[details["career"].eq(record["career"])]
@@ -251,7 +251,7 @@ def sensitivity_analysis(study, career_profiles: pd.DataFrame,
 def run_demo(root: Path, output_dir: Path, unit_ids: list[str] | None = None,
              top_n: int = DEFAULT_TOP_N) -> pd.DataFrame:
     jobs = pd.read_csv(root / "step1_data" / "job_cleaned.csv")
-    job_hits = pd.read_csv(root / "step4_semantic" / "results" / "handoff" / "job_skills_hybrid_long.csv")
+    job_hits = pd.read_csv(root / "step4_semantic" / "results" / "hybrid_job_skills" / "job_skills_hybrid_long.csv")
     study_hits = pd.read_csv(root / "step4_semantic" / "results" / "details" / "curriculum_all_hits.csv")
     profiles = build_career_profiles(job_hits, jobs)
     study = study_coverage_from_hits(study_hits, unit_ids=unit_ids)

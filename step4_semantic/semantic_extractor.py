@@ -16,7 +16,7 @@ Design choices (each is an ablation in experiments.py):
   * The decision rule (threshold, optional margin below the unit's best skill) is separate from the scores, so one
     set of similarity matrices serves a whole threshold sweep.
 
-Public API (drop-in compatible with RequirementAwareExtractor for Student 5):
+Public API (drop-in compatible with RequirementAwareExtractor):
     HybridExtractor.extract_skills(text)     -> list[str]
     HybridExtractor.extract_weighted(text)   -> {skill: demand weight}
     HybridExtractor.skill_strengths(text)    -> {skill: strength class}   (what alignment.job_strengths calls)

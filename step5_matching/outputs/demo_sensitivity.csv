@@ -1,0 +1,16 @@
+top_n,rank,career,match_percent
+20,1,ML Engineer,69.8
+20,2,Data Scientist,69.5
+20,3,Data Engineer,65.3
+20,4,Data Analyst,62.8
+20,5,AI Engineer,43.7
+30,1,Data Scientist,68.5
+30,2,Data Engineer,62.9
+30,3,Data Analyst,61.7
+30,4,ML Engineer,61.0
+30,5,AI Engineer,40.8
+40,1,Data Scientist,67.1
+40,2,Data Analyst,59.8
+40,3,ML Engineer,59.6
+40,4,Data Engineer,58.1
+40,5,AI Engineer,40.6

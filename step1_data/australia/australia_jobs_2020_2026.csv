@@ -1,0 +1,740 @@
+﻿job_id,career_category,job_title,company,job_description,date_posted,year,date_basis,location,source,source_url,collected_at
+Greenhouse:5248983008,AI Engineer,Applied AI Engineer,Anthropic,"About Anthropic
+Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems.
+As a member of the Applied AI team at Anthropic, you will be a technical Product Engineer focused on becoming a trusted technical advisor to customers as they adopt Claude. You will work closely with customer product and engineering teams as they ship new products powered by Claude: advising on architecture design decisions, developing evaluation frameworks, and guiding customers through the most cutting edge implementation patterns for LLMs.
+Working closely with our Sales, Product, and Engineering teams, you'll guide customers from technical discovery through successful deployment. You'll combine deep engineering expertise with customer-facing skills to help customers understand the potential of working with LLMs and build innovative solutions that address complex business challenges while maintaining our high standards for safety and reliability.
+Responsibilities:
+Serve as a technical advisor to Anthropic customers as they deploy new products & workflows with our models: from discovery through deployment, coordinating internally across multiple teams to drive customer success
+Partner with account executives to deeply understand customer product requirements and architect technical solutions, ensuring alignment between business objectives and technical implementation
+Guide technical architecture decisions and help customers build state-of-the-art products & workflows with LLMs via API
+Develop customized pilots, prototypes, and evaluation suites that make the case for customer deployment of our models into customer products and workflows via our API
+Lead hands-on technical workshops and code reviews with customer engineering teams
+Identify common design patterns and contribute insights back to our Product and Engineering teams
+Maintain strong knowledge of the latest developments in LLM capabilities, implementation patterns, and AI product development stacks
+Travel occasionally to customer sites for workshops, implementation support, and building relationships
+Attend conferences, lead speaking engagements, write blog posts and white papers on topics surrounding the AI space
+You may be a good fit if you have:
+8+ years of experience in a technical roles such as Customer Engineer, Forward Deployed Engineer or Software Engineer with a desire to work closely with customers
+Production experience with LLMs
+including advanced prompt engineering, agent development, evaluation frameworks, and deployment at scale
+Strong programming skills with proficiency in Python
+and experience building production applications
+Expertise working with common LLM implementation patterns, prompt engineering, evaluation frameworks, agent frameworks, and retrieval frameworks.
+Ability to navigate ambiguity and execute across domains with
+intellectual openness
+, finding simple solutions to complex problems
+High cooperation
+mindset for cross-organizational collaboration, balancing competing priorities with
+integrity
+Passion for advancing
+safe, beneficial AI systems
+through creative technical applications
+Exceptional communication skills to convey technical concepts to diverse stakeholders while maintaining a
+low ego
+and collaborative approach
+Logistics
+Minimum education:
+Bachelor’s degree or an equivalent combination of education, training, and/or experience
+Required field of study:
+A field relevant to the role as demonstrated through coursework, training, or professional experience
+Minimum years of experience:
+Years of experience required will correlate with the internal job level requirements for the position
+Location-based hybrid policy:
+Currently, we expect all staff to be in one of our offices at least 25% of the time. However, some roles may require more time in our offices.
+Visa sponsorship:
+We do sponsor visas! However, we aren't able to successfully sponsor visas for every role and every candidate. But if we make you an offer, we will make every reasonable effort to get you a visa, and we retain an immigration lawyer to help with this.
+We encourage you to apply even if you do not believe you meet every single qualification.
+Not all strong candidates will meet every single qualification as listed.  Research shows that people who identify as being from underrepresented groups are more prone to experiencing imposter syndrome and doubting the strength of their candidacy, so we urge you not to exclude yourself prematurely and to submit an application if you're interested in this work. We think AI systems like the ones we're building have enormous social and ethical implications. We think this makes representation even more important, and we strive to include a range of diverse perspectives on our team.
+Your safety matters to us.
+To protect yourself from potential scams, remember that Anthropic recruiters only contact you from @anthropic.com email addresses. In some cases, we may partner with vetted recruiting agencies who will identify themselves as working on behalf of Anthropic. Be cautious of emails from other domains. Legitimate Anthropic recruiters will never ask for money, fees, or banking information before your first day. If you're ever unsure about a communication, don't click any links—visit
+anthropic.com/careers
+directly for confirmed position openings.
+How we're different
+We believe that the highest-impact AI research will be big science. At Anthropic we work as a single cohesive team on just a few large-scale research efforts. And we value impact — advancing our long-term goals of steerable, trustworthy AI — rather than work on smaller and more specific puzzles. We view AI research as an empirical science, which has as much in common with physics and biology as with traditional efforts in computer science. We're an extremely collaborative group, and we host frequent research discussions to ensure that we are pursuing the highest-impact work at any given time. As such, we greatly value communication skills.
+The easiest way to understand our research directions is to read our recent research. This research continues many of the directions our team worked on prior to Anthropic, including: GPT-3, Circuit-Based Interpretability, Multimodal Neurons, Scaling Laws, AI & Compute, Concrete Problems in AI Safety, and Learning from Human Preferences.
+Come work with us!
+Anthropic is a public benefit corporation headquartered in San Francisco. We offer competitive compensation and benefits, optional equity donation matching, generous vacation and parental leave, flexible working hours, and a lovely office space in which to collaborate with colleagues.
+Guidance on Candidates' AI Usage:
+Learn about
+our policy
+for using AI in our application process.",2026-06-05,2026,source_publication_date,"Sydney, Australia",Greenhouse,https://job-boards.greenhouse.io/anthropic/jobs/5248983008,2026-10-03
+SmartRecruiters:6000000001250795,AI Engineer,Staff Security Engineer-  AI Security (remote across Australia) ,Canva,"Join the team redefining how the world experiences design.
+Hey, g'day, mabuhay, kia ora, 你好, hallo, vítejte!
+Thanks for stopping by. We know job hunting can be a little time consuming and you're probably keen to find out what's on offer, so we'll get straight to the point.
+Where and how you can work
+Our flagship campus is in Sydney. We also have a campus in Melbourne and co-working spaces in Brisbane, Perth and Adelaide. But you have choice in where and how you work, we trust our Canvanauts to choose the balance that empowers them and their team to achieve their goals.
+What you’d be doing in this role
+As Canva scales change continues to be part of our DNA. But we like to think that's all part of the fun. So this will give you the flavour of the type of things you'll be working on when you start, but this will likely evolve.
+We’re building a specialized AI Security capability to address the unique challenges that come with deploying AI and machine learning at scale. As a Staff Security Engineer, you’ll operate at the intersection of security engineering and AI innovation - pioneering new approaches to emerging AI security challenges and driving novel research into evolving threats and attack techniques. You’ll serve as a technical authority across Canva, setting strategic direction for AI security and defining the frameworks, standards, and secure-by-design patterns that enable safe AI adoption across both our product and broader business landscape. You’ll be working closely with engineering, product, AI research, and business stakeholders in a high-impact role where you’ll shape how Canva secures AI both now and for the future.
+At the moment, this role is focused on:
+Define the strategic direction and security frameworks for AI systems at scale, and lead the design and implementation of controls across model training pipelines, inference endpoints, and AI-powered features across Canva's platform
+Lead novel research into emerging AI security threats and attack vectors, and drive threat modelling, vulnerability assessments, and penetration testing focused on risks such as prompt injection, model poisoning, and data extraction
+Serve as the technical authority for AI security across Canva by leading security reviews and code assessments for AI use cases, identifying risks and providing actionable recommendations to mitigate potential threats
+Drive the strategy and development of detection rules and response playbooks tailored to AI-specific security incidents and anomalous behaviour, ensuring they scale across Canva’s AI footprint
+Lead organisation-wide AI security standards and best practices by collaborating with stakeholders across the business (including executive leadership) to embed secure-by-design workflows, and mentor and guide other security engineers working on AI initiatives
+You're probably a match if
+You bring deep technical expertise in AI security, with a track record of novel research and innovation -  and the ability to apply that knowledge pragmatically to real-world challenges at scale.
+You have a proven ability to explore genuinely unknown security problems, think holistically across product and business contexts, and set strategic direction in a fast-moving, ambiguous space.
+You're a recognised technical authority and thought leader who can influence senior stakeholders, align cross-functional teams, and drive outcomes without a clear playbook.
+You balance risk, usability, and velocity intuitively - enabling safe AI adoption at scale without slowing down the teams building it.
+You're self-motivated and thrive in high-paced environments, bringing calm, high-leverage leadership when the path forward isn't obvious.
+You're a strong communicator and fast networker in large organisations, with the ability to build trust quickly across engineering, product, and executive stakeholders.
+You're invested in raising the bar for security across the organisation -  mentoring other engineers and building durable frameworks that help teams ship securely and consistently.
+About the team
+We are Canva's Security Group, a team dedicated to protecting one of the world's most trusted design platforms and the millions of users who rely on it every day. The AI Security Team works at the forefront of AI, building novel solutions to security risk posed by the rapidly evolvin AI landscape. As Canva scales globally and integrates cutting-edge AI capabilities, we're evolving our security posture to stay ahead of emerging risks across all of Canva. We combine technical excellence with collaborative problem-solving, ensuring that security is embedded in everything we do. Our work directly enables Canva's mission to empower the world to design, keeping our platform secure, resilient, and trustworthy.
+What's in it for you?
+Achieving our crazy big goals motivates us to work hard - and we do - but you'll experience lots of moments of magic, connectivity and fun woven throughout life at Canva, too. We also offer a range of benefits to set you up for every success in and outside of work.
+Here's a taste of what's on offer:
+Equity packages - we want our success to be yours too
+Inclusive parental leave policy that supports all parents & carers
+An annual Vibe & Thrive allowance to support your wellbeing, social connection, office setup & more
+Flexible leave options that empower you to be a force for good, take time to recharge and supports you personally
+Check out lifeatcanva.com for more info.
+Other stuff to know
+We see AI as a powerful amplifier of creativity and technology at Canva. We’re evolving how we assess AI skills in our Technology hiring experience - you’ll tackle interactive, real-time challenges that reflect the kind of work we do. In some interviews, you may also be asked to solve a problem using an AI tool to show how you approach challenges with tech by your side. Your recruitment partner will walk you through what to expect.
+We make hiring decisions based on your experience, skills and passion, as well as how you can enhance Canva and our culture. When you apply, please tell us the pronouns you use and any reasonable adjustments you may need during the interview process.
+We celebrate all types of skills and backgrounds at Canva so even if you don’t feel like your skills quite match what’s listed above - we still want to hear from you!
+Please note that interviews are conducted virtually.",2026-07-22,2026,source_publication_date,"Sydney, , Australia",SmartRecruiters,https://jobs.smartrecruiters.com/Canva/6000000001250795-staff-security-engineer-ai-security-remote-across-australia-,2026-10-03
+Greenhouse:5107283008,AI Engineer,Senior Forward Deployed Engineer (AI Agent),Cresta,"Cresta unlocks the true potential of the customer experience, turning every conversation into a competitive advantage. Cresta’s unified AI platform combines conversational AI agents, real-time human agent augmentation, and comprehensive conversation intelligence to drive revenue and efficiency gains across every channel. The world’s leading companies, including United Airlines, Cox Communications, and Marriott, use Cresta to power world-class customer experiences every day.
+Born from the Stanford AI Lab, Cresta has raised more than $270 million from the world’s leading investors, including a16z, Greylock, and Sequoia. Cresta’s leadership includes some of the leading minds in AI today. Our CEO,
+Ping Wu
+, founded and led Google's Contact Center AI and Vertex AI platforms before joining Cresta to build the future of AI-driven customer experiences.
+Over the next few years, AI is going to redefine how people all over the world interact with businesses every day. Come build that future at Cresta.
+About the role:
+At Cresta, the AI Agent team is on a mission to create state-of-the-art AI Agents that solve practical problems for our customers. We are focused on leveraging the latest technologies in Large Language Models (LLMs) and AI Agent systems, while ensuring that the solutions we develop are cost-effective, secure, and reliable.
+As an
+AI Agent Engineer
+, you'll be at the forefront of deploying AI agents that address real-world challenges. In this role, you will work closely with customers as well as our software and machine learning engineers, ensuring high-impact AI Agent deployments and contributing to the continuous improvement of our core AI platform. You’ll develop intelligent AI agents, integrate them seamlessly with external systems and offer hands-on technical expertise to ensure successful deployments.. This position requires strong engineering skills, adaptability, and customer engagement. If you are self-driven, analytical, and eager to leverage AI in practical applications, this role is for you.
+What You'll Do
+:
+AI Agent Development:
+Develop, configure, deploy, and optimize AI agents using Cresta’s AI platform and tools.
+System Integration:
+Build AI agent integrations with external systems (APIs, databases, CRMs, etc.) to ensure seamless workflow integration.
+Performance Optimization:
+Optimize AI agent performance (e.g. fine-tune prompts and configurations) and troubleshoot issues in complex enterprise environments.
+Requirements Gathering:
+Collaborate with customers and internal stakeholders to gather technical requirements and translate business needs into AI Agent solutions.
+Demos & Iteration:
+Conduct interactive demos and present compelling proof-of-concepts to prospective customers, proactively gather feedback, and iteratively refine solutions to meet objectives.
+Project Coordination:
+Define project milestones, create implementation plans, and coordinate execution with internal teams to ensure on-time delivery. Provide a tight feedback loop to our product and engineering teams — identifying gaps, building custom tooling, and influencing the roadmap through real-world deployment learnings.
+Partner Cross-Functionally:
+Collaborate with PMs to define agent goals, iterate rapidly based on customer feedback, and shape product capabilities that maximize customer ROI.
+Technical Guidance:
+Serve as a trusted technical advisor for the customer, guiding best practices for AI agent adoption and usage. Provide technical guidance on AI agent best practices, including architecture design, security considerations, and scalability planning.
+What We're Looking For:
+Education:
+Bachelor’s or Master’s degree in Computer Science, Engineering, or a related field.
+Experience:
+3+ years of full-time working experience in software development/Consulting, AI/ML engineering, or Forward Deployed Engineering.
+Programming Skills:
+Proficiency in Python and Golang, with the ability to write clean, efficient code.
+AI/ML Knowledge:
+Familiarity with AI/ML concepts. Hands-on experience with large language models (LLMs), and prompt engineering techniques are strongly preferred.
+AI Agent Frameworks:
+Strong understanding of general AI agent frameworks, function calling, and retrieval-augmented generation (RAG). Hands-on experience of building such a system is strongly preferred.
+Cloud & DevOps:
+Experience with cloud platforms (AWS, GCP, or Azure) and DevOps practices (CI/CD, containerization, monitoring).
+Integration Expertise:
+Hands-on experience with integrating systems via APIs, webhooks, and data pipelines.
+Communication:
+Excellent communication and project management skills.
+Analytical Approach:
+Ability to use data-driven decision-making, including A/B testing and performance monitoring, to refine solutions.
+Collaborative Builder:
+You thrive in cross-functional environments, working hand-in-hand with PMs and engineers to turn real customer problems into scalable AI solutions.
+Note on Our Hiring Process
+We highly value your time and engineering craftsmanship. To ensure a streamlined and objective process, the first step for qualified applicants following an initial resume review is a self-paced CoderPad technical assessment. This allows you to showcase your practical coding and problem-solving skills in a real-world environment before moving into conversational interview rounds.
+Perks & Benefits:
+We offer a comprehensive and people-first benefits package to support you at work and in life:
+We offer Cresta employees a variety of medical benefits designed to fit your stage of life
+Flexible vacation time to promote a healthy work-life blend
+Paid parental leave to support you and your family
+Compensation at Cresta
+Cresta’s approach to compensation is simple: recognize impact, reward excellence, and invest in our people. We offer competitive, location-based pay that reflects the market and what each individual brings to the table.
+The posted base salary range represents what we expect to pay for this role in a given location. Final offers are shaped by factors like experience, skills, education, and geography. In addition to base pay, total compensation includes equity and a comprehensive benefits package for you and your family.
+Our use of AI in recruiting:
+We may use AI tools in our recruiting process, which require human review and oversight. If you have questions about our use of AI or wish to opt out, please contact
+recruiting@cresta.ai
+(if you are opting out, please use the subject ‘Opt-Out’ in your email).
+Recording & AI transcription:
+We do not authorize candidates to record or use AI transcription of any interview by phone, notetaker app, AI glasses, or other device. Candidates may request an exception or accommodation for review during the interview process as needed.
+Recruiting impersonation scams:
+We have noticed a rise in recruiting impersonations across the industry, where scammers attempt to access candidates' personal and financial information through fake interviews and offers. All Cresta recruiting email communications will always come from the
+@cresta
+.ai domain. Any outreach claiming to be from Cresta via other sources should be ignored.",2026-02-03,2026,source_publication_date,Australia (Remote),Greenhouse,https://job-boards.greenhouse.io/cresta/jobs/5107283008,2026-10-03
+Greenhouse:7573350,AI Engineer,Senior Applied AI Engineer,Culture Amp,"We’re big believers in the power of IRL, so for most roles we ask Campers to work from their local Culture Amp office an average of 2 days a week to unlock connection, pace and culture together.
+Join us on our mission to make a better world of work.
+Culture Amp is the world’s leading employee experience platform, revolutionizing how 25 million employees across more than 6,000 companies create a better world of work. Culture Amp empowers companies of all sizes and industries to transform employee engagement, drive performance management, and develop high-performing teams. Powered by people science and the most comprehensive employee dataset in the world, the most innovative companies including Canva, On, Asana, Dolby, McDonalds and Nasdaq depend on Culture Amp every day.
+Culture Amp is backed by leading venture capital funds and has offices in the US, UK, Germany and Australia. Culture Amp has been recognized as one of the world’s top private cloud companies by Forbes and most innovative companies by Fast Company.
+For more information visit
+cultureamp.com
+.
+How you can help make a better world of work
+We're looking for a Senior Applied AI Engineer to join the Frontier team, helping build Agentic AI Solutions at Culture Amp. You'll work at the intersection of applied AI research and product engineering, translating cutting-edge techniques into production systems that genuinely improve how people experience work. This isn't a research lab - you'll be shipping features that solve real customer problems.
+What you'll do
+Design, implement and evaluate areas and features for agentic AI capabilities and systems using frameworks (e.g., LangGraph) for stateful, multi-turn conversations.
+Advise, help build, and orchestrate data pipelines and integrations involving workplace data (surveys, goals, performance reviews, feedback, 1-1 notes) into coherent context view.
+Build memory across sessions, and context graph, grounded in a custom ontology, alongside per-user relational and procedural memory and preferences that persist to the user profile.
+Build and evaluate effective RAG, including pre-processing and hybrid search, and design areas of our graph-based agentic frameworks.
+Own the end-to-end feedback loop: prompt engineering, evaluation at scale, and continuous improvement, including LLM-powered analysis tools that diagnose performance shifts and recommend prompt or system-level changes.
+Translate customer requirements into technical solutions by working backwards from user needs to system design, and write the technical documentation that supports transfer to product teams.
+Partner closely with product, design, and people science so features are fit for purpose and scale.
+Contribute to evaluation frameworks and bias testing that meet enterprise requirements for transparency, fairness, and responsible AI.
+Create and Monitor guardrails and safety in production.
+Stay current with AI research, literature and provider offerings, and bring what's useful into production.
+You have:
+Proven commercial experience taking ML/AI systems to production.
+Hands-on experience with knowledge graphs and graph databases (e.g. Neo4j, Neptune).
+Production LLM evaluation and observability: LLM-as-judge, eval datasets, human-in-the-loop labelling, scoring against thresholds, plus tracing and production monitoring (e.g. Langfuse, LangSmith).
+Experience in designing and scaling production-grade multi-agentic systems (orchestration, prompt and context engineering, RAG, memory, agent architectures)
+Full stack software development experience, ideally Python, React, PGVector
+Strong software engineering fundamentals - you write clean, tested, maintainable code.
+Proven ability to instruct and delegate complex workflows to autonomous agents, building the necessary feedback loops to ensure they act reliably on your behalf.
+Hands-on experience designing and integrating data pipelines - you're comfortable moving data across systems, working within rigorous security standards, handling messy real-world inputs, and building robust orchestration
+You are ambitious with what you build whilst maintaining a pragmatic, solution-focused mindset - you evaluate new technology through the lens of ""does this scalably solve the problem?"" not ""is this technically interesting?""
+Values alignment, the initiative to take risks, and the humility to learn and work out loud. You take pride in your work and its successful utilisation, stability, extendability and maintainability.
+Strong signals:
+Experience at startups or founding teams - comfortable with ambiguity and fast iteration
+Postgraduate degree (Masters or PhD) in Machine Learning, Computer Science, Applied Mathematics, or related quantitative field
+Evidence of taking cutting-edge (relevant) techniques from paper to production
+Experience with evaluation/benchmarking frameworks for AI systems
+Experience implementing GraphRAG or Knowledge Graphs (e.g., Neo4j, Neptune)
+Evidence of taking relevant, recent techniques from paper to production
+Bonus:
+Familiarity with people analytics, HR tech, or behavioural science applications
+Open source contributions or public technical writing
+Why join us
+You'll work at scale on hard problems that matter - building AI that helps organisations develop their people, improve feedback culture, and foster the conditions for sustainable high performance. Our approach is deeply informed by Culture Amp's people science research. You'll be surrounded by talented and passionate advocates for humanity and cutting edge AI in the world of work.
+Perks & Benefits
+At Culture Amp, our people are at the heart of our success. We offer competitive pay and a total rewards package designed to support you at work and in life. This includes:
+Equity through our Employee Share Option Program, so you can share in our long-term success
+Learning programs and coaching to help you thrive and grow
+Quarterly refresh days, an extended end-of-year break and a monthly allowance to support your wellbeing and lifestyle
+Inclusive parental leave from day one
+A MacBook and budget to set up your home workspace, enabling flexibility
+Five annual social impact days to to give back to causes that matter to you
+Medical insurance coverage for you and your family (Available for US & UK only)
+Our rewards are designed to support different needs and life stages, recognising that what matters most can vary from person to person.
+Research shows that candidates from underrepresented backgrounds may hesitate to apply if they don’t meet every requirement, but your unique experience matters. If you’re interested in joining us, we strongly encourage you to apply and help us build a more diverse and impactful team.
+Accommodations & Data Privacy
+If you require reasonable accommodations or adjustments due to a disability to complete the online application or to participate in the interview process, please contact accommodations@cultureamp.com and identify the type of accommodation or assistance you are requesting. Do not include any medical or health information in this email. The Reasonable Accommodations team will respond to your email promptly.
+Culture Amp will retain your CV & personal information for a period of two years (four years for the US) from the date of your application process completion. Culture Amp may contact you in relation to future job opportunities during this time period. For further information please see our privacy policy
+here
+or contact
+privacy@cultureamp.com
+.",2026-01-28,2026,source_publication_date,Melbourne,Greenhouse,https://job-boards.greenhouse.io/cultureamp/jobs/7573350,2026-10-03
+Greenhouse:8184634,AI Engineer,Senior Applied AI Engineer,Culture Amp,"We’re big believers in the power of IRL, so for most roles we ask Campers to work from their local Culture Amp office an average of 2 days a week to unlock connection, pace and culture together.
+Join us on our mission to make a better world of work.
+Culture Amp is the world’s leading employee experience platform, revolutionizing how 25 million employees across more than 6,000 companies create a better world of work. Culture Amp empowers companies of all sizes and industries to transform employee engagement, drive performance management, and develop high-performing teams. Powered by people science and the most comprehensive employee dataset in the world, the most innovative companies including Canva, On, Asana, Dolby, McDonalds and Nasdaq depend on Culture Amp every day.
+Culture Amp is backed by leading venture capital funds and has offices in the US, UK, Germany and Australia. Culture Amp has been recognized as one of the world’s top private cloud companies by Forbes and most innovative companies by Fast Company.
+For more information visit
+cultureamp.com
+.
+How you can help make a better world of work
+We're looking for a Senior Applied AI Engineer to join the Frontier team, helping build Agentic AI Solutions at Culture Amp. You'll work at the intersection of applied AI research and product engineering, translating cutting-edge techniques into production systems that genuinely improve how people experience work. This isn't a research lab - you'll be shipping features that solve real customer problems.
+What you'll do
+Design, implement and evaluate areas and features for agentic AI capabilities and systems using frameworks (e.g., LangGraph) for stateful, multi-turn conversations.
+Advise, help build, and orchestrate data pipelines and integrations involving workplace data (surveys, goals, performance reviews, feedback, 1-1 notes) into coherent context view.
+Build memory across sessions, and context graph, grounded in a custom ontology, alongside per-user relational and procedural memory and preferences that persist to the user profile.
+Build and evaluate effective RAG, including pre-processing and hybrid search, and design areas of our graph-based agentic frameworks.
+Own the end-to-end feedback loop: prompt engineering, evaluation at scale, and continuous improvement, including LLM-powered analysis tools that diagnose performance shifts and recommend prompt or system-level changes.
+Translate customer requirements into technical solutions by working backwards from user needs to system design, and write the technical documentation that supports transfer to product teams.
+Partner closely with product, design, and people science so features are fit for purpose and scale.
+Contribute to evaluation frameworks and bias testing that meet enterprise requirements for transparency, fairness, and responsible AI.
+Create and Monitor guardrails and safety in production.
+Stay current with AI research, literature and provider offerings, and bring what's useful into production.
+You have:
+Proven commercial experience taking ML/AI systems to production.
+Hands-on experience with knowledge graphs and graph databases (e.g. Neo4j, Neptune).
+Production LLM evaluation and observability: LLM-as-judge, eval datasets, human-in-the-loop labelling, scoring against thresholds, plus tracing and production monitoring (e.g. Langfuse, LangSmith).
+Experience in designing and scaling production-grade multi-agentic systems (orchestration, prompt and context engineering, RAG, memory, agent architectures)
+Full stack software development experience, ideally Python, React, PGVector
+Strong software engineering fundamentals - you write clean, tested, maintainable code.
+Proven ability to instruct and delegate complex workflows to autonomous agents, building the necessary feedback loops to ensure they act reliably on your behalf.
+Hands-on experience designing and integrating data pipelines - you're comfortable moving data across systems, working within rigorous security standards, handling messy real-world inputs, and building robust orchestration
+You are ambitious with what you build whilst maintaining a pragmatic, solution-focused mindset - you evaluate new technology through the lens of ""does this scalably solve the problem?"" not ""is this technically interesting?""
+Values alignment, the initiative to take risks, and the humility to learn and work out loud. You take pride in your work and its successful utilisation, stability, extendability and maintainability.
+Strong signals:
+Experience at startups or founding teams - comfortable with ambiguity and fast iteration
+Postgraduate degree (Masters or PhD) in Machine Learning, Computer Science, Applied Mathematics, or related quantitative field
+Evidence of taking cutting-edge (relevant) techniques from paper to production
+Experience with evaluation/benchmarking frameworks for AI systems
+Experience implementing GraphRAG or Knowledge Graphs (e.g., Neo4j, Neptune)
+Evidence of taking relevant, recent techniques from paper to production
+Bonus:
+Familiarity with people analytics, HR tech, or behavioural science applications
+Open source contributions or public technical writing
+Why join us
+You'll work at scale on hard problems that matter - building AI that helps organisations develop their people, improve feedback culture, and foster the conditions for sustainable high performance. Our approach is deeply informed by Culture Amp's people science research. You'll be surrounded by talented and passionate advocates for humanity and cutting edge AI in the world of work.
+Perks & Benefits
+At Culture Amp, our people are at the heart of our success. We offer competitive pay and a total rewards package designed to support you at work and in life. This includes:
+Equity through our Employee Share Option Program, so you can share in our long-term success
+Learning programs and coaching to help you thrive and grow
+Quarterly refresh days, an extended end-of-year break and a monthly allowance to support your wellbeing and lifestyle
+Inclusive parental leave from day one
+A MacBook and budget to set up your home workspace, enabling flexibility
+Five annual social impact days to to give back to causes that matter to you
+Medical insurance coverage for you and your family (Available for US & UK only)
+Our rewards are designed to support different needs and life stages, recognising that what matters most can vary from person to person.
+Research shows that candidates from underrepresented backgrounds may hesitate to apply if they don’t meet every requirement, but your unique experience matters. If you’re interested in joining us, we strongly encourage you to apply and help us build a more diverse and impactful team.
+Accommodations & Data Privacy
+If you require reasonable accommodations or adjustments due to a disability to complete the online application or to participate in the interview process, please contact accommodations@cultureamp.com and identify the type of accommodation or assistance you are requesting. Do not include any medical or health information in this email. The Reasonable Accommodations team will respond to your email promptly.
+Culture Amp will retain your CV & personal information for a period of two years (four years for the US) from the date of your application process completion. Culture Amp may contact you in relation to future job opportunities during this time period. For further information please see our privacy policy
+here
+or contact
+privacy@cultureamp.com
+.",2026-09-07,2026,source_publication_date,Sydney,Greenhouse,https://job-boards.greenhouse.io/cultureamp/jobs/8184634,2026-10-03
+Greenhouse:8792853002,AI Engineer,Customer Enablement Architect (Capability Engineering & AI Adoption),Databricks,"CSQ427R440
+The Databricks Customer Enablement team is on a mission to upskill data and AI professionals in customer organizations so they can use Databricks effectively and accelerate customer success.
+As a Customer Enablement Architect, you will design and lead customer enablement and talent-transformation programs across Australia and New Zealand. You will partner with Sales, Field Engineering, Forward Deployed Engineering, Training Delivery, and Operations to understand customer needs, recommend the right learning solutions, and ensure successful execution.
+You will balance strategic customer engagement with program and commercial execution across training bookings, revenue, learners, credentials, and adoption. You will bring enough technical depth to understand Databricks curriculum and certifications, make credible recommendations, and engage confidently with technical stakeholders—without being expected to deliver deep hands-on technical training.
+The impact you will have
+Work with regional Go-to-Market teams to create enablement strategies aligned to customer segment, business priorities, technical maturity, and talent-transformation goals.
+Translate customer outcomes into practical learning plans, capability roadmaps, and recommendations across free and paid training, instructor-led and self-paced learning, credentials, and partner delivery.
+Partner with global Delivery and Operations teams to coordinate scheduling, communications, program quality, and seamless execution of customer development plans.
+Manage and report weekly, monthly, and quarterly performance across training bookings, revenue, learners, credentials, and adoption; use insights to guide action from field teams.
+Serve as the voice of the customer for regional enablement, curriculum, and certification priorities, while engaging senior leaders and executives internally and externally.
+Identify capability gaps that may affect platform adoption and work with account teams on targeted interventions, including contextual or just-in-time enablement where it improves customer outcomes.
+Technical context you will support
+You will help customers build capability across areas such as:
+Lakehouse architecture, data engineering, ETL, data governance, and data quality
+Databricks training, certifications, and foundational onboarding experiences
+Generative AI, agentic workflows, Databricks Apps, Genie, and Lakeflow
+Translating technical adoption needs into accessible enablement and talent-transformation programs
+You do not need to be a principal engineer. You should be able to hold a credible technical conversation, understand curriculum and certification requirements, and recommend the right enablement path. Experience creating a prototype, automation, or technical tool is valuable but not required.
+What we look for
+5+ years of demonstrated experience in Customer Enablement, Talent Transformation, Training, Customer Success, Consulting, or managing a book of business.
+Hands-on Builder Mindset: A non-negotiable track record of personally designing, building, and deploying working prototypes, automation tools, or technical apps.
+Experience creating and leading enablement programs in partnership with Sales and technical teams to deliver customer outcomes.
+Experience in Big Data, AI, Data Science, cloud platforms, or enterprise technology, with the ability to understand technical curricula and certifications.
+Strong customer and executive engagement skills, including discovery, stakeholder management, presentation, facilitation, and navigating ambiguity.
+Commercial & Business Insight: Ability to connect technical skill outcomes to core P&L levers, influence renewals/expansions, and collaborate effectively with sales on strategic account planning.
+Experience operating across ANZ markets, strong operational discipline, and willingness to travel as needed
+Experience with technical solutioning or building tools is a plus.
+About Databricks
+Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT&T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on
+LinkedIn
+,
+X
+,
+YouTube
+, and
+Instagram
+.
+Benefits
+At Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click
+here
+.
+Our Commitment to Diversity and Inclusion
+At Databricks, we are committed to fostering a diverse and inclusive culture where everyone can excel. We take great care to ensure that our hiring practices are inclusive and meet equal employment opportunity standards. Individuals looking for employment at Databricks are considered without regard to age, color, disability, ethnicity, family or marital status, gender identity or expression, language, national origin, physical and mental ability, political affiliation, race, religion, sexual orientation, socio-economic status, veteran status, and other protected characteristics.
+Compliance
+If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone.",2026-09-29,2026,source_publication_date,"Sydney, Australia",Greenhouse,https://databricks.com/company/careers/open-positions/job?gh_jid=8792853002,2026-10-03
+Greenhouse:7646769,AI Engineer,AI Consulting Solutions Engineer,Netskope,"Join the Future of Security at Netskope
+Netskope (NASDAQ: NTSK) is a leader in modern security and networking for the cloud and AI era. We secure and accelerate cloud, data, and AI in real time, everywhere. Thousands of customers, including more than 30 of the Fortune 100, trust the Netskope One platform, its Zero Trust Engine, and the powerful NewEdge network to gain full visibility and control without performance trade-offs.
+At Netskope, our technology is driven by our greatest strength: our people. We believe that belonging powers innovation, and success is both personal and organizational. We embrace differences in gender, ethnicity, beliefs, ability, and identity, creating an environment where every voice is heard and respected. We empower our employees to bring their authentic selves to work, grow their careers through continuous education and mentorship, and lead with transparency and curiosity. Join a team where you belong, where you are encouraged to be an entrepreneur, and where together, we continue to redefine the landscape of security.
+Visit
+Careers at Netskope
+to learn more. Follow us on
+LinkedIn
+and
+Instagram
+.
+About the Role:
+As a founding member of the AI Consulting Solutions Engineering team, you will be working very closely with our GTM operations to drive forward the adoption and ultimately sales of Netskope's  market leading AI Security portfolio of products.
+Responsibilities:
+Pre-Sale & Sales Activities:
+Assist the sales teams on technical discovery and positioning of Netskope AI Security portfolio of products with customers and prospects
+Prepare, initiate and execute POV’s (Proof of Value) with the aim of achieving technical win and ultimately winning the business.
+Work with the account teams to create a vision for prospects and customers that aligns with the overall Netskope vision but
+Help create a strategic vision for customers based on deep understanding of their AI strategy, expectations and required capabilities.
+Work with existing customers to understand efficacy and operational improvements that can be implemented
+Evangelize the technology internally and externally:
+Enable the field on how to engage, qualify and position the portfolio through presentations, creation of assets and documentation
+Help create labs and other forms of enablement for the Systems Engineering team so they can engage and confidently present AI solutions to customers and prospects
+Engage with customers and partners through the Netskope Community to answer questions and create necessary material like articles and presentations
+Partner with Product Management:
+Work with Product Management to help enhance the products based on requirements captured in the field and enhancements that promote better adoption and operation of those products.
+Help test, experiment and document new products and releases related to the AI portfolio and work with Product Management and Engineering on fixes and improvements
+Requirements:
+At least 2 years of experience in pre-sales
+Previous experience in a technical pre-sales or consulting position with cybersecurity company
+Previous experience in an AI startup (cybersecurity is a plus) where you had constant customer and sales-interactions (SE, SA, Implementation Engineer)
+Good cloud computing experience in any of the three major Hyperscalers (AWS, Azure or GCP)
+Knowledge and hands on integration experience with relevant AI models (OpenAI, Anthophic, Meta, Microsoft Copilot, Google Gemini and AWS models) including prototyping and implementation.
+Understanding of AI prompt best practices and security testing is a plus.
+Strong full-stack development skills with the ability of testing integrations, supporting customers on implementation
+Experience building enablement assets through documentation, articles, videos and presentations
+Good presentation skills and experience presenting to technical and executive audiences
+Travel up to 50% of the time
+Education:
+Bachelor's or Master's in computer science, engineering, mathematics, or related fields preferred
+#LI-CS1
+Netskope is committed to implementing equal employment opportunities for all employees and applicants for employment. Netskope does not discriminate in employment opportunities or practices based on religion, race, color, sex, marital or veteran statues, age, national origin, ancestry, physical or mental disability, medical condition, sexual orientation, gender identity/expression, genetic information, pregnancy (including childbirth, lactation and related medical conditions), or any other characteristic protected by the laws or regulations of any jurisdiction in which we operate.
+Netskope respects your privacy and is committed to protecting the personal information you share with us, please refer to
+Netskope's Privacy Policy
+for more details.
+The application window for this position is expected to close within 50 days. You may apply by filling out the below information, or visiting our
+Netskope Careers site.",2026-03-05,2026,source_publication_date,Australia,Greenhouse,https://www.netskope.com/company/careers/open-positions/?gh_jid=7646769,2026-10-03
+Ashby:e1d8b590-8a91-42bb-ba2e-64b99c87e4ac,AI Engineer,"Applied AI Engineer, Codex",OpenAI,"About the team
+The Applied AI Engineering team helps enterprises put Codex to work on their most important engineering workflows. We work alongside customer engineers to turn frontier AI capabilities into systems that improve how software is built, shipped, secured, and operated.
+Our work spans unfamiliar codebases, legacy systems, data pipelines, infrastructure, and enterprise integrations. We discover where AI can make a meaningful difference, build and prove solutions, and turn what we learn into reusable architectures, tools, and feedback that help shape Codex.
+About the Role
+We’re looking for an engineer who enjoys understanding complex systems, building alongside customers, and solving problems where the path forward isn’t obvious.
+You’ll work directly with technical leaders and engineers to identify valuable opportunities and take them from discovery through implementation and evaluation. You might build a Codex-assisted release review workflow, modernize a legacy data pipeline, accelerate a dependency migration, or connect an agent to the systems and context it needs to investigate production incidents.
+You’ll combine hands-on software engineering, architecture, and technical leadership to make Codex part of how customers get important work done. Success means delivering the agreed solution, demonstrating measurable improvement, and helping the customer sustain and expand its use. Working with our product, engineering, research, and account teams, you’ll turn deployment experience into evidence that informs improvements to Codex.
+The position is based in
+Sydney, Australia
+, with three office days each week. Relocation assistance is available to new employees.
+In this role, you will:
+Lead customer engineering engagements from workflow discovery and architecture through implementation, evaluation, and handoff, with clear customer owners, delivery milestones, and measurable success criteria.
+Assess customer repositories, data systems, infrastructure, security controls, and development practices to understand constraints, determine readiness, and identify where Codex can have the greatest impact.
+Build and validate workflows alongside customer engineers, developing integrations, tool gateways, evaluation harnesses, reference implementations, and automations, often using Codex in your own development process.
+Establish baselines, quality and security guardrails, and evaluation methods that demonstrate whether a workflow is reliable, useful, and ready to expand.
+Turn customer engagements into reusable tools, architectures, and deployment patterns, and translate recurring challenges into actionable feedback for product, engineering, and research teams.
+Document technical decisions and results for handoff and reuse, establishing clear customer, partner, or delivery-team ownership for production release, ongoing operation, and maintenance.
+Use evidence to recommend when to expand a workflow, redirect an engagement, or stop work when value or feasibility cannot be demonstrated.
+You’ll thrive in this role if you:
+Have 5+ years of relevant experience in software development, deployment engineering, data or infrastructure engineering, technical consulting, or solutions architecture.
+Can build, debug, and evaluate production-relevant software and quickly understand unfamiliar systems.
+Actively use AI coding tools, have adapted them to your own work, and have a clear perspective on how agents can automate complete workflows.
+Bring technical depth in one or more areas, such as software engineering, data systems, cloud infrastructure, or enterprise integrations, and enjoy learning across disciplines.
+Understand how software is tested, released, and operated, and can reason about the security, reliability, and access requirements of enterprise environments.
+Can turn an ambiguous customer problem into a practical technical plan with credible estimates, measurable acceptance criteria, and clear tradeoffs.
+Communicate effectively with technical leaders and hands-on engineers, collaborate through uncertainty, and turn individual customer work into solutions others can reuse.
+About OpenAI
+OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.
+We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.
+For additional information, please see
+OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement
+.
+Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.
+To notify OpenAI that you believe this job posting is non-compliant, please submit a report through
+this form
+. No response will be provided to inquiries unrelated to job posting compliance.
+We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this
+link
+.
+OpenAI Global Applicant Privacy Policy
+At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.",2026-09-30,2026,source_publication_date,"Sydney, Australia",Ashby,https://jobs.ashbyhq.com/openai/e1d8b590-8a91-42bb-ba2e-64b99c87e4ac,2026-10-03
+Greenhouse:5097649007,Data Analyst,Senior Data Analyst - Kick ,Easygo,"Are you passionate about building high-quality data assets, data models and pipelines? As a Senior Data Analyst, you’ll play a vital role in developing gold tables and features, ensuring version control and pipeline reliability to build intelligence that drives decision-making across our Kick platform. This is your chance to shape the future of online entertainment by empowering teams with data-driven strategies and solutions in a greenfield Analytics environment.
+What's in it for you?
+At Easygo, data sits at the heart of every decision we make. In this role, you’ll have the opportunity to work with large-scale, real-time datasets in a fast-paced and innovative environment. You’ll gain exposure to advanced tools and technologies, collaborate with cross-functional teams, and see your work directly influence Kick's growth and strategy.
+Your role with us:
+As a Senior Data Analyst at Easygo, you will produce creative and actionable reporting/insights for stakeholders and will also play a mentoring role; peer-reviewing the work of other analysts, guiding best practices, and contributing to the ongoing maturity of Kick’s analytics function.
+Who are we?
+At Easygo we proudly stand as a prominent service provider to a powerhouse of brands within the entertainment industry, including Stake.com, Kick.com and Twist Gaming.
+Stake is the world's largest crypto casino, and leads the industry with a seamless online casino and sportsbook experience.
+Level up your online entertainment with Kick.com, the vibrant live-streaming platform, which connects millions of gamers and content creators worldwide.
+All alongside the innovative game design studio, Twist Gaming, which takes creativity to new heights by crafting cutting-edge and captivating games.
+Our commitment to placing our clients and their communities' entertainment at the forefront of everything we do, has solidified us as the ultimate online service provider for entertainment companies.
+Headquartered in the beautiful city of Melbourne, our growth has been remarkable. From humble beginnings to a thriving workforce of 700+, we've expanded not only in numbers but in ambition. There really is something for everyone here, whether you work in Tech, Marketing, Operations, Mathematics or Design, we are sure to have something for everyone.
+Click play, on your career today!
+What you will do:
+Design and build gold-standard data assets and semantic features that power business reporting.
+Deliver advanced analyses and insights that drive product, growth, and strategy decisions.
+Create creative, compelling reports and dashboards that highlight opportunities and risks.
+Translate complex data into decision-ready outputs for leadership.
+Partner with stakeholders to define key metrics and ensure alignment across teams.
+Collaborate with BI, Data Engineering, and Product to maintain robust pipelines and models.
+Communicate technical issues, trade-offs, and opportunities clearly to business teams.
+Peer-review and provide feedback on the work of other data analysts to maintain high standards.
+Maintain and optimise data pipelines, ensuring accuracy and performance.
+Implement version control practices and monitor for pipeline or data issues.
+Document workflows, ensure metric consistency, and promote best practices.
+Bring a strong understanding of the streaming and digital media industry to contextualise findings.
+Identify and communicate strategic opportunities where data can unlock business value.
+What you will bring:
+Strong experience in data analytics, data engineering, BI, or related roles.
+Advanced SQL and Python skills and strong experience with data modelling.
+Proficient knowledge on distributed computing and PySpark.
+Hands-on experience with pipeline tools such as dbt, databricks.
+Proficiency in behavioural analytics tools (Amplitude, Mixpanel, Heap, Google Analytics).
+Familiarity with version control and collaborative workflows (e.g., Git).
+Ability to mentor and review work of more junior team members.
+Proven ability to deliver insights that shape strategy and performance.
+Some of the perks of working with us:
+Office Perks & Environment
+In-house baristas serving free coffee, tea, fresh juices, and smoothies
+Daily catered breakfast and regular company-wide events
+Snack walls and drink fridges on every floor
+Fun /modern office spaces with pool tables, table tennis, gaming consoles, and an F1 simulator
+Wellbeing & Personal Development
+Access to our Employee Assistance Program for you and your loved ones
+9,000+ courses on our Learning & Development platform
+One paid volunteer day per year
+Weekly Wednesday massages by professional masseuses
+Team Connection & Rewards
+Team budgets for lunches and activities to celebrate achievements
+Social sports teams and participation in Corporate Games
+Easygo branded swag
+Birthday and work anniversary gift vouchers, plus a chance to win prizes
+Events & Experiences
+Company-wide talks with key partners such as Everton FC and Team Sauber in Formula 1
+Office visits from big-name streamers
+Meet Ambassadors like Alex Pereira, Israel Adesanya
+Ballots for exclusive tickets to events like Formula 1, UFC, and more sporting and music events
+We believe that the unique contributions of everyone at Easygo are the driver of our success. To make sure that our products and culture continue to incorporate everyone's perspectives and experiences, we never discriminate on the basis of race, religion, nationality, gender identity or expression, sexual orientation, age, or marital, veteran, or disability status.
+We’re a global team of dreamers, creators, and game-changers from every walk of life, united by a passion for entertainment that inspires the world.
+We believe that the best ideas come from different perspectives, so we actively welcome and champion talent from all backgrounds, cultures, identities, and experiences. Whether you're just starting out or bringing decades of experience, your unique voice matters here.",2026-04-02,2026,source_publication_date,"Melbourne, Australia",Greenhouse,https://job-boards.greenhouse.io/easygo/jobs/5097649007,2026-10-03
+Greenhouse:4732604005,Data Analyst,Senior Data Analyst,Go1 Australia,"At Go1, we’re on a mission to help organizations deliver learning and development in more relevant, timely, and effective ways.
+From a small startup to now a global brand - we’ve grown by solving hard problems, embracing ambiguity, and never standing still.
+If you thrive on change, get energy from big, complex challenges, and are excited to grow fast alongside smart, ambitious people, then Go1 might be exactly what you’re looking for. We offer autonomy with accountability, space to experiment, and the opportunity to shape solutions that impact millions of learners worldwide. We don’t have all the answers — and that’s the point. We figure it out together. Every line of code, every conversation, every bold idea helps move us closer to our mission: to enable individuals, organizations, and society to progress. There’s still so much to build — and even more to discover.
+Go there with us...
+We’re looking for a Senior Data Analyst to turn complex product and business questions into clear, decision-ready evidence.
+This is a hands-on senior individual-contributor role for someone who combines technical depth with strong judgement: defining what matters, making the evidence reliable and helping teams act on it. You will work closely with Product, Engineering, Customer, Marketing and commercial partners to understand what is happening, why it matters and what should happen next.
+Go1 is investing in product-led growth and new product experiences, including Morgan by Go1—our workforce-enablement product that helps organisations turn learning signals into practical follow-through. To learn quickly from that work, we need clear measurement, well-designed instrumentation and confidence in the metrics that guide our choices. You’ll help create that clarity. Your work will improve the quality of product and business decisions, strengthen the analytical products people rely on and lift capability across the analyst cohort.
+How you'll fit into our team:
+You will join Go1’s Data Intelligence team: a cross-functional group of Data Analysts, Business Analysts, Data Engineers and Data Scientists working alongside teams across the business. Initially, your focus will be product-led growth and new product experiences. You will work beyond reporting...starting with the decision that matters, identifying what needs to be measured, designing a proportionate analytical approach and helping partners use the evidence.
+As a Senior Data Analyst, you will lead complex domain analytics while being a generous technical peer. You will help other analysts develop stronger judgement through solution design, peer review and practical problem-solving, while drawing on Data Engineering and Data Science expertise when a question needs deeper specialist support. This role suits someone who enjoys ambiguity, asks sharp questions and can balance pace with rigour. You will not own business decisions or operational change, but your work will make the trade-offs, evidence and implications much clearer for the people who do.
+Where you'll make an impact:
+Partner with Product, Engineering and business stakeholders to turn ambiguous goals into meaningful decisions, measurable questions and practical analytical approaches.
+Lead analysis, metric models, dashboards and reports that improve product, customer and commercial decisions.
+Define success measures for new initiatives and product experiences; identify gaps in event tracking, instrumentation, data quality or availability; and work with engineering partners to resolve them.
+Frame domain opportunities, compare options and make trade-offs in confidence, pace, usability and reuse visible.
+Build and own SQL-based analytical products—from metric definition, documentation and validation through to monitoring use, improving what matters and consolidating or retiring products that no longer support a meaningful decision.
+Communicate rigorous, accessible evidence to technical and non-technical audiences, including the recommendation, confidence level, limitations and action or decision that follows.
+Influence senior functional partners through clear evidence and constructive challenge.
+Guide and mentor analysts through solution design, peer review and technical problem-solving, creating reusable patterns that improve quality and confidence across the team.
+Use AI tools thoughtfully to improve analytical effectiveness, while applying independent judgement, validating material outputs and protecting sensitive information.
+In your first three months, you will:
+Build strong working relationships with priority Product, Engineering and business partners.
+Understand the most important domain decisions, existing analytical products, core metrics and material data gaps.
+Deliver early value on a defined analytical problem, with clear assumptions, evidence and next actions.
+Develop a practical view of where better measurement, instrumentation or analytical practice will have the greatest impact.
+By six to twelve months, you will:
+Lead high-impact analytical work from problem definition through to recommendation, adoption and review.
+Improve the reliability and usefulness of measurement for priority initiatives, with clearer ownership and quality mechanisms.
+Make the adoption and decision-use of priority analytical products visible, using that evidence to improve or simplify the analytical estate.
+Be recognised as a trusted analytical and technical guide for partners and peers, improving practice beyond your own delivery.
+What you'll bring to the role:
+Strong SQL capability and confidence working with complex, imperfect and evolving data.
+Experience building and maintaining analytical solutions in a modern data warehouse and BI environment. We are open to your platform background; transferable judgement matters more than one specific tool.
+Demonstrated experience taking a stakeholder problem from discovery through to insight, recommendation and decision support.
+Experience partnering with Product and Engineering on metrics, event tracking, data availability, instrumentation or implementation quality.
+Strong analytical judgement, including the ability to apply and interpret appropriate statistical methods and communicate limitations clearly.
+Experience creating metric models, analyses, dashboards or reports with clear definitions, validation, documentation and ownership.
+Evidence of senior-level contribution through mentoring, quality assurance, reusable standards or technical leadership.
+Clear written and verbal communication with technical and non-technical audiences.
+A practical, curious approach to solving problems: able to move work forward with imperfect information while maintaining a high bar for evidence and impact.
+Nice to have:
+Python experience for analysis, automation or modelling.
+Product analytics, product-led growth, experimentation, engagement measurement or B2B SaaS experience.
+Exposure to data science methods and sound judgement about when specialist support is needed.
+Experience with Databricks or comparable modern data-platform tooling.
+Experience working in a fast-moving, remote-first and cross-functional environment.
+What the role is not:
+This is not a people-management role or a role focused solely on dashboard production. It is for someone who can pair hands-on analytical craft with product judgement, senior partnership and a genuine instinct to lift the capability around them.
+#LI-REMOTE #LI-AE1
+Benefits:
+At Go1, our employee benefits extend far beyond a pay cheque, ensuring our team feels supported, valued, and empowered to bring their best selves to work each day, driving our mission to unlock positive potential through a love of learning.
+In addition to your base salary: Annual bonus or commission plan.
+Employee Stock Option Plan: Opportunity to share directly in our success through stock options.
+Public Holiday Swap: Swap a public holiday for another preferred day.
+Flexible Working: We are a fully remote organisation with team events and travel throughout the year.
+Wellbeing & Learning Days: An additional five days of paid leave per year.
+Learning Budget: $500 USD per financial year, plus access to additional Career Growth Budget.
+WFH/Transport Budget: Monthly allowance for internet/phone expenses or public transport.
+Home Office Setup Budget: One-off allowance for desk, chair and/or monitor.
+Parental Leave: Minimum of 18 weeks paid parental leave for primary carers + 6 weeks paid parental leave for secondary carers.
+Wellbeing Support: Access to counselling and wellbeing initiatives
+Check out Life at Go1:
+LET'S GO!",2026-09-13,2026,source_publication_date,Australia,Greenhouse,https://job-boards.greenhouse.io/go1au/jobs/4732604005,2026-10-03
+SmartRecruiters:744000152587520,Data Engineer,Data Engineer,TAL,"Help protect over 5 million Australians, making a real difference in their lives during their most challenging times.
+Work with experienced and skilled colleagues who support and inspire one another to achieve collective success
+Enjoy benefits such as discounted insurance, health and well-being programs, and a range of employee benefits to support your lifestyle
+Welcome to TAL. As a leading life insurer, we’ve been protecting Australians for over 150 years. Backed by Daiichi Life, we're driven by big ambitions and empower to create better products and services.
+Together with our Partners, we’re helping millions of Australians live a life filled with choices, options, and freedoms. See the direct impact you make delivering support and financial security with care and expertise. Grow beyond expectations with diverse roles, global connections, and exclusive learning opportunities.
+Work with passionate, bright and capable colleagues. Feel inspired by supportive leaders. Collaborate with heart, where flexibility, wellbeing and inclusivity is valued. Together, we're reimagining insurance.
+So, bring a curious mind and an ambition to help us become the progressive, digitally enabled leading insurer.
+As part of the Actuarial Systems team, this role is responsible for developing, testing, and supporting data solutions that enable actuarial modelling, reporting, and downstream business processes. Working across Microsoft SQL Server and Azure platforms, you will design and build production-ready data integration solutions, develop reconciliation and validation reporting, maintain database environments, and provide operational support for critical production processes.
+This position is suited to a highly skilled technical specialist who can manage competing priorities and deliver high-quality outcomes with minimal supervision. In addition to hands-on development and support work, you will help shape development standards and best practices, contributing to a culture of continuous improvement while collaborating closely with team members across project and operational delivery.
+In this role you will:
+Design, build, test and implement Actuarial data systems and processes, integrating primarily with the TAL Data Platform, Prophet Enterprise platform and TAL Finance Platform.
+Assist with implementation of accounting standards AASB17, business planning solution changes and Finance reporting platform.
+Ensure that delivered products are secure, reliable, usable, efficient, effective and, where required, highly available and scalable.
+Develop technical designs for step-changes in the products.
+Ensure quality of code and adherence to platform frameworks and guidelines through code reviews and peer education.
+Experience in developing data pipelines in both traditional and cloud base environments using ETL methodologies.
+Strong technical background, ideally having worked as a developer for 5+ years, including experience with the Microsoft stack SQL Server, database, T-SQL, SSIS, Views and Stored Procedures as well as MS Azure technology stack in particular ADF, Azure SQL and a working understanding of Azure Develops
+Any other Azure related knowledge or experience in the following areas: Azure Synapse and Notebooks.
+Desirable:
+Broad knowledge of application development tools, techniques and languages including C#, ASP.NET, IIS, JQuery, Azure DevOps, GIT, Python, R, XML, JavaScript, HTML, CSS, Azure Databricks, Azure Event Hub and Cosmos DB.
+5+ years working experience, preferably in life insurance.
+Experience with Atlassian software workflow and documentation tools – JIRA and Confluence.
+TAL is one of Australia’s leading life insurers, committed to inclusion, and supporting the career growth of our diverse workforce. We’re proud to be:
+An Inclusive Employer – Recognised as Employer of Choice for Gender Equality by the Workplace Gender Equality Agency from 2014 to 2025 and 2023 to 2026 Bronze Tier Status within the Australian Workplace Equality Index
+Diversity Champions – Member of Diversity Council Australia, Australian Disability Network, Pride in Diversity and Champions of Change
+Reconciliation Advocates – Read our
+Innovate Reconciliation Action Plan.
+We welcome applications from people with diverse experiences, perspectives and backgrounds including Aboriginal and Torres Strait Islander people, caregivers, individuals with disability/ies, people from culturally diverse backgrounds and the LGBTQ+ community.
+Need adjustments during the recruitment process? Let our team know by getting in touch with us
+here.
+—we’re here to support you.
+You’re always accountable for your actions. You never give up. You strive to find the best outcomes for customers and partners. And you value working together to find the best solutions for problems.
+As part of the recruitment process, there are several checks which may be conducted to demonstrate your eligibility for a role at TAL including Criminal History, Bankruptcy, Entitlement to Work, Regulatory and Reference Checks.
+#LI-Hybrid
+Everyone at TAL has a responsibility to do the right thing and is accountable for the way they conduct themselves. Our expectations are that you follow the principles set out in our Code of Conduct when you come to work every day. Risk management is everyone’s responsibility.
+If you are already a TAL employee please apply via the SmartRecruiters button in Workday and navigate to the Employee Portal. This is important to ensure that your application is recorded accurately
+.",2026-09-30,2026,source_publication_date,"Sydney, NSW, Australia",SmartRecruiters,https://jobs.smartrecruiters.com/TAL/744000152587520-data-engineer,2026-10-03
+Greenhouse:5016403007,ML Engineer,Senior Machine Learning Engineer,Anduril,"Anduril Industries is a defense technology company with a mission to transform U.S. and allied military capabilities with advanced technology. By bringing the expertise, technology, and business model of the 21st century’s most innovative companies to the defense industry, Anduril is changing how military systems are designed, built and sold. Anduril’s family of systems is powered by Lattice OS, an AI-powered operating system that turns thousands of data streams into a realtime, 3D command and control center. As the world enters an era of strategic competition, Anduril is committed to bringing cutting-edge autonomy, AI, computer vision, sensor fusion, and networking technology to the military in months, not years.
+At Anduril Australia we are developing un-crewed maritime and air domain systems that leverage unsupervised autonomy for the delivery of long endurance, multi-mission capability to our customers. These projects, including but not limited to the Extra Large Autonomous Undersea Vehicle (XL-AUV) Program, require a Senior Machine Learning Engineer with deep experience developing, testing, validating and deploying machine-learning based sensor processing and the technical toolchains they rely on. The Senior Machine Learning Engineer strives to leverage their experience to rapidly architect, design, deliver, support, and evolve next generation autonomous vehicles through the entire product life-cycle.
+WHAT YOU'LL DO
+Lead the design, development, integration and support of machine learning models for perception and data pipelines for a variety of autonomous systems across multiple sensor modalities
+Develop software to manage and automate the machine learning lifecycle, including data management, pipelining, labeling and training
+Manage model selection, training, validation, evaluation, deployment and regression testing
+Manage training data sourcing and integration, and quality
+Develop tools and processes for machine learning in a classified environment
+Collaborate with cross-functional teams, including software engineers, mechanical engineers, and systems engineers, to ensure effective system integration and testing
+REQUIRED QUALIFICATIONS
+Bachelor’s degree in Robotics, Mechatronics, Computer Science, Engineering, a relevant field, or equivalent experience
+Experience in a senior role with the delivery of a production grade software system with a mature machine learning component
+Experience with the design, implementation and maintenance of ML Operations, including data acquisition, labeling, data curation, pipeline management, continuous integration, model versioning, and monitoring
+Ability to collaborate with data scientists and stakeholders to define and implement robust validation and verification strategies
+Experience with the delivery of computer vision capabilities, from the data side as well as the model side
+Capacity to work holistically on machine learning enabled capabilities up and down the software stack and through lifecycle through design, implementation, operation and sustainment
+Capacity to learn and grow individually, while mentoring junior team members effectively, building team cohesion and capacity
+Eligible to obtain and maintain an Australian Government Negative Vetting 2 security clearance (NV2)
+PREFERRED QUALIFICATIONS
+Experience with the delivery of capability with a public sector customer
+Experience with workflow management tools such as flyte, airflow, and kubeflow
+Experience with deep learning frameworks such as PyTorch
+Experience with edge ML applications
+Experience with inference engines such as TensorRT
+Experience writing C++, Go, Python or Rust
+Proficiency in data management and traceability techniques to maintain high-quality datasets and enable reproducibility of experiments and results
+Desire to grow in to a Tech-Lead-Manager role, with responsibility for line management of engineers, in addition to delivery
+Anduril is an equal-opportunity employer, and we encourage candidates from all backgrounds to apply. If you are someone passionate to work on problems that matter, we’d love to hear from you!
+The salary range for this role is an estimate based on a wide range of compensation factors, inclusive of base salary only. Actual salary offer may vary based on (but not limited to) work experience, education and/or training, critical skills, and/or business considerations. Highly competitive equity grants are included in the majority of full time offers; and are considered part of Anduril's total compensation package. Additionally, Anduril offers top-tier benefits for full-time employees, including:
+Benefits
+At Anduril, we invest in our people. Our comprehensive, competitive benefits package (available at little to no cost to employees) ensures you’re supported in health, recovery, and whatever comes next.
+For more information,
+Explore Our Benefits
+.
+Protecting Yourself from Recruitment Scams
+Anduril is committed to maintaining the integrity of our Talent acquisition process and the security of our candidates. We've observed a rise in sophisticated phishing and fraudulent schemes where individuals impersonate Anduril representatives, luring job seekers with false interviews or job offers. These scammers often attempt to extract payment or sensitive personal information.
+To ensure your safety and help you navigate your job search with confidence, please keep the following critical points in mind:
+No Financial Requests:
+Anduril will never solicit payment or demand personal financial details (such as banking information, credit card numbers, or social security numbers) at any stage of our hiring process. Our legitimate recruitment is entirely free for candidates.
+Please always verify communications:
+Direct from Anduril: If you receive an email from one of our recruiters, it will
+only
+come from an
+@anduril.com
+address.
+Via Agency Partner: If contacted by a recruiting agency for an Anduril role, their email will clearly identify their agency. If you suspect any suspicious activity, please verify the agency's authenticity by reaching out to
+contact@anduril.com
+.
+Exercise Caution with Unsolicited Outreach:
+If you receive any communication that appears suspicious, contains grammatical errors, or makes unusual requests, do not engage. Always confirm the sender's email domain is @anduril.com before providing any personal information or clicking on links.
+What to Do If You Suspect Fraud:
+Should you encounter any questionable or fraudulent outreach claiming to be from Anduril, please report it immediately to
+contact@anduril.com
+. Your proactive caution is invaluable in protecting your personal information and upholding the security and trustworthiness of our recruitment efforts.
+Data Privacy
+To view Anduril's candidate data privacy policy, please visit
+https://anduril.com/applicant-privacy-notice/
+.
+By submitting your application, you consent to Anduril Industries using a third-party service provider to conduct pre-employment risk, integrity, and due diligence screening and assessing potential risks as part of your application process. This third-party service provider provides risk-intelligence services that may include analysis of sanctions and watchlists, adverse media, public-record information, and other lawful open-source or commercial data sources. This third-party service provider does not act as a consumer reporting agency. Use of this provider helps to ensure compliance with applicable laws and protect technology, intellectual property, and organizational security.",2026-01-07,2026,source_publication_date,"Sydney, New South Wales, Australia",Greenhouse,https://boards.greenhouse.io/andurilindustries/jobs/5016403007?gh_jid=5016403007,2026-10-03
+SmartRecruiters:6000000001162285,ML Engineer,Senior Machine Learning Engineer - Research Optimisation,Canva,"Join the team redefining how the world experiences design.
+Hey, g'day, kia ora, 你好, hallo, vítejte!
+Thanks for stopping by. We know job hunting can be a little time consuming and you're probably keen to find out what's on offer, so we'll get straight to the point.
+Where and how you can work
+Our flagship Sydney campus is uniquely Canva - an extension of our Surry Hills neighbourhood. It’s a thoughtfully designed space with plenty of room to collaborate, focus, and connect.
+This role is based in Sydney, and we’re looking for someone who calls it home. Our hybrid way of working gives you the flexibility to work remotely, and to come together on campus for meaningful in-person collaboration and connection when it matters most. We trust our Canvanauts to choose the balance that empowers them and their team to achieve their goals.
+At Canva, our mission is to empower the world to design. To get cutting-edge research into the hands of millions of users faster, we're looking for a Machine Learning Engineer focused on research enablement and performance, turning promising experiments into stable, scalable, user-facing capabilities while making training and inference faster, cheaper, and more reliable.
+About the role:
+You'll be the bridge between research and production. Partnering closely with researchers, you'll ensure experimental code is production ready, integrate models into our monorepo, build shared libraries and services, and create the tooling and processes that let multiple model variants ship safely and quickly. You'll also work across the training stack, profiling and tuning PyTorch workloads, improving GPU utilisation, and shaping how we use distributed training and storage to get the most out of our compute. Your work shortens the research-to-user loop, reduces duplication, and ensures our ML features are reliable, observable, and easy for other teams to adopt.
+At the moment, this role is focused on:
+Research-to-Production Pipeline: Hardening experimental models (containerisation, tests, CI/CD), making them deployable for real users.
+Training Performance and GPU Efficiency: Profiling PyTorch training jobs, improving GPU utilisation, and applying techniques like mixed precision, efficient data loading, and distributed training strategies (FSDP, DDP, DeepSpeed) to reduce time and cost per experiment.
+Library development: Converting experiments into well-factored libraries with clear APIs, dependency hygiene, and versioning, so teams can import rather than copy-paste.
+Developer Experience & Documentation: Creating templates, examples, and guidance; offering supportive, high-signal communication so others can adopt libraries confidently.
+Reliability, Observability & Cost: Instrumenting services with metrics/logging/tracing, setting SLIs/SLOs, and optimising training and inference performance and spend.
+Primary Responsibilities:
+Productionise research models: refactor, test, containerise, and integrate them into the monorepo for scalable reuse.
+Profile and optimise PyTorch training jobs, working with researchers to identify bottlenecks across compute, memory, I/O, and networking.
+Improve distributed training setups (multi-GPU, multi-node) and help teams pick the right parallelism strategy for their workload.
+Build and maintain inference services, SDKs, and shared libraries that standardise pre/post-processing and interfaces across variants.
+Create multi-variant runners and rollout frameworks (feature flags, canaries, A/B testing, automated rollbacks).
+Establish CI/CD workflows, artifact management, and reproducible builds for ML services and model assets.
+Add robust observability (dashboards, alerts) and reliability practices (load tests, chaos/resiliency checks) across training and inference workloads.
+Optimise inference (batching, caching, quantisation/compilation, hardware utilisation) to reduce latency and cost.
+Work across the broader training stack, including Kubernetes orchestration, storage (e.g. Weka, Vast, Lustre), and data pipelines, to remove friction for research teams.
+Partner with researchers and product engineers via code reviews, pair sessions, and clear documentation to accelerate adoption.
+Drive good engineering hygiene in the research codebase: testing strategy, dependency management, and de-duplication across multiple model variants.
+You're probably a match if you:
+Have strong software engineering fundamentals and excellent Python skills; you're comfortable turning notebooks and prototypes into production-grade services.
+Have shipped ML systems in production (containers, APIs, CI/CD), ideally within a monorepo environment.
+Have hands-on experience optimising PyTorch training or inference, profiling workloads, and reasoning about GPU memory, compute, and throughput.
+Are comfortable in containerised environments and understand Kubernetes concepts well enough to debug and improve ML workloads running on it.
+Can read research code and refactor it into clean abstractions with stable, well-documented interfaces.
+Understand service reliability and observability (metrics, tracing, logging) and how they apply to ML systems.
+Think holistically about the stack, from storage and networking through to model code, and can hold a credible conversation with researchers, DevOps, and platform engineers alike.
+Communicate clearly and empathetically, especially when guiding others to adopt libraries and best practices and mentoring engineers earlier in their ML journey.
+Bring cloud experience (AWS a plus) without needing to be a deep specialist.
+Nice to Have:
+Familiarity with model-serving/optimisation tooling (e.g., ONNX, TorchScript, Triton, quantisation).
+Experience writing or optimising CUDA kernels, or using compilation frameworks (torch.compile, Triton, TensorRT) to speed up models.
+Experience with distributed training frameworks (FSDP, DDP, DeepSpeed, Megatron) at meaningful scale.
+Familiarity with high-performance storage systems (Weka, Vast, Lustre) and the data loading patterns that make or break training throughput.
+Experience with experimentation platforms (feature flags, A/B testing) and safe rollout strategies.
+Background with multimodal/image generation stacks or LLM-adjacent tooling (not the core focus, but helpful).
+Knowledge of MLOps practices (model registries, artifact stores, dependency/version management).
+Impact you'll have:
+You'll dramatically reduce the time it takes to move from a successful experiment to a reliable, observable feature in production. You'll eliminate copy-paste, unify interfaces, enable parallel variants, and build the shared foundations that let Canva ship ML innovation at scale. You'll also help our research teams get more out of every GPU hour, making training faster and inference cheaper as we scale up the work CORE is doing.
+What's in it for you?
+Achieving our crazy big goals motivates us to work hard - and we do - but you'll experience lots of moments of magic, connectivity and fun woven throughout life at Canva, too. We also offer a range of benefits to set you up for every success in and outside of work.
+Here's a taste of what's on offer:
+Equity packages - we want our success to be yours too
+Inclusive parental leave policy that supports all parents & carers
+An annual Vibe & Thrive allowance to support your wellbeing, social connection, office setup & more
+Flexible leave options that empower you to be a force for good, take time to recharge and supports you personally
+Check out lifeatcanva.com for more info.
+Other stuff to know
+We make hiring decisions based on your experience, skills and passion, as well as how you can enhance Canva and our culture. We see AI as a powerful amplifier of creativity and technology at Canva. We’re evolving how we assess AI skills in our Technology hiring experience - you’ll tackle interactive, real-time challenges that reflect the kind of work we do. In some interviews, you may also be asked to solve a problem using an AI tool to show how you approach challenges with tech by your side.
+Please note that interviews are conducted virtually.",2026-06-17,2026,source_publication_date,"Sydney, , Australia",SmartRecruiters,https://jobs.smartrecruiters.com/Canva/6000000001162285-senior-machine-learning-engineer-research-optimisation,2026-10-03
+SmartRecruiters:6000000001353134,ML Engineer,Engineering Manager - (ML) - Evaluation Platform,Canva,"Join the team redefining how the world experiences design.
+Hey, g'day!
+Thanks for stopping by. We know job hunting can be a little time-consuming, and you're probably keen to find out what's on offer, so we'll get straight to the point.
+Where and how you can work
+Our offices are a hub for collaboration and energy. But we also believe in working where you do your best thinking. Canva offers flexibility to work in a way that suits you, whether that's remote, hybrid, or in-office. This role is based in Sydney, close to the majority of the Engineering team.
+About the Group/Team
+Canva's AI Platform Group provides the foundational infrastructure and tooling that powers AI features across the company, supporting MLEs, researchers, and AI builders from CORE and the wider organisation. Within the group, the Evaluation Platform team owns the end-to-end evaluation lifecycle: test-like evals integrated into developer workflows, the Arena comparative evaluation service, monitoring evals sampled from production traffic, and human labelling tooling. The team partners closely with AI feature teams, CORE researchers, and adjacent platform teams (Inference, Datasets, and Training) to make rigorous evaluation the default for every AI feature Canva ships.
+About the Role/Specialty
+We're seeking an engineering manager who can lead a large, senior team through a period of consolidation and growth. The Evaluation Platform team operates at the intersection of ML research practice and production platform engineering; you'll need enough technical depth in ML and evaluation to hold a credible strategic position, and the people leadership skills to coach a team of 9+ engineers, most of them senior. The role involves significant stakeholder complexity: multiple internal customer teams with competing priorities, adjacent teams with overlapping ambitions in the evaluation space, and a company-wide programme of work that runs through this team. You'll be expected to own and articulate the evaluation platform vision, not just execute a roadmap handed to you.
+What you’ll do (responsibilities)
+Coaching, mentoring, and growing a team that is a mix of specialties and skills while developing your coaching capability to scale the team and meet the needs of Canva's AI platform vision. You'll do this by:
+Owning and evolving the evaluation platform strategy: consolidating test-like evals, comparative evaluation (Arena), monitoring evals, and labelling tooling into a coherent, self-serve platform.
+Partnering with AI feature teams and CORE leadership to understand their roadmaps and proactively identify the evaluation capabilities needed for upcoming initiatives.
+Coordinating with adjacent platform teams and the evals programme PM to ensure a seamless experience across the full ML lifecycle.
+Owning and driving the delivery of large, cross-team, and cross-group initiatives from ideation to completion, with autonomy and independence of decision making.
+Coaching a team of 9+ engineers by providing regular, practical feedback and collaboratively helping them reach their personal growth goals.
+Owning the team's development methodology and rituals, such as planning cycles, stand-ups, and retrospectives.
+Planning goals and defining success metrics to ensure alignment between the company, group, and team.
+Championing a culture of knowledge sharing and advocating effectively for evaluation and ML engineering needs to stakeholders across Canva.
+Running hiring and resourcing, including resourcing for the execution of the roadmap.
+What we're looking for
+A history of success in technical people leadership and mentorship of engineers, ideally including senior and staff-level ICs.
+Experience with ML evaluation, LLM systems, or ML platform engineering; you understand what makes evaluating generative AI hard and can engage credibly with both researchers and engineers.
+Experience designing and building complex, distributed systems, ideally involving machine learning.
+Strong stakeholder management skills: comfortable navigating competing priorities across multiple customer teams and negotiating scope boundaries with adjacent teams.
+First principles thinking; the ability to use deep understanding of a problem space to make informed decisions, even when those decisions differ from industry convention. Canva is a unique company solving unique problems, and this sometimes requires bold decisions.
+A balance of strong technical and people leadership skills.
+Excellent problem-solving skills, with the ability to break large projects into smaller ones and deliver on them through others.
+Excellent written and verbal communication skills.
+Proven expertise in inspiring others to achieve their full potential and enabling the engineers in your team to do novel, impactful work.
+A continuous learner attitude, energised by a problem space (GenAI evaluation) that is evolving month to month.
+What's in it for you?
+Achieving our crazy big goals motivates us to work hard - and we do - but you'll experience lots of moments of magic, connectivity and fun woven throughout life at Canva, too. We also offer a range of benefits to set you up for every success in and outside of work.
+Here's a taste of what's on offer:
+Equity packages - we want our success to be yours too
+Inclusive parental leave policy that supports all parents & carers
+An annual Vibe & Thrive allowance to support your wellbeing, social connection, office setup & more
+Flexible leave options that empower you to be a force for good, take time to recharge and supports you personally
+Check out lifeatcanva.com for more info.
+Other stuff to know
+We make hiring decisions based on your experience, skills and passion, as well as how you can enhance Canva and our culture. When you apply, please tell us the pronouns you use and any reasonable adjustments you may need during the interview process.
+We celebrate all types of skills and backgrounds at Canva so even if you don’t feel like your skills quite match what’s listed above - we still want to hear from you!
+Please note that interviews are conducted virtually.",2026-08-26,2026,source_publication_date,"Sydney, NSW, Australia",SmartRecruiters,https://jobs.smartrecruiters.com/Canva/6000000001353134-engineering-manager-ml-evaluation-platform,2026-10-03

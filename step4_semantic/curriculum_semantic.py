@@ -1,7 +1,7 @@
 """Semantic layer on the STUDENT side: 20 real unit PDFs (UTS, USYD, UNSW) from Step 3.
 
-This addresses Member 3's stated limitation "extractor validated on job ads, not unit text" and the ready-made test in
-the handoff: UNSW COMP9311 (Database Systems) yields zero skills with exact matching because the handbook text never
+This addresses Step 3's stated limitation "extractor validated on job ads, not unit text" and the ready-made test in
+the two test cases: UNSW COMP9311 (Database Systems) yields zero skills with exact matching because the handbook text never
 says "SQL", and UTS 36103 says "statistical" but never "Statistics".
 
 Unit text has no gold labels, so we (a) report what the semantic layer ADDS with the evidence sentence and page,
@@ -101,7 +101,7 @@ def load_curriculum_hybrid(step3: Path, space: SkillSpace, encoder, decision: De
 
 def analyse_study_material_semantic(source, step3: Path, hybrid_space: SkillSpace, encoder, decision: Decision,
                                     granularity="line+clause"):
-    """One uploaded PDF -> StudyProfile with semantic additions (for the Streamlit app, Student 6)."""
+    """One uploaded PDF -> StudyProfile with semantic additions (for the Streamlit app)."""
     ext = _step3_modules(step3)
     pages = ext.clean_pages(ext.read_pdf_pages(source))
     prof = ext.analyse_pages(pages)
@@ -119,7 +119,7 @@ NAMED_CHECKS = [("UNSW COMP9311", "SQL"), ("UTS 36103", "Statistics")]
 
 
 def named_checks(exact_p: dict, hyb_p: dict, man: pd.DataFrame) -> list[dict]:
-    """The two handoff cases. Unit ids are matched by substring on the manifest unit_id / code."""
+    """The two named test cases. Unit ids are matched by substring on the manifest unit_id / code."""
     out = []
     for key, skill in NAMED_CHECKS:
         uni, code = key.split()

@@ -5,8 +5,8 @@
     python run_all.py ablate                    # one-factor ablations around the main model
     python run_all.py errors figures            # error analysis, figures
     python run_all.py corpus curriculum         # 688 ads + 20 unit PDFs, with audit/label sheets
-    python run_all.py report                    # results/summary.md + docs/README_section_student4.md
-    (results/ stays tidy: summary.md + audit/ (human labelling) + handoff/ (Students 5, 6) + details/ (all other tables))
+    python run_all.py report                    # results/summary.md
+    (results/ stays tidy: summary.md + audit/ (human labelling) + hybrid_job_skills/ (tables used by Steps 5 and 6) + details/ (all other tables))
     python run_all.py all                       # everything, in order
 
 Options:  --step3 PATH   --models minilm mpnet ...   --device cuda|cpu   --n-boot 2000   --quick (2 models, 300 resamples)
@@ -49,7 +49,7 @@ def main():
     from data_access import load_context, verify_against_step3
     ctx = load_context(a.step3)
     runner = ex.Runner(ctx, device=a.device)
-    R, D, A, H = config.RESULTS, config.DETAILS, config.AUDIT, config.HANDOFF
+    R, D, A, H = config.RESULTS, config.DETAILS, config.AUDIT, config.HYBRID
     print(f"Step 3 folder: {ctx.step3}\n{len(ctx.rows)} gold ads, universe of {len(ctx.universe)} skills")
 
     for st in stages:

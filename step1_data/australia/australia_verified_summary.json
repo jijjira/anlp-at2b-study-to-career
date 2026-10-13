@@ -1,0 +1,43 @@
+{
+  "total": 14,
+  "collected_at": "2026-10-03",
+  "categories": {
+    "AI Engineer": 8,
+    "Data Analyst": 2,
+    "ML Engineer": 3,
+    "Data Engineer": 1
+  },
+  "years": {
+    "2026": 14
+  },
+  "companies": {
+    "Anthropic": 1,
+    "Canva": 3,
+    "Cresta": 1,
+    "Culture Amp": 2,
+    "Databricks": 1,
+    "Netskope": 1,
+    "OpenAI": 1,
+    "Easygo": 1,
+    "Go1 Australia": 1,
+    "Anduril": 1,
+    "TAL": 1
+  },
+  "sources": {
+    "Greenhouse": 9,
+    "SmartRecruiters": 4,
+    "Ashby": 1
+  },
+  "locations": {
+    "Sydney, Australia": 3,
+    "Sydney, , Australia": 2,
+    "Australia (Remote)": 1,
+    "Melbourne": 1,
+    "Sydney": 1,
+    "Australia": 2,
+    "Melbourne, Australia": 1,
+    "Sydney, New South Wales, Australia": 1,
+    "Sydney, NSW, Australia": 2
+  },
+  "supplement_errors": []
+}

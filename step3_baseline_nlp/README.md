@@ -1,43 +1,38 @@
-# Member 3: Baseline NLP, alignment layer and sector lens (UTS 36118 AT2 Part B, Group 6)
+# Step 3: Baseline NLP, PDF reader, curriculum alignment and sector lens
 
-## Run it (easiest way)
+## Task
+Extract skills with a spaCy PhraseMatcher over the Step 2 dictionary, then improve it into Baseline++: each advertisement is read by section, skills are weighted by how strongly the advertisement asks for them (required 1.00, duty 0.75, preferred 0.50, company text 0), ambiguous words are guarded, and 45 human-reviewed aliases are added. A PyMuPDF reader turns unit PDFs into skills with a coverage level (assessed, taught, mentioned) and page evidence. An alignment layer scores each career against 20 real unit documents with bootstrap intervals, and a sector lens tests whether demand depends on the employer's sector. A 30-advertisement gold set evaluates extraction.
 
-**Mac:** unzip, open the folder, right-click `run.command`, choose Open (or in Terminal: `bash run.command`).
-**Windows:** unzip, double-click `run.bat`.
-**Google Colab (no install):** go to colab.research.google.com, File > Upload notebook and choose `08_real_curriculum_case_study.ipynb`, then drag `Member3_Baseline_NLP.zip` into the left Files panel (folder icon). Run the first cell, then Runtime > Run all. If you skip the drag, the first cell downloads the zip from the shared Drive folder (https://drive.google.com/drive/folders/1itmHAXH4dyXbm1icJ1ip7RrRvXkMj9UK) or asks you to choose it.
+## Work in this folder
+| Path | Purpose |
+|---|---|
+| `skill_extractor.py`, `skill_extractor_v2.py` | Baseline and Baseline++ extractors |
+| `extraction.py`, `curriculum.py`, `real_units.py` | PDF reader and unit-document handling |
+| `alignment.py`, `analysis.py` | Career fit, gaps and uncertainty |
+| `sectors.py`, `sector_analysis.py`, `company_sector_map.csv` | Sector lens |
+| `evaluate.py`, `gold_annotations.py`, `gold_split.json` | Gold set and metrics |
+| `discover.py`, `discovery_candidates_raw.csv`, `extra_aliases_reviewed.csv` | Alias discovery and the reviewed aliases |
+| `03_` to `08_*.ipynb` | Extraction, experiments, PDF pipeline, alignment, sector lens, 20-unit case study |
+| `data/` | The 20 unit PDFs (`curriculum_pdfs/`) and their manifest |
+| `figures/` | Charts used in the report |
+| `test_*.py` | 40 automated tests |
+| `docs/references_and_data_sources.md` | Data description, unit-page sources and references |
+| `job_cleaned.csv`, `skills_dictionary.csv`, `normalisation.py` | Copies of the Step 1 and 2 inputs so this folder runs on its own |
+| `job_skills_extracted.csv`, `job_skills_long.csv` | Extraction output for the 688 advertisements |
+| `run.command` (Mac), `run.bat` (Windows) | One-click install, tests and notebook launch |
 
-The first run installs what it needs (a minute or two), checks the code (40 tests pass), then opens the main notebook. In the notebook use Kernel > Restart Kernel and Run All Cells. Nothing needs editing.
+## How to run
+```
+pip install -r requirements.txt
+python -m pytest -q          # 40 tests
+jupyter lab                  # run notebooks 03 to 08 with Restart & Run All
+```
+The notebooks also run in Google Colab: upload one, run the first cell and follow the prompt.
 
-Skill extraction with a spaCy PhraseMatcher, an improved requirement-aware version, a PDF study-material pipeline, an alignment layer (coverage strength, uncertainty ranges, curriculum heatmap) and a sector lens (does skill demand depend on the employer's sector?).
+## Key results
+* Extraction on the 30-advertisement gold set: strict F1 0.872 (plain matcher) to 0.943 (Baseline++), +0.071, 95% CI [0.039, 0.104]; most of the gain comes from the reviewed aliases.
+* Curriculum fit with exact matching: Data Scientist 65.4%, Data Engineer 59.3%, Data Analyst 58.1%, ML Engineer 58.2%, AI Engineer 32.6%.
+* Sector profiles differ (permutation p = 0.004) but only borderline after adjusting for career mix (p = 0.06).
 
-## Run order (Google Colab or local Jupyter)
-1. Put this whole folder in Google Drive (for example `My Drive/ANLP AT2B`), keeping the files flat, or run locally with `pip install -r requirements.txt`.
-2. `03_skill_extraction.ipynb`: baseline extraction on 688 job ads.
-3. `04_innovation_experiments.ipynb`: held-out evaluation, ablation, error analysis.
-4. `05_study_material_pipeline.ipynb`: PDF study material to skills, with coverage level (assessed, taught, mentioned).
-5. `06_curriculum_alignment.ipynb`: career fit with bootstrap ranges and the curriculum heatmap (synthetic demo units; the real units are in 08).
-6. `07_sector_lens.ipynb`: sector profiles, permutation test, universal core vs sector-specific skills, curriculum fit by sector.
-7. `08_real_curriculum_case_study.ipynb`: the reframed question on 20 real unit PDFs from UTS, USYD and UNSW (career fit, gaps, fit by sector, sensitivity checks).
-Each notebook starts with a setup cell that mounts Drive and lists any missing file. If your Drive path differs, change the `FOLDER` line in that cell.
-
-**Figures:** every chart is shown inside its notebook and also saved as a PNG in `figures/` (for the report and slides): `fig0` demand and extraction, `fig1` unit-by-skill heatmap, `fig2` career fit, `fig3` top gaps, `fig4` by university, `fig5` by sector, `fig6` effect of unit selection.
-
-## Main files
-* `skill_extractor.py`, `skill_extractor_v2.py`: baseline and requirement-aware extractors.
-* `extraction.py`: PDF pipeline (PyMuPDF) with coverage levels, same matcher as the job side.
-* `alignment.py`: demand model, career fit with bootstrap ranges, gap ranking.
-* `curriculum.py`, `data/curriculum_manifest.csv`, `data/curriculum_pdfs/`: the 20 real unit PDFs, with source URLs and the manual-review list of removed false matches.
-* `real_units.py`: condensed page text of the first 7 units (sensitivity check only).
-* `sectors.py`, `company_sector_map.csv`: company-to-sector labels (manual, please review).
-* `sector_analysis.py`: company-clustered bootstrap and permutation tests by sector.
-* `docs/references_and_data_sources.md`: dataset description, unit-page sources (with PDF instructions) and APA references
-* `evaluate.py`, `gold_annotations.py`, `gold_split.json`: 30-ad evaluation set and metrics (for Member 4).
-* `extra_aliases_reviewed.csv`: 45 proposed dictionary aliases (for Member 2 to review).
-* `job_cleaned.csv`, `skills_dictionary.csv`, `normalisation.py`: inputs from Steps 1 and 2.
-* `test_*.py`: 40 automated tests (`pytest`).
-* `docs/`: report section, contribution statement, handoff note for Member 4.
-
-## Headline results
-* Extraction (30 held-out ads): F1 0.872 to 0.943, +0.071, 95% CI 0.039 to 0.104.
-* Sector lens (688 ads, 106 companies): sector profiles differ (p = 0.004) but only borderline after removing career mix (p = 0.06).
-Limitations: single annotator, n = 30, US ads only, manual sector labels, PDF and curriculum demos use synthetic outlines.
+## Limitations
+One annotator labelled the gold set (30 advertisements). Unit handbook pages are shorter than full outlines, the extractor was validated on advertisements and not on unit text, and exact matching misses skills taught without being named.

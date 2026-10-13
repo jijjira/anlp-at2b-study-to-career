@@ -1,0 +1,3289 @@
+[
+  {
+    "rank": 1,
+    "career": "Data Scientist",
+    "match_score": 0.684599768,
+    "match_percent": 68.5,
+    "n_ads": 127,
+    "n_top_skills": 30,
+    "n_covered_top_skills": 20,
+    "matched_skills": [
+      "SQL",
+      "Python",
+      "Statistics",
+      "Machine Learning",
+      "R"
+    ],
+    "priority_gaps": [
+      "Causal Inference",
+      "Experiment Design",
+      "Dashboarding",
+      "A/B Testing",
+      "Forecasting",
+      "dbt",
+      "Looker",
+      "PyTorch"
+    ],
+    "explanation": "The materials cover SQL, Python, Statistics, Machine Learning, R; the largest remaining gaps are Causal Inference, Experiment Design, Dashboarding.",
+    "skill_details": [
+      {
+        "career": "Data Scientist",
+        "skill": "SQL",
+        "skill_category": "Programming",
+        "demand_weight": 0.8051181102,
+        "coverage": 1.0,
+        "contribution": 0.8051181102,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Python",
+        "skill_category": "Programming",
+        "demand_weight": 0.7893700787,
+        "coverage": 1.0,
+        "contribution": 0.7893700787,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP9321 Data Services Engineering",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "UTS 36103 Statistical Thinking",
+          "UTS 41091 Data Systems",
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "Responding to student feedbackbroad introduction to data management, analysis, modelling and visualisation using the Python programming language.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Statistics",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.6220472441,
+        "coverage": 1.0,
+        "contribution": 0.6220472441,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "USYD DATA5207 Data Analysis",
+          "UTS 36103 Statistical Thinking"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "The unit covers key ideas relevant to NLP from machine learning, statistics, linguistics, and data science.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Artificial Intelligence",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.4901574803,
+        "coverage": 0.5,
+        "contribution": 0.2450787402,
+        "remaining_gain": 0.2450787402,
+        "status": "covered",
+        "coverage_level": "mentioned",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP6713 NLP",
+          "UNSW COMP9444 Deep Learning"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "Natural language processing (NLP) is a branch of artificial intelligence that deals with computational approaches used to process text.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Causal Inference",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.4566929134,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.4566929134,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Machine Learning",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.4271653543,
+        "coverage": 1.0,
+        "contribution": 0.4271653543,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP9417 ML and Data Mining",
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "UTS 36106 ML Algorithms",
+          "UTS 36120 Adv ML Application",
+          "UTS 36124 Applied Data Science for Innovation"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "The unit covers key ideas relevant to NLP from machine learning, statistics, linguistics, and data science.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Experiment Design",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.3267716535,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.3267716535,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "R",
+        "skill_category": "Programming",
+        "demand_weight": 0.3011811024,
+        "coverage": 1.0,
+        "contribution": 0.3011811024,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD DATA5207 Data Analysis"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue018 unstructured text as data, multilevel and geospatial modelling, all using the open source program R. In doing this, not",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Dashboarding",
+        "skill_category": "Data Visualisation / BI",
+        "demand_weight": 0.2716535433,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.2716535433,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "A/B Testing",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.2401574803,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.2401574803,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Large Language Models",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.2303149606,
+        "coverage": 1.0,
+        "contribution": 0.2303149606,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP6713 NLP",
+          "USYD COMP5046 NLP"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "Additional information including heuristics, linear models, and neural networks, up to and including large language models (LLMs).",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Forecasting",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.1811023622,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1811023622,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Data Analysis",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.1338582677,
+        "coverage": 1.0,
+        "contribution": 0.1338582677,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "USYD DATA5207 Data Analysis",
+          "UTS 36100 Data Science for Innovation",
+          "UTS 36103 Statistical Thinking",
+          "UTS 36118 Applied NLP",
+          "UTS 36120 Adv ML Application",
+          "UTS 36124 Applied Data Science for Innovation"
+        ],
+        "pages": [
+          1,
+          3
+        ],
+        "evidence": "Development of custom software using the powerful, general-purpose Python scripting language; Data collection, cleaning, pre-processing, and storage using various databases; Exploratory data analysis ",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Apache Spark",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.1279527559,
+        "coverage": 1.0,
+        "contribution": 0.1279527559,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Snowflake",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.124015748,
+        "coverage": 1.0,
+        "contribution": 0.124015748,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Model Evaluation",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.1181102362,
+        "coverage": 1.0,
+        "contribution": 0.1181102362,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD DATA5207 Data Analysis"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Techniques covered range from descriptive statistics and linear and logistic regression, the analysis of data from randomised experiments, model selection for prediction and classification tasks, to t",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Data Quality",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.1141732283,
+        "coverage": 1.0,
+        "contribution": 0.1141732283,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 36100 Data Science for Innovation"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 prepare data for analysis, ensuring data quality and integrity.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "dbt",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.1062992126,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1062992126,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "scikit-learn",
+        "skill_category": "ML Frameworks & Libraries",
+        "demand_weight": 0.1043307087,
+        "coverage": 0.75,
+        "contribution": 0.0782480315,
+        "remaining_gain": 0.0260826772,
+        "status": "covered",
+        "coverage_level": "taught",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "G\u00e9ron A. Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow : Concepts, Tools, and Techniques to",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "AI Agents",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.1003937008,
+        "coverage": 1.0,
+        "contribution": 0.1003937008,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "semantic",
+        "units": [
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Ethical AI usage",
+        "semantic_score": 0.6519979835
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Data Pipelines",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.094488189,
+        "coverage": 1.0,
+        "contribution": 0.094488189,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5310 Principles of Data Science",
+          "UTS 41091 Data Systems",
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Build simple data pipelines or ETLs in order to load, transform and prepare raw data",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Data Visualization",
+        "skill_category": "Data Visualisation / BI",
+        "demand_weight": 0.0866141732,
+        "coverage": 1.0,
+        "contribution": 0.0866141732,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "USYD DATA5207 Data Analysis",
+          "UTS 36104 Data Visualisation and Narratives",
+          "UTS 36117 Data Visualisation",
+          "UTS 36124 Applied Data Science for Innovation"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Development of custom software using the powerful, general-purpose Python scripting language; Data collection, cleaning, pre-processing, and storage using various databases; Exploratory data analysis ",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Predictive Modeling",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.0767716535,
+        "coverage": 1.0,
+        "contribution": 0.0767716535,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "semantic",
+        "units": [
+          "USYD COMP5310 Principles of Data Science",
+          "USYD DATA5207 Data Analysis"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Develop and evaluate predictive model.",
+        "semantic_score": 0.743763566
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Looker",
+        "skill_category": "Data Visualisation / BI",
+        "demand_weight": 0.0708661417,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.0708661417,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Feature Engineering",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.0688976378,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.0688976378,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "PyTorch",
+        "skill_category": "ML Frameworks & Libraries",
+        "demand_weight": 0.0688976378,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.0688976378,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Databricks",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.0649606299,
+        "coverage": 1.0,
+        "contribution": 0.0649606299,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Model Monitoring",
+        "skill_category": "MLOps / Deployment",
+        "demand_weight": 0.062992126,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.062992126,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "Deep Learning",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.061023622,
+        "coverage": 1.0,
+        "contribution": 0.061023622,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP9417 ML and Data Mining",
+          "UNSW COMP9444 Deep Learning",
+          "USYD COMP5046 NLP",
+          "USYD COMP5318 ML and Data Mining"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Additional information including heuristics, linear models, and neural networks, up to and including large language models (LLMs).",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Scientist",
+        "skill": "TensorFlow",
+        "skill_category": "ML Frameworks & Libraries",
+        "demand_weight": 0.061023622,
+        "coverage": 0.75,
+        "contribution": 0.0457677165,
+        "remaining_gain": 0.0152559055,
+        "status": "covered",
+        "coverage_level": "taught",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "G\u00e9ron A. Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow : Concepts, Tools, and Techniques to",
+        "semantic_score": null
+      }
+    ],
+    "learning_recommendations": [
+      {
+        "priority": 1,
+        "career": "Data Scientist",
+        "skill": "Causal Inference",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.4566929134,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.457) with no detected coverage in the selected materials.",
+        "suggested_action": "Analyse an observational dataset and explain assumptions, treatment effects and limitations."
+      },
+      {
+        "priority": 2,
+        "career": "Data Scientist",
+        "skill": "Experiment Design",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.3267716535,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.327) with no detected coverage in the selected materials.",
+        "suggested_action": "Design a controlled experiment with hypotheses, metrics, sample-size reasoning and bias checks."
+      },
+      {
+        "priority": 3,
+        "career": "Data Scientist",
+        "skill": "Dashboarding",
+        "skill_category": "Data Visualisation / BI",
+        "demand_weight": 0.2716535433,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.272) with no detected coverage in the selected materials.",
+        "suggested_action": "Build an interactive dashboard that communicates decisions, filters and key metrics."
+      },
+      {
+        "priority": 4,
+        "career": "Data Scientist",
+        "skill": "A/B Testing",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.2401574803,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.240) with no detected coverage in the selected materials.",
+        "suggested_action": "Run an end-to-end A/B test analysis and report statistical and business conclusions."
+      },
+      {
+        "priority": 5,
+        "career": "Data Scientist",
+        "skill": "Forecasting",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.1811023622,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.181) with no detected coverage in the selected materials.",
+        "suggested_action": "Build and evaluate a time-series forecast against a simple baseline."
+      }
+    ]
+  },
+  {
+    "rank": 2,
+    "career": "Data Engineer",
+    "match_score": 0.6294117647,
+    "match_percent": 62.9,
+    "n_ads": 57,
+    "n_top_skills": 30,
+    "n_covered_top_skills": 16,
+    "matched_skills": [
+      "SQL",
+      "Data Pipelines",
+      "Python",
+      "Data Quality",
+      "Data Warehousing"
+    ],
+    "priority_gaps": [
+      "dbt",
+      "Observability",
+      "ETL",
+      "AWS",
+      "Data Governance",
+      "APIs",
+      "Azure",
+      "GCP"
+    ],
+    "explanation": "The materials cover SQL, Data Pipelines, Python, Data Quality, Data Warehousing; the largest remaining gaps are dbt, Observability, ETL.",
+    "skill_details": [
+      {
+        "career": "Data Engineer",
+        "skill": "Artificial Intelligence",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.6447368421,
+        "coverage": 0.5,
+        "contribution": 0.3223684211,
+        "remaining_gain": 0.3223684211,
+        "status": "covered",
+        "coverage_level": "mentioned",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP6713 NLP",
+          "UNSW COMP9444 Deep Learning"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "Natural language processing (NLP) is a branch of artificial intelligence that deals with computational approaches used to process text.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "SQL",
+        "skill_category": "Programming",
+        "demand_weight": 0.6184210526,
+        "coverage": 1.0,
+        "contribution": 0.6184210526,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Data Pipelines",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.548245614,
+        "coverage": 1.0,
+        "contribution": 0.548245614,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5310 Principles of Data Science",
+          "UTS 41091 Data Systems",
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Build simple data pipelines or ETLs in order to load, transform and prepare raw data",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Python",
+        "skill_category": "Programming",
+        "demand_weight": 0.548245614,
+        "coverage": 1.0,
+        "contribution": 0.548245614,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP9321 Data Services Engineering",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "UTS 36103 Statistical Thinking",
+          "UTS 41091 Data Systems",
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "Responding to student feedbackbroad introduction to data management, analysis, modelling and visualisation using the Python programming language.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Data Quality",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.4254385965,
+        "coverage": 1.0,
+        "contribution": 0.4254385965,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 36100 Data Science for Innovation"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 prepare data for analysis, ensuring data quality and integrity.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Data Warehousing",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.4210526316,
+        "coverage": 1.0,
+        "contribution": 0.4210526316,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP9311 Database Systems",
+          "UNSW COMP9321 Data Services Engineering",
+          "UTS 41091 Data Systems",
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "\ue313 into modern data warehousing solutions.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Apache Spark",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.3947368421,
+        "coverage": 1.0,
+        "contribution": 0.3947368421,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Airflow",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.3771929825,
+        "coverage": 1.0,
+        "contribution": 0.3771929825,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Data Modeling",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.3640350877,
+        "coverage": 1.0,
+        "contribution": 0.3640350877,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Understand basic data engineering concepts including data modelling, big data,",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Snowflake",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.3245614035,
+        "coverage": 1.0,
+        "contribution": 0.3245614035,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "dbt",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.3201754386,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.3201754386,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Observability",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.3114035088,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.3114035088,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "ETL",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.2938596491,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.2938596491,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Machine Learning",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.2807017544,
+        "coverage": 1.0,
+        "contribution": 0.2807017544,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP9417 ML and Data Mining",
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "UTS 36106 ML Algorithms",
+          "UTS 36120 Adv ML Application",
+          "UTS 36124 Applied Data Science for Innovation"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "The unit covers key ideas relevant to NLP from machine learning, statistics, linguistics, and data science.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "AWS",
+        "skill_category": "Cloud",
+        "demand_weight": 0.2719298246,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.2719298246,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Data Governance",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.2280701754,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.2280701754,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "APIs",
+        "skill_category": "Development Tools",
+        "demand_weight": 0.1842105263,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1842105263,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Azure",
+        "skill_category": "Cloud",
+        "demand_weight": 0.1754385965,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1754385965,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "GCP",
+        "skill_category": "Cloud",
+        "demand_weight": 0.1754385965,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1754385965,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "CI/CD",
+        "skill_category": "MLOps / Deployment",
+        "demand_weight": 0.1710526316,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1710526316,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Databricks",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.1622807018,
+        "coverage": 1.0,
+        "contribution": 0.1622807018,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Kafka",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.1622807018,
+        "coverage": 1.0,
+        "contribution": 0.1622807018,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "AI Agents",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.1535087719,
+        "coverage": 1.0,
+        "contribution": 0.1535087719,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "semantic",
+        "units": [
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Ethical AI usage",
+        "semantic_score": 0.6519979835
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Apache Iceberg",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.1535087719,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1535087719,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Data Analysis",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.1535087719,
+        "coverage": 1.0,
+        "contribution": 0.1535087719,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "USYD DATA5207 Data Analysis",
+          "UTS 36100 Data Science for Innovation",
+          "UTS 36103 Statistical Thinking",
+          "UTS 36118 Applied NLP",
+          "UTS 36120 Adv ML Application",
+          "UTS 36124 Applied Data Science for Innovation"
+        ],
+        "pages": [
+          1,
+          3
+        ],
+        "evidence": "Development of custom software using the powerful, general-purpose Python scripting language; Data collection, cleaning, pre-processing, and storage using various databases; Exploratory data analysis ",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "ELT",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.1535087719,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1535087719,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Dashboarding",
+        "skill_category": "Data Visualisation / BI",
+        "demand_weight": 0.1447368421,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1447368421,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Data Lake",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.1403508772,
+        "coverage": 1.0,
+        "contribution": 0.1403508772,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Interact with and query data from modern data warehousing and data lake",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Scala",
+        "skill_category": "Programming",
+        "demand_weight": 0.1403508772,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1403508772,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Engineer",
+        "skill": "Dagster",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.1315789474,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1315789474,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      }
+    ],
+    "learning_recommendations": [
+      {
+        "priority": 1,
+        "career": "Data Engineer",
+        "skill": "dbt",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.3201754386,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.320) with no detected coverage in the selected materials.",
+        "suggested_action": "Create a tested dbt transformation project with documentation and lineage."
+      },
+      {
+        "priority": 2,
+        "career": "Data Engineer",
+        "skill": "Observability",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.3114035088,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.311) with no detected coverage in the selected materials.",
+        "suggested_action": "Add logging, monitoring and data or model quality checks to a deployed pipeline."
+      },
+      {
+        "priority": 3,
+        "career": "Data Engineer",
+        "skill": "ETL",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.2938596491,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.294) with no detected coverage in the selected materials.",
+        "suggested_action": "Build a reproducible extract-transform-load pipeline with validation and error handling."
+      },
+      {
+        "priority": 4,
+        "career": "Data Engineer",
+        "skill": "AWS",
+        "skill_category": "Cloud",
+        "demand_weight": 0.2719298246,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.272) with no detected coverage in the selected materials.",
+        "suggested_action": "Deploy one small data or ML workload using core AWS storage and compute services."
+      },
+      {
+        "priority": 5,
+        "career": "Data Engineer",
+        "skill": "Data Governance",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.2280701754,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.228) with no detected coverage in the selected materials.",
+        "suggested_action": "Document data ownership, quality rules, lineage, privacy and access controls."
+      }
+    ]
+  },
+  {
+    "rank": 3,
+    "career": "Data Analyst",
+    "match_score": 0.6174157303,
+    "match_percent": 61.7,
+    "n_ads": 27,
+    "n_top_skills": 30,
+    "n_covered_top_skills": 18,
+    "matched_skills": [
+      "SQL",
+      "Python",
+      "Data Quality",
+      "Data Pipelines",
+      "Artificial Intelligence"
+    ],
+    "priority_gaps": [
+      "Dashboarding",
+      "Tableau",
+      "Looker",
+      "dbt",
+      "Computer Vision",
+      "Data Governance",
+      "Power BI",
+      "Forecasting"
+    ],
+    "explanation": "The materials cover SQL, Python, Data Quality, Data Pipelines, Artificial Intelligence; the largest remaining gaps are Dashboarding, Tableau, Looker.",
+    "skill_details": [
+      {
+        "career": "Data Analyst",
+        "skill": "SQL",
+        "skill_category": "Programming",
+        "demand_weight": 0.8148148148,
+        "coverage": 1.0,
+        "contribution": 0.8148148148,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Dashboarding",
+        "skill_category": "Data Visualisation / BI",
+        "demand_weight": 0.712962963,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.712962963,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Artificial Intelligence",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.6944444444,
+        "coverage": 0.5,
+        "contribution": 0.3472222222,
+        "remaining_gain": 0.3472222222,
+        "status": "covered",
+        "coverage_level": "mentioned",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP6713 NLP",
+          "UNSW COMP9444 Deep Learning"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "Natural language processing (NLP) is a branch of artificial intelligence that deals with computational approaches used to process text.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Python",
+        "skill_category": "Programming",
+        "demand_weight": 0.6666666667,
+        "coverage": 1.0,
+        "contribution": 0.6666666667,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP9321 Data Services Engineering",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "UTS 36103 Statistical Thinking",
+          "UTS 41091 Data Systems",
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "Responding to student feedbackbroad introduction to data management, analysis, modelling and visualisation using the Python programming language.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Tableau",
+        "skill_category": "Data Visualisation / BI",
+        "demand_weight": 0.4907407407,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.4907407407,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Data Quality",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.3703703704,
+        "coverage": 1.0,
+        "contribution": 0.3703703704,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 36100 Data Science for Innovation"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 prepare data for analysis, ensuring data quality and integrity.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Data Pipelines",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.3611111111,
+        "coverage": 1.0,
+        "contribution": 0.3611111111,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5310 Principles of Data Science",
+          "UTS 41091 Data Systems",
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Build simple data pipelines or ETLs in order to load, transform and prepare raw data",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Data Analysis",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.3425925926,
+        "coverage": 1.0,
+        "contribution": 0.3425925926,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "USYD DATA5207 Data Analysis",
+          "UTS 36100 Data Science for Innovation",
+          "UTS 36103 Statistical Thinking",
+          "UTS 36118 Applied NLP",
+          "UTS 36120 Adv ML Application",
+          "UTS 36124 Applied Data Science for Innovation"
+        ],
+        "pages": [
+          1,
+          3
+        ],
+        "evidence": "Development of custom software using the powerful, general-purpose Python scripting language; Data collection, cleaning, pre-processing, and storage using various databases; Exploratory data analysis ",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Looker",
+        "skill_category": "Data Visualisation / BI",
+        "demand_weight": 0.3055555556,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.3055555556,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Data Visualization",
+        "skill_category": "Data Visualisation / BI",
+        "demand_weight": 0.2777777778,
+        "coverage": 1.0,
+        "contribution": 0.2777777778,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "USYD DATA5207 Data Analysis",
+          "UTS 36104 Data Visualisation and Narratives",
+          "UTS 36117 Data Visualisation",
+          "UTS 36124 Applied Data Science for Innovation"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Development of custom software using the powerful, general-purpose Python scripting language; Data collection, cleaning, pre-processing, and storage using various databases; Exploratory data analysis ",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Statistics",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.2685185185,
+        "coverage": 1.0,
+        "contribution": 0.2685185185,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "USYD DATA5207 Data Analysis",
+          "UTS 36103 Statistical Thinking"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "The unit covers key ideas relevant to NLP from machine learning, statistics, linguistics, and data science.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "dbt",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.2685185185,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.2685185185,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Data Warehousing",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.2314814815,
+        "coverage": 1.0,
+        "contribution": 0.2314814815,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP9311 Database Systems",
+          "UNSW COMP9321 Data Services Engineering",
+          "UTS 41091 Data Systems",
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "\ue313 into modern data warehousing solutions.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Snowflake",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.212962963,
+        "coverage": 1.0,
+        "contribution": 0.212962963,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Data Modeling",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.1944444444,
+        "coverage": 1.0,
+        "contribution": 0.1944444444,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Understand basic data engineering concepts including data modelling, big data,",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Databricks",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.1944444444,
+        "coverage": 1.0,
+        "contribution": 0.1944444444,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Computer Vision",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.1851851852,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1851851852,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Data Governance",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.1666666667,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1666666667,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Large Language Models",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.1666666667,
+        "coverage": 1.0,
+        "contribution": 0.1666666667,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP6713 NLP",
+          "USYD COMP5046 NLP"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "Additional information including heuristics, linear models, and neural networks, up to and including large language models (LLMs).",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Power BI",
+        "skill_category": "Data Visualisation / BI",
+        "demand_weight": 0.1574074074,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1574074074,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "AI Agents",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.1388888889,
+        "coverage": 1.0,
+        "contribution": 0.1388888889,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "semantic",
+        "units": [
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Ethical AI usage",
+        "semantic_score": 0.6519979835
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Apache Spark",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.1388888889,
+        "coverage": 1.0,
+        "contribution": 0.1388888889,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Forecasting",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.1388888889,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1388888889,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "GitHub",
+        "skill_category": "Development Tools",
+        "demand_weight": 0.1296296296,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1296296296,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Machine Learning",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.1296296296,
+        "coverage": 1.0,
+        "contribution": 0.1296296296,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP9417 ML and Data Mining",
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "UTS 36106 ML Algorithms",
+          "UTS 36120 Adv ML Application",
+          "UTS 36124 Applied Data Science for Innovation"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "The unit covers key ideas relevant to NLP from machine learning, statistics, linguistics, and data science.",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "EDA",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.1203703704,
+        "coverage": 1.0,
+        "contribution": 0.1203703704,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5310 Principles of Data Science",
+          "UTS 36124 Applied Data Science for Innovation"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Development of custom software using the powerful, general-purpose Python scripting language; Data collection, cleaning, pre-processing, and storage using various databases; Exploratory data analysis ",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "R",
+        "skill_category": "Programming",
+        "demand_weight": 0.1111111111,
+        "coverage": 1.0,
+        "contribution": 0.1111111111,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD DATA5207 Data Analysis"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue018 unstructured text as data, multilevel and geospatial modelling, all using the open source program R. In doing this, not",
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Generative AI",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.0925925926,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.0925925926,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "Pandas",
+        "skill_category": "ML Frameworks & Libraries",
+        "demand_weight": 0.0833333333,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.0833333333,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "Data Analyst",
+        "skill": "APIs",
+        "skill_category": "Development Tools",
+        "demand_weight": 0.0740740741,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.0740740741,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      }
+    ],
+    "learning_recommendations": [
+      {
+        "priority": 1,
+        "career": "Data Analyst",
+        "skill": "Dashboarding",
+        "skill_category": "Data Visualisation / BI",
+        "demand_weight": 0.712962963,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.713) with no detected coverage in the selected materials.",
+        "suggested_action": "Build an interactive dashboard that communicates decisions, filters and key metrics."
+      },
+      {
+        "priority": 2,
+        "career": "Data Analyst",
+        "skill": "Tableau",
+        "skill_category": "Data Visualisation / BI",
+        "demand_weight": 0.4907407407,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.491) with no detected coverage in the selected materials.",
+        "suggested_action": "Create a Tableau dashboard with calculated fields, filters and a short data story."
+      },
+      {
+        "priority": 3,
+        "career": "Data Analyst",
+        "skill": "Looker",
+        "skill_category": "Data Visualisation / BI",
+        "demand_weight": 0.3055555556,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.306) with no detected coverage in the selected materials.",
+        "suggested_action": "Build a small governed analytics model and dashboard in Looker or Looker Studio."
+      },
+      {
+        "priority": 4,
+        "career": "Data Analyst",
+        "skill": "dbt",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.2685185185,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.269) with no detected coverage in the selected materials.",
+        "suggested_action": "Create a tested dbt transformation project with documentation and lineage."
+      },
+      {
+        "priority": 5,
+        "career": "Data Analyst",
+        "skill": "Computer Vision",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.1851851852,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.185) with no detected coverage in the selected materials.",
+        "suggested_action": "Complete a small practical project demonstrating Computer Vision and document the evidence."
+      }
+    ]
+  },
+  {
+    "rank": 4,
+    "career": "ML Engineer",
+    "match_score": 0.6097976081,
+    "match_percent": 61.0,
+    "n_ads": 202,
+    "n_top_skills": 30,
+    "n_covered_top_skills": 16,
+    "matched_skills": [
+      "Machine Learning",
+      "Python",
+      "Large Language Models",
+      "Artificial Intelligence",
+      "Data Pipelines"
+    ],
+    "priority_gaps": [
+      "PyTorch",
+      "Generative AI",
+      "Observability",
+      "Kubernetes",
+      "Fine-tuning",
+      "APIs",
+      "C++",
+      "AWS"
+    ],
+    "explanation": "The materials cover Machine Learning, Python, Large Language Models, Artificial Intelligence, Data Pipelines; the largest remaining gaps are PyTorch, Generative AI, Observability.",
+    "skill_details": [
+      {
+        "career": "ML Engineer",
+        "skill": "Machine Learning",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.9084158416,
+        "coverage": 1.0,
+        "contribution": 0.9084158416,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP9417 ML and Data Mining",
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "UTS 36106 ML Algorithms",
+          "UTS 36120 Adv ML Application",
+          "UTS 36124 Applied Data Science for Innovation"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "The unit covers key ideas relevant to NLP from machine learning, statistics, linguistics, and data science.",
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Artificial Intelligence",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.6126237624,
+        "coverage": 0.5,
+        "contribution": 0.3063118812,
+        "remaining_gain": 0.3063118812,
+        "status": "covered",
+        "coverage_level": "mentioned",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP6713 NLP",
+          "UNSW COMP9444 Deep Learning"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "Natural language processing (NLP) is a branch of artificial intelligence that deals with computational approaches used to process text.",
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Python",
+        "skill_category": "Programming",
+        "demand_weight": 0.5433168317,
+        "coverage": 1.0,
+        "contribution": 0.5433168317,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP9321 Data Services Engineering",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "UTS 36103 Statistical Thinking",
+          "UTS 41091 Data Systems",
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "Responding to student feedbackbroad introduction to data management, analysis, modelling and visualisation using the Python programming language.",
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Large Language Models",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.3898514851,
+        "coverage": 1.0,
+        "contribution": 0.3898514851,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP6713 NLP",
+          "USYD COMP5046 NLP"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "Additional information including heuristics, linear models, and neural networks, up to and including large language models (LLMs).",
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "PyTorch",
+        "skill_category": "ML Frameworks & Libraries",
+        "demand_weight": 0.3576732673,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.3576732673,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Data Pipelines",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.2747524752,
+        "coverage": 1.0,
+        "contribution": 0.2747524752,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5310 Principles of Data Science",
+          "UTS 41091 Data Systems",
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Build simple data pipelines or ETLs in order to load, transform and prepare raw data",
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "TensorFlow",
+        "skill_category": "ML Frameworks & Libraries",
+        "demand_weight": 0.254950495,
+        "coverage": 0.75,
+        "contribution": 0.1912128713,
+        "remaining_gain": 0.0637376238,
+        "status": "covered",
+        "coverage_level": "taught",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "G\u00e9ron A. Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow : Concepts, Tools, and Techniques to",
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Model Training",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.2400990099,
+        "coverage": 0.75,
+        "contribution": 0.1800742574,
+        "remaining_gain": 0.0600247525,
+        "status": "covered",
+        "coverage_level": "taught",
+        "evidence_source": "semantic",
+        "units": [
+          "USYD COMP5046 NLP",
+          "USYD COMP5318 ML and Data Mining"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Training - Unsupervised",
+        "semantic_score": 0.6595808268
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Deep Learning",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.2264851485,
+        "coverage": 1.0,
+        "contribution": 0.2264851485,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP9417 ML and Data Mining",
+          "UNSW COMP9444 Deep Learning",
+          "USYD COMP5046 NLP",
+          "USYD COMP5318 ML and Data Mining"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Additional information including heuristics, linear models, and neural networks, up to and including large language models (LLMs).",
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Distributed Systems",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.2091584158,
+        "coverage": 0.5,
+        "contribution": 0.1045792079,
+        "remaining_gain": 0.1045792079,
+        "status": "covered",
+        "coverage_level": "mentioned",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5348 Enterprise Software Architecture",
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "This subject equips you to harness Big Data, transcending traditional analytics with distributed systems, the Hadoop ecosystem, stream processing, and large-scale computation.",
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Model Evaluation",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.1905940594,
+        "coverage": 1.0,
+        "contribution": 0.1905940594,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD DATA5207 Data Analysis"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Techniques covered range from descriptive statistics and linear and logistic regression, the analysis of data from randomised experiments, model selection for prediction and classification tasks, to t",
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Apache Spark",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.1856435644,
+        "coverage": 1.0,
+        "contribution": 0.1856435644,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Generative AI",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.1757425743,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1757425743,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Observability",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.1695544554,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1695544554,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Kubernetes",
+        "skill_category": "MLOps / Deployment",
+        "demand_weight": 0.1633663366,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1633663366,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Fine-tuning",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.1485148515,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1485148515,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Statistics",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.1410891089,
+        "coverage": 1.0,
+        "contribution": 0.1410891089,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "USYD DATA5207 Data Analysis",
+          "UTS 36103 Statistical Thinking"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "The unit covers key ideas relevant to NLP from machine learning, statistics, linguistics, and data science.",
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "APIs",
+        "skill_category": "Development Tools",
+        "demand_weight": 0.1398514851,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1398514851,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "AI Agents",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.1349009901,
+        "coverage": 1.0,
+        "contribution": 0.1349009901,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "semantic",
+        "units": [
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Ethical AI usage",
+        "semantic_score": 0.6519979835
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Regression",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.1287128713,
+        "coverage": 1.0,
+        "contribution": 0.1287128713,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP9417 ML and Data Mining",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "USYD DATA5207 Data Analysis",
+          "UTS 36100 Data Science for Innovation",
+          "UTS 36124 Applied Data Science for Innovation"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Topics to be covered include problems of discovering patterns in the data, classification, regression, feature extraction and data visualisation.",
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "C++",
+        "skill_category": "Programming",
+        "demand_weight": 0.1262376238,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1262376238,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "AWS",
+        "skill_category": "Cloud",
+        "demand_weight": 0.1225247525,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1225247525,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "SQL",
+        "skill_category": "Programming",
+        "demand_weight": 0.1225247525,
+        "coverage": 1.0,
+        "contribution": 0.1225247525,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Feature Engineering",
+        "skill_category": "Data Analysis & Statistics",
+        "demand_weight": 0.1188118812,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1188118812,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "CI/CD",
+        "skill_category": "MLOps / Deployment",
+        "demand_weight": 0.1175742574,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1175742574,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Recommendation Systems",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.1138613861,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1138613861,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Go",
+        "skill_category": "Programming",
+        "demand_weight": 0.1101485149,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1101485149,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Java",
+        "skill_category": "Programming",
+        "demand_weight": 0.1051980198,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1051980198,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Transformers",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.0977722772,
+        "coverage": 0.75,
+        "contribution": 0.0733292079,
+        "remaining_gain": 0.0244430693,
+        "status": "covered",
+        "coverage_level": "taught",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5046 NLP",
+          "USYD COMP5318 ML and Data Mining"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Week  Models - Transformer",
+        "semantic_score": null
+      },
+      {
+        "career": "ML Engineer",
+        "skill": "Computer Vision",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.0965346535,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.0965346535,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      }
+    ],
+    "learning_recommendations": [
+      {
+        "priority": 1,
+        "career": "ML Engineer",
+        "skill": "PyTorch",
+        "skill_category": "ML Frameworks & Libraries",
+        "demand_weight": 0.3576732673,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.358) with no detected coverage in the selected materials.",
+        "suggested_action": "Train, evaluate and document a PyTorch model with a reproducible experiment."
+      },
+      {
+        "priority": 2,
+        "career": "ML Engineer",
+        "skill": "Generative AI",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.1757425743,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.176) with no detected coverage in the selected materials.",
+        "suggested_action": "Complete a small practical project demonstrating Generative AI and document the evidence."
+      },
+      {
+        "priority": 3,
+        "career": "ML Engineer",
+        "skill": "Observability",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.1695544554,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.170) with no detected coverage in the selected materials.",
+        "suggested_action": "Add logging, monitoring and data or model quality checks to a deployed pipeline."
+      },
+      {
+        "priority": 4,
+        "career": "ML Engineer",
+        "skill": "Kubernetes",
+        "skill_category": "MLOps / Deployment",
+        "demand_weight": 0.1633663366,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.163) with no detected coverage in the selected materials.",
+        "suggested_action": "Containerise an application and deploy it to a local or managed Kubernetes cluster."
+      },
+      {
+        "priority": 5,
+        "career": "ML Engineer",
+        "skill": "Fine-tuning",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.1485148515,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.149) with no detected coverage in the selected materials.",
+        "suggested_action": "Fine-tune a small pretrained model and compare it with a baseline."
+      }
+    ]
+  },
+  {
+    "rank": 5,
+    "career": "AI Engineer",
+    "match_score": 0.4082702388,
+    "match_percent": 40.8,
+    "n_ads": 275,
+    "n_top_skills": 30,
+    "n_covered_top_skills": 8,
+    "matched_skills": [
+      "Large Language Models",
+      "Python",
+      "AI Agents",
+      "Artificial Intelligence",
+      "Machine Learning"
+    ],
+    "priority_gaps": [
+      "APIs",
+      "Observability",
+      "Go",
+      "TypeScript",
+      "Kubernetes",
+      "RAG",
+      "CI/CD",
+      "AWS"
+    ],
+    "explanation": "The materials cover Large Language Models, Python, AI Agents, Artificial Intelligence, Machine Learning; the largest remaining gaps are APIs, Observability, Go.",
+    "skill_details": [
+      {
+        "career": "AI Engineer",
+        "skill": "Artificial Intelligence",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.8736363636,
+        "coverage": 0.5,
+        "contribution": 0.4368181818,
+        "remaining_gain": 0.4368181818,
+        "status": "covered",
+        "coverage_level": "mentioned",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP6713 NLP",
+          "UNSW COMP9444 Deep Learning"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "Natural language processing (NLP) is a branch of artificial intelligence that deals with computational approaches used to process text.",
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Large Language Models",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.4781818182,
+        "coverage": 1.0,
+        "contribution": 0.4781818182,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP6713 NLP",
+          "USYD COMP5046 NLP"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "Additional information including heuristics, linear models, and neural networks, up to and including large language models (LLMs).",
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Python",
+        "skill_category": "Programming",
+        "demand_weight": 0.4781818182,
+        "coverage": 1.0,
+        "contribution": 0.4781818182,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP9321 Data Services Engineering",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "UTS 36103 Statistical Thinking",
+          "UTS 41091 Data Systems",
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1,
+          2
+        ],
+        "evidence": "Responding to student feedbackbroad introduction to data management, analysis, modelling and visualisation using the Python programming language.",
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "AI Agents",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.4727272727,
+        "coverage": 1.0,
+        "contribution": 0.4727272727,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "semantic",
+        "units": [
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Ethical AI usage",
+        "semantic_score": 0.6519979835
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Machine Learning",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.3527272727,
+        "coverage": 1.0,
+        "contribution": 0.3527272727,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "UNSW COMP9417 ML and Data Mining",
+          "USYD COMP5046 NLP",
+          "USYD COMP5310 Principles of Data Science",
+          "USYD COMP5318 ML and Data Mining",
+          "UTS 36106 ML Algorithms",
+          "UTS 36120 Adv ML Application",
+          "UTS 36124 Applied Data Science for Innovation"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "The unit covers key ideas relevant to NLP from machine learning, statistics, linguistics, and data science.",
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "APIs",
+        "skill_category": "Development Tools",
+        "demand_weight": 0.3290909091,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.3290909091,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Observability",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.3218181818,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.3218181818,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Distributed Systems",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.2263636364,
+        "coverage": 0.5,
+        "contribution": 0.1131818182,
+        "remaining_gain": 0.1131818182,
+        "status": "covered",
+        "coverage_level": "mentioned",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5348 Enterprise Software Architecture",
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "This subject equips you to harness Big Data, transcending traditional analytics with distributed systems, the Hadoop ecosystem, stream processing, and large-scale computation.",
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Go",
+        "skill_category": "Programming",
+        "demand_weight": 0.2154545455,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.2154545455,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "TypeScript",
+        "skill_category": "Programming",
+        "demand_weight": 0.2136363636,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.2136363636,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Kubernetes",
+        "skill_category": "MLOps / Deployment",
+        "demand_weight": 0.1709090909,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1709090909,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "RAG",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.1663636364,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1663636364,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "CI/CD",
+        "skill_category": "MLOps / Deployment",
+        "demand_weight": 0.1627272727,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1627272727,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "AWS",
+        "skill_category": "Cloud",
+        "demand_weight": 0.1318181818,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1318181818,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "JavaScript",
+        "skill_category": "Programming",
+        "demand_weight": 0.13,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.13,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Model Context Protocol",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.1281818182,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1281818182,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Generative AI",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.1254545455,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1254545455,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Fine-tuning",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.1227272727,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1227272727,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "React",
+        "skill_category": "Development Tools",
+        "demand_weight": 0.1218181818,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1218181818,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Prompt Engineering",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.1181818182,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1181818182,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Data Pipelines",
+        "skill_category": "Data Engineering",
+        "demand_weight": 0.1145454545,
+        "coverage": 1.0,
+        "contribution": 0.1145454545,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD COMP5310 Principles of Data Science",
+          "UTS 41091 Data Systems",
+          "UTS 94693 Big Data Engineering"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Build simple data pipelines or ETLs in order to load, transform and prepare raw data",
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "C++",
+        "skill_category": "Programming",
+        "demand_weight": 0.1045454545,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.1045454545,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Model Evaluation",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.1027272727,
+        "coverage": 1.0,
+        "contribution": 0.1027272727,
+        "remaining_gain": 0.0,
+        "status": "covered",
+        "coverage_level": "assessed",
+        "evidence_source": "exact",
+        "units": [
+          "USYD DATA5207 Data Analysis"
+        ],
+        "pages": [
+          1
+        ],
+        "evidence": "Techniques covered range from descriptive statistics and linear and logistic regression, the analysis of data from randomised experiments, model selection for prediction and classification tasks, to t",
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "GCP",
+        "skill_category": "Cloud",
+        "demand_weight": 0.0918181818,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.0918181818,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Java",
+        "skill_category": "Programming",
+        "demand_weight": 0.0845454545,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.0845454545,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Computer Vision",
+        "skill_category": "Machine Learning & AI",
+        "demand_weight": 0.0836363636,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.0836363636,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Docker",
+        "skill_category": "MLOps / Deployment",
+        "demand_weight": 0.0827272727,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.0827272727,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Azure",
+        "skill_category": "Cloud",
+        "demand_weight": 0.0818181818,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.0818181818,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "Terraform",
+        "skill_category": "MLOps / Deployment",
+        "demand_weight": 0.0790909091,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.0790909091,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      },
+      {
+        "career": "AI Engineer",
+        "skill": "LangChain",
+        "skill_category": "NLP / Generative AI",
+        "demand_weight": 0.0781818182,
+        "coverage": 0.0,
+        "contribution": 0.0,
+        "remaining_gain": 0.0781818182,
+        "status": "gap",
+        "coverage_level": null,
+        "evidence_source": null,
+        "units": [],
+        "pages": [],
+        "evidence": null,
+        "semantic_score": null
+      }
+    ],
+    "learning_recommendations": [
+      {
+        "priority": 1,
+        "career": "AI Engineer",
+        "skill": "APIs",
+        "skill_category": "Development Tools",
+        "demand_weight": 0.3290909091,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.329) with no detected coverage in the selected materials.",
+        "suggested_action": "Expose a model or data service through a documented REST API with tests."
+      },
+      {
+        "priority": 2,
+        "career": "AI Engineer",
+        "skill": "Observability",
+        "skill_category": "Methods / Architecture",
+        "demand_weight": 0.3218181818,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.322) with no detected coverage in the selected materials.",
+        "suggested_action": "Add logging, monitoring and data or model quality checks to a deployed pipeline."
+      },
+      {
+        "priority": 3,
+        "career": "AI Engineer",
+        "skill": "Go",
+        "skill_category": "Programming",
+        "demand_weight": 0.2154545455,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.215) with no detected coverage in the selected materials.",
+        "suggested_action": "Complete a small practical project demonstrating Go and document the evidence."
+      },
+      {
+        "priority": 4,
+        "career": "AI Engineer",
+        "skill": "TypeScript",
+        "skill_category": "Programming",
+        "demand_weight": 0.2136363636,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.214) with no detected coverage in the selected materials.",
+        "suggested_action": "Complete a small practical project demonstrating TypeScript and document the evidence."
+      },
+      {
+        "priority": 5,
+        "career": "AI Engineer",
+        "skill": "Kubernetes",
+        "skill_category": "MLOps / Deployment",
+        "demand_weight": 0.1709090909,
+        "current_coverage": 0.0,
+        "why_recommended": "High career demand (0.171) with no detected coverage in the selected materials.",
+        "suggested_action": "Containerise an application and deploy it to a local or managed Kubernetes cluster."
+      }
+    ]
+  }
+]

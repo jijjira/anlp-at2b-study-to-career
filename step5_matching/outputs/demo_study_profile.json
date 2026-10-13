@@ -1,0 +1,680 @@
+[
+  {
+    "skill":"AI Agents",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"semantic",
+    "units":[
+      "USYD COMP5046 NLP",
+      "USYD COMP5310 Principles of Data Science"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Ethical AI usage",
+    "semantic_score":0.6519979835
+  },
+  {
+    "skill":"Airflow",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UTS 94693 Big Data Engineering"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Apache Spark",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UTS 94693 Big Data Engineering"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Classification",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UNSW COMP6713 NLP",
+      "UNSW COMP9417 ML and Data Mining",
+      "USYD COMP5046 NLP",
+      "USYD COMP5310 Principles of Data Science",
+      "USYD COMP5318 ML and Data Mining",
+      "USYD DATA5207 Data Analysis",
+      "UTS 36100 Data Science for Innovation",
+      "UTS 36124 Applied Data Science for Innovation"
+    ],
+    "pages":[
+      1,
+      2
+    ],
+    "evidence":"Topics to be covered include problems of discovering patterns in the data, classification, regression, feature extraction and data visualisation.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Cloud Computing",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "USYD COMP5348 Enterprise Software Architecture"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"They assess essential knowledge and skills in state management, concurrency, transactions, distributed computing, middleware, performance evaluation, web development, and cloud computing.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Clustering",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "USYD COMP5046 NLP",
+      "USYD COMP5310 Principles of Data Science",
+      "USYD COMP5318 ML and Data Mining",
+      "UTS 36100 Data Science for Innovation"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Responding to student feedbackclassifying and clustering of documents.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Data Analysis",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "USYD COMP5046 NLP",
+      "USYD COMP5310 Principles of Data Science",
+      "USYD COMP5318 ML and Data Mining",
+      "USYD DATA5207 Data Analysis",
+      "UTS 36100 Data Science for Innovation",
+      "UTS 36103 Statistical Thinking",
+      "UTS 36118 Applied NLP",
+      "UTS 36120 Adv ML Application",
+      "UTS 36124 Applied Data Science for Innovation"
+    ],
+    "pages":[
+      1,
+      3
+    ],
+    "evidence":"Development of custom software using the powerful, general-purpose Python scripting language; Data collection, cleaning, pre-processing, and storage using various databases; Exploratory data analysis ",
+    "semantic_score":null
+  },
+  {
+    "skill":"Data Cleaning",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"semantic",
+    "units":[
+      "USYD COMP5310 Principles of Data Science",
+      "UTS 36100 Data Science for Innovation"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Apply data summarization and preprocessing techniques to clean",
+    "semantic_score":0.6862775087
+  },
+  {
+    "skill":"Data Lake",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UTS 94693 Big Data Engineering"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Interact with and query data from modern data warehousing and data lake",
+    "semantic_score":null
+  },
+  {
+    "skill":"Data Modeling",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UTS 94693 Big Data Engineering"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Understand basic data engineering concepts including data modelling, big data,",
+    "semantic_score":null
+  },
+  {
+    "skill":"Data Pipelines",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "USYD COMP5310 Principles of Data Science",
+      "UTS 41091 Data Systems",
+      "UTS 94693 Big Data Engineering"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Build simple data pipelines or ETLs in order to load, transform and prepare raw data",
+    "semantic_score":null
+  },
+  {
+    "skill":"Data Quality",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UTS 36100 Data Science for Innovation"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"\ue313 prepare data for analysis, ensuring data quality and integrity.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Data Visualization",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "USYD COMP5310 Principles of Data Science",
+      "USYD COMP5318 ML and Data Mining",
+      "USYD DATA5207 Data Analysis",
+      "UTS 36104 Data Visualisation and Narratives",
+      "UTS 36117 Data Visualisation",
+      "UTS 36124 Applied Data Science for Innovation"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Development of custom software using the powerful, general-purpose Python scripting language; Data collection, cleaning, pre-processing, and storage using various databases; Exploratory data analysis ",
+    "semantic_score":null
+  },
+  {
+    "skill":"Data Warehousing",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UNSW COMP9311 Database Systems",
+      "UNSW COMP9321 Data Services Engineering",
+      "UTS 41091 Data Systems",
+      "UTS 94693 Big Data Engineering"
+    ],
+    "pages":[
+      1,
+      2
+    ],
+    "evidence":"\ue313 into modern data warehousing solutions.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Databricks",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UTS 94693 Big Data Engineering"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Deep Learning",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UNSW COMP9417 ML and Data Mining",
+      "UNSW COMP9444 Deep Learning",
+      "USYD COMP5046 NLP",
+      "USYD COMP5318 ML and Data Mining"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Additional information including heuristics, linear models, and neural networks, up to and including large language models (LLMs).",
+    "semantic_score":null
+  },
+  {
+    "skill":"EDA",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "USYD COMP5310 Principles of Data Science",
+      "UTS 36124 Applied Data Science for Innovation"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Development of custom software using the powerful, general-purpose Python scripting language; Data collection, cleaning, pre-processing, and storage using various databases; Exploratory data analysis ",
+    "semantic_score":null
+  },
+  {
+    "skill":"Hypothesis Testing",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"semantic",
+    "units":[
+      "USYD COMP5310 Principles of Data Science",
+      "USYD DATA5207 Data Analysis",
+      "UTS 36100 Data Science for Innovation"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"and test hypotheses to draw inferences",
+    "semantic_score":0.6251997948
+  },
+  {
+    "skill":"Kafka",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UTS 94693 Big Data Engineering"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Large Language Models",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UNSW COMP6713 NLP",
+      "USYD COMP5046 NLP"
+    ],
+    "pages":[
+      1,
+      2
+    ],
+    "evidence":"Additional information including heuristics, linear models, and neural networks, up to and including large language models (LLMs).",
+    "semantic_score":null
+  },
+  {
+    "skill":"Machine Learning",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UNSW COMP9417 ML and Data Mining",
+      "USYD COMP5046 NLP",
+      "USYD COMP5310 Principles of Data Science",
+      "USYD COMP5318 ML and Data Mining",
+      "UTS 36106 ML Algorithms",
+      "UTS 36120 Adv ML Application",
+      "UTS 36124 Applied Data Science for Innovation"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"The unit covers key ideas relevant to NLP from machine learning, statistics, linguistics, and data science.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Model Deployment",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UTS 36120 Adv ML Application"
+    ],
+    "pages":[
+      2
+    ],
+    "evidence":"Design and implement robust and efficient systems for model deployment",
+    "semantic_score":null
+  },
+  {
+    "skill":"Model Evaluation",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "USYD DATA5207 Data Analysis"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Techniques covered range from descriptive statistics and linear and logistic regression, the analysis of data from randomised experiments, model selection for prediction and classification tasks, to t",
+    "semantic_score":null
+  },
+  {
+    "skill":"Natural Language Processing",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UNSW COMP6713 NLP",
+      "USYD COMP5046 NLP",
+      "UTS 36118 Applied NLP"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"NLP is used in a wide range of applications,",
+    "semantic_score":null
+  },
+  {
+    "skill":"PostgreSQL",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UTS 94693 Big Data Engineering"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Predictive Modeling",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"semantic",
+    "units":[
+      "USYD COMP5310 Principles of Data Science",
+      "USYD DATA5207 Data Analysis"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Develop and evaluate predictive model.",
+    "semantic_score":0.743763566
+  },
+  {
+    "skill":"Python",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UNSW COMP9321 Data Services Engineering",
+      "USYD COMP5310 Principles of Data Science",
+      "USYD COMP5318 ML and Data Mining",
+      "UTS 36103 Statistical Thinking",
+      "UTS 41091 Data Systems",
+      "UTS 94693 Big Data Engineering"
+    ],
+    "pages":[
+      1,
+      2
+    ],
+    "evidence":"Responding to student feedbackbroad introduction to data management, analysis, modelling and visualisation using the Python programming language.",
+    "semantic_score":null
+  },
+  {
+    "skill":"R",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "USYD DATA5207 Data Analysis"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"\ue018 unstructured text as data, multilevel and geospatial modelling, all using the open source program R. In doing this, not",
+    "semantic_score":null
+  },
+  {
+    "skill":"Regression",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UNSW COMP9417 ML and Data Mining",
+      "USYD COMP5310 Principles of Data Science",
+      "USYD COMP5318 ML and Data Mining",
+      "USYD DATA5207 Data Analysis",
+      "UTS 36100 Data Science for Innovation",
+      "UTS 36124 Applied Data Science for Innovation"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Topics to be covered include problems of discovering patterns in the data, classification, regression, feature extraction and data visualisation.",
+    "semantic_score":null
+  },
+  {
+    "skill":"SQL",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UTS 94693 Big Data Engineering"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Snowflake",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "UTS 94693 Big Data Engineering"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"\ue313 (Snowflake, Databricks, PostgreSQL, Spark, Airflow, Kafka etc..) and languages including Python and SQL.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Statistics",
+    "coverage":1.0,
+    "level":"assessed",
+    "source":"exact",
+    "units":[
+      "USYD COMP5046 NLP",
+      "USYD COMP5310 Principles of Data Science",
+      "USYD COMP5318 ML and Data Mining",
+      "USYD DATA5207 Data Analysis",
+      "UTS 36103 Statistical Thinking"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"The unit covers key ideas relevant to NLP from machine learning, statistics, linguistics, and data science.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Keras",
+    "coverage":0.75,
+    "level":"taught",
+    "source":"exact",
+    "units":[
+      "USYD COMP5310 Principles of Data Science",
+      "USYD COMP5318 ML and Data Mining"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"G\u00e9ron A. Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow : Concepts, Tools, and Techniques to",
+    "semantic_score":null
+  },
+  {
+    "skill":"Model Training",
+    "coverage":0.75,
+    "level":"taught",
+    "source":"semantic",
+    "units":[
+      "USYD COMP5046 NLP",
+      "USYD COMP5318 ML and Data Mining"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Training - Unsupervised",
+    "semantic_score":0.6595808268
+  },
+  {
+    "skill":"Named Entity Recognition",
+    "coverage":0.75,
+    "level":"taught",
+    "source":"exact",
+    "units":[
+      "UNSW COMP6713 NLP"
+    ],
+    "pages":[
+      2
+    ],
+    "evidence":"The course introduces the three generations of NLP through the philosophy of ambiguity resolution being the core task of NLP. The content covers different NLP sub-problems (such as POS tagging, sentim",
+    "semantic_score":null
+  },
+  {
+    "skill":"Reinforcement Learning",
+    "coverage":0.75,
+    "level":"taught",
+    "source":"exact",
+    "units":[
+      "UNSW COMP9444 Deep Learning",
+      "USYD COMP5046 NLP",
+      "USYD COMP5318 ML and Data Mining"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Week  Training - Reinforcement Learning",
+    "semantic_score":null
+  },
+  {
+    "skill":"TensorFlow",
+    "coverage":0.75,
+    "level":"taught",
+    "source":"exact",
+    "units":[
+      "USYD COMP5310 Principles of Data Science",
+      "USYD COMP5318 ML and Data Mining"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"G\u00e9ron A. Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow : Concepts, Tools, and Techniques to",
+    "semantic_score":null
+  },
+  {
+    "skill":"Transformers",
+    "coverage":0.75,
+    "level":"taught",
+    "source":"exact",
+    "units":[
+      "USYD COMP5046 NLP",
+      "USYD COMP5318 ML and Data Mining"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Week  Models - Transformer",
+    "semantic_score":null
+  },
+  {
+    "skill":"Vector Search",
+    "coverage":0.75,
+    "level":"taught",
+    "source":"semantic",
+    "units":[
+      "USYD COMP5046 NLP"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Greedy and Search",
+    "semantic_score":0.66122365
+  },
+  {
+    "skill":"scikit-learn",
+    "coverage":0.75,
+    "level":"taught",
+    "source":"exact",
+    "units":[
+      "USYD COMP5310 Principles of Data Science",
+      "USYD COMP5318 ML and Data Mining"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"G\u00e9ron A. Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow : Concepts, Tools, and Techniques to",
+    "semantic_score":null
+  },
+  {
+    "skill":"Artificial Intelligence",
+    "coverage":0.5,
+    "level":"mentioned",
+    "source":"exact",
+    "units":[
+      "UNSW COMP6713 NLP",
+      "UNSW COMP9444 Deep Learning"
+    ],
+    "pages":[
+      1,
+      2
+    ],
+    "evidence":"Natural language processing (NLP) is a branch of artificial intelligence that deals with computational approaches used to process text.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Distributed Systems",
+    "coverage":0.5,
+    "level":"mentioned",
+    "source":"exact",
+    "units":[
+      "USYD COMP5348 Enterprise Software Architecture",
+      "UTS 94693 Big Data Engineering"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"This subject equips you to harness Big Data, transcending traditional analytics with distributed systems, the Hadoop ecosystem, stream processing, and large-scale computation.",
+    "semantic_score":null
+  },
+  {
+    "skill":"Hadoop",
+    "coverage":0.5,
+    "level":"mentioned",
+    "source":"exact",
+    "units":[
+      "UTS 41091 Data Systems",
+      "UTS 94693 Big Data Engineering"
+    ],
+    "pages":[
+      1
+    ],
+    "evidence":"Hadoop ecosystem and cloud data system providers.",
+    "semantic_score":null
+  }
+]

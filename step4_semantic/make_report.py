@@ -1,4 +1,4 @@
-"""Turn results/details/*.csv|json into (1) results/summary.md and (2) docs/README_section_student4.md.
+"""Turn results/details/*.csv|json into results/summary.md.
 
 Nothing here is hand-typed: every number in the README section comes from the files written by run_all.py, so the
 write-up cannot drift from the results. Run after `python run_all.py compare ablate errors corpus curriculum`.
@@ -11,7 +11,7 @@ import pandas as pd
 
 import config
 
-R, D, DOCS = config.RESULTS, config.DETAILS, config.HERE / "docs"
+R, D = config.RESULTS, config.DETAILS
 
 
 def _read(name):
@@ -93,78 +93,7 @@ def main():
         out.append(md_table(df, ["source", "n_labelled", "correct", "precision", "ci_lo", "ci_hi"]))
     (R / "summary.md").write_text("\n".join(out))
 
-    # ---- README section for Student 4 -------------------------------------------------------------------
-    lf, ir = bb(S5, "lenient_F1"), bb(S5, "I_recall")
-    sf, lp = bb(S5, "strict_F1"), bb(S5, "lenient_P")
-    n_units = len(curr) if curr is not None else 0
-    n_units_added = int((curr.n_semantic_added > 0).sum()) if curr is not None else 0
-    checks = json.loads((D / "curriculum_named_checks.json").read_text()) if (D / "curriculum_named_checks.json").exists() else []
-    chk = "; ".join(f"{c['unit']} - {c['skill']}: exact {'found' if c['exact_found'] else 'missed'}, hybrid "
-                    f"{'found' if c['hybrid_found'] else 'missed'}" for c in checks) or "not run"
-    cv_line = ""
-    if cv_name in m.index:
-        c, cb = m.loc[cv_name], b_of(cv_name, "lenient_F1")
-        cv_line = (f"- Check of the pooling choice (pool chosen inside each fold; {c['pool_chosen']}): lenient F1 "
-                   f"{_f(c['lenient_F1'])} (delta to Baseline++ {_f(cb['delta'])}, 95% CI {_ci(cb)}), I-recall "
-                   f"{_f(c['I_recall'])}, additions precision {_f(c['added_precision'])}.\n")
-    audit_line = ""
-    for title, df in audits:
-        parts = [f"{r.source} {_f(r.precision)} [{_f(r.ci_lo)}, {_f(r.ci_hi)}] (n={int(r.n_labelled)})" for r in df.itertuples()]
-        audit_line += f"- {title}: precision " + "; ".join(parts) + ".\n"
-    best_line = ("" if best_hybrid["model"] == config.MAIN_MODEL else
-                 f"- Best hybrid by lenient F1: `{best_hybrid['model']}` ({_f(best_hybrid['lenient_F1'])}); it differs from "
-                 f"the pre-specified `{config.MAIN_MODEL}`, so treat it as exploratory.\n")
-    sec = f"""## Student 4: Semantic NLP (Sentence Transformers) and main evaluation (Tao Lou)
-
-**What I did**
-- Built a **hybrid extractor** on top of Step 3's Baseline++: exact matches are kept, and a Sentence-Transformer adds
-  *implied* skills. Ad text is split into units (lines and clauses; company text excluded via Step 3's section segmenter);
-  each dictionary skill is represented by its name and aliases, pooled into one {config.DEFAULTS['pool']} vector; a skill is
-  added when a unit's cosine similarity to it passes a threshold (optionally within a margin of the unit's best skill,
-  and optionally z-normalised per skill to remove hub skills).
-- Compared {len(models_only)} embedding models ({', '.join(models_only.model)}), including a
-  character-hashing *lexical control*, and a semantic-only control (main model only). Headline model fixed in advance: `{config.MAIN_MODEL}`.
-- Evaluated on the **same 30 gold ads** with Step 3's definitions. Threshold selection is **leave-one-ad-out
-  cross-validation** (tuned on 29 ads, applied to the 30th), so all numbers are out-of-fold. Paired bootstrap (2,000
-  resamples, seed {config.SEED}; strict F1 via Step 3's own `evaluate.bootstrap`), one-factor ablations and error
-  analysis, then the 688-ad corpus and the 20 real unit PDFs with blinded human precision audits.
-
-**Key results** (30 gold ads, out-of-fold, `{config.MAIN_MODEL}` hybrid vs Baseline++)
-- Implicit-skill recall (I-recall): {_f(s5['I_recall'])} -> {_f(sm['I_recall'])}
-  (delta {_f(ir['delta'])}, 95% CI {_ci(ir)}).
-- Lenient F1 (gold = R+P+I; an implicit skill an ad demands is correct): {_f(s5['lenient_F1'])} -> {_f(sm['lenient_F1'])}
-  (delta {_f(lf['delta'])}, 95% CI {_ci(lf)}); lenient precision {_f(s5['lenient_P'])} -> {_f(sm['lenient_P'])}
-  (delta {_f(lp['delta'])}, CI {_ci(lp)}).
-- Strict F1 (Step 3's R+P-only gold, where valid implicit skills count as errors): {_f(s5['strict_F1'])} ->
-  {_f(sm['strict_F1'])} (delta {_f(sf['delta'])}, CI {_ci(sf)}). Baseline++ already has R+P recall
-  {_f(s5['strict_R'])}, so strict F1 mainly reflects implicit hits scored as errors; it is reported for comparability.
-- The semantic layer added {int(sm['n_added'])} skills over the 30 ads ({_f(sm['added_per_ad'], 2)} per ad); precision of
-  those additions {_f(sm['added_precision'])}.
-{cv_line}{best_line}- Unit PDFs: the semantic layer added skills to {n_units_added} of {n_units} units. Named cases: {chk}.
-{audit_line}
-**Files and how to run them** (folder `step4_semantic/`; needs `step3_baseline_nlp/` next to it or `STEP3_DIR`)
-- `pip install -r requirements.txt`, then `python run_all.py all` (first run downloads the models; add `--quick` for a short test).
-- `semantic_extractor.py` (method), `experiments.py` (LOOCV, ablation, bootstrap), `metrics.py`, `error_analysis.py`,
-  `corpus_extract.py`, `curriculum_semantic.py`, `figures.py`, `make_report.py`, `tests/`, `results/`, `figures/`, `docs/`.
-- Drop-in for Student 5: `from corpus_extract import build_hybrid` then `.extract_weighted(text)` /
-  `.skill_strengths(text)`; or read `results/handoff/job_skills_hybrid_long.csv` / `job_skills_hybrid_extracted.csv`.
-
-**Limitations**
-- Human audit: one annotator (the method developer), blinded to which method produced each item; ambiguous items were
-  resolved with help from an AI assistant (Claude) applying a fixed written rule, so the labels are human-led but
-  AI-assisted. No second annotator, so no inter-annotator agreement. Exact-hit evidence lines contain the skill name,
-  so blinding is partial.
-- Gold labels: one AI annotator, n = 30, 43 implicit labels (wide intervals; the implicit tier is thin).
-- The 30 ads were used for comparison, ablation and error analysis, and centroid pooling was adopted after the first
-  ablation; cross-validation keeps the threshold from seeing the scored ad but not this design optimism, so results are
-  partly exploratory. Inherited from Step 3: one Baseline++ header rule was fixed after looking at a gold ad.
-- Unit text has no complete labels: only precision of hits is audited, not recall.
-- Embeddings are tied to dictionary skills; skills outside the dictionary (OTHER tier) are not recoverable.
-- English-only models; US job ads; Australian unit handbook text is shorter than full outlines.
-"""
-    DOCS.mkdir(exist_ok=True)
-    (DOCS / "README_section_student4.md").write_text(sec)
-    print("wrote results/summary.md and docs/README_section_student4.md")
+    print("wrote results/summary.md")
 
 
 if __name__ == "__main__":

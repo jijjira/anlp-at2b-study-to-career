@@ -1,8 +1,8 @@
 """Run the tuned hybrid extractor on all 688 job ads (unlabelled) and prepare a human precision audit.
 
 Outputs:
-  results/handoff/job_skills_hybrid_long.csv        job_id | career_category | canonical_skill | skill_category | source | strength | weight | score | evidence
-  results/handoff/job_skills_hybrid_extracted.csv   same format as Step 3's job_skills_extracted.csv
+  results/hybrid_job_skills/job_skills_hybrid_long.csv        job_id | career_category | canonical_skill | skill_category | source | strength | weight | score | evidence
+  results/hybrid_job_skills/job_skills_hybrid_extracted.csv   same format as Step 3's job_skills_extracted.csv
   results/details/semantic_additions_by_skill.csv   which skills the semantic layer adds, how often, in which careers
   results/audit/job_audit_sheet.csv                 BLINDED sheet for human labelling: 50 random semantic additions + 50 random
                                                     exact hits from non-gold ads, shuffled, no source/score column
@@ -60,8 +60,8 @@ def run(runner: Runner, final: dict, n_audit: int = 50) -> dict:
     runner.save()
     config.ensure_dirs()
     long = pd.DataFrame(long_rows)
-    long.drop(columns="row").to_csv(config.HANDOFF / "job_skills_hybrid_long.csv", index=False)
-    pd.DataFrame(wide_rows).to_csv(config.HANDOFF / "job_skills_hybrid_extracted.csv", index=False)
+    long.drop(columns="row").to_csv(config.HYBRID / "job_skills_hybrid_long.csv", index=False)
+    pd.DataFrame(wide_rows).to_csv(config.HYBRID / "job_skills_hybrid_extracted.csv", index=False)
     a = pd.DataFrame(adds)
     if len(a):
         by = (a.groupby("canonical_skill").agg(n_ads=("job_id", "nunique"), mean_score=("score", "mean"))

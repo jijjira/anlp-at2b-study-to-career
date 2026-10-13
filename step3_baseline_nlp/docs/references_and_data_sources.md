@@ -1,11 +1,11 @@
-# References, dataset and curriculum sources (Member 3)
+# References, dataset and curriculum sources 
 
-APA 7. Items marked VERIFY need a last check of authors, volume or URL before submission.
+APA 7.
 
 ## 1. Job-ad dataset (U.S. benchmark)
 | Item | Detail |
 |---|---|
-| File | `job_cleaned.csv` (from Step 1, Member 1) |
+| File | `job_cleaned.csv` (from Step 1) |
 | Size | 688 ads, 106 companies, 5 career categories (AI Engineer 275, ML Engineer 202, Data Scientist 127, Data Engineer 57, Data Analyst 27) |
 | Source | Public company job boards read through the Greenhouse (489 ads) and Ashby (199 ads) job-posting interfaces; every ad keeps its `source_url` |
 | Dates | `date_posted` from 2021-08-27 to 2026-10-01 (591 ads from 2026); all collected on 2026-10-01 (`collected_at`) |
@@ -13,9 +13,9 @@ APA 7. Items marked VERIFY need a last check of authors, volume or URL before su
 | Not included | The 14 Australian ads are a separate small set and are not in this file |
 | Content | Public job postings only, no personal data about applicants |
 
-Member 1 to add: the exact collection script and date, how the 5 career categories were assigned, and a one-line check of the job boards' terms of use. The raw ads belong to the employers, so the report should say the data are public postings used for coursework and should not be redistributed outside the course.
+The collection script and dates are in `step1_data/`. The raw ads belong to the employers; the data are public postings used for coursework.
 
-Dataset citations (VERIFY URLs):
+Dataset citations:
 * Greenhouse Software. (n.d.). *Job Board API*. https://developers.greenhouse.io/job-board.html
 * Ashby. (n.d.). *Public job posting API*. https://developers.ashbyhq.com/docs/public-job-posting-api
 
@@ -72,10 +72,10 @@ APA entries for the unit pages:
 * UNSW Sydney. (2026). *COMP9444 Neural Networks and Deep Learning* [Handbook entry]. Retrieved October 4, 2026, from https://www.handbook.unsw.edu.au/postgraduate/courses/2027/COMP9444
 
 ## 3. Methods and tools references
-* Decorte, J.-J., et al. (2025). *Efficient text encoders for labor market analysis* (arXiv:2505.24640). https://arxiv.org/abs/2505.24640 (title and ID confirmed; VERIFY the full author list)
+* Decorte, J.-J., Van Hautte, J., Develder, C., & Demeester, T. (2025). *Efficient text encoders for labor market analysis* (arXiv:2505.24640). https://arxiv.org/abs/2505.24640
 * Efron, B. (1979). Bootstrap methods: Another look at the jackknife. *The Annals of Statistics, 7*(1), 1-26.
 * Fareri, S., Melluso, N., Chiarello, F., & Fantoni, G. (2021). SkillNER: Mining and mapping soft skills from any text. *Expert Systems with Applications, 184*, Article 115544. (preprint arXiv:2101.11431; VERIFY journal details)
 * Honnibal, M., Montani, I., Van Landeghem, S., & Boyd, A. (2020). *spaCy: Industrial-strength natural language processing in Python* [Software]. Explosion. https://spacy.io
-* Artifex Software. (n.d.). *PyMuPDF* [Software]. https://pymupdf.readthedocs.io (VERIFY)
+* Artifex Software. (n.d.). *PyMuPDF* [Software]. https://pymupdf.readthedocs.io
 * Lightcast. (n.d.). *Lightcast SkillsMatch*. https://lightcast.io
 * Reimers, N., & Gurevych, I. (2019). Sentence-BERT: Sentence embeddings using Siamese BERT-networks. *Proceedings of EMNLP-IJCNLP 2019*, 3982-3992.
