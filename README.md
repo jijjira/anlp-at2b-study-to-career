@@ -89,7 +89,7 @@ Then open a step folder and run its notebook with Restart & Run All. The quickes
 
 * U.S.-only job data, mostly large tech employers and mostly 2026 ads. The Australian set is too small (14 ads) for separate tests.
 * Twenty selected units is a case study, not all of Australian higher education or whole degrees.
-* Gold labels come from a single AI annotator. A human second annotator re-labelled 10 ads: Cohen's kappa 0.33 (95% CI 0.19 to 0.44) for named-and-demanded skills, 0.25 over four classes, lowest for implicit skills (see `step3_baseline_nlp/human_agreement_results.csv`).
+* Gold labels come from a single AI annotator. On 10 ads a human annotator agreed only fairly (Cohen's kappa 0.33, 95% CI 0.19 to 0.44, for named-and-demanded skills; 0.25 over four classes) and a second AI pass agreed closely (0.85) but is not independent; implicit-skill labels are unreliable (kappa at most 0.12). See `step3_baseline_nlp/docs/annotation_agreement_report.md`.
 
 ## Repo layout
 
