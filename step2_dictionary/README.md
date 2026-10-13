@@ -7,6 +7,7 @@ Build the shared skill vocabulary that lets job advertisements and unit document
 | File | Purpose |
 |---|---|
 | `02_skill_dictionary_normalisation.ipynb` | Builds, validates and exports everything below |
+| `requirements.txt` | Libraries for the notebook |
 | `outputs/skills_dictionary.csv` | Canonical skills, aliases and categories |
 | `outputs/normalisation.py` | `normalise_skill()` alias-to-canonical function |
 | `outputs/skill_frequency_by_career.csv` | Skill frequency per career |
@@ -14,6 +15,7 @@ Build the shared skill vocabulary that lets job advertisements and unit document
 
 ## How to run
 ```
+pip install -r requirements.txt
 jupyter lab 02_skill_dictionary_normalisation.ipynb    # reads ../step1_data/job_cleaned.csv; Run All
 ```
 

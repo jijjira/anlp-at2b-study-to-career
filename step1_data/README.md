@@ -6,7 +6,8 @@ Collect Data and AI job advertisements from public job boards and clean them int
 ## Work in this folder
 | File | Purpose |
 |---|---|
-| `collect_public_jobs.py`, `public_jobs_requirements.txt` | Collection script and its libraries |
+| `collect_public_jobs.py` | Collection script |
+| `requirements.txt` | Libraries for the script and the notebook |
 | `public_jobs_2020_2026.csv` | Raw snapshot (1,083 records, 12 columns) |
 | `01_data_cleaning.ipynb` | Cleaning, U.S. filtering and descriptive statistics |
 | `job_cleaned.csv` | Cleaned benchmark (688 advertisements), used by Steps 2, 3 and 5 |
@@ -14,7 +15,7 @@ Collect Data and AI job advertisements from public job boards and clean them int
 
 ## How to run
 ```
-pip install -r public_jobs_requirements.txt      # only for re-collecting
+pip install -r requirements.txt
 python collect_public_jobs.py                    # optional: listings change, so results would differ
 jupyter lab 01_data_cleaning.ipynb               # Run All; reproduces job_cleaned.csv exactly
 ```
