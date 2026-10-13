@@ -12,12 +12,12 @@ We extract skills from Data/AI job advertisements (the U.S. benchmark) and from 
 
 * **Data:** 688 U.S. advertisements from 106 employers, five careers; 20 unit outlines from UTS, USYD and UNSW.
 * **Extraction:** strict F1 rises from 0.872 (plain matcher) to 0.943 (Baseline++), mostly from the human-reviewed dictionary; the semantic layer lifts implicit-skill recall from 0.023 to 0.349 at about 64% precision on what it adds.
-* **Alignment:** curriculum fit is highest for Data Scientist and lowest for AI Engineer (exact matching 65.4% and 32.6%; hybrid 68.5% and 40.8%). Gaps are in applied, production-oriented skills (causal inference, experimentation, dbt, observability, APIs, agents).
+* **Alignment:** curriculum fit is highest for Data Scientist and lowest for AI Engineer (exact matching 65.4% and 32.6%; hybrid 68.5% and 40.8%). One hybrid match for AI Agents (USYD COMP5310) was judged false in the audit; without it AI Engineer is 38.9%, and with AI Agents removed entirely 33.3%, so its hybrid fit is best read as about 33 to 41%. Gaps are in applied, production-oriented skills (causal inference, experimentation, dbt, observability, APIs, agents).
 * **Application:** upload a unit outline and get ranked career fits, covered skills, priority gaps and page-level evidence. A pilot test (n = 3) of the first version gave a mean rating of 4.40 out of 5 across all five questions; the interface was then revised (plain-language method names, sample button, "possibly covered" marking, tie warning, CSV download). The revised version has not been re-tested with users.
 
 ![Career fit under exact and hybrid matching](step6_app/images/career_fit_exact_vs_hybrid.png)
 
-*Curriculum fit for each career (share of the 30 most demanded skills covered by the 20 units), exact matching versus hybrid matching.*
+*Curriculum fit for each career (share of the 30 most demanded skills covered by the 20 units): exact matching, hybrid matching, only the audit-wrong AI Agents match removed, and AI Agents removed entirely (conservative bound).*
 
 ![The Streamlit application](step6_app/images/app_screenshot.png)
 
@@ -55,7 +55,7 @@ Every step folder has the same core: `README.md`, `requirements.txt`, the number
 | Step | Member | Task | Folder |
 |---|---|---|---|
 | 1 | Zheke Yi | Collect and clean the job advertisements: 688 U.S. ads, five careers | `step1_data/` |
-| 2 | Wancheng Liu | Build the skills dictionary: 132 skills, 232 aliases, 12 categories | `step2_dictionary/` |
+| 2 | Wancheng Liu | Build the skills dictionary: 132 skills, 232 aliases, 12 categories (the working vocabulary in Steps 3 to 5 has 158 skills after reviewed additions) | `step2_dictionary/` |
 | 3 | Jirawan Pedersen | Baseline NLP, PDF reader, curriculum alignment, 20-unit case study, sector lens | `step3_baseline_nlp/` |
 | 4 | Tao Lou | Semantic layer (Sentence Transformers), main evaluation and blinded audits | `step4_semantic/` |
 | 5 | Tengxiao Nong | Career profiles, matching scores, skill gaps and recommendations | `step5_matching/` |
@@ -95,7 +95,7 @@ Then open a step folder and run its notebook with Restart & Run All. The quickes
 | Evaluation, gold set and uncertainty | `step3_baseline_nlp/evaluate.py`, `gold_annotations.py`, `annotation/`; `step4_semantic/experiments.py`, `metrics.py` |
 | Findings: extraction accuracy | `step3_baseline_nlp/04_innovation_experiments.ipynb`; `step4_semantic/results/summary.md` |
 | Findings: curriculum alignment and sectors | `step3_baseline_nlp/06_curriculum_alignment.ipynb`, `07_sector_lens.ipynb`, `08_real_curriculum_case_study.ipynb`, `figures/` |
-| Bootstrap gains, AI Agents check, uncovered demand by category, greedy unit selection, top-N sensitivity (Table 8), audit precision (Figure 4) | `step5_matching/supplementary_analyses.py`, `11_supplementary_analyses.ipynb`, `step5_matching/outputs/supplementary/` |
+| Bootstrap gains, AI Agents check (including the false-match-only variant, `G_false_match_only.csv`), uncovered demand by category, greedy unit selection, top-N sensitivity (Table A2), audit precision (Figure 4) | `step5_matching/supplementary_analyses.py`, `11_supplementary_analyses.ipynb`, `step5_matching/outputs/supplementary/` |
 | Findings: exact versus hybrid career fit | `step4_semantic/results/details/curriculum_fit_exact_vs_hybrid.csv`; `step5_matching/outputs/` |
 | Blinded audits | `step4_semantic/results/audit/` |
 | Application and user test | `step6_app/app.py`; `run_app.command` / `run_app.bat`; `step6_app/user_testing/` |
