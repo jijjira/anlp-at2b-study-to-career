@@ -16,5 +16,8 @@ if ! python -c "import sentence_transformers" >/dev/null 2>&1; then
     pip install -q sentence-transformers torch || echo "Could not install it. The fast method still works."
   fi
 fi
+# Skip Streamlit's one-time email prompt
+mkdir -p "$HOME/.streamlit"
+[ -f "$HOME/.streamlit/credentials.toml" ] || printf '[general]\nemail = ""\n' > "$HOME/.streamlit/credentials.toml"
 echo "Opening the app. Close this window to stop it."
 python -m streamlit run step6_app/app.py
