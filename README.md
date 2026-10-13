@@ -13,7 +13,7 @@ We extract skills from Data/AI job advertisements (the U.S. benchmark) and from 
 * **Data:** 688 U.S. advertisements from 106 employers, five careers; 20 unit outlines from UTS, USYD and UNSW.
 * **Extraction:** strict F1 rises from 0.872 (plain matcher) to 0.943 (Baseline++), mostly from the human-reviewed dictionary; the semantic layer lifts implicit-skill recall from 0.023 to 0.349 at about 64% precision on what it adds.
 * **Alignment:** curriculum fit is highest for Data Scientist and lowest for AI Engineer (exact matching 65.4% and 32.6%; hybrid 68.5% and 40.8%). Gaps are in applied, production-oriented skills (causal inference, experimentation, dbt, observability, APIs, agents).
-* **Application:** upload a unit outline and get ranked career fits, covered skills, priority gaps and page-level evidence. A pilot test (n = 3) rated it 4.40 out of 5.
+* **Application:** upload a unit outline and get ranked career fits, covered skills, priority gaps and page-level evidence. A pilot test (n = 3) gave a mean rating of 4.40 out of 5 across all five questions.
 
 ![Career fit under exact and hybrid matching](images/career_fit_exact_vs_hybrid.png)
 
