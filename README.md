@@ -56,7 +56,7 @@ Every step folder has the same core: `README.md`, `requirements.txt`, the number
 |---|---|---|---|
 | 1 | Zheke Yi | Collect and clean the job advertisements: 688 U.S. ads, five careers | `step1_data/` |
 | 2 | Wancheng Liu | Build the skills dictionary: 132 skills, 232 aliases, 12 categories (the working vocabulary in Steps 3 to 5 has 158 skills after reviewed additions) | `step2_dictionary/` |
-| 3 | Jirawan Pedersen | Baseline NLP, PDF reader, curriculum alignment, 20-unit case study, sector lens | `step3_baseline_nlp/` |
+| 3 | Jirawan Pedersen | Baseline NLP, PDF reader, curriculum alignment, 20-unit case study, sector lens, gold sample and human agreement check | `step3_baseline_nlp/` |
 | 4 | Tao Lou | Semantic layer (Sentence Transformers), main evaluation and blinded audits | `step4_semantic/` |
 | 5 | Tengxiao Nong | Career profiles, matching scores, skill gaps and recommendations | `step5_matching/` |
 | 6 | Chongyan Tang | Streamlit application and user testing | `step6_app/` |
