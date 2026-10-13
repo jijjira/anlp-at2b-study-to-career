@@ -12,7 +12,7 @@ Extract skills with a spaCy PhraseMatcher over the Step 2 dictionary, then impro
 | `sectors.py`, `sector_analysis.py`, `company_sector_map.csv` | Sector lens |
 | `evaluate.py`, `gold_annotations.py`, `gold_split.json` | Gold set and metrics |
 | `annotation/make_sheet.py`, `annotation/human_annotation_sheet.xlsx`, `annotation/human_annotation_sheet_FILLED.xlsx`, `annotation/pass2_filled.xlsx`, `annotation/human_merged.xlsx`, `annotation/human_annotation_key.csv` | Second-annotator check on 10 of the 30 gold ads: blank sheet, human pass 1 and pass 2, merged human labels and the answer key |
-| `annotation/llm_second_annotator_FILLED.xlsx` | A second LLM pass (Claude) on the same blank sheet; not a human annotation (see `docs/llm_annotator_provenance.md`) |
+| `annotation/llm_second_annotator_FILLED.xlsx` | not a human annotation (see `docs/llm_annotator_provenance.md`) |
 | `annotation/annotator_agreement.py`, `annotation/human_agreement.py` | Three-rater agreement, extractor-vs-rater scores and Figure 7; `human_agreement.py` is the original gold-vs-human kappa script |
 | `annotation/annotator_agreement_results.csv`, `annotation/annotator_confusions.csv`, `annotation/extractor_vs_annotators.csv`, `annotation/human_agreement_results.csv`, `figures/fig7_annotator_agreement.png` | Outputs of those scripts |
 | `discover.py`, `discovery_candidates_raw.csv`, `extra_aliases_reviewed.csv` | Alias discovery and the reviewed aliases |
