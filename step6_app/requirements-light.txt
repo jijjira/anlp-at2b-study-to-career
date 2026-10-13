@@ -1,0 +1,9 @@
+# Lightweight install: enough for the app's fast (exact) mode.
+# The deeper (hybrid) mode also needs: sentence-transformers and torch (about 2 GB).
+streamlit
+altair>=5.0
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+pymupdf>=1.24
+spacy>=3.7

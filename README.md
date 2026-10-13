@@ -13,7 +13,7 @@ We extract skills from Data/AI job advertisements (the U.S. benchmark) and from 
 * **Data:** 688 U.S. advertisements from 106 employers, five careers; 20 unit outlines from UTS, USYD and UNSW.
 * **Extraction:** strict F1 rises from 0.872 (plain matcher) to 0.943 (Baseline++), mostly from the human-reviewed dictionary; the semantic layer lifts implicit-skill recall from 0.023 to 0.349 at about 64% precision on what it adds.
 * **Alignment:** curriculum fit is highest for Data Scientist and lowest for AI Engineer (exact matching 65.4% and 32.6%; hybrid 68.5% and 40.8%). Gaps are in applied, production-oriented skills (causal inference, experimentation, dbt, observability, APIs, agents).
-* **Application:** upload a unit outline and get ranked career fits, covered skills, priority gaps and page-level evidence. A pilot test (n = 3) gave a mean rating of 4.40 out of 5 across all five questions.
+* **Application:** upload a unit outline and get ranked career fits, covered skills, priority gaps and page-level evidence. A pilot test (n = 3) of the first version gave a mean rating of 4.40 out of 5 across all five questions; the interface was then revised (plain-language method names, sample button, "possibly covered" marking, tie warning, CSV download). The revised version has not been re-tested with users.
 
 ![Career fit under exact and hybrid matching](images/career_fit_exact_vs_hybrid.png)
 
@@ -21,7 +21,11 @@ We extract skills from Data/AI job advertisements (the U.S. benchmark) and from 
 
 ![The Streamlit application](images/app_screenshot.png)
 
-*The Streamlit application: upload a unit PDF and get ranked career matches, covered skills, gaps and evidence.*
+*The Streamlit application (exact mode, sample outline): upload a unit PDF and get ranked career matches, covered skills, gaps and evidence. Scores that are within two points are flagged as a tie.*
+
+![Skills found by meaning are marked as possibly covered](images/app_possibly_covered.png)
+
+*Hybrid mode: skills found only by the semantic layer are marked "? possibly covered" so they can be checked against the evidence sentence (USYD COMP5310, from the saved hybrid output).*
 
 ## Team and tasks
 
@@ -38,7 +42,9 @@ Every step folder follows the same layout: a `README.md` (task, files, how to ru
 
 ## How to run
 
-On your own computer, clone the repo and create an environment:
+**Quickest way to open the app (no coding):** download or clone the repo, then double-click `run_app.command` (Mac) or `run_app.bat` (Windows). The first run installs what the app needs (a minute or two) and opens it in your browser. If double-clicking `run_app.command` does nothing on a Mac, open Terminal in the repo folder and run `bash run_app.command`. It offers an optional extra download (about 2 GB) for the deeper hybrid method; the fast method works without it.
+
+To run everything (notebooks, tests), clone the repo and create an environment:
 
 ```
 python -m venv .venv
@@ -51,7 +57,7 @@ Then open a step folder and run its notebook with Restart & Run All. The quickes
 
 * Tests: `cd step3_baseline_nlp && python -m pytest -q` (40), `cd step4_semantic && python -m pytest -q` (18), `cd step5_matching && python -m pytest -q` (6).
 * Career ranking: `cd step5_matching && python matching.py`.
-* App: `pip install -r step6_app/requirements.txt` then `streamlit run step6_app/app.py`.
+* App: double-click `run_app.command` (Mac) or `run_app.bat` (Windows), or run `pip install -r step6_app/requirements.txt` then `streamlit run step6_app/app.py`. A lighter install for the fast method only is `step6_app/requirements-light.txt`.
 * Step 3 also has one-click launchers (`run.command` on Mac, `run.bat` on Windows). The Step 3 notebooks and `step5_matching/10_career_matching_colab.ipynb` are built for Google Colab: upload one, run the first cell, and follow the prompt.
 
 ## Where to find each part of the report
@@ -71,7 +77,7 @@ Then open a step folder and run its notebook with Restart & Run All. The quickes
 | Bootstrap gains, AI Agents check, uncovered demand by category, greedy unit selection, top-N sensitivity (Table 8), audit precision (Figure 4) | `step5_matching/supplementary_analyses.py`, `11_supplementary_analyses.ipynb`, `step5_matching/outputs/supplementary/` |
 | Findings: exact versus hybrid career fit | `step4_semantic/results/details/curriculum_fit_exact_vs_hybrid.csv`; `step5_matching/outputs/` |
 | Blinded audits | `step4_semantic/results/audit/` |
-| Application and user test | `step6_app/app.py`; `step6_app/user_testing/` |
+| Application and user test | `step6_app/app.py`; `run_app.command` / `run_app.bat`; `step6_app/user_testing/` |
 | Reproducibility | `requirements.txt` in every step; tests in Steps 3, 4 and 5 |
 
 ## Data and references
@@ -91,6 +97,7 @@ Then open a step folder and run its notebook with Restart & Run All. The quickes
 README.md                  this page
 requirements.txt           shared libraries (each step folder also has its own)
 images/                    figures shown in this README
+run_app.command, run_app.bat  one-click launchers for the app (Mac, Windows)
 step1_data/                raw and cleaned job ads, collection script, Australian set
 step2_dictionary/          skills dictionary, taxonomy, normalisation module
 step3_baseline_nlp/        notebooks 03 to 08, extractor and PDF code, 20 unit PDFs, figures, tests

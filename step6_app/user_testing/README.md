@@ -1,6 +1,6 @@
 # User testing
 
-Three classmates completed a short formative usability test of the Streamlit application.
+Three classmates completed a short formative usability test of the first version of the Streamlit application (version 1).
 
 ## Tasks
 1. Upload a university study-material PDF.
@@ -27,4 +27,8 @@ Scale: 1 = Strongly disagree, 5 = Strongly agree.
 - P2: Career suitability also depends on work experience and education, not only skill overlap.
 - P3: The application was viewed positively, but the participant remained concerned about finding a good job.
 
-No further UI changes were made after this small formative test because no participant reported a task-blocking usability issue. The feedback is documented as limitations and future-work directions.
+No participant reported a task-blocking usability issue. The feedback was then used to revise the interface (version 2), and the revised version has not been re-tested:
+- P1 (slow hybrid mode, unclear difference between modes): the modes now have plain-language names with a one-line explanation, the spinner says the first hybrid run loads a model, and a "how to read the results" panel was added.
+- P2 (experience and education also matter): the responsible-use notice now says this explicitly.
+- P3 (worry about finding a job): the notice states that a score is not the chance of getting a job.
+- Other changes: a sample outline button, a tie warning for scores within two points, "possibly covered" marking for semantic-only skills, and a CSV download of the gaps.
