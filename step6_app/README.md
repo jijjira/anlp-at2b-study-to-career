@@ -9,7 +9,8 @@ Make the pipeline usable without code. The Streamlit app accepts a unit PDF (or 
 | `app.py` | The Streamlit application; calls the Step 5 interface |
 | `requirements.txt` | Full libraries, including the hybrid method (includes Step 5's frontend requirements) |
 | `requirements-light.txt` | Lighter install for the fast (exact) method only |
-| `user_testing/user_testing_results.csv` | The three participants' ratings and comments (version 1) |
+| `user_testing/user_testing_results.csv` | The three pilot participants' ratings and comments (version 1) |
+| `user_testing/user_testing_round2.csv` | The five-student test: each participant's ratings of the five statements |
 | `images/` | Pipeline diagram and application screenshots used in the report and the root README |
 | `user_testing/README.md` | Test tasks, mean scores, feedback and the changes made afterwards |
 
@@ -34,7 +35,8 @@ Click **Try the sample outline** or upload any unit PDF. Hybrid mode downloads t
 
 ## Key results
 * On the sample outline, exact matching ranks Data Scientist 41.9%, Data Analyst 40.1%, ML Engineer 39.0%, Data Engineer 23.1%, AI Engineer 21.8%; hybrid mode raises ML Engineer to 41.7%.
-* User test of version 1 (n = 3), mean out of 5: ease 3.33, result clarity 5.00, usefulness of skills and gaps 4.33, explanation clarity 5.00, overall usefulness 4.33; overall mean 4.40.
+* Pilot of version 1 (n = 3), mean out of 5: ease 3.33, result clarity 5.00, usefulness of skills and gaps 4.33, explanation clarity 5.00, overall usefulness 4.33; overall mean 4.40.
+* Five-student test (n = 5), mean out of 5: ease 4.20, result clarity 4.40, usefulness of skills and gaps 4.40, explanation clarity 3.80, overall usefulness 4.60; overall mean 4.28.
 
 ## Limitations
-The revised interface has not been re-tested with users. Hybrid mode is slower and needs extra libraries and a model download. Recommendations are skill overlap only (no experience or education), and three participants in the first test are too few for firm conclusions.
+The five-student test had one session and self-reported ratings with no comments recorded, and its participants differ from the pilot, so the rise in ease of use from 3.33 to 4.20 is indicative. Hybrid mode is slower and needs extra libraries and a model download. Recommendations are skill overlap only (no experience or education), and five participants are too few for firm conclusions.
