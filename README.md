@@ -89,7 +89,7 @@ Then open a step folder and run its notebook with Restart & Run All. The quickes
 
 * U.S.-only job data, mostly large tech employers and mostly 2026 ads. The Australian set is too small (14 ads) for separate tests.
 * Twenty selected units is a case study, not all of Australian higher education or whole degrees.
-* Gold labels come from a single AI annotator. On 10 ads a human annotator agreed only fairly (Cohen's kappa 0.33, 95% CI 0.19 to 0.44, for named-and-demanded skills; 0.25 over four classes) and a second AI pass agreed closely (0.85) but is not independent; implicit-skill labels are unreliable (kappa at most 0.12). See `step3_baseline_nlp/docs/annotation_agreement_report.md`.
+* Gold labels come from a single LLM annotator. On 10 ads a human annotator agreed only fairly (Cohen's kappa 0.33, 95% CI 0.19 to 0.44, for named-and-demanded skills; 0.25 over four classes) and a second LLM pass agreed closely (0.85) but is not independent; implicit-skill labels are unreliable (kappa at most 0.12). See `step3_baseline_nlp/annotator_agreement_results.csv`.
 
 ## Repo layout
 
@@ -105,6 +105,10 @@ step4_semantic/            semantic model, evaluation, blinded audit sheets, res
 step5_matching/            career matching code, notebooks, outputs, tests
 step6_app/                 Streamlit app and user-testing data
 ```
+
+## Use of AI tools
+
+A large language model (Claude, Anthropic) was used as an annotator and as a coding and writing assistant. It produced the gold labels for the 30-advertisement gold set (`step3_baseline_nlp/gold_annotations.py`) and a second labelling pass on 10 of those advertisements (`step3_baseline_nlp/llm_second_annotator_FILLED.xlsx`), and it helped write the annotation-agreement script and figures. The human labels on the same 10 advertisements are separate (`human_merged.xlsx`). All results, interpretations and conclusions were reviewed by the authors.
 
 ## Reproducibility
 

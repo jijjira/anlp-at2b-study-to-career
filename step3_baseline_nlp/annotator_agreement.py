@@ -1,9 +1,9 @@
 """Three-rater agreement on 10 of the 30 gold advertisements, plus a check of the extractor against each rater.
 
 Raters (same 216 ad-skill candidates, labels R / P / I / N):
-  gold   AI annotator 1   gold_annotations.py (key: human_annotation_key_PRIVATE.csv)
+  gold   LLM annotator 1   gold_annotations.py (key: human_annotation_key_PRIVATE.csv)
   human  human annotator  human_merged.xlsx  (pass 1 = human_annotation_sheet_FILLED.xlsx, pass 2 = pass2_filled.xlsx)
-  ai2    AI annotator 2   ai_second_annotator_FILLED.xlsx (fresh Claude pass on the blank sheet; not independent of gold in the
+  llm2    LLM annotator 2   llm_second_annotator_FILLED.xlsx (fresh Claude pass on the blank sheet; not independent of gold in the
                           sense of a different person: same model family, so its agreement with gold shows consistency, not validity)
 
 Run from step3_baseline_nlp/:  python3 annotator_agreement.py
@@ -22,8 +22,8 @@ def load(f, name):
     d[name] = d[name].astype(str).str.strip().str.upper(); return d[["ad_no", "skill", name]]
 m = (key.rename(columns={"gold_label": "gold"})
         .merge(load("human_merged.xlsx", "human"), on=["ad_no", "skill"])
-        .merge(load("ai_second_annotator_FILLED.xlsx", "ai2"), on=["ad_no", "skill"]))
-assert len(m) == len(key) == 216 and all(set(m[c]) <= set("RPIN") for c in ("gold", "human", "ai2"))
+        .merge(load("llm_second_annotator_FILLED.xlsx", "llm2"), on=["ad_no", "skill"]))
+assert len(m) == len(key) == 216 and all(set(m[c]) <= set("RPIN") for c in ("gold", "human", "llm2"))
 ads = pd.read_excel("human_annotation_sheet.xlsx", sheet_name="Ads").set_index("ad_no").advertisement_text.to_dict()
 m["literal"] = [bool(re.search(r"(?<![A-Za-z0-9])" + re.escape(s.lower()) + r"(?![A-Za-z0-9])", ads[n].lower()))
                 for n, s in zip(m.ad_no, m.skill)]
@@ -43,7 +43,7 @@ MEASURES = {  # name: (transform applied to both raters, statistic)
     "Any demand (R/P/I vs N)":         (lambda s: s != "N", kappa),
     "Four classes R/P/I/N":            (lambda s: s, kappa),
 }
-PAIRS = [("gold", "human", "AI-1 (gold) vs human"), ("gold", "ai2", "AI-1 (gold) vs AI-2"), ("human", "ai2", "Human vs AI-2")]
+PAIRS = [("gold", "human", "LLM-1 (gold) vs human"), ("gold", "llm2", "LLM-1 (gold) vs LLM-2"), ("human", "llm2", "Human vs LLM-2")]
 
 def boot(fn, d, n=2000):
     rng = random.Random(SEED); ids = sorted(d.ad_no.unique()); g = {a: d[d.ad_no == a] for a in ids}; out = []
@@ -73,14 +73,14 @@ for x, y, label in PAIRS:
         for b in "RPIN": conf.append(dict(pair=label, row_rater=x, col_rater=y, row_label=a, col_label=b, n=int(ct.loc[a, b])))
 pd.DataFrame(conf).to_csv("annotator_confusions.csv", index=False)
 
-print("\nLabel use (n of 216):"); print(pd.DataFrame({c: m[c].value_counts() for c in ("gold", "human", "ai2")}).reindex(list("RPIN")).fillna(0).astype(int).to_string())
+print("\nLabel use (n of 216):"); print(pd.DataFrame({c: m[c].value_counts() for c in ("gold", "human", "llm2")}).reindex(list("RPIN")).fillna(0).astype(int).to_string())
 print("\nPer-ad raw 4-class agreement:"); print(m.groupby("ad_no").apply(lambda d: pd.Series({f"{x}-{y}": (d[x] == d[y]).mean() for x, y, _ in PAIRS})).round(2).to_string())
 
-# Where the human and AI labels split: is the skill literally in the advertisement?
+# Where the human and LLM labels split: is the skill literally in the advertisement?
 d = m[(m.gold == "R") & (m.human != "R")]
-print(f"\nGold R but human not R: {len(d)} rows; skill named verbatim in the ad in {int(d.literal.sum())}; AI-2 also R in {(d.ai2 == 'R').sum()}")
-d = m[(m.human == "I") & (m.gold == "N") & (m.ai2 == "N")]
-print(f"Human I but both AI raters N: {len(d)} rows; skill named verbatim in the ad in {int(d.literal.sum())} (an 'I' label means the skill is NOT named)")
+print(f"\nGold R but human not R: {len(d)} rows; skill named verbatim in the ad in {int(d.literal.sum())}; LLM-2 also R in {(d.llm2 == 'R').sum()}")
+d = m[(m.human == "I") & (m.gold == "N") & (m.llm2 == "N")]
+print(f"Human I but both LLM raters N: {len(d)} rows; skill named verbatim in the ad in {int(d.literal.sum())} (an 'I' label means the skill is NOT named)")
 print("Human P labels:", int((m.human == 'P').sum()), "| human R-labelled skills:", int((m.human == 'R').sum()))
 
 # Extractor (Baseline++ with reviewed aliases) scored against each rater on the same candidate pool: positive = R or P
@@ -95,7 +95,7 @@ def prf(d, r):
     p = tp / (tp + fp) if tp + fp else 0; rc = tp / (tp + fn) if tp + fn else 0
     return dict(TP=int(tp), FP=int(fp), FN=int(fn), precision=p, recall=rc, F1=2 * p * rc / (p + rc) if p + rc else 0)
 ev = []
-for r, lab in [("gold", "AI-1 (gold)"), ("ai2", "AI-2"), ("human", "Human")]:
+for r, lab in [("gold", "LLM-1 (gold)"), ("llm2", "LLM-2"), ("human", "Human")]:
     s = prf(m, r); f1 = lambda d, r=r: prf(d, r)["F1"]; lo, hi = boot(f1, m, 1000)
     ev.append(dict(reference=lab, **s, F1_ci_low=lo, F1_ci_high=hi))
 ev = pd.DataFrame(ev); ev.round(3).to_csv("extractor_vs_annotators.csv", index=False)
@@ -118,5 +118,5 @@ ax[1].imshow(ct.values, cmap="Blues")
 for i in range(4):
     for j in range(4): ax[1].text(j, i, ct.values[i, j], ha="center", va="center", color="white" if ct.values[i, j] > 60 else "black")
 ax[1].set_xticks(range(4)); ax[1].set_xticklabels(list("RPIN")); ax[1].set_yticks(range(4)); ax[1].set_yticklabels(list("RPIN"))
-ax[1].set_xlabel("Human label"); ax[1].set_ylabel("AI-1 (gold) label"); ax[1].set_title("Gold vs human (216 labels)")
+ax[1].set_xlabel("Human label"); ax[1].set_ylabel("LLM-1 (gold) label"); ax[1].set_title("Gold vs human (216 labels)")
 fig.tight_layout(); fig.savefig("figures/fig7_annotator_agreement.png", dpi=200); print("figure saved")

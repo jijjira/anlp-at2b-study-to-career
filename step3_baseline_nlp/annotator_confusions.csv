@@ -1,49 +1,49 @@
 pair,row_rater,col_rater,row_label,col_label,n
-AI-1 (gold) vs human,gold,human,R,R,31
-AI-1 (gold) vs human,gold,human,R,P,0
-AI-1 (gold) vs human,gold,human,R,I,25
-AI-1 (gold) vs human,gold,human,R,N,8
-AI-1 (gold) vs human,gold,human,P,R,4
-AI-1 (gold) vs human,gold,human,P,P,0
-AI-1 (gold) vs human,gold,human,P,I,5
-AI-1 (gold) vs human,gold,human,P,N,5
-AI-1 (gold) vs human,gold,human,I,R,4
-AI-1 (gold) vs human,gold,human,I,P,0
-AI-1 (gold) vs human,gold,human,I,I,8
-AI-1 (gold) vs human,gold,human,I,N,1
-AI-1 (gold) vs human,gold,human,N,R,15
-AI-1 (gold) vs human,gold,human,N,P,0
-AI-1 (gold) vs human,gold,human,N,I,46
-AI-1 (gold) vs human,gold,human,N,N,64
-AI-1 (gold) vs AI-2,gold,ai2,R,R,63
-AI-1 (gold) vs AI-2,gold,ai2,R,P,0
-AI-1 (gold) vs AI-2,gold,ai2,R,I,0
-AI-1 (gold) vs AI-2,gold,ai2,R,N,1
-AI-1 (gold) vs AI-2,gold,ai2,P,R,1
-AI-1 (gold) vs AI-2,gold,ai2,P,P,13
-AI-1 (gold) vs AI-2,gold,ai2,P,I,0
-AI-1 (gold) vs AI-2,gold,ai2,P,N,0
-AI-1 (gold) vs AI-2,gold,ai2,I,R,9
-AI-1 (gold) vs AI-2,gold,ai2,I,P,3
-AI-1 (gold) vs AI-2,gold,ai2,I,I,1
-AI-1 (gold) vs AI-2,gold,ai2,I,N,0
-AI-1 (gold) vs AI-2,gold,ai2,N,R,3
-AI-1 (gold) vs AI-2,gold,ai2,N,P,0
-AI-1 (gold) vs AI-2,gold,ai2,N,I,1
-AI-1 (gold) vs AI-2,gold,ai2,N,N,121
-Human vs AI-2,human,ai2,R,R,34
-Human vs AI-2,human,ai2,R,P,4
-Human vs AI-2,human,ai2,R,I,1
-Human vs AI-2,human,ai2,R,N,15
-Human vs AI-2,human,ai2,P,R,0
-Human vs AI-2,human,ai2,P,P,0
-Human vs AI-2,human,ai2,P,I,0
-Human vs AI-2,human,ai2,P,N,0
-Human vs AI-2,human,ai2,I,R,33
-Human vs AI-2,human,ai2,I,P,7
-Human vs AI-2,human,ai2,I,I,0
-Human vs AI-2,human,ai2,I,N,44
-Human vs AI-2,human,ai2,N,R,9
-Human vs AI-2,human,ai2,N,P,5
-Human vs AI-2,human,ai2,N,I,1
-Human vs AI-2,human,ai2,N,N,63
+LLM-1 (gold) vs human,gold,human,R,R,31
+LLM-1 (gold) vs human,gold,human,R,P,0
+LLM-1 (gold) vs human,gold,human,R,I,25
+LLM-1 (gold) vs human,gold,human,R,N,8
+LLM-1 (gold) vs human,gold,human,P,R,4
+LLM-1 (gold) vs human,gold,human,P,P,0
+LLM-1 (gold) vs human,gold,human,P,I,5
+LLM-1 (gold) vs human,gold,human,P,N,5
+LLM-1 (gold) vs human,gold,human,I,R,4
+LLM-1 (gold) vs human,gold,human,I,P,0
+LLM-1 (gold) vs human,gold,human,I,I,8
+LLM-1 (gold) vs human,gold,human,I,N,1
+LLM-1 (gold) vs human,gold,human,N,R,15
+LLM-1 (gold) vs human,gold,human,N,P,0
+LLM-1 (gold) vs human,gold,human,N,I,46
+LLM-1 (gold) vs human,gold,human,N,N,64
+LLM-1 (gold) vs LLM-2,gold,llm2,R,R,63
+LLM-1 (gold) vs LLM-2,gold,llm2,R,P,0
+LLM-1 (gold) vs LLM-2,gold,llm2,R,I,0
+LLM-1 (gold) vs LLM-2,gold,llm2,R,N,1
+LLM-1 (gold) vs LLM-2,gold,llm2,P,R,1
+LLM-1 (gold) vs LLM-2,gold,llm2,P,P,13
+LLM-1 (gold) vs LLM-2,gold,llm2,P,I,0
+LLM-1 (gold) vs LLM-2,gold,llm2,P,N,0
+LLM-1 (gold) vs LLM-2,gold,llm2,I,R,9
+LLM-1 (gold) vs LLM-2,gold,llm2,I,P,3
+LLM-1 (gold) vs LLM-2,gold,llm2,I,I,1
+LLM-1 (gold) vs LLM-2,gold,llm2,I,N,0
+LLM-1 (gold) vs LLM-2,gold,llm2,N,R,3
+LLM-1 (gold) vs LLM-2,gold,llm2,N,P,0
+LLM-1 (gold) vs LLM-2,gold,llm2,N,I,1
+LLM-1 (gold) vs LLM-2,gold,llm2,N,N,121
+Human vs LLM-2,human,llm2,R,R,34
+Human vs LLM-2,human,llm2,R,P,4
+Human vs LLM-2,human,llm2,R,I,1
+Human vs LLM-2,human,llm2,R,N,15
+Human vs LLM-2,human,llm2,P,R,0
+Human vs LLM-2,human,llm2,P,P,0
+Human vs LLM-2,human,llm2,P,I,0
+Human vs LLM-2,human,llm2,P,N,0
+Human vs LLM-2,human,llm2,I,R,33
+Human vs LLM-2,human,llm2,I,P,7
+Human vs LLM-2,human,llm2,I,I,0
+Human vs LLM-2,human,llm2,I,N,44
+Human vs LLM-2,human,llm2,N,R,9
+Human vs LLM-2,human,llm2,N,P,5
+Human vs LLM-2,human,llm2,N,I,1
+Human vs LLM-2,human,llm2,N,N,63

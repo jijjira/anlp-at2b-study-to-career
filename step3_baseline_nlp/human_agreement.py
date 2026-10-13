@@ -1,4 +1,4 @@
-"""Agreement between the gold labels (AI annotator) and an independent human annotator.
+"""Agreement between the gold labels (LLM annotator) and an independent human annotator.
 Usage (from step3_baseline_nlp/):  python3 human_agreement.py human_merged.xlsx
 Needs human_annotation_key_PRIVATE.csv.  Reports Cohen's kappa over the labelled candidate pool
 (pool = extractor hits + gold skills + 12 random distractors per ad, so kappa is pool-restricted)."""
@@ -35,5 +35,5 @@ for k,fn in tests.items():
     lo,hi=boot(fn); res.append((k,fn(m),lo,hi))
     print(f"{k:40s} kappa = {res[-1][1]:.2f}  95% CI [{lo:.2f}, {hi:.2f}]")
 print(f"\nraw agreement (4 classes) = {(m.gold_label==m.human).mean():.1%} over {len(m)} labels in {m.ad_no.nunique()} ads")
-print(pd.crosstab(m.gold_label,m.human,rownames=["gold (AI)"],colnames=["human"]).to_string())
+print(pd.crosstab(m.gold_label,m.human,rownames=["gold (LLM)"],colnames=["human"]).to_string())
 pd.DataFrame(res,columns=["measure","kappa","ci_low","ci_high"]).to_csv("human_agreement_results.csv",index=False)

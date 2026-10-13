@@ -1,16 +1,16 @@
 pair,measure,kappa,ci_low,ci_high,raw_agreement,gwet_ac1
-AI-1 (gold) vs human,Named and demanded (R/P vs I/N),0.333,0.19,0.444,0.713,0.501
-AI-1 (gold) vs human,Required (R vs rest),0.349,0.19,0.482,0.741,0.57
-AI-1 (gold) vs human,Implicit (I vs rest),0.068,0.017,0.111,0.625,0.425
-AI-1 (gold) vs human,Any demand (R/P/I vs N),0.335,0.263,0.396,0.653,0.308
-AI-1 (gold) vs human,Four classes R/P/I/N,0.246,0.178,0.299,0.477,
-AI-1 (gold) vs AI-2,Named and demanded (R/P vs I/N),0.845,0.755,0.91,0.926,0.858
-AI-1 (gold) vs AI-2,Required (R vs rest),0.853,0.779,0.912,0.935,0.885
-AI-1 (gold) vs AI-2,Implicit (I vs rest),0.119,-0.023,0.319,0.94,0.935
-AI-1 (gold) vs AI-2,Any demand (R/P/I vs N),0.953,0.921,0.981,0.977,0.955
-AI-1 (gold) vs AI-2,Four classes R/P/I/N,0.852,0.784,0.908,0.917,
-Human vs AI-2,Named and demanded (R/P vs I/N),0.3,0.158,0.406,0.676,0.413
-Human vs AI-2,Required (R vs rest),0.326,0.156,0.469,0.713,0.504
-Human vs AI-2,Implicit (I vs rest),-0.018,-0.045,0.0,0.602,0.415
-Human vs AI-2,Any demand (R/P/I vs N),0.339,0.254,0.418,0.657,0.319
-Human vs AI-2,Four classes R/P/I/N,0.218,0.141,0.292,0.449,
+LLM-1 (gold) vs human,Named and demanded (R/P vs I/N),0.333,0.19,0.444,0.713,0.501
+LLM-1 (gold) vs human,Required (R vs rest),0.349,0.19,0.482,0.741,0.57
+LLM-1 (gold) vs human,Implicit (I vs rest),0.068,0.017,0.111,0.625,0.425
+LLM-1 (gold) vs human,Any demand (R/P/I vs N),0.335,0.263,0.396,0.653,0.308
+LLM-1 (gold) vs human,Four classes R/P/I/N,0.246,0.178,0.299,0.477,
+LLM-1 (gold) vs LLM-2,Named and demanded (R/P vs I/N),0.845,0.755,0.91,0.926,0.858
+LLM-1 (gold) vs LLM-2,Required (R vs rest),0.853,0.779,0.912,0.935,0.885
+LLM-1 (gold) vs LLM-2,Implicit (I vs rest),0.119,-0.023,0.319,0.94,0.935
+LLM-1 (gold) vs LLM-2,Any demand (R/P/I vs N),0.953,0.921,0.981,0.977,0.955
+LLM-1 (gold) vs LLM-2,Four classes R/P/I/N,0.852,0.784,0.908,0.917,
+Human vs LLM-2,Named and demanded (R/P vs I/N),0.3,0.158,0.406,0.676,0.413
+Human vs LLM-2,Required (R vs rest),0.326,0.156,0.469,0.713,0.504
+Human vs LLM-2,Implicit (I vs rest),-0.018,-0.045,0.0,0.602,0.415
+Human vs LLM-2,Any demand (R/P/I vs N),0.339,0.254,0.418,0.657,0.319
+Human vs LLM-2,Four classes R/P/I/N,0.218,0.141,0.292,0.449,
