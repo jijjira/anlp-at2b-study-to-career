@@ -10,6 +10,7 @@ Make the pipeline usable without code. The Streamlit app accepts a unit PDF (or 
 | `requirements.txt` | Full libraries, including the hybrid method (includes Step 5's frontend requirements) |
 | `requirements-light.txt` | Lighter install for the fast (exact) method only |
 | `user_testing/user_testing_results.csv` | The three participants' ratings and comments (version 1) |
+| `images/` | Pipeline diagram and application screenshots used in the report and the root README |
 | `user_testing/README.md` | Test tasks, mean scores, feedback and the changes made afterwards |
 
 ## How to run

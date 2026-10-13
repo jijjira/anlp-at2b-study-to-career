@@ -1,14 +1,15 @@
 """Three-rater agreement on 10 of the 30 gold advertisements, plus a check of the extractor against each rater.
 
 Raters (same 216 ad-skill candidates, labels R / P / I / N):
-  gold   LLM annotator 1   gold_annotations.py (key: human_annotation_key_PRIVATE.csv)
+  gold   LLM annotator 1   gold_annotations.py (key: annotation/human_annotation_key.csv)
   human  human annotator  human_merged.xlsx  (pass 1 = human_annotation_sheet_FILLED.xlsx, pass 2 = pass2_filled.xlsx)
   llm2    LLM annotator 2   llm_second_annotator_FILLED.xlsx (fresh Claude pass on the blank sheet; not independent of gold in the
                           sense of a different person: same model family, so its agreement with gold shows consistency, not validity)
 
-Run from step3_baseline_nlp/:  python3 annotator_agreement.py
+Run from step3_baseline_nlp/:  python3 annotation/annotator_agreement.py
 Writes annotator_agreement_results.csv, annotator_confusions.csv, extractor_vs_annotators.csv and figures/fig7_annotator_agreement.png.
 Uncertainty: cluster bootstrap over the 10 advertisements (2000 resamples, seed 36118)."""
+import sys, pathlib; sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))  # step3 root on the path
 import random, re
 import numpy as np, pandas as pd
 import matplotlib
@@ -16,15 +17,15 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 SEED = 36118
-key = pd.read_csv("human_annotation_key_PRIVATE.csv")
+key = pd.read_csv("annotation/human_annotation_key.csv")
 def load(f, name):
     d = pd.read_excel(f, sheet_name="Labels"); d.columns = ["ad_no", "job_title", "skill", name]
     d[name] = d[name].astype(str).str.strip().str.upper(); return d[["ad_no", "skill", name]]
 m = (key.rename(columns={"gold_label": "gold"})
-        .merge(load("human_merged.xlsx", "human"), on=["ad_no", "skill"])
-        .merge(load("llm_second_annotator_FILLED.xlsx", "llm2"), on=["ad_no", "skill"]))
+        .merge(load("annotation/human_merged.xlsx", "human"), on=["ad_no", "skill"])
+        .merge(load("annotation/llm_second_annotator_FILLED.xlsx", "llm2"), on=["ad_no", "skill"]))
 assert len(m) == len(key) == 216 and all(set(m[c]) <= set("RPIN") for c in ("gold", "human", "llm2"))
-ads = pd.read_excel("human_annotation_sheet.xlsx", sheet_name="Ads").set_index("ad_no").advertisement_text.to_dict()
+ads = pd.read_excel("annotation/human_annotation_sheet.xlsx", sheet_name="Ads").set_index("ad_no").advertisement_text.to_dict()
 m["literal"] = [bool(re.search(r"(?<![A-Za-z0-9])" + re.escape(s.lower()) + r"(?![A-Za-z0-9])", ads[n].lower()))
                 for n, s in zip(m.ad_no, m.skill)]
 
@@ -63,7 +64,7 @@ for x, y, label in PAIRS:
         if mname.startswith(("Named", "Required", "Implicit", "Any")):
             row["gwet_ac1"] = ac1(tf(m[x]), tf(m[y]))
         rows.append(row)
-res = pd.DataFrame(rows); res.round(3).to_csv("annotator_agreement_results.csv", index=False)
+res = pd.DataFrame(rows); res.round(3).to_csv("annotation/annotator_agreement_results.csv", index=False)
 print(res.round(2).to_string(index=False))
 
 conf = []
@@ -71,7 +72,7 @@ for x, y, label in PAIRS:
     ct = pd.crosstab(m[x], m[y]).reindex(index=list("RPIN"), columns=list("RPIN"), fill_value=0)
     for a in "RPIN":
         for b in "RPIN": conf.append(dict(pair=label, row_rater=x, col_rater=y, row_label=a, col_label=b, n=int(ct.loc[a, b])))
-pd.DataFrame(conf).to_csv("annotator_confusions.csv", index=False)
+pd.DataFrame(conf).to_csv("annotation/annotator_confusions.csv", index=False)
 
 print("\nLabel use (n of 216):"); print(pd.DataFrame({c: m[c].value_counts() for c in ("gold", "human", "llm2")}).reindex(list("RPIN")).fillna(0).astype(int).to_string())
 print("\nPer-ad raw 4-class agreement:"); print(m.groupby("ad_no").apply(lambda d: pd.Series({f"{x}-{y}": (d[x] == d[y]).mean() for x, y, _ in PAIRS})).round(2).to_string())
@@ -98,7 +99,7 @@ ev = []
 for r, lab in [("gold", "LLM-1 (gold)"), ("llm2", "LLM-2"), ("human", "Human")]:
     s = prf(m, r); f1 = lambda d, r=r: prf(d, r)["F1"]; lo, hi = boot(f1, m, 1000)
     ev.append(dict(reference=lab, **s, F1_ci_low=lo, F1_ci_high=hi))
-ev = pd.DataFrame(ev); ev.round(3).to_csv("extractor_vs_annotators.csv", index=False)
+ev = pd.DataFrame(ev); ev.round(3).to_csv("annotation/extractor_vs_annotators.csv", index=False)
 print("\nExtractor on the 216-candidate pool (positive = R or P):"); print(ev.round(3).to_string(index=False))
 
 # Figure: kappa with CI for three pairs, and the human-vs-gold confusion matrix
@@ -119,4 +120,4 @@ for i in range(4):
     for j in range(4): ax[1].text(j, i, ct.values[i, j], ha="center", va="center", color="white" if ct.values[i, j] > 60 else "black")
 ax[1].set_xticks(range(4)); ax[1].set_xticklabels(list("RPIN")); ax[1].set_yticks(range(4)); ax[1].set_yticklabels(list("RPIN"))
 ax[1].set_xlabel("Human label"); ax[1].set_ylabel("LLM-1 (gold) label"); ax[1].set_title("Gold vs human (216 labels)")
-fig.tight_layout(); fig.savefig("figures/fig7_annotator_agreement.png", dpi=200); print("figure saved")
+fig.tight_layout(); fig.savefig("figures/fig7_annotator_agreement.png", dpi=300); print("figure saved")

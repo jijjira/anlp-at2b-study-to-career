@@ -1,6 +1,7 @@
 """Build a blind human-annotation workbook for 10 of the 30 gold advertisements.
-Run from step3_baseline_nlp/.  Writes human_annotation_sheet.xlsx (give to the annotator)
-and human_annotation_key_PRIVATE.csv (keep away from the annotator)."""
+Run from step3_baseline_nlp/.  Writes annotation/human_annotation_sheet.xlsx (give to the annotator)
+and annotation/human_annotation_key.csv (keep away from the annotator)."""
+import sys, pathlib; sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))  # step3 root on the path
 import random, pandas as pd
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
@@ -53,7 +54,7 @@ dv=DataValidation(type="list",formula1='"R,P,I,N"',allow_blank=True); ws2.add_da
 for ws in (ws1,ws2):
     for c in ws[1]: c.font=Font(bold=True,color="FFFFFF"); c.fill=PatternFill("solid",fgColor="1F3864")
     ws.freeze_panes="A2"
-wb.save("human_annotation_sheet.xlsx")
-pd.DataFrame(key).to_csv("human_annotation_key_PRIVATE.csv",index=False)
+wb.save("annotation/human_annotation_sheet.xlsx")
+pd.DataFrame(key).to_csv("annotation/human_annotation_key.csv",index=False)
 print(len(pick),"ads,",len(key),"labels; ads:",pick)
 print(pd.DataFrame(key).gold_label.value_counts().to_dict(), "max text len",max(len(str(jobs.job_description[r])) for r in pick))

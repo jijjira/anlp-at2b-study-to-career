@@ -4,7 +4,7 @@
 
 **Research question:** Are Australian university curricula aligned with the skills demanded by the U.S. Data/AI labour market?
 
-We extract skills from Data/AI job advertisements (the U.S. benchmark) and from unit outlines (the study material) into one shared skill vocabulary, compare the two, and recommend careers and the skills to learn next. The final report is submitted separately on Canvas.
+We extract skills from Data/AI job advertisements (the U.S. benchmark) and from unit outlines (the study material) into one shared skill vocabulary, compare the two, and recommend careers and the skills to learn next. The final report is submitted separately and individually on Canvas.
 
 ![From job advertisements and unit documents to career recommendations](step6_app/images/pipeline.png)
 
@@ -27,6 +27,29 @@ We extract skills from Data/AI job advertisements (the U.S. benchmark) and from 
 
 *Hybrid mode: skills found only by the semantic layer are marked "? possibly covered" so they can be checked against the evidence sentence (USYD COMP5310, from the saved hybrid output).*
 
+## Repo layout
+
+```
+.
+├── README.md                    this page
+├── requirements.txt             shared libraries (every step folder also has its own)
+├── Makefile                     shortcuts: make test, make app, make clean
+├── run_app.command / .bat       one-click launchers for the app (Mac, Windows)
+├── step1_data/                  raw and cleaned job ads, collection scripts, Australian set
+├── step2_dictionary/            skills dictionary, taxonomy, normalisation module
+├── step3_baseline_nlp/          extractors, PDF reader, alignment, notebooks 03 to 08
+│   ├── annotation/              second-annotator check: sheets, labels, agreement scripts and results
+│   ├── data/                    the 20 unit PDFs and their manifest
+│   ├── docs/                    data sources, references, LLM-annotator provenance
+│   ├── figures/                 report figures (300 dpi)
+│   └── tests/                   40 tests
+├── step4_semantic/              semantic layer, evaluation, blinded audits, results, tests, figures
+├── step5_matching/              career matching, supplementary analyses, outputs, figures, tests
+└── step6_app/                   Streamlit app, images, user-testing data
+```
+
+Every step folder has the same core: `README.md`, `requirements.txt`, the numbered notebook(s), the code, and its outputs or results. Step 3 keeps copies of the Step 1 and 2 inputs (`job_cleaned.csv`, `skills_dictionary.csv`, `normalisation.py`) so it runs on its own.
+
 ## Team and tasks
 
 | Step | Member | Task | Folder |
@@ -37,8 +60,6 @@ We extract skills from Data/AI job advertisements (the U.S. benchmark) and from 
 | 4 | Tao Lou | Semantic layer (Sentence Transformers), main evaluation and blinded audits | `step4_semantic/` |
 | 5 | Tengxiao Nong | Career profiles, matching scores, skill gaps and recommendations | `step5_matching/` |
 | 6 | Chongyan Tang | Streamlit application and user testing | `step6_app/` |
-
-Every step folder follows the same layout: a `README.md` (task, files, how to run, key results, limitations), a `requirements.txt`, the numbered notebook(s), the code, and the step's outputs or results.
 
 ## How to run
 
@@ -71,7 +92,7 @@ Then open a step folder and run its notebook with Restart & Run All. The quickes
 | Reading unit PDFs | `step3_baseline_nlp/extraction.py`, `curriculum.py` |
 | Semantic layer | `step4_semantic/semantic_extractor.py`, `corpus_extract.py`, `curriculum_semantic.py` |
 | Career matching and recommendations | `step5_matching/matching.py`, `frontend_api.py` |
-| Evaluation, gold set and uncertainty | `step3_baseline_nlp/evaluate.py`, `gold_annotations.py`; `step4_semantic/experiments.py`, `metrics.py` |
+| Evaluation, gold set and uncertainty | `step3_baseline_nlp/evaluate.py`, `gold_annotations.py`, `annotation/`; `step4_semantic/experiments.py`, `metrics.py` |
 | Findings: extraction accuracy | `step3_baseline_nlp/04_innovation_experiments.ipynb`; `step4_semantic/results/summary.md` |
 | Findings: curriculum alignment and sectors | `step3_baseline_nlp/06_curriculum_alignment.ipynb`, `07_sector_lens.ipynb`, `08_real_curriculum_case_study.ipynb`, `figures/` |
 | Bootstrap gains, AI Agents check, uncovered demand by category, greedy unit selection, top-N sensitivity (Table 8), audit precision (Figure 4) | `step5_matching/supplementary_analyses.py`, `11_supplementary_analyses.ipynb`, `step5_matching/outputs/supplementary/` |
@@ -89,22 +110,12 @@ Then open a step folder and run its notebook with Restart & Run All. The quickes
 
 * U.S.-only job data, mostly large tech employers and mostly 2026 ads. The Australian set is too small (14 ads) for separate tests.
 * Twenty selected units is a case study, not all of Australian higher education or whole degrees.
-* Gold labels come from a single LLM annotator. On 10 ads a human annotator agreed only fairly (Cohen's kappa 0.33, 95% CI 0.19 to 0.44, for named-and-demanded skills; 0.25 over four classes) and a second LLM pass agreed closely (0.85) but is not independent; implicit-skill labels are unreliable (kappa at most 0.12). See `step3_baseline_nlp/annotator_agreement_results.csv`.
+* Gold labels come from a single LLM annotator. On 10 ads a human annotator agreed only fairly (Cohen's kappa 0.33, 95% CI 0.19 to 0.44, for named-and-demanded skills; 0.25 over four classes) and a second LLM pass agreed closely (0.85) but is not independent; implicit-skill labels are unreliable (kappa at most 0.12). See `step3_baseline_nlp/annotation/annotator_agreement_results.csv`.
 
-## Repo layout
 
-```
-README.md                  this page
-requirements.txt           shared libraries (each step folder also has its own)
-step6_app/images/        figures and screenshots shown in this README
-run_app.command, run_app.bat  one-click launchers for the app (Mac, Windows)
-step1_data/                raw and cleaned job ads, collection script, Australian set
-step2_dictionary/          skills dictionary, taxonomy, normalisation module
-step3_baseline_nlp/        notebooks 03 to 08, extractor and PDF code, 20 unit PDFs, figures, tests
-step4_semantic/            semantic model, evaluation, blinded audit sheets, results, tests
-step5_matching/            career matching code, notebooks, outputs, tests
-step6_app/                 Streamlit app and user-testing data
-```
+## Use of AI tools
+
+A large language model (Claude, Anthropic) was used as an annotator and as a coding and writing assistant. It produced the gold labels for the 30-advertisement gold set (`step3_baseline_nlp/gold_annotations.py`) and a second labelling pass on 10 of those advertisements (`step3_baseline_nlp/annotation/llm_second_annotator_FILLED.xlsx`), and it helped write the annotation-agreement script and figures. The human labels on the same 10 advertisements are separate (`annotation/human_merged.xlsx`). All results, interpretations and conclusions were reviewed by the authors.
 
 ## Reproducibility
 

@@ -1,13 +1,14 @@
 """Agreement between the gold labels (LLM annotator) and an independent human annotator.
-Usage (from step3_baseline_nlp/):  python3 human_agreement.py human_merged.xlsx
-Needs human_annotation_key_PRIVATE.csv.  Reports Cohen's kappa over the labelled candidate pool
+Usage (from step3_baseline_nlp/):  python3 annotation/human_agreement.py human_merged.xlsx
+Needs annotation/human_annotation_key.csv.  Reports Cohen's kappa over the labelled candidate pool
 (pool = extractor hits + gold skills + 12 random distractors per ad, so kappa is pool-restricted)."""
+import sys, pathlib; sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))  # step3 root on the path
 import sys, random
 import numpy as np, pandas as pd
 SEED=36118
 f=sys.argv[1]
 lab=pd.read_excel(f,sheet_name="Labels"); lab.columns=["ad_no","job_title","skill","human"]
-key=pd.read_csv("human_annotation_key_PRIVATE.csv")
+key=pd.read_csv("annotation/human_annotation_key.csv")
 m=key.merge(lab[["ad_no","skill","human"]],on=["ad_no","skill"],how="left")
 m["human"]=m.human.astype(str).str.strip().str.upper().replace({"NAN":np.nan})
 missing=m.human.isna().sum()
@@ -36,4 +37,4 @@ for k,fn in tests.items():
     print(f"{k:40s} kappa = {res[-1][1]:.2f}  95% CI [{lo:.2f}, {hi:.2f}]")
 print(f"\nraw agreement (4 classes) = {(m.gold_label==m.human).mean():.1%} over {len(m)} labels in {m.ad_no.nunique()} ads")
 print(pd.crosstab(m.gold_label,m.human,rownames=["gold (LLM)"],colnames=["human"]).to_string())
-pd.DataFrame(res,columns=["measure","kappa","ci_low","ci_high"]).to_csv("human_agreement_results.csv",index=False)
+pd.DataFrame(res,columns=["measure","kappa","ci_low","ci_high"]).to_csv("annotation/human_agreement_results.csv",index=False)

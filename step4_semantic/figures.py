@@ -1,4 +1,4 @@
-"""Figures for the report/slides (saved to figures/ as PNG, dpi 200). Inputs are the CSVs written by run_all.py."""
+"""Figures for the report/slides (saved to figures/ as PNG, dpi 300). Inputs are the CSVs written by run_all.py."""
 from __future__ import annotations
 
 
@@ -15,7 +15,7 @@ BLUE, ORANGE, GREY, INK = "#2a78d6", "#d6732a", "#b9b8b2", "#0b0b0b"
 
 def _save(fig, name):
     config.FIGURES.mkdir(exist_ok=True)
-    fig.savefig(config.FIGURES / f"{name}.png", dpi=200, bbox_inches="tight")
+    fig.savefig(config.FIGURES / f"{name}.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
 
 
